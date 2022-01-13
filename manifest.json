@@ -1,0 +1,8 @@
+{
+    "name": "Lavender",
+    "version": "1.0.0",
+    "author": "Obscure.#4719",
+    "description": "A random purple theme",
+    "license": "MIT",
+    "theme": "dev.scss"
+}

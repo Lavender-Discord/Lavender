@@ -1,0 +1,68 @@
+/* Better Topbar */
+:root {
+  --Roundness: 25px; /* Changes how round edges are | Default: 25px */
+}
+
+.toolbar-3_r2xA {
+  background-color: #0F0E11;
+  border-radius: var( --Roundness);
+  padding: 10px;
+  height: 40px;
+  margin-right: 10px;
+}
+.children-3xh0VB::after {
+  display: none;
+}
+.children-3xh0VB {
+  margin-right: 20px;
+}
+.input-1nrc5P, .input-1nrc5P:hover {
+    background-color: rgba(255,255,255,0);
+  margin-left: 10px;
+  border-radius: var( --Roundness);
+}
+.searchBar-zdmu7v {
+  width: 28px;
+  background-color: var(--background-secondary); 
+  transition: width 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.divider-q3P9HC {
+    width: 2px;
+  height: 20px;
+}
+svg > .updateIconForeground-2V_zo4 {
+  fill: var(--interactive-normal);
+}
+svg:hover > .updateIconForeground-2V_zo4 {
+  fill: var(--interactive-hover);
+}
+svg:active > .updateIconForeground-2V_zo4 {
+  fill: var(--interactive-active);
+}
+svg.icon-18rqoe > path {
+  fill: var(--interactive-normal);
+}
+svg.icon-2xnN2Y {
+    color: var(--interactive-normal);
+}
+svg.icon-2xnN2Y:hover {
+    color: var(--interactive-hover);
+}
+.topic-11NuQZ {
+    color: var(--interactive-normal) !important;
+}
+.title-17SveM {
+    color: var(--interactive-normal);
+}
+.title-17SveM:hover {
+    color: var(--interactive-hover);
+}
+.status-12NUUC:hover {
+    filter: brightness(1.5)!important
+}
+.channelName-3aS_Eg > div > .input-1nrc5P {
+    box-shadow: none !important;
+}
+
+/* ******************************************** */

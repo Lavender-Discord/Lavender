@@ -1,0 +1,271 @@
+@use "src/source";
+
+:root {
+    /* --------- BASE THEME --------- */
+    --blurple-replace: #6865FF;
+    --brand-experiment: #6B69FF;
+    --brand-experimente: #6B69FF82;
+
+    --background-primary: #101014;
+    --background-secondary: #17161B;
+    --background-secondary-alt: #17161B;
+    --background-tertiary: #101014;
+    --background-accent: #17161B;
+    --background-floating: #101014;
+    --userarea-background: var(--background-tertiary);
+
+    // 
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: #CACBD1;
+    --channeltextarea-background: #16151A;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --activity-card-background: var(--background-secondary);
+
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: rgb(75, 75, 75);
+
+    --background-modifier-hover: rgba(50, 50, 50, 0.16);
+    --background-modifier-active: var(--background-tertiary);
+    --background-modifier-selected: var(--background-primary);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+
+    --text-link: #7A79FB;
+    --text-normal: #FAFAFE;
+    --text-muted: #ffffff50;
+
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+
+    --background-accent-1: rgb(15, 15, 15, 0.1);
+    --background-accent-3: rgb(15, 15, 15, 0.3);
+    --background-floating-2: rgba(0, 0, 0, 0.2);
+
+    --scrollbar-auto-thumb: var(--background-primary);
+    --scrollbar-auto-track: var(--background-primary);
+}
+
+.unread-2wipsx {
+    background-color: var(--background-tertiary);
+    opacity: 1;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background: linear-gradient(100deg, #6D69FE 60%, #7D79FE 100%);
+}
+
+.childWrapper-1j_1ub {
+    background-color: var(--background-secondary);
+}
+
+.clickable-28SzVr.container-1oeRFJ:hover,
+.clickable-28SzVr.container-1oeRFJ:hover .muted-14PyqW {
+    background-color: var(--background-primary);
+    color: var(--interactive-hover);
+}
+
+/* member list top buttons area */
+.container-2Oqvgx {
+    background-color: var(--background-primary);
+}
+
+//  member list 
+.members-3WRCEx,
+.members-3WRCEx>div,
+.container-NkLXgf {
+    background-color: var(--background-primary);
+}
+
+.layout-1qmrhw {
+    padding: 5px 10px;
+}
+
+.layout-1qmrhw>	.avatar-6qzftW {
+    padding-right: 10px !important;
+}
+
+.membersGroup-2eiWxl {
+    padding: 24px 8px 20px 16px;
+}
+
+.activity-2EQDZv {
+    margin-top: 5px;
+}
+
+/* friends list */
+.peopleColumn-1wMU14 {
+    background-color: var(--background-primary);
+}
+
+// username area
+.container-YkUktl {
+    background-color: var(--background-secondary);
+}
+
+.activityText-1rR-8O {
+    color: #ffffffa1;
+}
+
+button[aria-label='Send a gift'] {
+    display: none !important;
+    opacity: 0;
+}
+
+button[aria-label="Open sticker picker"] {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+button[aria-label="Open GIF picker"] {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+div[aria-label="Explore public servers"] {
+    // display: none !important;
+    // opacity: 0 !important;
+    // cursor: none;
+    background-color: var(--background-secondary);
+    color: #ADA9F5;
+}
+
+div[aria-label="Add a server"] {
+    // display: none !important;
+    // opacity: 0 !important;
+    // cursor: none;
+    background-color: var(--background-secondary);
+    color: #ADA9F5;
+}
+
+.tutorialContainer-2jwoiB {
+    margin-top: 20px;
+}
+
+div[aria-label="Add a server"]:hover {
+    //background: linear-gradient(110deg, #00D856 30%, #058137 100%);
+    background-color: #ADA9F5;
+} 
+
+div[aria-label="Explore public servers"]:hover {
+    //background: linear-gradient(110deg, #00D856 30%, #058137 100%);
+    background-color: #ADA9F5;
+} 
+
+div[aria-label="Help"] {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+// /* the main bit! */
+// div[aria-label = "Set status"] > .avatar-1EWyVD {
+//     position: fixed;
+//     left: 17px;
+//     top: calc(100% - 80px);
+// }
+
+.avatar-1EWyVD>svg {
+    width: 55px;
+    height: 55px;
+}
+
+// discord text on top left 
+.wordmarkWindows-2dq6rw {
+    display: none;
+}
+
+// min, max, close buttons
+.winButton-3UMjdg {
+    color: var(--background-primary);
+}
+
+.winButton-3UMjdg:hover {
+    color: #fff;
+}
+
+[class*="winButton-"]:nth-child(3):hover {
+    background-color: #F6E0B5;
+    color: #000;
+}
+
+[class*="winButton-"]:nth-child(4):hover {
+    background-color: #00D856;
+    color: #000;
+}
+
+// suggestion menu 
+.scroller-18M1mG {
+    background-color: var(--background-secondary);
+}
+
+.autocomplete-3NRXG8 {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .selected-3H3-RC {
+    background-color: var(--background-tertiary);
+}
+
+.container-2Oqvgx,
+.members-3WRCEx {
+    width: 260px;
+}
+
+.container-2o3qEW {
+    background: var(--background-primary);
+}
+
+// member area top bar 
+.theme-dark .tabs-1RhQha .tab-FftSDB.active-s_EpiV,
+.theme-dark .tabs-1RhQha .tab-FftSDB.active-s_EpiV:hover {
+    background-color: var(--background-secondary);
+}
+
+.tabs-1RhQha {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-height: 56px;
+    padding: 16px;
+    border-bottom: 1px solid var(--background-modifier-accent);
+}
+
+.withFrame-2dL45i {
+    height: 10px;
+    margin-top: 4px;
+}
+
+
+// typing area
+.channelTextArea-1FufC0 {
+    position: relative;
+    margin-bottom: 35px;
+    background-color: var(--background-primary);
+}
+
+.container-1NXEtd, .privateChannels-oVe7HL, .sidebar-1tnWFu .thin-31rlnD {
+    margin-bottom: 10px !important;
+}
+
+.numberBadge-37OJ3S {
+    color: #eee;
+    background: linear-gradient(90deg, #6865F5 40%, #8480FD 100%);
+    margin-left: 10px;
+}
+
+.newMessagesBar-1hF-9G {
+    background: linear-gradient(90deg, #6865F5 40%, #8480FD 100%);
+}
