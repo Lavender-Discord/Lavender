@@ -1,0 +1,103 @@
+:root {
+  --text-color: #fff;
+  --activity-bg: #627ee4;
+  --spotify-bg: #1ed860;
+  --twitch-bg: #6441a5;
+  --bot-bg: #546cc4;
+  --xbox-bg: #107c10;
+}
+
+.activityUserPopout-2MzGCj,
+.activityProfile-1712BN {
+  //styling
+  h3,
+  .content-tXPNDw,
+  .activityName-3YXl6e,
+  .details-2-ciHo {
+    color: var(--text-color) !important;
+  }
+  .colorGrey-2iAG-B {
+    background-color: transparent !important;
+    border: var(--text-color) 2px solid;
+    transition: 0.5s;
+    &:hover {
+      background-color: var(--text-color) !important;
+      border-color: transparent;
+      color: black !important;
+    }
+  }
+  //defualt
+  background-color: var(--activity-bg);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  z-index: 1;
+  //twitch
+  .detailsWrap-omKn0b.textRow-1sENuL[title] {
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background-color: var(--twitch-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 6px;
+    }
+  }
+  //spotify
+  .timeBarUserPopout-qLXZaR,
+  .timeBarProfile-1z_HH- {
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: linear-gradient(90deg, #00D856 10%, #058137 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 6px;
+    }
+  }
+  .platformIcon-k3yytQ {
+    margin: 5px 5px 0px 0px;
+    path {
+      fill: (var(--text-color));
+    }
+  }
+  // bots
+  .contentNoImagesUserPopout-12NyFa {
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background-color: var(--bot-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 6px;
+    }
+  }
+  //xbox
+  .xboxAssets-aGhVw8 ~ div::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: var(--xbox-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+  }
+}
+.activityProfile-1712BN {
+  margin: 10px;
+  border-radius: 6px;
+  .platformIcon-k3yytQ {
+    margin: 0px;
+  }
+}
