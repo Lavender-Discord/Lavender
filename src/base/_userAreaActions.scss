@@ -5,7 +5,7 @@
 
 .container-YkUktl .flex-2S1XBF {
    position: fixed;
-   bottom: 90px;
+   bottom: 10%;
    left: 10px;
    width: 30px;
    max-height: 300px;
@@ -34,8 +34,8 @@
 
 .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
     position: fixed;
-    bottom: 45px;
-    left: 15px;
+    bottom: 5%;
+    left: 0.8%;
 }
 
  .panels-3wFtMD > div:last-child {
@@ -48,6 +48,22 @@
     max-height: 65% !important;
     background-color: var(--background-tertiary);
     border-radius: 7px;
+}
+
+@media (max-height: 900px) {
+    .guilds-2JjMmN .scrollerBase-_bVAAt {
+        max-height: 60% !important;
+        background-color: var(--background-tertiary);
+        border-radius: 7px;
+    }
+}
+
+@media (max-height: 800px) {
+    .guilds-2JjMmN .scrollerBase-_bVAAt {
+        max-height: 50% !important;
+        background-color: var(--background-tertiary);
+        border-radius: 7px;
+    }
 }
 
 .guilds-2JjMmN {
