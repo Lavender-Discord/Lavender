@@ -5,7 +5,7 @@
 
 .container-YkUktl .flex-2S1XBF {
    position: fixed;
-   bottom: 14px;
+   bottom: 90px;
    left: 10px;
    width: 30px;
    max-height: 300px;
@@ -14,22 +14,27 @@
    align-items: center;
    background: var(--background-secondary);
    border-radius: 7px;
-   flex-direction: column-reverse;
-   padding: 10px;
+   flex-direction: column;
+   padding: 0px 10px;
 }
 
 .container-YkUktl .flex-2S1XBF> button {
     padding: 25px !important;
+    margin: 2px;
     color: #ADA9F5;
+    border-radius: 10px;
+    transition: ease-out .3s;
 }
 
 .container-YkUktl .flex-2S1XBF> button:hover {
-    background-color: var(--background-primary);
+    background-color: #ADA9F5;
+    color: #fff;
+    border-radius: 8px;
 }
 
 .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
     position: fixed;
-    bottom: 270px;
+    bottom: 45px;
     left: 15px;
 }
 

@@ -19,14 +19,14 @@
     --header-secondary: #b9bbbe;
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
-    --channels-default: #CACBD1;
-    --channeltextarea-background: #16151A;
+    --channels-default: rgba(151, 152, 152, 0.9);
+    --channeltextarea-background: var(--background-secondary);
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --activity-card-background: var(--background-secondary);
 
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
-    --interactive-active: #fff;
+    --interactive-active: #ffffff;
     --interactive-muted: rgb(75, 75, 75);
 
     --background-modifier-hover: rgba(50, 50, 50, 0.16);
@@ -65,7 +65,7 @@
 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background: linear-gradient(100deg, #6D69FE 60%, #7D79FE 100%);
+    background: #ADA9F5;
 }
 
 .childWrapper-1j_1ub {
@@ -268,4 +268,47 @@ div[aria-label="Help"] {
 
 .newMessagesBar-1hF-9G {
     background: linear-gradient(90deg, #6865F5 40%, #8480FD 100%);
+}
+
+.reaction-2A2y9y.reactionMe-3I9gFK {
+    background-color: #28151D;
+    border-color: #25121A;
+    background: linear-gradient(180deg, rgba(38,22,31,1) 50%, rgba(36,16,25,1) 52%);
+}
+
+.reaction-2A2y9y {
+    background-color: #1D1C21;
+    background: linear-gradient(180deg, rgba(24,24,28,1) 50%, rgba(20,20,20,.7) 50%);
+}
+
+.unreadRelevant-2f-VSK {
+    background-color: rgb(163, 160, 235);
+    box-shadow: 0px 0px 20px 10px rgba(153,150,228,0.3);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(153,150,228,0.3);
+    left: 1px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.item-2LIpTv {
+    background-color: rgb(169, 163, 238);
+    margin-left: 0px;
+}
+
+.platform-win .sidebar-1tnWFu {
+    width: 260px;
+}
+
+.containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {
+    
+    padding: 3px 0px;
+}
+
+.iconContainer-21RCa3 {
+    margin-right: 10px;
+}
+
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+    margin: 5px;
 }
