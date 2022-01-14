@@ -8,6 +8,6 @@ Also if you got any suggestions for / issues with this theme just ping @Obscure.
 
 #Screenshots
 
-<img src="./src/1.png" alt="screenshot1">
+<img src="./screenshots/1.png" alt="screenshot1">
 <br>
-<img src="./src/2.png" alt="screenshot2">
+<img src="./screenshots/2.png" alt="screenshot2">
