@@ -5,8 +5,8 @@
 }
 
 .powercord-spotify>.container-YkUktl {
-    //background: linear-gradient(110deg, #00D856 30%, #058137 100%);
-    background: linear-gradient(110deg, #058137 30%, #00D856 100%);
+    //background: linear-gradient(110deg, #058137 30%, #00D856 100%);
+    background-color: #1ed860dd !important;
     border-radius: 5px;
     color: #fff;
     height: 60px;
@@ -14,7 +14,7 @@
 
 .spotify-title > .title-338goq{
     color: #eeeeee;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -22,7 +22,7 @@
     overflow: hidden;
     width: 50px !important;
     height: 50px !important;
-    border-radius: 10px !important;
+    border-radius: 7px !important;
 }
 
 .spotify-artist {
@@ -31,8 +31,9 @@
 }
 
 .powercord-spotify .spotify-seek-bar-progress {
-    background: linear-gradient(110deg, #00D856 30%, #0ce964 100%);
-    border-radius: 5px !important;
+    //background: linear-gradient(110deg, #00D856 30%, #0ce964 100%);
+    background-color: var(--brand-experiment) !important;
+    border-radius: 7px !important;
 }
 
 .powercord-spotify .spotify-seek-elements {
@@ -40,12 +41,15 @@
     justify-content: space-between;
     color: var(--text-normal);
     font-size: 12px !important;
-    padding: 1px 4px 4px !important;
+    padding: 4px 0px 0px !important;
     font-weight: 500 !important;
-    // opacity: 1 !important;
-    // height: 12px !important;
+    //opacity: 1 !important;
+    //height: 12px !important;
 }
 
- .powercord-spotify .spotify-buttons {display: none;}
- .powercord-spotify.hover .spotify-buttons {display: flex !important;}
- .spotify-seek-bar,.powercord-spotify .spotify-seek-bar-progress{height:3.8px !important}
+.powercord-spotify .spotify-buttons {display: none;}
+.powercord-spotify.hover .spotify-buttons {
+    display: flex !important;
+}
+
+.spotify-seek-bar,.powercord-spotify .spotify-seek-bar-progress{height: 3px !important}
