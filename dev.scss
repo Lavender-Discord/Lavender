@@ -11,7 +11,7 @@
     --background-secondary-alt: #17161B;
     --background-tertiary: #101014;
     --background-accent: #17161B;
-    --background-floating: #101014;
+    --background-floating: #17151B;
     --userarea-background: var(--background-tertiary);
 
     // 
@@ -35,7 +35,7 @@
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
 
     --text-link: #7A79FB;
-    --text-normal: #FAFAFE;
+    --text-normal: #C1C1C5;
     --text-muted: #ffffff50;
 
     --deprecated-panel-background: #292b2f;
@@ -311,4 +311,9 @@ div[aria-label="Help"] {
 
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
     margin: 5px;
+}
+
+.wrapper-1ZcZW-:not(.roleMention-11Aaqi) {
+    color: var(--brand-experiment);
+    background: transparent !important;
 }
