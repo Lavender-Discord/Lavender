@@ -17,11 +17,6 @@
     // 
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
-    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
-    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
-    --channels-default: rgba(151, 152, 152, 0.9);
-    --channeltextarea-background: var(--background-secondary);
-    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --activity-card-background: var(--background-secondary);
 
     --interactive-normal: #b9bbbe;
@@ -37,18 +32,6 @@
     --text-link: #7A79FB;
     --text-normal: #C1C1C5;
     --text-muted: #ffffff50;
-
-    --deprecated-panel-background: #292b2f;
-    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
-    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
-    --deprecated-store-bg: #36393f;
-    --deprecated-quickswitcher-input-background: #72767d;
-    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
-    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
-    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde;
 
     --background-accent-1: rgb(15, 15, 15, 0.1);
     --background-accent-3: rgb(15, 15, 15, 0.3);
@@ -141,13 +124,13 @@ button[aria-label='Send a gift'] {
 }
 
 button[aria-label="Open sticker picker"] {
-    display: none !important;
-    opacity: 0 !important;
+    //display: none !important;
+    //opacity: 0 !important;
 }
 
 button[aria-label="Open GIF picker"] {
-    display: none !important;
-    opacity: 0 !important;
+    //display: none !important;
+    //opacity: 0 !important;
 }
 
 div[aria-label="Explore public servers"] {
@@ -190,7 +173,7 @@ div[aria-label="Help"] {
 //     position: fixed;
 //     left: 17px;
 //     top: calc(100% - 80px);
-// }
+//}
 
 .avatar-1EWyVD>svg {
     width: 55px;
@@ -331,4 +314,58 @@ div[aria-label="Help"] {
 .wrapper-1ZcZW-:not(.roleMention-11Aaqi) {
     color: var(--brand-experiment);
     background: transparent !important;
+}
+
+// "new" unread pill in server list
+.mention-3XBnnZ {
+    background-color: #6260D2;
+    display: none;
+}
+
+
+// scrollbar for server list
+
+.none-2-_0dP {
+    scrollbar-width: auto !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-right: 2px;
+}
+
+.none-2-_0dP:hover::-webkit-scrollbar {
+    width: 0.30em !important;
+    border-radius: 25px;
+    height: 0px !important;
+    background: transparent !important;
+    
+}
+
+.none-2-_0dP::-webkit-scrollbar-thumb {
+    background: var(--background-accent);
+    border-radius: 25px;
+}
+
+/* == jsyk it's installed uwu == */
+a.embedTitle-2n1pEb[href*="https://kckarnige.is-a.dev/server-scroll"]:after, a.embedTitle-2n1pEb[href*="https://github.com/kckarnige/server-scroll"]:after {
+    content: "Installed";
+    background: var(--brand-experiment);
+    border-radius: 4px;
+    margin-left: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    white-space: nowrap;
+    position: relative;
+    -webkit-transition: background-color .17s ease, color .17s ease;
+    transition: background-color .17s ease, color .17s ease;
+}
+
+a.embedTitle-2n1pEb[href*="https://kckarnige.is-a.dev/server-scroll"]:hover:after, a.embedTitle-2n1pEb[href*="https://github.com/kckarnige/server-scroll"]:hover:after {
+    background: var(--brand-experiment-560);
+    -webkit-transition: background-color .17s ease, color .17s ease;
+    transition: background-color .17s ease, color .17s ease;
 }
