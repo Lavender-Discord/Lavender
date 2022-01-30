@@ -1,0 +1,234 @@
+/** IMPORTED FROM:
+    * @name Bubble Bar
+    * @version 1.2.0
+    * @description Nice, rounded, bubbly chatbars. Inspired from Discord's mobile app.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/Discord-Theme-Addons
+    * @source https://github.com/Discord-Theme-Addons/bubble-bar
+**/
+
+
+:root {
+    --channeltextarea-background: var(--background-secondary);
+    --channeltextarea-caret: var(--brand-experiment);
+    
+    /* [ --BUTTON ACCENTS-- ] */
+    --button-brand: var(--brand-experiment);
+    --button-brand-hovered: var(--brand-experiment);
+    --button-brand-active: var(--brand-experiment);
+}
+
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h {
+    background-color: transparent;
+}
+.channelTextArea-1VQBuV .textArea-2CLwUE {
+    border-radius: 7px;
+    background-color: var(--background-secondary);
+}
+.channelTextArea-1VQBuV .slateTextArea-27tjG0 {
+    caret-color: var(--channeltextarea-caret, var(--brand-experiment));
+}
+.channelTextArea-1VQBuV .buttons-uaqb-5 {
+    margin-right: 0;
+}
+.channelTextArea-1VQBuV button {
+    width: 42px;
+    height: 42px;
+    margin-top: 0;
+    margin-left: 7px;
+    border-radius: 7px;
+    background-color: var(--background-secondary);
+}
+
+/* [ --FORM-- ] */
+.scrollerSpacer-3AqkT9 {
+    height: 10px;
+}
+
+.form-3gdLxP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 15px;
+    margin-bottom: -8px;
+}
+.form-3gdLxP .textArea-2CLwUE > div {
+    left: 16px;
+}
+.form-3gdLxP .scrollableContainer-15eg7h {
+    margin-right: -12px;
+}
+.form-3gdLxP .attachButton-1ijpt9 {
+    margin-left: -16px;
+    margin-right: 7px;
+}
+
+.form-3gdLxP .attachButton-1ijpt9 .attachButtonPlus-3IYelE {
+    d: path("M19 13.4H13.4V19H10.6V13.4H5V10.6H10.6V5H13.4V10.6H19V13.4Z");
+}
+.form-3gdLxP .attachButton-1ijpt9 .attachButtonPlay-1ATmb5 {
+    d: path("M16 21L20 18L16 15V21Z");
+}
+.form-3gdLxP [d="M2 2C0.895431 2 0 2.89543 0 4V20C0 21.1046 0.89543 22 2 22H22C23.1046 22 24 21.1046 24 20V4C24 2.89543 23.1046 2 22 2H2ZM9.76445 11.448V15.48C8.90045 16.044 7.88045 16.356 6.74045 16.356C4.11245 16.356 2.66045 14.628 2.66045 12.072C2.66045 9.504 4.23245 7.764 6.78845 7.764C7.80845 7.764 8.66045 8.004 9.32045 8.376L9.04445 10.164C8.42045 9.768 7.68845 9.456 6.83645 9.456C5.40845 9.456 4.71245 10.512 4.71245 12.06C4.71245 13.62 5.43245 14.712 6.86045 14.712C7.31645 14.712 7.64045 14.616 7.97645 14.448V12.972H6.42845V11.448H9.76445ZM11.5481 7.92H13.6001V16.2H11.5481V7.92ZM20.4724 7.92V9.636H17.5564V11.328H19.8604V13.044H17.5564V16.2H15.5164V7.92H20.4724Z"] {
+    d: path("M9.572 12.2877V16.9804C8.40784 17.6369 7.03348 18 5.49743 18C1.95644 18 0 15.9888 0 13.014C0 10.0251 2.11813 8 5.56211 8C6.93647 8 8.08446 8.27933 8.97375 8.71229L8.60186 10.7933C7.76108 10.3324 6.77478 9.96927 5.62678 9.96927C3.70268 9.96927 2.76489 11.1983 2.76489 13C2.76489 14.8156 3.73502 16.0866 5.65912 16.0866C6.27354 16.0866 6.7101 15.9749 7.16283 15.7793V14.0615H5.07704V12.2877H9.572ZM11.9753 8.18156H14.7402V17.8184H11.9753V8.18156ZM24 8.18156V10.1788H20.071V12.148H23.1754V14.1453H20.071V17.8184H17.3222V8.18156H24Z");
+}
+.form-3gdLxP .separator-3ng7S5 {
+    margin-left: -4px;
+}
+
+.form-3gdLxP .separator-3ng7S5::before {
+    display: none;
+}
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj::before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 7px;
+    -webkit-transition: ease 1s;
+    transition: ease 1s;
+}
+
+.form-3gdLxP .separator-3ng7S5 button{
+    background: transparent;
+}
+
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj svg {
+    margin-left: -5px;
+    opacity: 1;
+    color: var(--text-disabled);
+    -webkit-transition: ease 1s;
+    transition: ease 1s;
+}
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj[disabled]::before {
+    background-color: var(--background-secondary);
+}
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]) svg {
+    opacity: 1;
+    color: #eee;
+}
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled])::before {
+    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+}
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]):hover::before {
+    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+}
+.form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]):active::before {
+    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+}
+.form-3gdLxP .base-3bcbY3 {
+    position: relative;
+    margin-top: -14px;
+    margin-bottom: 15px;
+    margin-left: -32px;
+    background-color: var(--background-secondary);
+}
+.form-3gdLxP .base-3bcbY3 .cooldownWrapper-2k1jHK {
+    margin-right: 5px;
+}
+.form-3gdLxP .attachedBars-2BCP3l {
+    margin-top: -15px;
+    margin-right: -16px;
+    margin-bottom: 15px;
+    margin-left: -16px;
+    border-radius: 0;
+    background-color: var(--background-secondary);
+}
+.form-3gdLxP .replyBar-1oi75v {
+    height: 36px;
+    background-color: var(--background-secondary);
+}
+.form-3gdLxP .replyBar-1oi75v .separator-8ngZ3p {
+    display: none;
+}
+.form-3gdLxP .replyBar-1oi75v .closeButton-3IEry2 {
+    position: absolute;
+    left: -20px;
+}
+.form-3gdLxP .replyBar-1oi75v .replyLabel-WWnhHi {
+    margin-left: 45px;
+}
+.form-3gdLxP .replyBar-1oi75v .colorLink-2apWfY {
+    color: var(--brand-experiment-360);
+}
+.form-3gdLxP .threadSuggestionBar-3ExSyc {
+    background-color: var(--background-secondary);
+}
+.form-3gdLxP .channelAttachmentArea-1wlgJV {
+    margin-top: -11px;
+    margin-bottom: 5px;
+}
+.form-3gdLxP .divider-2rZFJK {
+    display: none;
+}
+.form-3gdLxP .characterCount-8yNPfb {
+    display: block;
+}
+
+.jumpToPresentBar-1cEnH0 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: calc(100% - 56px);
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+    -webkit-transition: ease 3s;
+    transition: ease 3s;
+}
+.jumpToPresentBar-1cEnH0:hover {
+    background-color: var(--button-brand-hovered);
+}
+.jumpToPresentBar-1cEnH0:active {
+    margin-bottom: 10px;
+    background-color: var(--button-brand-active);
+}
+.jumpToPresentBar-1cEnH0 .barButtonMain-2GIx4o {
+    display: none;
+}
+.jumpToPresentBar-1cEnH0 .barButtonAlt-TQoCdZ {
+    font-size: 0;
+}
+.jumpToPresentBar-1cEnH0 .barButtonIcon-bMvzp2 {
+    top: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+}
+.jumpToPresentBar-1cEnH0 .spinner-2RT7ZC {
+    margin-left: 12px;
+}
+
+#app-mount .autocompleteAttached-bt_md-,
+#app-mount .autocomplete-3NRXG8 {
+    right: -16px;
+    bottom: 59px;
+    left: -16px;
+    padding-left: 6px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: var(--background-secondary);
+}
+#app-mount .autocomplete-3NRXG8 {
+    padding-left: 0;
+}
+#app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
+    background-color: var(--background-secondary);
+}
+
+/* [ --EDITING-- ] */
+.channelTextArea-220_Gz > div {
+    border-radius: 7px;
+}

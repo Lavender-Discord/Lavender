@@ -124,8 +124,8 @@ button[aria-label='Send a gift'] {
 }
 
 button[aria-label="Open sticker picker"] {
-    //display: none !important;
-    //opacity: 0 !important;
+    display: none !important;
+    opacity: 0 !important;
 }
 
 button[aria-label="Open GIF picker"] {
@@ -323,49 +323,3 @@ div[aria-label="Help"] {
 }
 
 
-// scrollbar for server list
-
-.none-2-_0dP {
-    scrollbar-width: auto !important;
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-    margin-right: 2px;
-}
-
-.none-2-_0dP:hover::-webkit-scrollbar {
-    width: 0.30em !important;
-    border-radius: 25px;
-    height: 0px !important;
-    background: transparent !important;
-    
-}
-
-.none-2-_0dP::-webkit-scrollbar-thumb {
-    background: var(--background-accent);
-    border-radius: 25px;
-}
-
-/* == jsyk it's installed uwu == */
-a.embedTitle-2n1pEb[href*="https://kckarnige.is-a.dev/server-scroll"]:after, a.embedTitle-2n1pEb[href*="https://github.com/kckarnige/server-scroll"]:after {
-    content: "Installed";
-    background: var(--brand-experiment);
-    border-radius: 4px;
-    margin-left: 5px;
-    padding-right: 3px;
-    padding-left: 3px;
-    color: #fff;
-    font-size: 10px;
-    line-height: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-    white-space: nowrap;
-    position: relative;
-    -webkit-transition: background-color .17s ease, color .17s ease;
-    transition: background-color .17s ease, color .17s ease;
-}
-
-a.embedTitle-2n1pEb[href*="https://kckarnige.is-a.dev/server-scroll"]:hover:after, a.embedTitle-2n1pEb[href*="https://github.com/kckarnige/server-scroll"]:hover:after {
-    background: var(--brand-experiment-560);
-    -webkit-transition: background-color .17s ease, color .17s ease;
-    transition: background-color .17s ease, color .17s ease;
-}
