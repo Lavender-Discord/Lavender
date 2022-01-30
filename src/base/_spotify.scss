@@ -1,33 +1,43 @@
+:root {
+    --spotify-color: #1ED860;
+}
+
 .powercord-spotify {
     margin-top: 1px;
     background-color: var(--background-secondary) !important;
     margin-bottom: 10px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .powercord-spotify>.container-YkUktl {
-    background-color: var(--background-secondary) !important;
-    border-radius: 50px;
+    //background-color: var(--background-secondary) !important;
+    background-color: var(--spotify-color);
     color: #fff;
+    border-radius: 5px;
+}
+
+.powercord-spotify.hover>.container-YkUktl {
+    margin-bottom: 12px;
 }
 
 .spotify-title > .title-338goq{
-    color: #ddd;
+    color: #fff;
 }
 
 .spotify-cover {
     overflow: hidden;
+    margin-top: -4px !important;
     width: 35px !important;
     height: 35px !important;
-    border-radius: 7px !important;
+    -webkit-box-shadow: 0px 6px 27px 0px rgba(0,0,0,0.6);
 }
 
 .spotify-artist {
-    color: #ccc;
+    color: #eee;
 }
 
 .powercord-spotify .spotify-seek-bar-progress {
-    background-color: var(--brand-experiment) !important;
+    background-color: var(--spotify-color) !important;
     border-radius: 7px !important;
 }
 
@@ -36,20 +46,38 @@
     justify-content: space-between;
     color: var(--text-normal);
     font-size: 12px !important;
-    padding: 4px 0px 0px !important;
+    padding: 5px 0px 0px !important;
     font-weight: 500 !important;
 }
 
-.powercord-spotify.hover .spotify-buttons {
-    display: flex !important;
+.powercord-spotify .spotify-buttons button:hover {
+    background-color: var(--background-secondary);
+    color: var(--spotify-color) !important;
+    -webkit-box-shadow: 0px 6px 27px 0px rgba(0,0,0,0.6);
 }
 
-.spotify-seek-bar,.powercord-spotify .spotify-seek-bar-progress{height: 3px !important}
-
 .powercord-spotify .spotify-buttons .button-12Fmur {
-    color: #ADA9F5 !important;
+    color: #eee !important;
 }
 
 .powercord-spotify .button-12Fmur {
-    color: #ccc !important;
+    color: #eee !important;
+}
+
+.powercord-spotify .spotify-seek-bar{
+    height: 4px !important;
+    border-radius: 5px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    background: var(--background-primary) !important;
+}
+
+.powercord-spotify .spotify-seek-bar-progress{
+    border-radius:42px!important
+}
+
+.powercord-spotify .spotify-seek-elements,.powercord-spotify.hover .spotify-seek-elements{
+    font-size:80%!important;
+    margin: 3px 15px 3px 15px !important;
+    color: #fff !important;
 }

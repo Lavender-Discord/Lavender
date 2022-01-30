@@ -1,5 +1,11 @@
 @use "src/source";
 
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
+
+.sprite-2lxwfc { 
+  filter: grayscale(0) !important;
+} 
+
 :root {
     /* --------- BASE THEME --------- */
     --blurple-replace: #6865FF;
