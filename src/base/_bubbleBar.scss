@@ -93,8 +93,6 @@
     width: 42px;
     height: 42px;
     border-radius: 7px;
-    -webkit-transition: ease 1s;
-    transition: ease 1s;
 }
 
 .form-3gdLxP .separator-3ng7S5 button{
@@ -105,8 +103,6 @@
     margin-left: -5px;
     opacity: 1;
     color: var(--text-disabled);
-    -webkit-transition: ease 1s;
-    transition: ease 1s;
 }
 .form-3gdLxP .separator-3ng7S5 .button-y6hemj[disabled]::before {
     background-color: var(--background-secondary);
@@ -116,13 +112,13 @@
     color: #eee;
 }
 .form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled])::before {
-    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+    background-color: var(--brand-experiment);
 }
 .form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]):hover::before {
-    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+    background-color: var(--brand-experiment);
 }
 .form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]):active::before {
-    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+    background-color: var(--brand-experiment);
 }
 .form-3gdLxP .base-3bcbY3 {
     position: relative;
@@ -183,9 +179,8 @@
     padding: 0;
     margin-bottom: 10px;
     border-radius: 7px;
-    background: linear-gradient(47deg, rgba(108,104,253,1) 16%, rgba(128,125,254,1) 100%);
+    background-color: var(--brand-experiment);
     -webkit-transition: ease 3s;
-    transition: ease 3s;
 }
 .jumpToPresentBar-1cEnH0:hover {
     background-color: var(--button-brand-hovered);
@@ -231,4 +226,8 @@
 /* [ --EDITING-- ] */
 .channelTextArea-220_Gz > div {
     border-radius: 7px;
+}
+
+.channelTextArea-1VQBuV button {
+    transition: ease .3s;
 }

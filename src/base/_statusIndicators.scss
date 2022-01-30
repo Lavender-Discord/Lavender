@@ -63,17 +63,13 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
   mask: none;
 }
 .wrapper-1VLyxH foreignObject[mask*="typing"] .avatar-b5OQ1N {
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
   x: 1;
   y: 1;
   width: 30px;
   height: 30px;
-  fill: rgba(0, 0, 0, 0.75);
+  fill: rgba(0, 0, 0, 0.5);
   clip-path: circle();
-}
-
-.avatar-b5OQ1N svg {
-  border-radius: 10% !important;
 }

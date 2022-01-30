@@ -65,7 +65,7 @@ div[class*="mentioned"]::before {
 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background: #ADA9F5;
+    background: var(--brand-experiment);
 }
 
 .childWrapper-1j_1ub {
@@ -139,47 +139,38 @@ button[aria-label="Open GIF picker"] {
     //opacity: 0 !important;
 }
 
-div[aria-label="Explore public servers"] {
+div[aria-label="Explore Public Servers"] {
     // display: none !important;
     // opacity: 0 !important;
     // cursor: none;
     background-color: var(--background-secondary);
-    color: #ADA9F5;
+    color: var(--brand-experiment);
 }
 
-div[aria-label="Add a server"] {
+div[aria-label="Add a Server"] {
     // display: none !important;
     // opacity: 0 !important;
     // cursor: none;
     background-color: var(--background-secondary);
-    color: #ADA9F5;
+    color: var(--brand-experiment);
 }
 
 .tutorialContainer-2jwoiB {
     margin-top: 20px;
 }
 
-div[aria-label="Add a server"]:hover {
-    //background: linear-gradient(110deg, #00D856 30%, #058137 100%);
-    background-color: #ADA9F5;
+div[aria-label="Add a Server"]:hover {
+    background-color: var(--brand-experiment);
 } 
 
-div[aria-label="Explore public servers"]:hover {
-    //background: linear-gradient(110deg, #00D856 30%, #058137 100%);
-    background-color: #ADA9F5;
+div[aria-label="Explore Public Servers"]:hover,div[aria-label="Explore Public Servers"]:active {
+    background-color: var(--brand-experiment) !important;
 } 
 
 div[aria-label="Help"] {
     display: none !important;
     opacity: 0 !important;
 }
-
-// /* the main bit! */
-// div[aria-label = "Set status"] > .avatar-1EWyVD {
-//     position: fixed;
-//     left: 17px;
-//     top: calc(100% - 80px);
-//}
 
 .avatar-1EWyVD>svg {
     width: 55px;
@@ -266,12 +257,13 @@ div[aria-label="Help"] {
 
 .numberBadge-37OJ3S {
     color: #eee;
-    background: linear-gradient(90deg, #6865F5 40%, #8480FD 100%);
+    background-color: var(--brand-experiment) !important;
     margin-left: 10px;
+    border-radius: 4px !important;
 }
 
 .newMessagesBar-1hF-9G {
-    background: linear-gradient(90deg, #6865F5 40%, #8480FD 100%);
+    background-color: var(--brand-experiment) !important;
 }
 
 .reaction-2A2y9y.reactionMe-3I9gFK {
@@ -286,31 +278,24 @@ div[aria-label="Help"] {
 }
 
 .unreadRelevant-2f-VSK {
-    background-color: rgb(163, 160, 235);
-    box-shadow: 0px 0px 20px 10px rgba(153,150,228,0.3);
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(153,150,228,0.3);
-    left: 1px;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
+    background-color: var(--brand-experiment);
+    width: 4px;
+    height: 28px;
+    margin-top: -15px;
+    border-radius: 0px 4px 4px 0;
 }
 
 .item-2LIpTv {
-    background-color: rgb(169, 163, 238);
-    margin-left: 0px;
-}
-
-.platform-win .sidebar-1tnWFu {
-    width: 260px;
+    background-color: var(--brand-experiment);
+    margin-left: -2px;
 }
 
 .containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {
-    
     padding: 3px 0px;
 }
 
 .iconContainer-21RCa3 {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
@@ -327,5 +312,3 @@ div[aria-label="Help"] {
     background-color: #6260D2;
     display: none;
 }
-
-
