@@ -276,15 +276,16 @@ div[aria-label="Help"] {
 
 .unreadRelevant-2f-VSK {
     background-color: var(--brand-experiment);
-    width: 4px;
+    width: 2px;
     height: 10px;
     margin-top: -5px;
-    border-radius: 0px 4px 4px 0;
+    border-radius: 4px;
 }
 
 .item-2LIpTv {
     background-color: var(--brand-experiment);
-    margin-left: -2px;
+    margin-left: -3px;
+    border-radius: 2px !important;
 }
 
 .containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {

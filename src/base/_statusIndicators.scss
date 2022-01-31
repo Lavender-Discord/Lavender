@@ -16,6 +16,10 @@ rect[mask="url(#svg-mask-status-idle)"]{
     fill: #F7C954;
 }
 
+//rect[mask="url(#svg-mask-status-offline)"]{
+//    mask: url(#svg-mask-status-offline);
+//}
+
 rect[mask="url(#svg-mask-status-online-mobile)"]{
     fill: #4DF3BA;
 }
@@ -48,6 +52,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     x: 65% !important;
     transform: scale(0.9) !important;
 }
+
 .mask-1FEkla .dots-1BwzZQ {
     transform: translateY(-69%) !important;
 }
@@ -73,11 +78,13 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
 .wrapper-1VLyxH foreignObject[mask*="typing"] .avatar-b5OQ1N {
   border-radius: 50%;
 }
+
 .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
-  x: 1;
-  y: 1;
-  width: 30px;
-  height: 30px;
-  fill: rgba(0, 0, 0, 0.9);
-  clip-path: circle();
+  x: -2.5 !important;
+  y: -2 !important;
+  width: 40px;
+  height: 40px;
+  fill: rgba(0, 0, 0, 0.95);
+  clip-path: circle(40%);
 }
+
