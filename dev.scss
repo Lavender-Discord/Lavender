@@ -43,8 +43,8 @@
     --background-accent-3: rgb(15, 15, 15, 0.3);
     --background-floating-2: rgba(0, 0, 0, 0.2);
 
-    --scrollbar-auto-thumb: #00000040;
-    --scrollbar-auto-track: #17161B71;
+    --scrollbar-auto-thumb: #00000066;
+    --scrollbar-auto-track: #17161B99;
 
     --background-mentioned: #28151D;
     --background-mentioned-hover: #28151Dae;
@@ -172,10 +172,7 @@ div[aria-label="Help"] {
     opacity: 0 !important;
 }
 
-.avatar-1EWyVD>svg {
-    width: 55px;
-    height: 55px;
-}
+
 
 // discord text on top left 
 .wordmarkWindows-2dq6rw {
@@ -280,8 +277,8 @@ div[aria-label="Help"] {
 .unreadRelevant-2f-VSK {
     background-color: var(--brand-experiment);
     width: 4px;
-    height: 28px;
-    margin-top: -15px;
+    height: 10px;
+    margin-top: -5px;
     border-radius: 0px 4px 4px 0;
 }
 
@@ -312,3 +309,22 @@ div[aria-label="Help"] {
     background-color: #6260D2;
     display: none;
 }
+
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
+    border-left: 3px solid var(--brand-experiment) !important;
+    border-radius: 1px;
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP {
+    border-left: 3px solid var(--brand-experiment) !important;
+    border-radius: 1px;
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP {
+    background-color: var(--background-primary);
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP:hover {
+    background-color: var(--background-secondary);
+}
+

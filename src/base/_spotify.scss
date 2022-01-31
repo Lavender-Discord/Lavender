@@ -1,5 +1,5 @@
 :root {
-    --spotify-color: #1ED860;
+    --spotify-color: #08DA7A !important;
 }
 
 .powercord-spotify {
@@ -10,8 +10,22 @@
 }
 
 .powercord-spotify>.container-YkUktl {
-    //background-color: var(--background-secondary) !important;
-    background-color: var(--spotify-color);
+    background-image: linear-gradient(
+    320deg,
+    hsl(146deg 100% 42%) 0%,
+    hsl(147deg 98% 43%) 9%,
+    hsl(147deg 96% 43%) 17%,
+    hsl(148deg 95% 44%) 26%,
+    hsl(149deg 94% 44%) 35%,
+    hsl(150deg 93% 44%) 43%,
+    hsl(152deg 93% 44%) 52%,
+    hsl(153deg 94% 44%) 61%,
+    hsl(154deg 95% 44%) 70%,
+    hsl(155deg 96% 43%) 79%,
+    hsl(156deg 98% 43%) 89%,
+    hsl(158deg 100% 42%) 100%
+    );
+    //background-color: var(--spotify-color);
     color: #fff;
     border-radius: 5px;
 }
@@ -27,9 +41,13 @@
 .spotify-cover {
     overflow: hidden;
     margin-top: -4px !important;
-    width: 35px !important;
-    height: 35px !important;
     -webkit-box-shadow: 0px 6px 27px 0px rgba(0,0,0,0.6);
+    animation: beat .75s infinite alternate;
+    transform-origin: center;   
+}
+
+@keyframes beat{
+	to { transform: scale(1.05); }
 }
 
 .spotify-artist {
@@ -37,7 +55,22 @@
 }
 
 .powercord-spotify .spotify-seek-bar-progress {
-    background-color: var(--spotify-color) !important;
+    background-image: linear-gradient(
+    320deg,
+    hsl(146deg 100% 42%) 0%,
+    hsl(147deg 98% 43%) 9%,
+    hsl(147deg 96% 43%) 17%,
+    hsl(148deg 95% 44%) 26%,
+    hsl(149deg 94% 44%) 35%,
+    hsl(150deg 93% 44%) 43%,
+    hsl(152deg 93% 44%) 52%,
+    hsl(153deg 94% 44%) 61%,
+    hsl(154deg 95% 44%) 70%,
+    hsl(155deg 96% 43%) 79%,
+    hsl(156deg 98% 43%) 89%,
+    hsl(158deg 100% 42%) 100%
+    );
+    //background-color: var(--spotify-color) !important;
     border-radius: 7px !important;
 }
 

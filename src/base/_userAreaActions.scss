@@ -23,19 +23,31 @@
     margin: 2px;
     color: #ADA9F5;
     border-radius: 10px;
-    transition: ease-out .3s;
+    transition: ease .3s;
 }
 
 .container-YkUktl:last-child .flex-2S1XBF> button:hover {
-    background-color: #ADA9F5;
+    background-color: var(--brand-experiment);
     color: #fff;
     border-radius: 8px;
 }
 
 .panels-3wFtMD > .container-YkUktl:last-child > .avatarWrapper-1B9FTW {
     position: fixed;
-    bottom: 5%;
+    bottom: 2%;
     left: 0.8%;
+}
+
+.panels-3wFtMD > .container-YkUktl:last-child .avatar-1EWyVD>svg {
+    width: 55px;
+    height: 55px;
+    border-radius: 50% !important;
+}
+
+.panels-3wFtMD > .container-YkUktl:last-child .avatar-1EWyVD {
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 50% !important;
 }
 
  .panels-3wFtMD > div:last-child {

@@ -21,28 +21,36 @@ rect[mask="url(#svg-mask-status-online-mobile)"]{
 }
 
 mask[id^="svg-mask-avatar-status-round"] circle:last-of-type {
-    cy: 15.625%;
+    cy: 15%;
 }
 mask[id^="svg-mask-avatar-status-mobile"] rect {
-    y: 0%;
+    y: -9%;
 }
+
+.mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
+    y: 10% !important;
+    x: 85% !important;
+    transform: scale(0.75) !important;
+}
+
+
 mask[id^="svg-mask-avatar-status-typing"] rect {
-    y: -9.375%;
+    y: -9.5%;
 }
 
 .mask-1FEkla rect {
-    y: 5.6%;
-} 
-.mask-1FEkla rect[mask*="status-online-mobile)"] {
-    y: 7.3%;
-}
-:is(.avatar-6qzftW, .avatar-2MSPKk, .avatar-1EWyVD) .mask-1FEkla rect:not([mask*="status-online-mobile)"]) {
-    y: 0% !important;
-}
-.mask-1FEkla .dots-1BwzZQ {
-    transform: translateY(-69%)
+    y: 8%;
+    x: 62.5%;
 }
 
+:is(.avatar-6qzftW, .avatar-2MSPKk, .avatar-1EWyVD) .mask-1FEkla rect {
+    y: 0% !important;
+    x: 65% !important;
+    transform: scale(0.9) !important;
+}
+.mask-1FEkla .dots-1BwzZQ {
+    transform: translateY(-69%) !important;
+}
 
 .wrapper-1VLyxH .dots-1BwzZQ {
   overflow: visible;
@@ -70,6 +78,6 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
   y: 1;
   width: 30px;
   height: 30px;
-  fill: rgba(0, 0, 0, 0.5);
+  fill: rgba(0, 0, 0, 0.9);
   clip-path: circle();
 }
