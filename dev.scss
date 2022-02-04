@@ -1,16 +1,10 @@
 @use "src/source";
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
-
-.sprite-2lxwfc { 
-  filter: grayscale(0) !important;
-} 
-
 :root {
     /* --------- BASE THEME --------- */
     --blurple-replace: #6865FF;
     --brand-experiment: #6B69FF;
-    --brand-experimente: #6B69FF82;
+    --brand-experiment-hover: #6B69FFcc;
 
     --background-primary: #101014;
     --background-secondary: #17161B;
@@ -38,6 +32,20 @@
     --text-link: #7A79FB;
     --text-normal: #C1C1C5;
     --text-muted: #ffffff50;
+    --text-positive: #08DA7A;
+    --text-color: #eee;
+
+    --spotify-color: #00D65D;
+    --spotify-bg: linear-gradient(320deg,hsl(146deg 100% 42%) 0%,hsl(147deg 98% 43%) 9%,hsl(147deg 96% 43%) 17%,hsl(148deg 95% 44%) 26%,hsl(149deg 94% 44%) 35%,hsl(150deg 93% 44%) 43%,hsl(152deg 93% 44%) 52%,hsl(153deg 94% 44%) 61%,hsl(154deg 95% 44%) 70%,hsl(155deg 96% 43%) 79%,hsl(156deg 98% 43%) 89%,hsl(158deg 100% 42%) 100%);
+
+    --activity-bg: #627ee4;
+    --twitch-bg: #6441a5;
+    --bot-bg: #546cc4;
+    --xbox-bg: #107c10;
+
+    --inner-primary: 5px;
+    --radius-primary: 5px;
+    --radius-secondary: 5px;
 
     --background-accent-1: rgb(15, 15, 15, 0.1);
     --background-accent-3: rgb(15, 15, 15, 0.3);
@@ -48,6 +56,28 @@
 
     --background-mentioned: #28151D;
     --background-mentioned-hover: #28151Dae;
+
+    --channeltextarea-background: var(--background-secondary);
+    --channeltextarea-caret: var(--brand-experiment);
+    
+    /* [ --BUTTON ACCENTS-- ] */
+    --button-brand: var(--brand-experiment);
+    --button-brand-hovered: var(--brand-experiment-hover);
+    --button-brand-active: var(--brand-experiment-hover);
+}
+
+.colorGreen-3y-Z79, .liveIndicator-TJKS7N {
+    background: var(--spotify-color) !important;
+    color: #ddd !important;
+}
+
+.colorGreen-3y-Z79:hover {
+    background-color: #00D65Daa !important;
+    color: #eee !important;
+}
+
+.colorStatusGreen-2HKYOW {
+    color: var(--spotify-color) !important;
 }
 
 div[class*="mentioned"]::before {
@@ -83,6 +113,7 @@ div[class*="mentioned"]::before {
     background-color: var(--background-primary);
 }
 
+
 //  member list 
 .members-3WRCEx,
 .members-3WRCEx>div,
@@ -91,7 +122,7 @@ div[class*="mentioned"]::before {
 }
 
 .layout-1qmrhw {
-    padding: 5px 10px;
+    height: 50px;
 }
 
 .layout-1qmrhw>	.avatar-6qzftW {
@@ -99,12 +130,13 @@ div[class*="mentioned"]::before {
 }
 
 .membersGroup-2eiWxl {
-    padding: 24px 8px 20px 16px;
+    height: 50px;
 }
 
 .activity-2EQDZv {
-    margin-top: 5px;
+    height: 25px;
 }
+
 
 /* friends list */
 .peopleColumn-1wMU14 {
@@ -122,21 +154,6 @@ div[class*="mentioned"]::before {
 
 .activityText-1rR-8O > strong {
     color: #B8B9BD !important;
-}
-
-button[aria-label='Send a gift'] {
-    display: none !important;
-    opacity: 0;
-}
-
-button[aria-label="Open sticker picker"] {
-    display: none !important;
-    opacity: 0 !important;
-}
-
-button[aria-label="Open GIF picker"] {
-    //display: none !important;
-    //opacity: 0 !important;
 }
 
 div[aria-label="Explore Public Servers"] {
@@ -176,25 +193,30 @@ div[aria-label="Help"] {
 
 // discord text on top left 
 .wordmarkWindows-2dq6rw {
-    display: none;
+    display: block !important;
 }
 
 // min, max, close buttons
 .winButton-3UMjdg {
-    color: var(--background-primary);
+    color: #B9BBBE;
 }
 
 .winButton-3UMjdg:hover {
     color: #fff;
 }
 
+[class*="winButton-"]:nth-child(2):hover {
+    background-color: #FD282E;
+    color: #000;
+}
+
 [class*="winButton-"]:nth-child(3):hover {
-    background-color: #F6E0B5;
+    background-color: #FFAC62;
     color: #000;
 }
 
 [class*="winButton-"]:nth-child(4):hover {
-    background-color: #00D856;
+    background-color: var(--spotify-color);
     color: #000;
 }
 
@@ -219,27 +241,6 @@ div[aria-label="Help"] {
 .container-2o3qEW {
     background: var(--background-primary);
 }
-
-// member area top bar 
-.theme-dark .tabs-1RhQha .tab-FftSDB.active-s_EpiV,
-.theme-dark .tabs-1RhQha .tab-FftSDB.active-s_EpiV:hover {
-    background-color: var(--background-secondary);
-}
-
-.tabs-1RhQha {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    max-height: 56px;
-    padding: 16px;
-    border-bottom: 1px solid var(--background-modifier-accent);
-}
-
-.withFrame-2dL45i {
-    height: 10px;
-    margin-top: 4px;
-}
-
 
 // typing area
 .channelTextArea-1FufC0 {
@@ -305,27 +306,29 @@ div[aria-label="Help"] {
     background: transparent !important;
 }
 
-// "new" unread pill in server list
-.mention-3XBnnZ {
-    background-color: #6260D2;
-    display: none;
-}
+
 
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
     border-left: 3px solid var(--brand-experiment) !important;
     border-radius: 1px;
 }
 
-.wrapper-NhbLHG.modeConnected-NrO4cP {
-    border-left: 3px solid var(--brand-experiment) !important;
-    border-radius: 1px;
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::before {
+    content: '';
+    background-color: #101014;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: -39px;
 }
 
 .wrapper-NhbLHG.modeConnected-NrO4cP {
+    border-left: 3px solid var(--brand-experiment) !important;
+    border-radius: 1px;
     background-color: var(--background-primary);
 }
 
 .wrapper-NhbLHG.modeConnected-NrO4cP:hover {
     background-color: var(--background-secondary);
 }
-

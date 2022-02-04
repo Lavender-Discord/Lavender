@@ -1,11 +1,8 @@
-:root {
-  --text-color: #fff;
-  --activity-bg: #627ee4;
-  --spotify-bg: #1ed860;
-  --twitch-bg: #6441a5;
-  --bot-bg: #546cc4;
-  --xbox-bg: #107c10;
-}
+/** Modification of:
+    * Cooler Activity Status
+    * By: @mr_miner#9699
+    * @source https://github.com/mr-miner1/
+**/
 
 .activityUserPopout-2MzGCj,
 .activityProfile-1712BN {
@@ -54,21 +51,7 @@
       width: 100%;
       height: 100%;
       z-index: -1;
-      background-image: linear-gradient(
-      320deg,
-      hsl(146deg 100% 42%) 0%,
-      hsl(147deg 98% 43%) 9%,
-      hsl(147deg 96% 43%) 17%,
-      hsl(148deg 95% 44%) 26%,
-      hsl(149deg 94% 44%) 35%,
-      hsl(150deg 93% 44%) 43%,
-      hsl(152deg 93% 44%) 52%,
-      hsl(153deg 94% 44%) 61%,
-      hsl(154deg 95% 44%) 70%,
-      hsl(155deg 96% 43%) 79%,
-      hsl(156deg 98% 43%) 89%,
-      hsl(158deg 100% 42%) 100%
-      );
+      background-image: var(--spotify-bg);
       position: absolute;
       top: 0;
       left: 0;

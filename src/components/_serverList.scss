@@ -1,0 +1,39 @@
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+//                                  Server List Area
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+// Server list made shorter to let the mute, deafen buttons get their place ;)
+.guilds-2JjMmN .scrollerBase-_bVAAt {
+    max-height: 65% !important;
+    background-color: var(--background-tertiary);
+    border-radius: 7px;
+}
+
+// Backgorund of mute, deafen buttons area
+.guilds-2JjMmN {
+    background-color: #0f0e11;
+    border-radius: 10px;
+}
+
+//
+@media (max-height: 900px) {
+    .guilds-2JjMmN .scrollerBase-_bVAAt {
+        max-height: 60% !important;
+        background-color: var(--background-tertiary);
+        border-radius: 7px;
+    }
+}
+
+//
+@media (max-height: 800px) {
+    .guilds-2JjMmN .scrollerBase-_bVAAt {
+        max-height: 57% !important;
+        background-color: var(--background-tertiary);
+        border-radius: 7px;
+    }
+}
+
+// "new" unread pill in server list
+.mention-3XBnnZ {
+    display: none;
+}

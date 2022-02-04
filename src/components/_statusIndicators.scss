@@ -1,0 +1,128 @@
+rect[mask="url(#svg-mask-status-online)"] {
+    fill: var(--spotify-color);
+}
+
+rect[mask="url(#svg-mask-status-dnd)"] {
+    fill: #FD2B30;
+    mask: url(#svg-mask-status-online);
+}
+
+rect[mask="url(#svg-mask-status-streaming)"]{
+    fill: #7E7BFE;
+    mask: url(#svg-mask-status-online);
+}
+
+rect[mask="url(#svg-mask-status-idle)"]{
+    fill: #F7C954;
+}
+
+rect[mask="url(#svg-mask-status-online-mobile)"]{
+    fill: #4DF3BA;
+}
+
+#status-picker .mask-2Me5HY {
+    fill: #000 !important;
+}
+
+#svg-mask-status-idle>circle:last-of-type {
+    cx: 70%;
+}
+
+mask[id^="svg-mask-avatar-status-round"] circle:last-of-type {
+    cy: 5%;
+}
+
+mask[id^="svg-mask-avatar-status-mobile"] rect {
+    y: -9%;
+}
+
+mask[id^="svg-mask-avatar-status-typing"] rect {
+    y: -9.5%;
+}
+
+.mask-1FEkla rect {
+    y: 8%;
+    x: 62.5%;
+}
+
+:is(.avatar-6qzftW, .avatar-2MSPKk, .avatar-1EWyVD) .mask-1FEkla rect {
+    y: 0% !important;
+    x: 79% !important;
+    transform: scale(0.7) !important;
+}
+
+.mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
+    y: 10% !important;
+    x: 75% !important;
+    transform: scale(0.75) !important;
+}
+
+// Full user modal popout
+.userPopout-2j1gM4 .mask-1FEkla rect {
+    y: 7% !important;
+    x: 90% !important;
+    transform: scale(0.7) !important;
+}
+
+.userPopout-2j1gM4 .mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
+    y: 15% !important;
+    x: 90% !important;
+    transform: scale(0.7) !important;
+}
+
+// mutual friends area
+.fullscreenOnMobile-ixj0e3 .listScroller-entkMk .mask-1FEkla rect {
+    y: 0% !important;
+    x: 85% !important;
+    transform: scale(0.7) !important;
+}
+
+.root-8LYsGj .mask-1FEkla rect {
+    y: 7% !important;
+    x: 90% !important;
+    transform: scale(0.7) !important;
+}
+
+// autocomplete menu in chatbox
+.autocomplete-3NRXG8 .mask-1FEkla rect {
+    y: 0% !important;
+    x: 60% !important;
+    transform: scale(0.85) !important;
+}
+
+.mask-1FEkla .dots-1BwzZQ {
+    transform: translateY(-69%) !important;
+}
+
+
+// Typing part
+.wrapper-1VLyxH .dots-1BwzZQ {
+  overflow: visible;
+}
+.wrapper-1VLyxH .dots-1BwzZQ circle {
+  cy: -7.5;
+}
+.wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
+  cx: -8.5;
+}
+.wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
+  cx: -2.25;
+}
+.wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
+  cx: 4;
+}
+.wrapper-1VLyxH foreignObject[mask*="typing"] {
+  mask: none;
+}
+.wrapper-1VLyxH foreignObject[mask*="typing"] .avatar-b5OQ1N {
+  border-radius: 50%;
+}
+
+.wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
+  x: -7 !important;
+  y: -7 !important;
+  width: 60px;
+  height: 60px;
+  fill: rgba(0, 0, 0, 0.75);
+  clip-path: circle(40%);
+}

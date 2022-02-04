@@ -1,0 +1,247 @@
+
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+//                                  Mic, Deafem, Settings Buttons Area
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+    position: fixed;
+    bottom: 10%;
+    left: 10px;
+    width: 30px;
+    max-height: 300px;
+    min-height: 195px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--background-secondary);
+    border-radius: 7px;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+ 
+
+// Buttons
+ .container-YkUktl:last-child .flex-2S1XBF> button {
+     padding: 25px !important;
+     margin: 2px;
+     color: #ADA9F5;
+     border-radius: 10px;
+     transition: ease .3s;
+ }
+ 
+ .container-YkUktl:last-child .flex-2S1XBF> button:hover {
+     background-color: var(--brand-experiment);
+     color: #fff;
+     border-radius: 8px;
+ }
+ 
+
+// Avatar
+ .panels-3wFtMD > .container-YkUktl:last-child > .avatarWrapper-1B9FTW {
+     position: fixed;
+     bottom: 2%;
+     left: 0.8%;
+ }
+ 
+ .panels-3wFtMD > .container-YkUktl:last-child .avatar-1EWyVD>svg {
+     width: 55px;
+     height: 55px;
+     border-radius: 50% !important;
+ }
+ 
+ .panels-3wFtMD > .container-YkUktl:last-child .avatar-1EWyVD {
+     width: 55px !important;
+     height: 55px !important;
+     border-radius: 50% !important;
+ }
+
+// Hides Username and Custom Status Area 
+  .panels-3wFtMD > div:last-child {
+     margin-bottom: 0px;
+     height: 0;
+     width: 0;
+ }
+
+
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+//                                  Status Picker Area
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+// Hides the Separator and Description in Status Picker menu
+.statusItem-2hiCNB > .description-3Cwkxk,
+.statusItem-2hiCNB > .separator-1So4YB {
+    display: none;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+//                                  Voice Channel Area
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+//stage icon green
+.iconLive-nQxzyp {
+    color: var(--spotify-color) !important;
+ }
+
+// Voice Channel Wrapper
+.wrapper-3Hk9OB {
+    border-radius: 10px !important;
+}
+
+// Voice Channel texts
+.container-1zzFcN {
+    color: #ddd;
+    border-bottom: 5px solid var(--background-primary);
+    margin-bottom: 5px;
+}
+
+
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+//                                  Powercord Spotify Area
+//
+// Some Parts of this area were imported from:
+// Cre-Arts v3.0.0 (Dev version)
+// By: @CorellanStoma#1996
+// Source: https://github.com/CorellanStoma/
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+//
+.powercord-spotify {
+    margin-bottom: 20px !important;
+    margin-top: 1px;
+    border-radius: 5px !important;
+}
+
+// .powercord-spotify when hovered
+.powercord-spotify.hover>.container-YkUktl {
+    margin-bottom: 12px;
+}
+
+// All the icons (Next, Previous, Heart, Shuffle, Add to playlist)
+.powercord-spotify .fas ,.powercord-spotify .fa-heart,.powercord-spotify .fa-sync,.powercord-spotify .fa-undo {
+    color: #ddd;
+}
+  
+//
+.powercord-spotify .container-YkUktl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+  
+    padding: 0px;
+    margin: 0px;
+
+    border-radius: 5px;
+}
+
+// Song Image/Cover Area
+.powercord-spotify .container-YkUktl .avatarWrapper-1B9FTW  {
+    margin: var(--inner-primary) 0px 0px var(--inner-primary);
+    padding: var(--inner-primary) var(--inner-primary) var(--inner-primary) var(--inner-primary);
+    grid-column: 1;
+    height: 40px;
+}
+
+// Song Image/Cover
+.powercord-spotify .container-YkUktl .spotify-cover {
+    border-radius: 35% !important;
+    overflow: hidden;
+    margin: 0px 2px 0px 0px !important;
+    box-shadow: 0px 2px 37px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 2px 37px 0px rgba(0,0,0,0.6);
+    animation: beat .75s infinite alternate;
+    transform-origin: center;
+}
+
+// Heart Beat animation
+@keyframes beat{
+	to { transform: scale(1.05); }
+}
+  
+// Song name and Artist name area
+.powercord-spotify  .container-YkUktl .nameTag-sc-gpq  {
+    border-radius: 0px var(--radius-secondary) var(--radius-secondary) 0px;
+    grid-column: 2;
+    height: 34px;
+}
+
+// Song name
+.powercord-spotify .spotify-title > .title-338goq{
+    color: #ddd;
+    margin: 1px 0px 0px 5px !important;
+}
+
+// Artist Name
+.powercord-spotify .spotify-artist {
+    color: #ddd;
+    margin: 1px 0px 0px 5px !important;
+}
+
+// Buttons Area
+.powercord-spotify .container-YkUktl .flex-2S1XBF  {
+    display: grid;
+    margin-left: var(--inner-primary);
+    margin-right: var(--inner-primary);
+    grid-column: 1 / -1;
+  
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+  
+    background: transparent;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+// Buttons
+.powercord-spotify .container-YkUktl .directionRow-2Iu2A9 .button-12Fmur {
+    background: var(--background-primary);
+    border-radius: var(--radius-secondary);
+    width: 100%;
+    transition: .3s ease !important;
+}
+
+// Play/Pause, Next, Previous Buttons
+.powercord-spotify .spotify-buttons button {
+    border-radius: 7px !important;
+    transition: .3s ease;
+}
+
+// Play/Pause, Next, Previous Buttons on hover
+.powercord-spotify .spotify-buttons button:hover {
+    background-color: var(--background-secondary) !important;
+    background-image: var(--spotify-bg) !important;
+    box-shadow: 0px 6px 27px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 6px 27px 0px rgba(0,0,0,0.6);
+}
+
+// Seek elements (Seek bar, Length of the song)
+.powercord-spotify .spotify-seek-elements {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-normal);
+    font-size: 12px !important;
+    padding: 5px 0px 0px !important;
+    font-weight: 500 !important;
+}
+
+// Seek bar
+.powercord-spotify .spotify-seek-bar{
+    height: 4px !important;
+    border-radius: 5px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    background: var(--background-primary) !important;
+}
+
+// Seek Bar Progress
+.powercord-spotify .spotify-seek-bar-progress {
+    background-image: var(--spotify-bg);
+    border-radius: 10px !important;
+}
+
+// Elapsed time and Total length of the song 
+.powercord-spotify .spotify-seek-elements,.powercord-spotify.hover .spotify-seek-elements{
+    font-size:75%!important;
+    margin: 3px 15px 3px 15px !important;
+    color: #fff !important;
+}

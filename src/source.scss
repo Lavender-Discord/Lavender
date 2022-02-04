@@ -1,7 +1,11 @@
-@forward "base/sidebarTweak";
-@forward "base/spotify";
-@forward "base/userAreaActions";
-@forward "base/topBarChat";
-@forward "base/coolerActivity";
-@forward "base/bubbleBar";
-@forward "base/statusIndicators";
+// Base
+
+
+// Components
+@forward "components/panel";
+@forward "components/serverList";
+@forward "components/channelList";
+@forward "components/textBar";
+@forward "components/statusIndicators";
+@forward "components/channelBar";
+@forward "components/coolerActivity";
