@@ -2,13 +2,19 @@
 
 :root {
     /* --------- BASE THEME --------- */
-    --blurple-replace: #6865FF;
-    --brand-experiment: #6B69FF;
-    --brand-experiment-hover: #6B69FFcc;
+    --blurple-replace: #6b69ff;
+    --brand-experiment: #6b69ff;
+    --brand-experiment-hover: #6b69ffcc;
+    
+    --blurple-bg: linear-gradient(90deg, rgba(107,105,255,1) 0%, rgba(131,129,254,1) 100%);
+    --blurple-bg-alt: linear-gradient(90deg, rgba(131,129,254,1) 0%, rgba(107,105,255,1) 100%);
+
+    --red-bg: linear-gradient(90deg, rgba(243,30,38,1) 0%, rgba(251,64,64,1) 100%);
+    --red-bg-alt: linear-gradient(90deg, rgba(251,64,64,1) 0%, rgba(243,30,38,1) 100%);
 
     --background-primary: #101014;
     --background-secondary: #17161B;
-    --background-secondary-alt: #17161B;
+    --background-secondary-alt: #1E1D24;
     --background-tertiary: #101014;
     --background-accent: #17161B;
     --background-floating: #17151B;
@@ -37,6 +43,7 @@
 
     --spotify-color: #00D65D;
     --spotify-bg: linear-gradient(320deg,hsl(146deg 100% 42%) 0%,hsl(147deg 98% 43%) 9%,hsl(147deg 96% 43%) 17%,hsl(148deg 95% 44%) 26%,hsl(149deg 94% 44%) 35%,hsl(150deg 93% 44%) 43%,hsl(152deg 93% 44%) 52%,hsl(153deg 94% 44%) 61%,hsl(154deg 95% 44%) 70%,hsl(155deg 96% 43%) 79%,hsl(156deg 98% 43%) 89%,hsl(158deg 100% 42%) 100%);
+    --spotify-bg-alt: #02D983;
 
     --activity-bg: #627ee4;
     --twitch-bg: #6441a5;
@@ -66,18 +73,52 @@
     --button-brand-active: var(--brand-experiment-hover);
 }
 
+button {
+    transition: ease .5s;
+    -webkit-transition: ease .5s;
+}
+
 .colorGreen-3y-Z79, .liveIndicator-TJKS7N {
-    background: var(--spotify-color) !important;
-    color: #ddd !important;
+    background: var(--spotify-bg);
+    color: #fff !important;
+    transition: .5s ease;
+    border: none;
+    outline: none;
 }
 
 .colorGreen-3y-Z79:hover {
-    background-color: #00D65Daa !important;
-    color: #eee !important;
+    background: var(--spotify-bg-alt) !important;
+    color: #fff !important;
 }
 
 .colorStatusGreen-2HKYOW {
     color: var(--spotify-color) !important;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background: var(--blurple-bg);
+    color: #fff !important;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background: var(--blurple-bg-alt);
+}
+
+.colorRed-rQXKgM {
+  background: var(--red-bg) !important;
+  transition: .5s ease !important;
+}
+
+.colorRed-rQXKgM:hover {
+  background: var(--red-bg-alt) !important;
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  color: #fff !important;
+}
+
+.focused-3qFvc8 {
+  background: var(--blurple-bg-alt) !important;
 }
 
 div[class*="mentioned"]::before {
@@ -108,29 +149,22 @@ div[class*="mentioned"]::before {
     color: var(--interactive-hover);
 }
 
-/* member list top buttons area */
-.container-2Oqvgx {
-    background-color: var(--background-primary);
-}
-
-
 //  member list 
 .members-3WRCEx,
-.members-3WRCEx>div,
-.container-NkLXgf {
+.members-3WRCEx>div {
     background-color: var(--background-primary);
 }
 
 .layout-1qmrhw {
-    height: 50px;
+    height: 55px;
 }
 
 .layout-1qmrhw>	.avatar-6qzftW {
-    padding-right: 10px !important;
+    padding-right: 5px !important;
 }
 
 .membersGroup-2eiWxl {
-    height: 50px;
+    height: 55px;
 }
 
 .activity-2EQDZv {
@@ -172,10 +206,6 @@ div[aria-label="Add a Server"] {
     color: var(--brand-experiment);
 }
 
-.tutorialContainer-2jwoiB {
-    margin-top: 20px;
-}
-
 div[aria-label="Add a Server"]:hover {
     background-color: var(--brand-experiment);
 } 
@@ -187,37 +217,6 @@ div[aria-label="Explore Public Servers"]:hover,div[aria-label="Explore Public Se
 div[aria-label="Help"] {
     display: none !important;
     opacity: 0 !important;
-}
-
-
-
-// discord text on top left 
-.wordmarkWindows-2dq6rw {
-    display: block !important;
-}
-
-// min, max, close buttons
-.winButton-3UMjdg {
-    color: #B9BBBE;
-}
-
-.winButton-3UMjdg:hover {
-    color: #fff;
-}
-
-[class*="winButton-"]:nth-child(2):hover {
-    background-color: #FD282E;
-    color: #000;
-}
-
-[class*="winButton-"]:nth-child(3):hover {
-    background-color: #FFAC62;
-    color: #000;
-}
-
-[class*="winButton-"]:nth-child(4):hover {
-    background-color: var(--spotify-color);
-    color: #000;
 }
 
 // suggestion menu 
@@ -290,11 +289,11 @@ div[aria-label="Help"] {
 }
 
 .containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {
-    padding: 3px 0px;
+    padding: 3px 2px;
 }
 
 .iconContainer-21RCa3 {
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
@@ -306,29 +305,33 @@ div[aria-label="Help"] {
     background: transparent !important;
 }
 
-
-
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
     border-left: 3px solid var(--brand-experiment) !important;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 
-.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::before {
-    content: '';
-    background-color: #101014;
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    position: absolute;
-    left: -39px;
+.wrapper-NhbLHG .content-1gYQeQ:hover {
+    background-color: var(--background-primary) !important;
 }
 
 .wrapper-NhbLHG.modeConnected-NrO4cP {
     border-left: 3px solid var(--brand-experiment) !important;
-    border-radius: 1px;
+    border-radius: 5px;
     background-color: var(--background-primary);
 }
 
 .wrapper-NhbLHG.modeConnected-NrO4cP:hover {
     background-color: var(--background-secondary);
 }
+
+/*
+.userPopout-2j1gM4 .avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.clickable-GKg4Qy > div > .wrapper-1VLyxH .avatarStack-3vfSFa > img {
+    border-radius: 40%;
+}
+
+:is(#svg-mask-avatar-status-round-80, #svg-mask-avatar-status-mobile-80)>circle:first-of-type {
+    r: 100% !important;
+}
+.userPopout-2j1gM4 :is(.avatar-2Vndt_, .avatar-b5OQ1N, .avatarHintInner-2HUAWj) {
+    border-radius: 40%;
+} */

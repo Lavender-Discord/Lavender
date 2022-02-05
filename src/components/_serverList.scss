@@ -37,3 +37,48 @@
 .mention-3XBnnZ {
     display: none;
 }
+
+.none-2-_0dP {
+    scrollbar-width: auto !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-right: 3px;
+}
+
+.none-2-_0dP:hover::-webkit-scrollbar {
+    width: 0.25em !important;
+    border-radius: 25px;
+    height: 0px !important;
+    background: transparent !important;
+    
+}
+
+.none-2-_0dP::-webkit-scrollbar-thumb {
+    background: var(--background-secondary);
+    border-radius: 25px;
+}
+
+// Folder background
+.folder-241Joy, .folderIconWrapper-1oRIZr, .expandedFolderIconWrapper-3RwQpD, .expandedFolderBackground-1kSAf6 {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+// Makes the folders round
+.folder-241Joy, .folderIconWrapper-1oRIZr {
+    border-radius: 100%;
+}
+
+// Folder icon
+.expandedFolderIconWrapper-3RwQpD svg {
+    color: var(--brand-experiment) !important;
+}
+
+.childWrapper-1j_1ub {
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: 50%;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background: var(--blurple-bg) !important;
+    border-radius: 40%;
+}

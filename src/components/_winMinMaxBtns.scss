@@ -1,0 +1,41 @@
+// discord text on top left 
+.wordmarkWindows-2dq6rw {
+    display: none !important;
+}
+
+.withFrame-2dL45i {
+    height: 15px;
+}
+
+// min, max, close buttons
+.winButton-3UMjdg {
+    color: #B9BBBE;
+}
+
+.winButton-3UMjdg:hover {
+    color: #fff;
+}
+
+[class*="winButton-"]:nth-child(2):hover {
+    background-color: #FD282E;
+    color: #fff;
+}
+
+[class*="winButton-"]:nth-child(3):hover {
+    background-color: #FFAC62;
+    color: #fff;
+}
+
+[class*="winButton-"]:nth-child(4):hover {
+    background-color: var(--spotify-color);
+    color: #fff;
+}
+
+.sidebar-1tnWFu::before {
+    content: " ";
+    position: fixed !important;
+    width: 240px;
+    height: 50px;
+    top: 0;
+    background-color: var(--background-secondary);
+}

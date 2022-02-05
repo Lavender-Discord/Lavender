@@ -1,4 +1,3 @@
-/* Better Topbar */
 // ═══════════════════════════════════════════════════════════════════════════════════════════════════════
 //                                  Channel Name and Desc Bar
 // ═══════════════════════════════════════════════════════════════════════════════════════════════════════
@@ -8,11 +7,11 @@
 }
   
 .toolbar-3_r2xA {
-    background-color: #0F0E11;
+    background-color: var(--background-secondary);
     border-radius: var( --Roundness);
-    padding: 10px;
-    height: 40px;
-    margin-right: 10px;
+    padding: 5px;
+    height: 35px;
+    margin-right: 0px;
 }
 
 .children-3xh0VB::after {
@@ -24,16 +23,16 @@
 }
 
 .input-1nrc5P, .input-1nrc5P:hover {
-    background-color: rgba(255,255,255,0);
+    background-color: var(--background-primary);
     margin-left: 10px;
     border-radius: var( --Roundness);
 }
 
 .searchBar-zdmu7v {
-    width: 28px;
-    background-color: var(--background-secondary); 
+    width: 30px;
+    background-color: var(--background-primary); 
     transition: width 0.3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .divider-q3P9HC {
@@ -79,8 +78,4 @@ svg.icon-2xnN2Y:hover {
 
 .status-12NUUC:hover {
       filter: brightness(1.5)!important
-}
-
-.channelName-3aS_Eg > div > .input-1nrc5P {
-      box-shadow: none !important;
 }
