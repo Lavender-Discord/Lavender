@@ -1,9 +1,6 @@
-
 .managedReactiveScroller-1lEEh3 {
     scrollbar-width: auto !important;
     overflow-y: scroll !important;
-    overflow-x: hidden !important;
-    margin-right: 3px;
 }
 
 .managedReactiveScroller-1lEEh3::-webkit-scrollbar {
@@ -14,13 +11,13 @@
 }
 
 .managedReactiveScroller-1lEEh3:hover::-webkit-scrollbar {
-    width: 0.5em !important;
-    border-radius: 25px;
+    width: 0.3em !important;
+    border-radius: 50%;
     height: 0px !important;
     background: transparent !important;
 }
 
 .managedReactiveScroller-1lEEh3::-webkit-scrollbar-thumb {
     background: var(--background-secondary);
-    border-radius: 20px;
+    border-radius: 50%;
 }
