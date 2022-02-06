@@ -9,9 +9,9 @@
 // ═══════════════════════════════════════════════════════════════════════════════════════════════════════
 
 // Emoji Icon
-//.sprite-2lxwfc { 
-//    filter: grayscale(0) !important;
-//}
+.sprite-2lxwfc { 
+    filter: grayscale(0) !important;
+}
 
 // Hide Nitro Gifting Button
 button[aria-label='Send a gift'] {
@@ -64,6 +64,13 @@ button[aria-label="Open GIF picker"] {
 //
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h {
     background-color: transparent;
+}
+
+// typing area
+.channelTextArea-1FufC0 {
+    position: relative;
+    margin-bottom: 35px;
+    background-color: var(--background-primary);
 }
 
 //
@@ -289,4 +296,8 @@ button[aria-label="Open GIF picker"] {
 }
 #app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
     background-color: var(--background-secondary);
+}
+
+.theme-dark .selected-3H3-RC {
+    background-color: var(--background-tertiary);
 }

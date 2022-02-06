@@ -1,3 +1,6 @@
+// Skins
+@forward "skins/default";
+
 // Components
 @forward "components/panel";
 @forward "components/serverList";
@@ -6,7 +9,7 @@
 @forward "components/textBar";
 @forward "components/statusIndicators";
 @forward "components/channelBar";
-@forward "components/coolerActivity";
 @forward "components/popupMenus";
 @forward "components/winMinMaxBtns";
 @forward "components/chatElements";
+@forward "components/settingsModal";

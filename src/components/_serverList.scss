@@ -9,10 +9,30 @@
     border-radius: 7px;
 }
 
+//
+.guilds-2JjMmN .scrollerBase-_bVAAt div:nth-child(4) {
+    align-items: center;
+}
+
 // Backgorund of mute, deafen buttons area
 .guilds-2JjMmN {
     background-color: #0f0e11;
     border-radius: 10px;
+}
+
+// indicator next to channel 
+.unreadRelevant-2f-VSK {
+    background-color: var(--brand-experiment);
+    width: 3px;
+    height: 17px;
+    margin-top: -9px;
+}
+
+//
+.item-2LIpTv {
+    background-color: var(--brand-experiment);
+    margin-left: -1px;
+    border-radius: 50px !important;
 }
 
 //
@@ -49,8 +69,7 @@
     width: 0.25em !important;
     border-radius: 25px;
     height: 0px !important;
-    background: transparent !important;
-    
+    background: transparent !important;  
 }
 
 .none-2-_0dP::-webkit-scrollbar-thumb {

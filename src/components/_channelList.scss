@@ -31,3 +31,38 @@
   box-shadow: none;
   border-radius: 5px;
 }
+
+.container-1NXEtd, .privateChannels-oVe7HL, .sidebar-1tnWFu .thin-31rlnD {
+    margin-bottom: 5px !important;
+}
+
+.containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {
+    padding: 3px 2px;
+}
+
+.iconContainer-21RCa3 {
+    margin-right: 7px;
+}
+
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+    margin: 3px;
+}
+
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
+    border-left: 3px solid var(--brand-experiment) !important;
+    border-radius: 5px;
+}
+
+.wrapper-NhbLHG .content-1gYQeQ:hover {
+    background-color: var(--background-primary) !important;
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP {
+    border-left: 3px solid var(--brand-experiment) !important;
+    border-radius: 5px;
+    background-color: var(--background-primary);
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP:hover {
+    background-color: var(--background-secondary);
+}
