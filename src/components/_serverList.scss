@@ -101,3 +101,28 @@
     background: var(--blurple-bg) !important;
     border-radius: 40%;
 }
+
+
+div[aria-label="Explore Public Servers"] {
+    // display: none !important;
+    // opacity: 0 !important;
+    // cursor: none;
+    background-color: var(--background-secondary);
+    color: var(--brand-experiment);
+}
+
+div[aria-label="Add a Server"] {
+    // display: none !important;
+    // opacity: 0 !important;
+    // cursor: none;
+    background-color: var(--background-secondary);
+    color: var(--brand-experiment);
+}
+
+div[aria-label="Add a Server"]:hover {
+    background-color: var(--brand-experiment);
+} 
+
+div[aria-label="Explore Public Servers"]:hover,div[aria-label="Explore Public Servers"]:active {
+    background-color: var(--brand-experiment) !important;
+} 

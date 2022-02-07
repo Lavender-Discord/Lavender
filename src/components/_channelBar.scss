@@ -79,3 +79,8 @@ svg.icon-2xnN2Y:hover {
 .status-12NUUC:hover {
       filter: brightness(1.5)!important
 }
+
+div[aria-label="Help"] {
+    display: none !important;
+    opacity: 0 !important;
+}
