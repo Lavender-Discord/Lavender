@@ -1,72 +1,64 @@
-/** Modification of:
+/* Modification of:
     * Bubble Bar @ version 1.2.0
     * By: @LuckFire#4800
     * @source https://github.com/Discord-Theme-Addons/bubble-bar
-**/
+*/
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Buttons in Text bar
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/*═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                    Buttons in Text bar
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-// Emoji Icon
 .sprite-2lxwfc { 
     filter: grayscale(0) !important;
 }
 
-// Hide Nitro Gifting Button
 button[aria-label='Send a gift'] {
     display: none !important;
     opacity: 0;
 }
 
-// Hide Sticker Button
 button[aria-label="Open sticker picker"] {
     display: none !important;
     opacity: 0 !important;
 }
 
-// Hide Gif Button
 button[aria-label="Open GIF picker"] {
     display: none !important;
     opacity: 0 !important;
 }
 
-// + button
 .form-3gdLxP .attachButton-1ijpt9 {
     margin-left: -12px;
     margin-right: -10px;
 }
 
-// Invite to listen along in + button
 .form-3gdLxP .attachButton-1ijpt9 .attachButtonPlay-1ATmb5 {
     fill: var(--spotify-color);
 }
 
-// Buttons in text area
 .channelTextArea-1VQBuV .buttons-uaqb-5 {
-    margin-right: 0;
+    margin-right: 10px;
 }
 
-// Buttons in text area
 .channelTextArea-1VQBuV button {
     width: 42px;
     height: 42px;
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 0px;
     border-radius: var(--radius-primary);
     background-color: var(--background-secondary);
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Text Bar Area
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                    Text Bar Area
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-//
+
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h {
     background-color: transparent;
 }
 
-//
+
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h::before {
     content: " ";
     position: absolute;
@@ -76,20 +68,17 @@ button[aria-label="Open GIF picker"] {
     border-radius: var(--radius-primary);
 }
 
-// typing area
 .channelTextArea-1FufC0 {
     position: relative;
     margin-bottom: 45px;
     background-color: var(--background-primary);
 }
 
-//
 .channelTextArea-1VQBuV .textArea-2CLwUE {
     border-radius: var(--radius-primary);
     background-color: var(--background-secondary);
 }
 
-//
 .channelTextArea-1VQBuV .slateTextArea-27tjG0 {
     caret-color: var(--channeltextarea-caret, var(--brand-experiment));
 }
@@ -108,7 +97,6 @@ button[aria-label="Open GIF picker"] {
     height: 10px;
 }
 
-//
 .form-3gdLxP {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,19 +108,16 @@ button[aria-label="Open GIF picker"] {
     margin-top: 15px;
     margin-bottom: -8px;
 }
-
-//
 .form-3gdLxP .textArea-2CLwUE > div {
     left: 16px;
 }
 
-//
 .form-3gdLxP .scrollableContainer-15eg7h {
     margin-right: -12px;
 }
 
 .form-3gdLxP .separator-3ng7S5 {
-    margin-left: -4px;
+    margin-left: 5px;
 }
 
 .form-3gdLxP .separator-3ng7S5::before {
@@ -241,9 +226,9 @@ button[aria-label="Open GIF picker"] {
 }
 
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Jump to Present Button
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                    Jump to Present Button
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
 
 .jumpToPresentBar-1cEnH0 {
@@ -285,11 +270,11 @@ button[aria-label="Open GIF picker"] {
     margin-left: 12px;
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Auto Complete
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                    Auto Complete
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-//
+
 #app-mount .autocompleteAttached-bt_md-,
 #app-mount .autocomplete-3NRXG8 {
     right: -16px;
