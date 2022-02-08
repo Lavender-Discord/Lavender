@@ -6,10 +6,11 @@
 .activityUserPopout-2MzGCj, .activityProfile-1712BN {
   background-image: var(--activity-bg);
   padding: 10px;
-  border-radius: 6px;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
   z-index: 1;
 }
+
 .activityUserPopout-2MzGCj h3, .activityProfile-1712BN h3, .activityUserPopout-2MzGCj .content-tXPNDw, .activityProfile-1712BN .content-tXPNDw, .activityUserPopout-2MzGCj .activityName-3YXl6e, .activityProfile-1712BN .activityName-3YXl6e, .activityUserPopout-2MzGCj .details-2-ciHo, .activityProfile-1712BN .details-2-ciHo {
   color: var(--text-color) !important;
 }

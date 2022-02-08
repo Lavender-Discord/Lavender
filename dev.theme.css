@@ -1,0 +1,21 @@
+@import "src/source";
+@import "addons/context-icons.css";
+@import "addons/settings-icons.css";
+@import "addons/emoji-replace.css";
+@import "addons/settings-modal.css";
+@import "addons/cooler-activity.css";
+@import "addons/gradient-server.css";
+
+@import "src/base/base.css";
+@import "src/skins/default.css";
+@import "src/components/userPopout.css";
+@import "src/components/panel.css";
+@import "src/components/serverList.css";
+@import "src/components/channelList.css";
+@import "src/components/membersList.css";
+@import "src/components/textBar.css";
+@import "src/components/statusIndicators.css";
+@import "src/components/channelBar.css";
+@import "src/components/popupMenus.css";
+@import "src/components/winMinMaxBtns.css";
+@import "src/components/chatElements.css";

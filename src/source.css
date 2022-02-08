@@ -1,0 +1,13 @@
+@forward "base/base";
+@forward "skins/default";
+@forward "components/userPopout";
+@forward "components/panel";
+@forward "components/serverList";
+@forward "components/channelList";
+@forward "components/membersList";
+@forward "components/textBar";
+@forward "components/statusIndicators";
+@forward "components/channelBar";
+@forward "components/popupMenus";
+@forward "components/winMinMaxBtns";
+@forward "components/chatElements";

@@ -1,0 +1,174 @@
+:root {
+    --radius: 10px;
+}
+
+.userPopout-2j1gM4 {
+    border-radius: var(--radius);
+    width: 300px !important;
+}
+
+.userPopout-2j1gM4 .divider-1wtgZ3 {
+    display: none;
+}
+
+.userPopout-2j1gM4 .popoutBannerPremium-3i5EEI, 
+.userPopout-2j1gM4 .popoutBanner-3cqRD9 {
+    border-radius: var(--radius);
+}
+
+.userPopout-2j1gM4 .avatarWrapperNormal-ahVUaC {
+    left: 105px;
+}
+
+.activityUserPopout-2MzGCj {
+    margin-top: 45px !important;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.activityUserPopout-2MzGCj::before  {
+    content: " ";
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    margin-top: -45px;
+    background-color: var(--background-modifier-accent);
+}
+
+.activityUserPopout-2MzGCj::after {
+    content: "activity";
+    text-transform: uppercase;
+    position: absolute;
+    top: -25px;
+    left: 2px;
+    color: var(--header-secondary);
+    font-weight: 700;
+    font-size: 12px;
+    font-family: var(--font-display);
+    line-height: 16px;
+}
+
+// Remove the playing a game/listening to spotify text from the activity area
+.theme-dark .newPopoutActivityStyles .headerText-3g1XK9, .theme-dark .newProfileActivityStyles .headerText-3g1XK9, .theme-light .newPopoutActivityStyles .headerText-3g1XK9, .theme-light .newProfileActivityStyles .headerText-3g1XK9 {
+    color: var(--header-secondary);
+    display: none;
+}
+
+.headerTop-3GPUSF {
+    display: flex;
+    flex-direction: column;
+    justify-conent: center;
+    align-items: center;
+}
+
+.userPopout-2j1gM4 .profileBadges-2pItdR {
+    top: 7px;
+    right: 10px;
+    max-width: 110px;
+}
+
+.userPopout-2j1gM4 .headerText-1-WmDq {
+    margin: -5px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customStatus-3XAoF9 {
+    padding: 10px;
+    border-radius: var(--radius);
+    background: var(--background-primary);
+}
+
+.customStatus-3XAoF9 > .customStatusEmoji-1bFQdD.customStatusSoloEmoji-2bSRlG:only-child {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: var(--radius);
+    background: var(--background-primary);
+}
+
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ {
+    margin-top: 20px;
+}
+
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ::before {
+    content: " ";
+    position: absolute;
+    left: 16px;
+    width: 92%;
+    height: 1px;
+    margin-top: -12px;
+    background-color: var(--background-modifier-accent);
+}
+
+.userPopout-2j1gM4 .aboutMeTitle-3pjiS7, .userPopout-2j1gM4 .bodyTitle-2Az3VQ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    margin: 0 0 8px 6px;
+}
+
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ {
+    margin-top: 28px;
+}
+
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ::before {
+    content: " ";
+    position: absolute;
+    left: 16px;
+    width: 92%;
+    height: 1px;
+    margin-top: -15px;
+    background-color: var(--background-modifier-accent);
+}
+
+.userPopout-2j1gM4 .note-Go5ZP2 {
+    background: var(--background-primary);
+    padding: 10px;
+    margin: 3px;
+    border-radius: var(--radius);
+}
+
+.userPopout-2j1gM4 .input-2z42oC {
+    background: var(--background-primary);
+    border-radius: var(--radius);
+}
+
+// Roles area in user popup
+.userPopout-2j1gM4 .rolesList-3uZoaa {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--background-primary);
+    padding: 10px;
+    border-radius: var(--radius);
+}
+
+.rolesList-3uZoaa .role-2TIOKu {
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--background-secondary-alt);
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 26px;
+    margin: 0 6px 7px 0;
+    padding: 6px;
+}
+
+.rolesList-3uZoaa .role-2TIOKu .roleCircle-1EgnFN {
+    border-radius: 40%;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin: 0 7px 0 2px;
+}

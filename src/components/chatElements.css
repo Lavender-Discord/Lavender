@@ -1,0 +1,47 @@
+.managedReactiveScroller-1lEEh3 {
+    scrollbar-width: auto !important;
+    overflow-y: scroll !important;
+}
+
+.managedReactiveScroller-1lEEh3::-webkit-scrollbar {
+    width: 0 !important;
+    border-radius: 25px;
+    height: 0px !important;
+    background: transparent !important;
+}
+
+.managedReactiveScroller-1lEEh3:hover::-webkit-scrollbar {
+    width: 0.3em !important;
+    border-radius: 50%;
+    height: 0px !important;
+    background: transparent !important;
+}
+
+.managedReactiveScroller-1lEEh3::-webkit-scrollbar-thumb {
+    background: var(--background-secondary);
+    border-radius: 50%;
+}
+
+.newMessagesBar-1hF-9G {
+    background-color: var(--brand-experiment) !important;
+}
+
+.reaction-2A2y9y.reactionMe-3I9gFK {
+    background-color: #28151D;
+    border-color: #25121A;
+    background: linear-gradient(180deg, rgba(38,22,31,1) 50%, rgba(36,16,25,1) 52%);
+}
+
+.reaction-2A2y9y {
+    background-color: #1D1C21;
+    background: linear-gradient(180deg, rgba(24,24,28,1) 50%, rgba(20,20,20,.7) 50%);
+}
+
+div[class*="mentioned"]::before {
+  background-color: #FF006Bae;
+}
+
+.wrapper-1ZcZW-:not(.roleMention-11Aaqi) {
+    color: var(--brand-experiment);
+    background: transparent !important;
+}

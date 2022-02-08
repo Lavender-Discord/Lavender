@@ -1,0 +1,40 @@
+//  member list 
+.members-3WRCEx,
+.container-2o3qEW, 
+.membersWrap-3NUR2t,
+.members-3WRCEx>div {
+    background-color: var(--background-primary);
+}
+
+.container-2Oqvgx,
+.members-3WRCEx {
+    width: 280px;
+}
+
+.members-3WRCEx, .container-2o3qEW, .membersWrap-3NUR2t, .members-3WRCEx > div {
+    height: 90vh !important;
+}
+
+.layout-1qmrhw {
+    height: 55px;
+}
+
+.layout-1qmrhw>	.avatar-6qzftW {
+    padding-right: 5px !important;
+}
+
+.membersGroup-2eiWxl {
+    height: 55px;
+}
+
+.activity-2EQDZv {
+    height: 25px;
+}
+
+.activityText-1rR-8O {
+    color: #838589;
+}
+
+.activityText-1rR-8O > strong {
+    color: #B8B9BD !important;
+}

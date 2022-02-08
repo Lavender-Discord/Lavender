@@ -1,0 +1,86 @@
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+//                                  Channel Name and Desc Bar
+// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+:root {
+    --Roundness: 5px; /* Changes how round edges are | Default: 25px */
+}
+  
+.toolbar-3_r2xA {
+    background-color: var(--background-secondary);
+    border-radius: var( --Roundness);
+    padding: 5px;
+    height: 35px;
+    margin-right: 0px;
+}
+
+.children-3xh0VB::after {
+    display: none;
+}
+
+.children-3xh0VB {
+    margin-right: 20px;
+}
+
+.input-1nrc5P, .input-1nrc5P:hover {
+    background-color: var(--background-primary);
+    margin-left: 10px;
+    border-radius: var( --Roundness);
+}
+
+.searchBar-zdmu7v {
+    width: 30px;
+    background-color: var(--background-primary); 
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.divider-q3P9HC {
+    width: 2px;
+    height: 20px;
+}
+
+svg > .updateIconForeground-2V_zo4 {
+    fill: var(--interactive-normal);
+}
+
+svg:hover > .updateIconForeground-2V_zo4 {
+    fill: var(--interactive-hover);
+}
+
+svg:active > .updateIconForeground-2V_zo4 {
+    fill: var(--interactive-active);
+}
+
+svg.icon-18rqoe > path {
+    fill: var(--interactive-normal);
+}
+
+svg.icon-2xnN2Y {
+      color: var(--interactive-normal);
+}
+
+svg.icon-2xnN2Y:hover {
+      color: var(--interactive-hover);
+}
+
+.topic-11NuQZ {
+      color: var(--interactive-normal) !important;
+}
+
+.title-17SveM {
+      color: var(--interactive-normal);
+}
+
+.title-17SveM:hover {
+      color: var(--interactive-hover);
+}
+
+.status-12NUUC:hover {
+      filter: brightness(1.5)!important
+}
+
+div[aria-label="Help"] {
+    display: none !important;
+    opacity: 0 !important;
+}
