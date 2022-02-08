@@ -2,7 +2,7 @@
     color: #eee;
     background-color: var(--brand-experiment) !important;
     margin-left: 10px;
-    border-radius: var(--radius-primary) !important;
+    border-radius: 5px !important;
 }
 
 /* friends list */
