@@ -3,7 +3,7 @@
 // ═══════════════════════════════════════════════════════════════════════════════════════════════════════
 
 :root {
-    --Roundness: 5px; /* Changes how round edges are | Default: 25px */
+    --Roundness: 10px; /* Changes how round edges are | Default: 25px */
 }
   
 .toolbar-3_r2xA {

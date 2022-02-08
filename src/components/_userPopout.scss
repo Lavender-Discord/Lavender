@@ -1,9 +1,5 @@
-:root {
-    --radius: 10px;
-}
-
 .userPopout-2j1gM4 {
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
     width: 300px !important;
 }
 
@@ -13,7 +9,7 @@
 
 .userPopout-2j1gM4 .popoutBannerPremium-3i5EEI, 
 .userPopout-2j1gM4 .popoutBanner-3cqRD9 {
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
 }
 
 .userPopout-2j1gM4 .avatarWrapperNormal-ahVUaC {
@@ -77,7 +73,7 @@
 
 .customStatus-3XAoF9 {
     padding: 10px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
     background: var(--background-primary);
 }
 
@@ -90,7 +86,7 @@
     font-size: 14px;
     line-height: 18px;
     padding: 10px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
     background: var(--background-primary);
 }
 
@@ -134,12 +130,12 @@
     background: var(--background-primary);
     padding: 10px;
     margin: 3px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
 }
 
 .userPopout-2j1gM4 .input-2z42oC {
     background: var(--background-primary);
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
 }
 
 // Roles area in user popup
@@ -150,7 +146,7 @@
     align-items: center;
     background-color: var(--background-primary);
     padding: 10px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-primary);
 }
 
 .rolesList-3uZoaa .role-2TIOKu {

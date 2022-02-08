@@ -13,7 +13,7 @@
     justify-content: space-evenly;
     align-items: center;
     background: var(--background-secondary);
-    border-radius: 7px;
+    border-radius: var(--radius-primary);
     flex-direction: column;
     padding: 0px 10px;
 }
@@ -24,14 +24,14 @@
      padding: 25px !important;
      margin: 2px;
      color: #ADA9F5;
-     border-radius: 10px;
+     border-radius: var(--radius-primary);
      transition: ease .3s;
  }
  
  .container-YkUktl:last-child .flex-2S1XBF> button:hover {
      background-color: var(--brand-experiment);
      color: #fff;
-     border-radius: 8px;
+     border-radius: var(--radius-primary);
  }
  
 
@@ -83,13 +83,13 @@
 
 // Voice Channel Wrapper
 .wrapper-3Hk9OB {
-    border-radius: 10px !important;
+    var(--radius-primary) !important;
 }
 
 // Voice Channel texts
 .container-1zzFcN {
     color: #ddd;
-    border-bottom: 5px solid var(--background-primary);
+    border-bottom: var(--radius-primary) solid var(--background-primary);
     margin-bottom: 5px;
 }
 
@@ -107,7 +107,7 @@
 .powercord-spotify {
     margin-bottom: 20px !important;
     margin-top: 1px;
-    border-radius: 5px !important;
+    border-radius: var(--radius-primary) !important;
 }
 
 // .powercord-spotify when hovered
@@ -130,7 +130,7 @@
     padding: 0px;
     margin: 0px;
 
-    border-radius: 5px;
+    border-radius: var(--radius-primary);
 }
 
 // Song Image/Cover Area
@@ -143,7 +143,7 @@
 
 // Song Image/Cover
 .powercord-spotify .container-YkUktl .spotify-cover {
-    border-radius: 35% !important;
+    border-radius: var(--radius-primary) !important;
     overflow: hidden;
     margin: 0px 2px 0px 0px !important;
     box-shadow: 0px 2px 37px 0px rgba(0,0,0,0.6);
@@ -195,14 +195,14 @@
 // Buttons
 .powercord-spotify .container-YkUktl .directionRow-2Iu2A9 .button-12Fmur {
     background: var(--background-primary);
-    border-radius: var(--radius-secondary);
+    border-radius: var(--radius-primary);
     width: 100%;
     transition: .3s ease !important;
 }
 
 // Play/Pause, Next, Previous Buttons
 .powercord-spotify .spotify-buttons button {
-    border-radius: 7px !important;
+    border-radius: var(--radius-primary) !important;
     transition: .3s ease;
 }
 
@@ -227,7 +227,7 @@
 // Seek bar
 .powercord-spotify .spotify-seek-bar{
     height: 4px !important;
-    border-radius: 5px !important;
+    border-radius: var(--radius-primary) !important;
     margin-left: 15px !important;
     margin-right: 15px !important;
     background: var(--background-primary) !important;
@@ -236,7 +236,7 @@
 // Seek Bar Progress
 .powercord-spotify .spotify-seek-bar-progress {
     background-image: var(--spotify-bg);
-    border-radius: 10px !important;
+    border-radius: var(--radius-primary) !important;
 }
 
 // Elapsed time and Total length of the song 

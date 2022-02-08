@@ -6,7 +6,7 @@
 .activityUserPopout-2MzGCj, .activityProfile-1712BN {
   background-image: var(--activity-bg);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: var(--radius-primary);
   margin: 20px 0;
   z-index: 1;
 }
@@ -33,7 +33,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 6px;
+  border-radius: var(--radius-primary);
 }
 .activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR::after, .activityProfile-1712BN .timeBarUserPopout-qLXZaR::after, .activityUserPopout-2MzGCj .timeBarProfile-1z_HH-::after, .activityProfile-1712BN .timeBarProfile-1z_HH-::after {
   content: "";
@@ -44,7 +44,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 6px;
+  border-radius: var(--radius-primary);
 }
 .activityUserPopout-2MzGCj .contentNoImagesUserPopout-12NyFa::after, .activityProfile-1712BN .contentNoImagesUserPopout-12NyFa::after {
   content: "";
@@ -55,7 +55,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 6px;
+  border-radius: var(--radius-primary);
 }
 .activityUserPopout-2MzGCj .xboxAssets-aGhVw8 ~ div::after, .activityProfile-1712BN .xboxAssets-aGhVw8 ~ div::after {
   content: "";
@@ -66,11 +66,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 6px;
+  border-radius: var(--radius-primary);
 }
 .activityProfile-1712BN {
   margin: 10px;
-  border-radius: 6px;
+  border-radius: var(--radius-primary);
 }
 .activityProfile-1712BN .platformIcon-k3yytQ {
   margin: 0px;

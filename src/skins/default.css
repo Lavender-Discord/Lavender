@@ -48,9 +48,9 @@
     --bot-bg: var(--blurple-bg-alt);
     --xbox-bg: linear-gradient(90deg, rgba(0,172,65,1) 0%, rgba(124,203,48,1) 100%);
 
-    --inner-primary: 5px;
-    --radius-primary: 5px;
-    --radius-secondary: 5px;
+    --inner-primary: 10px;
+    --radius-primary: 10px;
+    --radius-secondary: 10px;
 
     --background-accent-1: rgb(15, 15, 15, 0.1);
     --background-accent-3: rgb(15, 15, 15, 0.3);

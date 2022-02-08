@@ -35,7 +35,7 @@
 	bottom: 0 !important;
 	left: 0 !important;
 	background: var(--settingsmodalbackground) !important;
-	border-radius: 5px !important;
+	border-radius: var(--radius-primary) !important;
 	box-shadow: var(--elevation-high) !important;
 	width: var(--settingsmodalwidth) !important;
 	height: var(--settingsmodalheight) !important;
@@ -48,7 +48,7 @@
 #app-mount .layer-86YKbF ~ .layer-86YKbF > div,
 #app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j {
 	position: static !important;
-	border-radius: unset !important;
+	border-radius: var(--radius-primary) !important;
 	width: 100% !important;
 	height: 100% !important;
 	margin: unset !important;
@@ -111,7 +111,7 @@
 	bottom: 0 !important;
 	left: 0 !important;
 	background: var(--settingsmodalbackground) !important;
-	border-radius: 5px !important;
+	border-radius: var(--radius-primary) !important;
 	box-shadow: var(--elevation-high) !important;
 	width: var(--settingsmodalwidth) !important;
 	height: var(--settingsmodalheight) !important;
@@ -126,7 +126,7 @@
 }
 #app-mount .perksModal-CLcR1c {
 	position: static !important;
-	border-radius: unset !important;
+	border-radius: var(--radius-primary) !important;
 	width: 100% !important;
 	height: 100% !important;
 	margin: unset !important;

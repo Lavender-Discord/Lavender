@@ -6,12 +6,12 @@
 .privateChannels-oVe7HL,
 .sidebar-1tnWFu .thin-31rlnD {
   background: var(--background-secondary);
-  border-radius: 5px;
+  border-radius: var(--radius-primary);
   margin-bottom: 5px;
 }
 .sidebar-1tnWFu {
   background: transparent;
-  border-radius:  5px 5px 0px 0px !important;
+  border-radius:  10px 10px 0px 0px !important;
   margin-right: 8px;
 }
 .container-1-ERn5 {z-index: 2 !important;}
@@ -21,15 +21,15 @@
 .container-36u7Lw,
 .applicationStore-2nk7Lo,
 .pageWrapper-2PwDoS {
-  border-radius: 5px 0px 0px 0px;
+  border-radius: 10px 0px 0px 0px;
 }
 .panels-3wFtMD {
   background: var(--background-secondary);
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 .animatedContainer-2laTjx {
   box-shadow: none;
-  border-radius: 5px;
+  border-radius: var(--radius-primary);
 }
 
 .container-1NXEtd, .privateChannels-oVe7HL, .sidebar-1tnWFu .thin-31rlnD {

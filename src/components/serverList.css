@@ -6,7 +6,7 @@
 .guilds-2JjMmN .scrollerBase-_bVAAt {
     max-height: 65% !important;
     background-color: var(--background-tertiary);
-    border-radius: 7px;
+    border-radius: var(--radius-primary);
 }
 
 //
@@ -17,7 +17,7 @@
 // Backgorund of mute, deafen buttons area
 .guilds-2JjMmN {
     background-color: #0f0e11;
-    border-radius: 10px;
+    border-radius: var(--radius-primary);
 }
 
 // indicator next to channel 
@@ -32,7 +32,7 @@
 .item-2LIpTv {
     background-color: var(--brand-experiment);
     margin-left: -1px;
-    border-radius: 50px !important;
+    border-radius: var(--radius-primary) !important;
 }
 
 //
@@ -40,7 +40,7 @@
     .guilds-2JjMmN .scrollerBase-_bVAAt {
         max-height: 60% !important;
         background-color: var(--background-tertiary);
-        border-radius: 7px;
+        border-radius: var(--radius-primary);
     }
 }
 
@@ -49,7 +49,7 @@
     .guilds-2JjMmN .scrollerBase-_bVAAt {
         max-height: 57% !important;
         background-color: var(--background-tertiary);
-        border-radius: 7px;
+        border-radius: var(--radius-primary);
     }
 }
 
@@ -67,14 +67,14 @@
 
 .none-2-_0dP:hover::-webkit-scrollbar {
     width: 0.25em !important;
-    border-radius: 25px;
+    border-radius: var(--radius-primary);
     height: 0px !important;
     background: transparent !important;  
 }
 
 .none-2-_0dP::-webkit-scrollbar-thumb {
     background: var(--background-secondary);
-    border-radius: 25px;
+    border-radius: var(--radius-primary);
 }
 
 // Folder background
