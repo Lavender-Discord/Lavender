@@ -39,6 +39,11 @@
 
 div[class*="mentioned"]::before {
   background-color: #FF006Bae;
+  border-radius: var(--radius-primary);
+}
+
+div[class*="mentioned"] {
+  border-radius: var(--radius-primary);
 }
 
 .wrapper-1ZcZW-:not(.roleMention-11Aaqi) {

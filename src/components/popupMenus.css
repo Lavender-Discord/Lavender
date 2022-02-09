@@ -1,29 +1,29 @@
-//
+
 .menu-1QACrS, .theme-dark .root-g14mjS, .theme-dark .contentWrapper-3oy4Xo {
    background-color: var(--background-primary);
 };
 
-// Search bar in invite friends to sever menu
+/* Search bar in invite friends to sever menu */
 .container-2oNtJn, .inner-2pOSmK {
    background-color: var(--background-primary) !important;
 }
 
-// Invite to server popout menu
+/* Invite to server popout menu */
 .container-2oNtJn, .inner-2pOSmK {
    background-color: var(--background-secondary) !important;
 }
 
-// Server Link area in popout menu
+/* Server Link area in popout menu */
 .theme-dark .footer-1hTRRZ {
    background-color: var(--background-primary) !important;
 }
 
-// Delete message menu -> message preview
+/* Delete message menu -> message preview */
 .theme-dark .message-G6O-Wv {
    background-color: var(--background-secondary);
 }
 
-// Delete + Cancel button area
+/* Delete + Cancel button area */
 .theme-dark .footer-31IekZ {
    background-color: var(--background-secondary);
 }
@@ -40,7 +40,7 @@
    background-color: var(--background-secondary);
 }
 
-// Tooltips
+/* Tooltips */
 .tooltipPrimary-3qLMbS {
    background-color: var(--background-primary) !important;
 }

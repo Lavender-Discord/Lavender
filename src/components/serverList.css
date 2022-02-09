@@ -1,26 +1,25 @@
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Server List Area
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                    Server List Area
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-// Server list made shorter to let the mute, deafen buttons get their place ;)
+/* Server list made shorter to let the mute, deafen buttons get their place ;) */
 .guilds-2JjMmN .scrollerBase-_bVAAt {
     max-height: 65% !important;
     background-color: var(--background-tertiary);
     border-radius: var(--radius-primary);
 }
 
-//
 .guilds-2JjMmN .scrollerBase-_bVAAt div:nth-child(4) {
     align-items: center;
 }
 
-// Backgorund of mute, deafen buttons area
+/* Backgorund of mute, deafen buttons area */
 .guilds-2JjMmN {
     background-color: #0f0e11;
     border-radius: var(--radius-primary);
 }
 
-// indicator next to channel 
+/* indicator next to channel */
 .unreadRelevant-2f-VSK {
     background-color: var(--brand-experiment);
     width: 3px;
@@ -28,14 +27,12 @@
     margin-top: -9px;
 }
 
-//
 .item-2LIpTv {
     background-color: var(--brand-experiment);
     margin-left: -1px;
     border-radius: var(--radius-primary) !important;
 }
 
-//
 @media (max-height: 900px) {
     .guilds-2JjMmN .scrollerBase-_bVAAt {
         max-height: 60% !important;
@@ -44,7 +41,6 @@
     }
 }
 
-//
 @media (max-height: 800px) {
     .guilds-2JjMmN .scrollerBase-_bVAAt {
         max-height: 57% !important;
@@ -53,7 +49,7 @@
     }
 }
 
-// "new" unread pill in server list
+/* "new" unread pill in server list */
 .mention-3XBnnZ {
     display: none;
 }
@@ -77,24 +73,31 @@
     border-radius: var(--radius-primary);
 }
 
-// Folder background
+/* Folder BG */
 .folder-241Joy, .folderIconWrapper-1oRIZr, .expandedFolderIconWrapper-3RwQpD, .expandedFolderBackground-1kSAf6 {
     background-color: var(--background-secondary-alt) !important;
 }
 
-// Makes the folders round
-.folder-241Joy, .folderIconWrapper-1oRIZr {
-    border-radius: 100%;
-}
-
-// Folder icon
+/* Folder Icon */
 .expandedFolderIconWrapper-3RwQpD svg {
     color: var(--brand-experiment) !important;
 }
 
+
+/* Server Icon */
+.selected-1Drb7Z img {
+    transition: .5s ease !important;
+}
+
 .childWrapper-1j_1ub {
+    transition: .5s ease;
     background-color: var(--background-secondary-alt) !important;
-    border-radius: 50%;
+    border-radius: 10% !important;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background: var(--blurple-bg) !important;
+    border-radius: 50% !important;
 }
 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
@@ -104,18 +107,11 @@
 
 
 div[aria-label="Explore Public Servers"] {
-    // display: none !important;
-    // opacity: 0 !important;
-    // cursor: none;
     background-color: var(--background-secondary);
     color: var(--brand-experiment);
 }
 
 div[aria-label="Add a Server"] {
-    // display: none !important;
-    // opacity: 0 !important;
-    // cursor: none;
-    background-color: var(--background-secondary);
     color: var(--brand-experiment);
 }
 

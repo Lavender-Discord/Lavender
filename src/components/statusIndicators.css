@@ -57,7 +57,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     transform: scale(0.75) !important;
 }
 
-// Full user modal popout
+/* Full user modal popout */
 .userPopout-2j1gM4 .mask-1FEkla rect {
     y: 7% !important;
     x: 90% !important;
@@ -70,7 +70,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     transform: scale(0.7) !important;
 }
 
-// mutual friends area
+/* mutual friends area */
 .fullscreenOnMobile-ixj0e3 .listScroller-entkMk .mask-1FEkla rect {
     y: 0% !important;
     x: 85% !important;
@@ -83,7 +83,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     transform: scale(0.7) !important;
 }
 
-// autocomplete menu in chatbox
+/* autocomplete menu in chatbox */
 .autocomplete-3NRXG8 .mask-1FEkla rect {
     y: 0% !important;
     x: 60% !important;
@@ -95,7 +95,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
 }
 
 
-// Typing part
+/* Typing part */
 .wrapper-1VLyxH .dots-1BwzZQ {
   overflow: visible;
 }

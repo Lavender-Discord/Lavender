@@ -1,4 +1,4 @@
-// discord text on top left 
+/* discord text on top left */
 .wordmarkWindows-2dq6rw {
     display: none !important;
 }
@@ -7,7 +7,7 @@
     height: 15px;
 }
 
-// min, max, close buttons
+/* min, max, close buttons */
 .winButton-3UMjdg {
     color: #B9BBBE;
 }

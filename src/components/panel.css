@@ -1,8 +1,3 @@
-
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Mic, Deafem, Settings Buttons Area
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
     position: fixed;
     bottom: 10%;
@@ -19,7 +14,7 @@
 }
  
 
-// Buttons
+/* Buttons */
  .container-YkUktl:last-child .flex-2S1XBF> button {
      padding: 25px !important;
      margin: 2px;
@@ -35,7 +30,7 @@
  }
  
 
-// Avatar
+/* Avatar */
  .panels-3wFtMD > .container-YkUktl:last-child > .avatarWrapper-1B9FTW {
      position: fixed;
      bottom: 2%;
@@ -54,7 +49,7 @@
      border-radius: 50% !important;
  }
 
-// Hides Username and Custom Status Area 
+/* Hides Username and Custom Status Area */
   .panels-3wFtMD > div:last-child {
      margin-bottom: 0px;
      height: 0;
@@ -62,31 +57,31 @@
  }
 
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Status Picker Area
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                  Status Picker Area
+ ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-// Hides the Separator and Description in Status Picker menu
+/* Hides the Separator and Description in Status Picker menu */
 .statusItem-2hiCNB > .description-3Cwkxk,
 .statusItem-2hiCNB > .separator-1So4YB {
     display: none;
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Voice Channel Area
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                  Voice Channel Area
+ ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-//stage icon green
+/* stage icon green */
 .iconLive-nQxzyp {
     color: var(--spotify-color) !important;
  }
 
-// Voice Channel Wrapper
+/* Voice Channel Wrapper */
 .wrapper-3Hk9OB {
-    var(--radius-primary) !important;
+    border-radius: var(--radius-primary) !important;
 }
 
-// Voice Channel texts
+/* Voice Channel texts */
 .container-1zzFcN {
     color: #ddd;
     border-bottom: var(--radius-primary) solid var(--background-primary);
@@ -94,33 +89,32 @@
 }
 
 
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Powercord Spotify Area
-//
-// Some Parts of this area were imported from:
-// Cre-Arts v3.0.0 (Dev version)
-// By: @CorellanStoma#1996
-// Source: https://github.com/CorellanStoma/
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                  Powercord Spotify Area
 
-//
+   Some Parts of this area were imported from:
+   Cre-Arts v3.0.0 (Dev version)
+   By: @CorellanStoma#1996
+   Source: https://github.com/CorellanStoma/
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
+
+
 .powercord-spotify {
     margin-bottom: 20px !important;
     margin-top: 1px;
     border-radius: var(--radius-primary) !important;
 }
 
-// .powercord-spotify when hovered
+/* .powercord-spotify when hovered */
 .powercord-spotify.hover>.container-YkUktl {
     margin-bottom: 12px;
 }
 
-// All the icons (Next, Previous, Heart, Shuffle, Add to playlist)
+/* All the icons (Next, Previous, Heart, Shuffle, Add to playlist) */
 .powercord-spotify .fas ,.powercord-spotify .fa-heart,.powercord-spotify .fa-sync,.powercord-spotify .fa-undo {
     color: #ddd;
 }
-  
-//
+
 .powercord-spotify .container-YkUktl {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -133,7 +127,7 @@
     border-radius: var(--radius-primary);
 }
 
-// Song Image/Cover Area
+/* Song Image/Cover Area */
 .powercord-spotify .container-YkUktl .avatarWrapper-1B9FTW  {
     margin: var(--inner-primary) 0px 0px var(--inner-primary);
     padding: var(--inner-primary) var(--inner-primary) var(--inner-primary) var(--inner-primary);
@@ -141,7 +135,7 @@
     height: 40px;
 }
 
-// Song Image/Cover
+/* Song Image/Cover */
 .powercord-spotify .container-YkUktl .spotify-cover {
     border-radius: var(--radius-primary) !important;
     overflow: hidden;
@@ -152,31 +146,30 @@
     transform-origin: center;
 }
 
-// Heart Beat animation
+/* Heart Beat animation */
 @keyframes beat{
 	to { transform: scale(1.05); }
 }
   
-// Song name and Artist name area
+/* Song name and Artist name area */
 .powercord-spotify  .container-YkUktl .nameTag-sc-gpq  {
     border-radius: 0px var(--radius-secondary) var(--radius-secondary) 0px;
     grid-column: 2;
     height: 34px;
 }
 
-// Song name
+/* Song name */
 .powercord-spotify .spotify-title > .title-338goq{
     color: #ddd;
     margin: 1px 0px 0px 5px !important;
 }
 
-// Artist Name
 .powercord-spotify .spotify-artist {
     color: #ddd;
     margin: 1px 0px 0px 5px !important;
 }
 
-// Buttons Area
+/* Buttons Area */
 .powercord-spotify .container-YkUktl .flex-2S1XBF  {
     display: grid;
     margin-left: var(--inner-primary);
@@ -192,7 +185,7 @@
     margin-right: 20px;
 }
 
-// Buttons
+/* Buttons */
 .powercord-spotify .container-YkUktl .directionRow-2Iu2A9 .button-12Fmur {
     background: var(--background-primary);
     border-radius: var(--radius-primary);
@@ -200,13 +193,12 @@
     transition: .3s ease !important;
 }
 
-// Play/Pause, Next, Previous Buttons
+/* Play/Pause, Next, Previous Buttons */
 .powercord-spotify .spotify-buttons button {
     border-radius: var(--radius-primary) !important;
     transition: .3s ease;
 }
 
-// Play/Pause, Next, Previous Buttons on hover
 .powercord-spotify .spotify-buttons button:hover {
     background-color: var(--background-secondary) !important;
     background-image: var(--spotify-bg) !important;
@@ -214,7 +206,6 @@
     -webkit-box-shadow: 0px 6px 27px 0px rgba(0,0,0,0.6);
 }
 
-// Seek elements (Seek bar, Length of the song)
 .powercord-spotify .spotify-seek-elements {
     display: flex;
     justify-content: space-between;
@@ -224,7 +215,6 @@
     font-weight: 500 !important;
 }
 
-// Seek bar
 .powercord-spotify .spotify-seek-bar{
     height: 4px !important;
     border-radius: var(--radius-primary) !important;
@@ -233,13 +223,12 @@
     background: var(--background-primary) !important;
 }
 
-// Seek Bar Progress
 .powercord-spotify .spotify-seek-bar-progress {
     background-image: var(--spotify-bg);
     border-radius: var(--radius-primary) !important;
 }
 
-// Elapsed time and Total length of the song 
+/* Elapsed time and Total length of the song */
 .powercord-spotify .spotify-seek-elements,.powercord-spotify.hover .spotify-seek-elements{
     font-size:75%!important;
     margin: 3px 15px 3px 15px !important;

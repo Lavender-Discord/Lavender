@@ -1,6 +1,18 @@
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
-//                                  Channel List Area
-// ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+/* Category Arrow icon */
+.icon-3zI3d2 {
+  display: none;
+}
+
+/* Category -> create channel + icon */
+.addButton-2mlqCW.forceVisible-14yqh4, .iconVisibility-3pLDEs:hover .addButton-2mlqCW {
+  display: block;
+  opacity: 0;
+}
+
+.addButton-2mlqCW.forceVisible-14yqh4:hover, .iconVisibility-3pLDEs:hover .addButton-2mlqCW:hover {
+  display: block;
+  opacity: 1;
+}
 
 .container-1NXEtd,
 .privateChannels-oVe7HL,

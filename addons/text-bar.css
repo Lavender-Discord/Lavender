@@ -63,9 +63,19 @@ button[aria-label="Open GIF picker"] {
     content: " ";
     position: absolute;
     background-color: var(--background-secondary);
-    width: 95.6%;
+    width: 94%;
     height: 44px;
+    margin-left: 7px;
     border-radius: var(--radius-primary);
+}
+
+.channelAttachmentArea-HwpkuQ {
+    background-color: var(--background-secondary);
+    width: 93.7%;
+    height: 270px;
+    border-radius: var(--radius-primary);
+    margin-bottom: -50px;
+    margin-left: 4px;
 }
 
 .channelTextArea-1FufC0 {

@@ -9,4 +9,24 @@
  * @invite B9TK7nqRE4
 */
 
-@import "https://obscure-git.github.io/Lavender/dev.theme.css";
+@import "https://obscure-git.github.io/Lavender/addons/context-icons.css";
+@import "https://obscure-git.github.io/Lavender/addons/settings-icons.css";
+@import "https://obscure-git.github.io/Lavender/addons/emoji-replace.css";
+@import "https://obscure-git.github.io/Lavender/addons/settings-modal.css";
+@import "https://obscure-git.github.io/Lavender/addons/cooler-activity.css";
+@import "https://obscure-git.github.io/Lavender/addons/gradient-server.css";
+@import "https://obscure-git.github.io/Lavender/addons/text-bar.css";
+
+@import "https://obscure-git.github.io/Lavender/src/base/base.css";
+@import "https://obscure-git.github.io/Lavender/src/skins/default.css";
+
+@import "https://obscure-git.github.io/Lavender/src/components/userPopout.css";
+@import "https://obscure-git.github.io/Lavender/src/components/panel.css";
+@import "https://obscure-git.github.io/Lavender/src/components/serverList.css";
+@import "https://obscure-git.github.io/Lavender/src/components/channelList.css";
+@import "https://obscure-git.github.io/Lavender/src/components/membersList.css";
+@import "https://obscure-git.github.io/Lavender/src/components/statusIndicators.css";
+@import "https://obscure-git.github.io/Lavender/src/components/channelBar.css";
+@import "https://obscure-git.github.io/Lavender/src/components/popupMenus.css";
+@import "https://obscure-git.github.io/Lavender/src/components/winMinMaxBtns.css";
+@import "https://obscure-git.github.io/Lavender/src/components/chatElements.css";

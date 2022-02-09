@@ -45,7 +45,6 @@
     line-height: 16px;
 }
 
-// Remove the playing a game/listening to spotify text from the activity area
 .theme-dark .newPopoutActivityStyles .headerText-3g1XK9, .theme-dark .newProfileActivityStyles .headerText-3g1XK9, .theme-light .newPopoutActivityStyles .headerText-3g1XK9, .theme-light .newProfileActivityStyles .headerText-3g1XK9 {
     color: var(--header-secondary);
     display: none;
@@ -54,7 +53,7 @@
 .headerTop-3GPUSF {
     display: flex;
     flex-direction: column;
-    justify-conent: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -138,7 +137,6 @@
     border-radius: var(--radius-primary);
 }
 
-// Roles area in user popup
 .userPopout-2j1gM4 .rolesList-3uZoaa {
     margin-bottom: 15px;
     display: flex;
