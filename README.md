@@ -20,13 +20,13 @@ Fix 2 is by unloading a part of the theme, this will make the channel list and m
 
 - **Step 1:** Go to `src` folder and open the `source.scss` file.
 
-- **Step 2:** Inside `source.scss` file remove this line: `@forward "components/membersList";` 
+- **Step 2:** Inside `source.scss` file remove this line: `@use "components/membersList";` 
 
   You will need to repeat this thing everytime you update Lavender theme.
 
 ### For BetterDiscord
 
-This method for BetterDiscord is coming soon. 😁 Watch this repo so you know when its updated. 👍 
+Open your theme file ( `bd.theme.css` ) and remove this line: `@import "https://obscure-git.github.io/Lavender/src/components/membersList.css";`
 
 # Credits
 
