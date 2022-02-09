@@ -1,5 +1,4 @@
 :root {
-    /* --------- BASE THEME --------- */
     --blurple-replace: #6b69ff;
     --brand-experiment: #6b69ff;
     --brand-experiment-hover: #6b69ffcc;
@@ -18,7 +17,6 @@
     --background-floating: #17151B;
     --userarea-background: var(--background-tertiary);
 
-    // 
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --activity-card-background: var(--background-secondary);
@@ -65,7 +63,6 @@
     --channeltextarea-background: var(--background-secondary);
     --channeltextarea-caret: var(--brand-experiment);
     
-    /* [ --BUTTON ACCENTS-- ] */
     --button-brand: var(--brand-experiment);
     --button-brand-hovered: var(--brand-experiment-hover);
     --button-brand-active: var(--brand-experiment-hover);
