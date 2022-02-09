@@ -26,7 +26,7 @@ Fix 2 is by unloading a part of the theme, this will make the channel list and m
 
 ### For BetterDiscord
 
-Open your theme file ( `bd.theme.css` ) and remove this line: `@import "https://obscure-git.github.io/Lavender/src/components/membersList.css";`
+Open your theme file ( `bd-lavender.theme.css` ) and remove this line: `@import "https://obscure-git.github.io/Lavender/src/components/membersList.css";`
 
 # Credits
 
