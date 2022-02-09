@@ -13,7 +13,8 @@
 }
 
 .userPopout-2j1gM4 .avatarWrapperNormal-ahVUaC {
-    left: 105px;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .activityUserPopout-2MzGCj {
@@ -87,6 +88,19 @@
     padding: 10px;
     border-radius: var(--radius-primary);
     background: var(--background-primary);
+    overflow: hidden scroll;
+}
+
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz::-webkit-scrollbar {
+    width: 0.25em !important;
+    border-radius: var(--radius-primary);
+    height: 0px !important;
+    background: transparent !important;  
+}
+
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz::-webkit-scrollbar-thumb {
+    background: var(--background-secondary-alt);
+    border-radius: var(--radius-primary);
 }
 
 .userPopout-2j1gM4 .aboutMeSection-PUghFQ {

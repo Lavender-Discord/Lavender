@@ -66,4 +66,7 @@
     --button-brand: var(--brand-experiment);
     --button-brand-hovered: var(--brand-experiment-hover);
     --button-brand-active: var(--brand-experiment-hover);
+
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.35);
 }

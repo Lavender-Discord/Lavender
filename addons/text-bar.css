@@ -71,7 +71,7 @@ button[aria-label="Open GIF picker"] {
 
 .channelAttachmentArea-HwpkuQ {
     background-color: var(--background-secondary);
-    width: 93.7%;
+    width: calc(100% - 80px);
     height: 270px;
     border-radius: var(--radius-primary);
     margin-bottom: -50px;
