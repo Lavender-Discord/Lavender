@@ -1,10 +1,9 @@
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
     position: fixed;
-    bottom: 10%;
+    bottom: calc(0% + 155px);
     left: 10px;;
     width: 30px;
     max-height: 300px;
-    min-height: 195px;
     justify-content: space-evenly;
     align-items: center;
     background: var(--background-secondary);
@@ -13,28 +12,44 @@
     padding: 0px 10px;
 }
  
+/*  settings button */
+ .container-YkUktl:last-child .flex-2S1XBF> button:last-child {
+     margin-top: 5px;
+     padding: 25px !important;
+     position: fixed;
+     bottom: calc(0% + 90px);
+     color: #ADA9F5;
+     border-radius: 15px;
+     background-color: var(--background-secondary);
+     transition: ease .3s;
+}
 
 /* Buttons */
  .container-YkUktl:last-child .flex-2S1XBF> button {
      padding: 25px !important;
-     margin: 2px;
+     margin: 0px;
      color: #ADA9F5;
      border-radius: var(--radius-primary);
      transition: ease .3s;
  }
- 
+
  .container-YkUktl:last-child .flex-2S1XBF> button:hover {
      background-color: var(--brand-experiment);
      color: #fff;
-     border-radius: var(--radius-primary);
+     border-radius: 50%;
  }
  
+ .container-YkUktl:last-child .flex-2S1XBF> button:last-child:hover {
+     background-color: var(--brand-experiment);
+     color: #fff;
+     border-radius: 50%;
+ }
 
 /* Avatar */
  .panels-3wFtMD > .container-YkUktl:last-child > .avatarWrapper-1B9FTW {
      position: fixed;
-     bottom: 2%;
-     left: 12.5px;
+     bottom: calc(0% + 20px);
+     left: 13.5px;
  }
  
  .panels-3wFtMD > .container-YkUktl:last-child .avatar-1EWyVD>svg {
