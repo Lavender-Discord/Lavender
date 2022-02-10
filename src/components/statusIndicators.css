@@ -45,6 +45,12 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     x: 62.5%;
 }
 
+.layout-1LjVue .mask-1FEkla rect {
+    y: 0%;
+    x: 66%;
+    transform: scale(0.8) !important;
+}
+
 :is(.avatar-6qzftW, .avatar-2MSPKk, .avatar-1EWyVD) .mask-1FEkla rect {
     y: 0% !important;
     x: 79% !important;
