@@ -251,7 +251,7 @@ button[aria-label="Open GIF picker"] {
     padding: 0;
     margin-bottom: 10px;
     border-radius: var(--radius-primary);
-    background-color: var(--background-secondary);
+    background-color:  var(--background-secondary) !important;
     transition: ease .3s;
     -webkit-transition: ease .3s;
 }
@@ -260,7 +260,7 @@ button[aria-label="Open GIF picker"] {
 }
 .jumpToPresentBar-1cEnH0:active {
     margin-bottom: 10px;
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary) !important;
     opacity: 0.8;
 }
 .jumpToPresentBar-1cEnH0 .barButtonMain-2GIx4o {

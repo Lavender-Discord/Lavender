@@ -23,7 +23,12 @@
 }
 
 .newMessagesBar-1hF-9G {
-    background-color: var(--brand-experiment) !important;
+    background: var(--red-bg) !important;
+    opacity: 0.8;
+}
+
+.newMessagesBar-1hF-9G:hover {
+    opacity: 1;
 }
 
 .reaction-2A2y9y.reactionMe-3I9gFK {
@@ -38,15 +43,50 @@
 }
 
 div[class*="mentioned"]::before {
-  background-color: #FF006Bae;
+  background: var(--red-bg) !important;
   border-radius: var(--radius-primary);
+  height: 30px;
+  top: 10px;
 }
 
 div[class*="mentioned"] {
   border-radius: var(--radius-primary);
 }
 
+.username-h_Y3Us {
+    font-family: var(--font) !important;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.repliedMessage-3Z6XBG:before {
+    --spine-width: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 50%;
+    right: 100%;
+    bottom: 0;
+    left: calc(var(--avatar-size)/2*-1 + var(--gutter)*-1);
+    margin-right: var(--reply-spacing);
+    margin-top: calc(var(--spine-width)*-1/2);
+    margin-left: calc(var(--spine-width)*-1/2);
+    margin-bottom: calc(.125rem - 4px);
+    border-left: var(--spine-width) solid var(--background-secondary-alt);
+    border-bottom: 0 solid var(--background-secondary-alt);
+    border-right: 0 solid var(--background-secondary-alt);
+    border-top: var(--spine-width) solid var(--background-secondary-alt);
+    border-top-left-radius: 6px;
+}
+
 .wrapper-1ZcZW-:not(.roleMention-11Aaqi) {
     color: var(--brand-experiment);
     background: transparent !important;
+}
+
+.wrapper-1ZcZW- {
+    font-weight: 600;
+    font-size: 1.01em;
 }

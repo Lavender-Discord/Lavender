@@ -1,5 +1,5 @@
 rect[mask="url(#svg-mask-status-online)"] {
-    fill: var(--spotify-color);
+    fill: #4DF3BA;
 }
 
 rect[mask="url(#svg-mask-status-dnd)"] {

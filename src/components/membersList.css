@@ -19,6 +19,26 @@
     height: 55px;
 }
 
+.layout-1qmrhw {
+    width: 105%;
+}
+
+.layout-1qmrhw:hover {
+    background-color: var(--background-secondary) !important;
+}
+
+.layout-1LjVue .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
+    color: #999999;
+}
+
+.layout-1LjVue .content-66wMin .activityText-ev7Z1T {
+    color: var(--channels-default);
+}
+
+.selected-3veCBZ .layout-1LjVue .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
+    color: var(--interactive-active);
+}
+
 .layout-1qmrhw>	.avatar-6qzftW, .layout-1LjVue> .avatar-1HDIsL {
     padding-right: 5px !important;
 }

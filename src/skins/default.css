@@ -2,6 +2,7 @@
 
 :root {
     --font: "Source Sans Pro", sans-serif;
+    --font-display: "Source Sans Pro", sans-serif;
 
     --blurple-replace: #6b69ff;
     --brand-experiment: #6b69ff;
@@ -77,14 +78,6 @@
 }
 
 
-::placeholder,
-body,
-div,
-nav,
-span,
-button,
-input,
-select,
-textarea {
-    font-family: var(--font);
+*, html, ::placeholder, body, button, div, span, h1, h2, h3, p, a, input, select, textarea{
+    font-family: var(--font) !important;
 }
