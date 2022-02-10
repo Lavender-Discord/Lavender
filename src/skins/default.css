@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
+    --font: "Source Sans Pro", sans-serif;
+
     --blurple-replace: #6b69ff;
     --brand-experiment: #6b69ff;
     --brand-experiment-hover: #6b69ffcc;
@@ -21,19 +25,19 @@
     --header-secondary: #b9bbbe;
     --activity-card-background: var(--background-secondary);
 
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #ffffff;
+    --interactive-normal: #D9DDE2;
+    --interactive-hover: #eee;
+    --interactive-active: #D9DDE2;
     --interactive-muted: rgb(75, 75, 75);
 
-    --background-modifier-hover: rgba(50, 50, 50, 0.16);
-    --background-modifier-active: var(--background-tertiary);
+    --background-modifier-hover: var(--background-primary);
+    --background-modifier-active: var(--background-primary);
     --background-modifier-selected: var(--background-primary);
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
 
-    --text-link: #7A79FB;
+    --text-link: var(--brand-experiment);
     --text-normal: #C1C1C5;
-    --text-muted: #ffffff50;
+    --text-muted: #ffffff40;
     --text-positive: #08DA7A;
     --text-color: #eee;
 
@@ -62,6 +66,7 @@
 
     --channeltextarea-background: var(--background-secondary);
     --channeltextarea-caret: var(--brand-experiment);
+    --channels-default: #808080;
     
     --button-brand: var(--brand-experiment);
     --button-brand-hovered: var(--brand-experiment-hover);
@@ -69,4 +74,17 @@
 
     --deprecated-quickswitcher-input-background: var(--background-primary);
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.35);
+}
+
+
+::placeholder,
+body,
+div,
+nav,
+span,
+button,
+input,
+select,
+textarea {
+    font-family: var(--font);
 }

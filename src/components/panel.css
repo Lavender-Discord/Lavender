@@ -1,9 +1,10 @@
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
     position: fixed;
     bottom: calc(0% + 155px);
-    left: 10px;;
+    left: 10px;
     width: 30px;
-    max-height: 300px;
+    z-index: 100;
+    max-height: 150px;
     justify-content: space-evenly;
     align-items: center;
     background: var(--background-secondary);
