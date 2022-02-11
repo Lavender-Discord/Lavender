@@ -27,6 +27,14 @@
     background-color: var(--background-secondary) !important;
 }
 
+.privateChannels-oVe7HL .interactiveSelected-29CP8y {
+    background-color: var(--background-primary) !important;
+}
+
+.privateChannels-oVe7HL .interactive-1vLZ_I:hover {
+    background-color: var(--background-secondary-alt) !important;
+}
+
 .layout-1LjVue .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
     color: #999999;
 }

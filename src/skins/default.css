@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root {
+.theme-dark:root {
     --font: "Source Sans Pro", sans-serif;
     --font-display: "Source Sans Pro", sans-serif;
 
@@ -31,9 +31,9 @@
     --interactive-active: #D9DDE2;
     --interactive-muted: rgb(75, 75, 75);
 
-    --background-modifier-hover: var(--background-primary);
-    --background-modifier-active: var(--background-primary);
-    --background-modifier-selected: var(--background-primary);
+    --background-modifier-hover: var(--background-secondary);
+    --background-modifier-active: var(--background-secondary);
+    --background-modifier-selected: var(--background-secondary);
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
 
     --text-link: var(--brand-experiment);
