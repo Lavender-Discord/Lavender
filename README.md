@@ -1,6 +1,6 @@
 # Lavender
 
-A good looking dark purple-ish theme for powercord.
+A good looking dark purple-ish theme for discord.
 
 If you got any suggestions for / issues with this theme just ping @Obscure.#4719 in #theme-dev of powercord server or open an issue here with the given templates.
 
