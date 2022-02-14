@@ -1,5 +1,5 @@
 .sidebar-1tnWFu .container-1NXEtd .container-1-ERn5 .header-3OsQeK {
-  color: var(--channels-default) !important;
+  color: var(--interactive-active) !important;
   text-transform: uppercase;
   font-family: var(--font);
 }
@@ -73,14 +73,26 @@
     margin-right: 7px;
 }
 
+/* indicator next to channel */
+.unreadRelevant-2f-VSK {
+    background-color: var(--brand-experiment);
+    width: 3px;
+    height: 17px;
+    margin-top: -9px;
+}
+
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
     margin: 3px;
 }
 
-.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
-    border-left: 3px solid var(--brand-experiment) !important;
-    border-radius: 5px;
+.wrapper-NhbLHG.modeSelected-3DmyhH, .wrapper-NhbLHG.modeConnected-NrO4cP{
+    /*border-left: 3px solid var(--brand-experiment) !important;*/
+    border-radius: 2px 10px 10px 2px;
     background-color: var(--background-primary);
+}
+
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
+    background-color: transparent;
 }
 
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .iconContainer-21RCa3 svg path{
@@ -91,16 +103,46 @@
     fill: var(--interactive-active);
 }
 
-.wrapper-NhbLHG .content-1gYQeQ:hover {
-    background-color: var(--background-primary) !important;
+.wrapper-NhbLHG.modeSelected-3DmyhH:hover, .wrapper-NhbLHG .content-1gYQeQ:hover, .content-1Tgc42:hover {
+    background-color: var(--background-secondary-alt) !important;
 }
 
-.wrapper-NhbLHG.modeConnected-NrO4cP {
-    border-left: 3px solid var(--brand-experiment) !important;
-    border-radius: 5px;
-    background-color: var(--background-primary);
+.wrapper-NhbLHG.modeSelected-3DmyhH:hover::before, .wrapper-NhbLHG .content-1gYQeQ:hover::before, .content-1Tgc42:hover::before {
+    background-color: var(--background-secondary-alt) !important;
 }
 
-.wrapper-NhbLHG.modeConnected-NrO4cP:hover {
-    background-color: var(--background-secondary);
+.wrapper-NhbLHG.modeConnected-NrO4cP:hover, .wrapper-NhbLHG.modeConnected-NrO4cP:hover::before {
+    background-color: var(--background-secondary-alt);
+}
+
+.userLimit-VbEkeM .wrapper-2fEmwW .users-2JoyGL {
+    background-color: var(--background-secondary-alt);
+    color: var(--interactive-normal);
+    filter: brightness(115%);
+}
+
+.userLimit-VbEkeM .wrapper-2fEmwW .total-1c5KCN {
+    background-color: var(--background-secondary-alt);
+    color: var(--interactive-normal);
+    filter: brightness(130%);
+}
+
+.total-1c5KCN:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-right: 8px solid transparent;
+    border-right-color: var(--background-secondary-alt);
+    filter: brightness(130%);
+}
+
+/* "NEW UNREADS" pill/bar */
+.unread-2wipsx {
+    background: var(--red-bg);
+    opacity: 0.9;
 }

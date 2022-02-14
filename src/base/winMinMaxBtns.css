@@ -36,7 +36,7 @@
     position: fixed !important;
     width: 240px;
     height: 70px;
-    top: 8px;
+    top: -10px;
     border-radius: var(--radius-primary);
     background-color: var(--background-secondary);
 }

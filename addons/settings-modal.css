@@ -1,7 +1,7 @@
 :root {
 	--settingsmodalbackground: transparent;
-	--settingsmodalwidth: 61vw;
-	--settingsmodalheight: 85vh;
+	--settingsmodalwidth: 80vw;
+	--settingsmodalheight: 90vh;
 }
 
 #app-mount .baseLayer-W6S8cY {
@@ -16,15 +16,15 @@
 #app-mount .layer-86YKbF.stop-animations:first-child::after {
 	content: "" !important;
 	position: fixed !important;
-	background: rgb(0, 0, 0) !important;
+	background: #000 !important;
 	top: 0 !important;
 	right: 0 !important;
 	bottom: 0 !important;
 	left: 0 !important;
 	margin: 0 !important;
 	padding: 0 !important;
-	opacity: 0.8 !important;
-	z-index: 999 !important;
+	opacity: 0.4 !important;
+        z-index: 999 !important;
 	pointer-events: none !important;
 }
 
@@ -36,7 +36,6 @@
 	left: 0 !important;
 	background: var(--settingsmodalbackground) !important;
 	border-radius: var(--radius-primary) !important;
-	box-shadow: var(--elevation-high) !important;
 	width: var(--settingsmodalwidth) !important;
 	height: var(--settingsmodalheight) !important;
 	margin: auto !important;
@@ -49,14 +48,14 @@
 #app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j {
 	position: static !important;
 	border-radius: var(--radius-primary) !important;
-	width: 100% !important;
+	width: 90% !important;
 	height: 100% !important;
 	margin: unset !important;
 	padding: unset !important;
 	overflow: hidden !important;
 }
 #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
-	width: 218px !important;
+	width: 210px !important;
 	padding: 20px 6px 20px 20px !important;
 }
 #app-mount .layer-86YKbF ~ .layer-86YKbF .contentColumnDefault-3eyv5o {
@@ -168,4 +167,52 @@
 	position: fixed !important;
 	top: 22px !important;
 	z-index: -1 !important;
+}
+
+.contentColumn-1C7as6, .customColumn-2n-oKU {
+    max-width: unset;
+}
+
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+    background-color: var(--background-primary);
+}
+
+.side-2ur1Qk .item-3XjbnG:hover {
+    background-color: var(--background-primary) !important;
+}
+
+.accountProfileCard-lbN7n- {
+    background-color: var(--background-secondary) !important;
+}
+
+.accountProfileCard-lbN7n- .background-3d_SjE,.accountProfileCard-lbN7n- .fieldList-in8WkP {
+    background-color: var(--background-primary) !important;
+}
+
+.accountProfileCard-lbN7n- .avatar-3mTjvZ rect {
+    x: 79%;
+    y: 3%;
+    transform: scale(0.8) !important;
+}
+
+.bioTextArea-dDGOeC.scrollableContainer-15eg7h.webkit-QgSAqd {
+    background-color: var(--background-secondary);
+}
+
+.customizationSection-IGy2fS.preview-Z55SA3 .imageUploader-1X7wVc {
+    position: absolute;  
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contentColumn-1C7as6 .itemFilled-1cPbtg[aria-checked=true] {
+    background-color: var(--background-secondary-alt);
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .container-JyRf62 .row-LoqnA5.item-3XjbnG.selected-g-kMVV.themed-2-lozF {
+    background-color: var(--background-secondary-alt)
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .container-JyRf62 .row-LoqnA5.item-3XjbnG.themed-2-lozF:hover {
+    background-color: var(--background-secondary) !important;
 }

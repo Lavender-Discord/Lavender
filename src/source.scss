@@ -1,17 +1,23 @@
-// Base
-@use "base/base";
-
 // Skins
-@use "skins/default";
+@use "skins/default"; //color scheme
+
+// Base
+@use "base/others"; // stuff that idk which file exactly to put lol
+@use "base/winMinMaxBtns";
 
 // Components
-@use "components/userPopout";
 @use "components/panel";
 @use "components/serverList";
 @use "components/channelList";
 @use "components/membersList"; //unload if you're facing the scroll bug
 @use "components/statusIndicators";
 @use "components/channelBar";
-@use "components/popupMenus";
-@use "components/winMinMaxBtns";
 @use "components/chatElements";
+
+// Popouts
+@use "popouts/userPopout";
+@use "popouts/joinServer";
+@use "popouts/popupMenus";
+
+// Pages
+@use "pages/voice-chat";

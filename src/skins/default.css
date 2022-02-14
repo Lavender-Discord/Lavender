@@ -28,7 +28,7 @@
 
     --interactive-normal: #D9DDE2;
     --interactive-hover: #eee;
-    --interactive-active: #D9DDE2;
+    --interactive-active: #E9EEF2;
     --interactive-muted: rgb(75, 75, 75);
 
     --background-modifier-hover: var(--background-secondary);
@@ -80,4 +80,9 @@
 
 *, html, ::placeholder, body, button, div, span, h1, h2, h3, p, a, input, select, textarea{
     font-family: var(--font) !important;
+}
+
+::selection{
+    background-color: var(--brand-experiment) !important;
+    color: #fff !important;
 }

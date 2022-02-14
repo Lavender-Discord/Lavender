@@ -2,31 +2,6 @@
                                     Server List Area
    ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-/* Server list made shorter to let the mute, deafen buttons get their place ;) */
-.guilds-2JjMmN .scrollerBase-_bVAAt {
-    max-height: calc(100% - 325px) !important;
-    background-color: var(--background-tertiary);
-    border-radius: var(--radius-primary);
-}
-
-.guilds-2JjMmN .scrollerBase-_bVAAt div:nth-child(4) {
-    align-items: center;
-}
-
-/* Backgorund of mute, deafen buttons area */
-.guilds-2JjMmN {
-    background-color: #0f0e11;
-    border-radius: var(--radius-primary);
-}
-
-/* indicator next to channel */
-.unreadRelevant-2f-VSK {
-    background-color: var(--brand-experiment);
-    width: 3px;
-    height: 17px;
-    margin-top: -9px;
-}
-
 .item-2LIpTv {
     background-color: var(--brand-experiment);
     margin-left: -1px;
@@ -65,7 +40,6 @@
 .none-2-_0dP:hover::-webkit-scrollbar {
     width: 0.25em !important;
     border-radius: var(--radius-primary);
-    height: 0px !important;
     background: transparent !important;  
 }
 
@@ -106,7 +80,6 @@
     border-radius: 40%;
 }
 
-
 .circleIconButton-1VxDrg {
     background-color: var(--background-secondary-alt);
     color: var(--brand-experiment);
@@ -117,4 +90,8 @@
     border-radius: 50% !important;
     background: var(--blurple-bg);
     color: #fff;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background: var(--blurple-bg-alt);
 }

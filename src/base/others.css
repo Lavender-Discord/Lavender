@@ -1,0 +1,112 @@
+.numberBadge-37OJ3S {
+    color: #eee;
+    background-color: var(--brand-experiment) !important;
+    margin-left: 10px;
+    border-radius: 5px !important;
+}
+
+/* friends list */
+.peopleColumn-1wMU14 {
+    background-color: var(--background-primary);
+}
+
+.colorGreen-3y-Z79, .liveIndicator-TJKS7N {
+    background: var(--spotify-bg);
+    color: #fff !important;
+    transition: .3s ease;
+    border: none;
+    outline: none;
+}
+
+.colorGreen-3y-Z79:hover {
+    background: var(--spotify-bg-alt) !important;
+    color: #fff !important;
+}
+
+.colorStatusGreen-2HKYOW {
+    color: var(--spotify-color) !important;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background: var(--blurple-bg);
+    color: #fff !important;
+    transition: .3s ease;
+    border: none;
+    outline: none;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background: #6C6AFF;
+}
+
+.colorRed-rQXKgM {
+  background: var(--red-bg) !important;
+  transition: .5s ease !important;
+}
+
+.colorRed-rQXKgM:hover {
+    background: #F42028 !important;
+    color: #fff !important;
+    transition: .5s ease;
+    border: none;
+    outline: none;
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  color: #fff !important;
+}
+
+.focused-3qFvc8 {
+  background: var(--blurple-bg-alt) !important;
+}
+
+.spine-29OFwR {
+  display: none;
+}
+
+/* explore page bg */
+.pageWrapper-2PwDoS {
+  background-color: var(--background-primary) !important;
+}
+
+.theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98 {
+  background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .card-2TuZPZ:hover {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.itemInner-3e_4G4:hover {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.search-25t1e9 .searchBox-31Zv9h {
+    z-index: 2;
+    background-color: var(--background-secondary);
+    padding-right: 8px;
+}
+
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInputWrapper-3XLwVB input {
+    color: #fff !important;
+}
+
+.itemFilled-1cPbtg[aria-checked="true"] .radioBar-3w9XY- {
+    background-color: var(--background-secondary-alt);
+}
+
+.radioBar-3w9XY- {
+    background-color: var(--background-secondary);
+}
+
+.radioBar-3w9XY-:hover {
+    background-color: var(--background-secondary-alt);
+}
+
+.option-2eIyOn {
+    background-color: var(--background-secondary);
+}
+
+.option-2eIyOn[aria-selected=true] {
+    background-color: var(--background-secondary-alt);
+}

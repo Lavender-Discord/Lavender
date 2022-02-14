@@ -29,10 +29,33 @@
 
 .privateChannels-oVe7HL .interactiveSelected-29CP8y {
     background-color: var(--background-primary) !important;
+    border-radius: 0px 10px 10px 0px;
 }
 
-.privateChannels-oVe7HL .interactive-1vLZ_I:hover {
+.privateChannels-oVe7HL .interactiveSelected-29CP8y::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    width: 10px;
+    height: 55px;
+    background-color: var(--background-primary) !important;
+}
+
+.privateChannels-oVe7HL .interactive-1vLZ_I:hover, .privateChannels-oVe7HL .interactiveSelected-29CP8y:hover::before {
     background-color: var(--background-secondary-alt) !important;
+}
+
+.layout-1LjVue.highlighted-Q8Nll- .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
+    color: #fff !important;
+}
+
+.layout-1LjVue.highlighted-Q8Nll-::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    width: 3px;
+    height: 15px;
+    background-color: var(--brand-experiment);
 }
 
 .layout-1LjVue .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {

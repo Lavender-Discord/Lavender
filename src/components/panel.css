@@ -72,6 +72,22 @@
      width: 0;
  }
 
+/* Server list made shorter to let the mute, deafen buttons get their place ;) */
+.guilds-2JjMmN .scrollerBase-_bVAAt {
+    max-height: calc(100% - 325px) !important;
+    background-color: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+}
+
+.guilds-2JjMmN .scrollerBase-_bVAAt div:nth-child(4) {
+    align-items: center;
+}
+
+/* Backgorund of mute, deafen buttons area */
+.guilds-2JjMmN {
+    background-color: #0F0E11;
+    border-radius: var(--radius-primary);
+}
 
 /* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
                                   Status Picker Area

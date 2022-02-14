@@ -3,7 +3,7 @@
 }
   
 .toolbar-3_r2xA {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary-alt);
     border-radius: var( --Roundness);
     padding: 5px;
     height: 35px;
@@ -79,4 +79,13 @@ svg.icon-2xnN2Y:hover {
 div[aria-label="Help"] {
     display: none !important;
     opacity: 0 !important;
+}
+
+.header-3OsQeK, .container-ZMc96U {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.content-1jQy2l:before {
+    display: none;
 }
