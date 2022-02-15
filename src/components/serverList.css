@@ -27,7 +27,10 @@
 
 /* "new" unread pill in server list */
 .mention-3XBnnZ {
-    display: none;
+    position: fixed;
+    bottom: 330px;
+    width: 57px;
+    height: auto;
 }
 
 .none-2-_0dP {
