@@ -1,6 +1,6 @@
 # Lavender
 
-A good looking dark purple-ish theme for discord.
+A good looking dark purple-ish theme for powercord.
 
 If you got any suggestions for / issues with this theme just ping @Obscure.#4719 in #theme-dev of powercord server or open an issue here with the given templates.
 
@@ -10,7 +10,7 @@ When scrolling through member lists and long channel lists, the scrollbar random
 
 ## Fix 1
 
-Fix 1 is by downloading a plugin called [SmoothScrollPowercord](https://github.com/LynithDev/SmoothScrollPowerCord) for powercord. (I didnt find a plugin similar to this for BetterDiscord so if you know of any let me know 👍)
+Fix 1 is by downloading a plugin called [SmoothScrollPowercord](https://github.com/LynithDev/SmoothScrollPowerCord).
 
 ## Fix 2
 
@@ -23,10 +23,6 @@ Fix 2 is by unloading a part of the theme, this will make the channel list and m
 - **Step 2:** Inside `source.scss` file remove this line: `@use "components/membersList";` 
 
   You will need to repeat this thing everytime you update Lavender theme.
-
-### For BetterDiscord
-
-Open your theme file ( `bd-lavender.theme.css` ) and remove this line: `@import "https://obscure-git.github.io/Lavender/src/components/membersList.css";`
 
 # Credits
 
@@ -42,10 +38,10 @@ The below screenshot is currently outdated, I'll update it soon with screenshots
 
 # Clients
 
-Support for BetterDiscord (Canary) is available inside the clients folder. Support for other clients will come soon.
+Lavender is now only for Powercord. Removed from better discord recently due to some reasons.
 
 # Server
 
-Lavender doesn't have a server of its own obviously but I do have a random community server called Gradient, you can join it for some fun maybe 🤷‍♂️.
+Lavender doesn't have a server of its own obviously but I do have a random community server called Gradient, you can join it for some fun maybe 🤷‍.
 
 • Invite link: [dicord.gg/B9TK7nqRE4](https://discord.gg/B9TK7nqRE4)

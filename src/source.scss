@@ -7,6 +7,7 @@
 
 // Components
 @use "components/panel";
+@use "components/pc-spotify";
 @use "components/serverList";
 @use "components/channelList";
 @use "components/membersList"; //unload if you're facing the scroll bug
