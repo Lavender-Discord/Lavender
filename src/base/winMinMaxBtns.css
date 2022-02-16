@@ -1,40 +1,42 @@
 /* discord text on top left */
 .wordmarkWindows-2dq6rw {
-    display: none !important;
+    opacity: 0;
 }
 
 .withFrame-2dL45i {
-    height: 15px;
+    height: 20px;
 }
 
 /* min, max, close buttons */
 .winButton-3UMjdg {
     color: #B9BBBE;
+    opacity: 0;
 }
 
 .winButton-3UMjdg:hover {
-    color: #fff;
+    color: #000;
+    opacity: 1;
 }
 
 [class*="winButton-"]:nth-child(2):hover {
     background-color: #FD282E;
-    color: #fff;
+    color: #000;
 }
 
 [class*="winButton-"]:nth-child(3):hover {
     background-color: #FFAC62;
-    color: #fff;
+    color: #000;
 }
 
 [class*="winButton-"]:nth-child(4):hover {
     background-color: var(--spotify-color);
-    color: #fff;
+    color: #000;
 }
 
 .sidebar-1tnWFu::before {
     content: " ";
     position: fixed !important;
-    width: 240px;
+    width: 260px;
     height: 70px;
     top: -10px;
     border-radius: var(--radius-primary);

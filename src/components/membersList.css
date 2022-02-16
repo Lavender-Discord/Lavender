@@ -8,7 +8,7 @@
 
 .container-2Oqvgx,
 .members-3WRCEx {
-    width: 280px;
+    width: 300px;
 }
 
 .members-3WRCEx, .container-2o3qEW, .membersWrap-3NUR2t {
@@ -19,8 +19,8 @@
     height: 55px;
 }
 
-.layout-1qmrhw {
-    width: 105%;
+.layout-1qmrhw, .interactive-1vLZ_I {
+    width: 110%;
 }
 
 .layout-1qmrhw:hover {
@@ -76,6 +76,11 @@
 
 .membersGroup-2eiWxl {
     height: 55px;
+}
+
+.membersGroup-2eiWxl span {
+    font-size: 13px;
+    font-weight: 650;
 }
 
 .activity-2EQDZv {

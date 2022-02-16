@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&display=swap');
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 
 .theme-dark:root {
-    --font: "Source Sans Pro", sans-serif;
-    --font-display: "Source Sans Pro", sans-serif;
+    /* Chat, channels, etc... */
+    --font-primary: "Source Sans Pro", sans-serif;
 
-    --blurple-replace: #6b69ff;
-    --brand-experiment: #6b69ff;
-    --brand-experiment-hover: #6b69ffcc;
+    /* Server/channel/roles/etc (font with that awful G) */
+    --font-display: "Source Sans Pro", sans-serif;
+    
+    /* Codeblocks */
+    --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
+
+    --blurple-replace: #7E7BFE;
+    --brand-experiment: #7E7BFE;
+    --brand-experiment-hover: #7E7BFEcc;
     
     --blurple-bg: linear-gradient(90deg, rgba(107,105,255,1) 0%, rgba(131,129,254,1) 100%);
     --blurple-bg-alt: linear-gradient(90deg, rgba(131,129,254,1) 0%, rgba(107,105,255,1) 100%);
@@ -26,9 +34,9 @@
     --header-secondary: #b9bbbe;
     --activity-card-background: var(--background-secondary);
 
-    --interactive-normal: #D9DDE2;
+    --interactive-normal: #D9DDE2cc;
     --interactive-hover: #eee;
-    --interactive-active: #E9EEF2;
+    --interactive-active: #D9DDE2;
     --interactive-muted: rgb(75, 75, 75);
 
     --background-modifier-hover: var(--background-secondary);
@@ -75,11 +83,33 @@
 
     --deprecated-quickswitcher-input-background: var(--background-primary);
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.35);
+
+    --toast-background: var(--background-secondary);
+    --toast-header: var(--background-primary);
+    --toast-contents: var(--background-secondary-alt);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: rgba(28, 36, 43, .6);
+
+    --context-icon-size: 21px;
+    --context-menu-width: inherit;
+    --context-menu-radius: 10px;
+    --context-menu-spacing: 0px;
+    --context-button-radius: 5px;
+    --context-icon-spacing: 8px;
+    --context-settings-height: 60vh;
+    --context-disabled-opacity: 0.3;
+    --separator-spacing-height: 4px;
+    --separator-spacing-width: 2px;
+    --danger-background-radius: 4px;
+    --slider-background-radius: 4px;
+
+
 }
 
-
-*, html, ::placeholder, body, button, div, span, h1, h2, h3, p, a, input, select, textarea{
-    font-family: var(--font) !important;
+code{
+  font-family: 'JetBrains Mono';
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  text-rendering: optimizeLegibility;
 }
 
 ::selection{

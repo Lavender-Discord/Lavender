@@ -2,6 +2,7 @@
   color: var(--interactive-active) !important;
   text-transform: uppercase;
   font-family: var(--font);
+  margin-left: 4px;
 }
 
 /* Category Arrow icon */
@@ -37,12 +38,25 @@
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
   margin-bottom: 5px;
+  margin-left: -1px;
 }
-.sidebar-1tnWFu {
+
+.sidebar-1tnWFu{
   background: transparent;
   border-radius:  10px 10px 0px 0px !important;
   margin-right: 8px;
+  width: 260px;
 }
+
+.bannerImage-ubW8K-, .bannerImage-ubW8K- img {
+  width: 260px;
+}
+
+.animatedContainer-2laTjx {
+    box-shadow: var(--elevation-high) !important;
+    border-radius: 0px !important;
+}
+
 .container-1-ERn5 {z-index: 2 !important;}
 .chat-2ZfjoI,
 .container-2cd8Mz,

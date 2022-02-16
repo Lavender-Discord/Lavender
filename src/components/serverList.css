@@ -2,6 +2,7 @@
                                     Server List Area
    ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
+
 .item-2LIpTv {
     background-color: var(--brand-experiment);
     margin-left: -1px;
@@ -27,10 +28,7 @@
 
 /* "new" unread pill in server list */
 .mention-3XBnnZ {
-    position: fixed;
-    bottom: 330px;
-    width: 57px;
-    height: auto;
+    display: none;
 }
 
 .none-2-_0dP {
@@ -75,12 +73,6 @@
 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     background: var(--blurple-bg) !important;
-    border-radius: 50% !important;
-}
-
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background: var(--blurple-bg) !important;
-    border-radius: 40%;
 }
 
 .circleIconButton-1VxDrg {

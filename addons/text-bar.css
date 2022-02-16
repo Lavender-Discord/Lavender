@@ -63,7 +63,7 @@ button[aria-label="Open GIF picker"] {
     content: " ";
     position: absolute;
     background-color: var(--background-secondary);
-    width: calc(100% - 70px);
+    width: calc(100% - 68px);
     height: 44px;
     margin-left: 7px;
     border-radius: var(--radius-primary);

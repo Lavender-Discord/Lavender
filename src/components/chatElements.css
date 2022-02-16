@@ -4,10 +4,7 @@
 }
 
 .managedReactiveScroller-1lEEh3::-webkit-scrollbar {
-    width: 0 !important;
-    border-radius: 25px;
-    height: 0px !important;
-    background: transparent !important;
+    width: 0.3em !important;
 }
 
 .managedReactiveScroller-1lEEh3:hover::-webkit-scrollbar {
@@ -17,7 +14,7 @@
     background: transparent !important;
 }
 
-.managedReactiveScroller-1lEEh3::-webkit-scrollbar-thumb {
+.managedReactiveScroller-1lEEh3:hover::-webkit-scrollbar-thumb {
     background: var(--background-secondary);
     border-radius: 50%;
 }
