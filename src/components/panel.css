@@ -91,16 +91,19 @@
 }
 
 /* Game activity toggle */
-button[aria-label="Hide Game Activity"] {
+button[aria-label="Hide Game Activity"],
+button[aria-label="Show Game Activity"] {
     background-color: var(--background-secondary);
     border-radius: 10px 10px 0px 0px !important;
 }
 
-button[aria-label="Hide Game Activity"]:hover {
+button[aria-label="Hide Game Activity"]:hover,
+button[aria-label="Show Game Activity"]:hover {
     border-radius: 50% !important;
 }
 
-button[aria-label="Hide Game Activity"]::after {
+button[aria-label="Hide Game Activity"]::after,
+button[aria-label="Show Game Activity"]::after {
     content: "";
     position: absolute;
     width: 50px;
@@ -111,7 +114,8 @@ button[aria-label="Hide Game Activity"]::after {
     border-radius: 10px 10px 0px 0px !important;
 }
 
-button[aria-label="Hide Game Activity"]::before {
+button[aria-label="Hide Game Activity"]::before,
+button[aria-label="Show Game Activity"]::before {
     content: "";
     position: absolute;
     background-color: #0F0E11;
