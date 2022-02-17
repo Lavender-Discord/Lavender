@@ -37,9 +37,3 @@ The below screenshot is currently outdated, I'll update it soon with screenshots
 # Clients
 
 Lavender is now only for Powercord. Removed from better discord recently due to some reasons.
-
-# Server
-
-Lavender doesn't have a server of its own obviously but I do have a random community server called Gradient, you can join it for some fun maybe 🤷‍.
-
-• Invite link: [dicord.gg/B9TK7nqRE4](https://discord.gg/B9TK7nqRE4)

@@ -74,7 +74,7 @@
 
 /* Server list made shorter to let the mute, deafen buttons get their place ;) */
 .guilds-2JjMmN .scrollerBase-_bVAAt {
-    max-height: calc(100% - 325px) !important;
+    max-height: calc(100% - 275px) !important;
     background-color: var(--background-tertiary);
     border-radius: var(--radius-primary);
 }
