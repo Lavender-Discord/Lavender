@@ -1,9 +1,9 @@
 {
     "name": "Lavender",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Obscure.#4719",
     "description": "A good looking darkish purple theme!",
     "license": "MIT",
-    "theme": "dev.scss",
+    "theme": "theme.scss",
     "invite": "discord.gg/B9TK7nqRE4"
 }

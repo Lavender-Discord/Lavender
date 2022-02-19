@@ -2,7 +2,8 @@
 
 A good looking dark purple-ish theme for powercord.
 
-If you got any suggestions for / issues with this theme just ping @Obscure.#4719 in #theme-dev of powercord server or open an issue here with the given templates.
+For bug reports open a issue here on github with the provided templates.
+For problems installing or using the theme join our [server](discord.gg/B9TK7nqRE4) and ask for help.
 
 # Important
 
@@ -20,20 +21,26 @@ Fix 2 is by unloading a part of the theme, this will make the channel list and m
 
 - **Step 1:** Go to `src` folder and open the `source.scss` file.
 
-- **Step 2:** Inside `source.scss` file remove this line: `@use "components/membersList";` 
+- **Step 2:** Inside `source.scss` file remove/comment out every line that starts with: `@use "lists/`
 
-  You will need to repeat this thing everytime you update Lavender theme.
+You might need to repeat this thing sometimes when you update the theme.
 
 # Credits
 
-This theme uses some snippets from [@CorellanStoma#1996](https://github.com/CorellanStoma), [@LuckFire#4800](https://github.com/LuckFire) and [@mr_miner#9699](https://github.com/mr-miner1) so credits to them. 👍
+Lavender uses snippets from many other theme devs, all the snippets are either in `/addons` folder or in snippets file in `src/base/snippets.css` with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
 
-# Screenshots
+# Previews
 
-The below screenshot is currently outdated, I'll update it soon with screenshots that better represent the theme
+Note: Screenshots might be outdated because I only update them like once a week and sometimes I forget 😬.
 
+### Theme
 <img src="./screenshots/1.png" alt="screenshot1">
 
-# Clients
+### User Popouts
+<img src="./screenshots/2.png" alt="user-popout">
 
-Lavender is now only for Powercord. Removed from better discord recently due to some reasons.
+### User action buttons
+<img src="./screenshots/3.png" alt="user-action-buttons">
+
+### User action buttons with game activity toggle
+<img src="./screenshots/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">

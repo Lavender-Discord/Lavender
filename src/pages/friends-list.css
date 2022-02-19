@@ -1,0 +1,35 @@
+/* friends list */
+.tabBody-2dgbAs, .peopleColumn-1wMU14 {
+    background-color: var(--background-primary);
+}
+
+.tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr:hover, .tabBar-ra-EuL.topPill-3DJJNV .selected-g-kMVV {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+.tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr[aria-controls="add_friend-tab"] {
+    background: var(--spotify-bg) !important;
+    transition: .3s ease;
+}
+
+.tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr[aria-controls="add_friend-tab"]:hover {
+    background: var(--spotify-bg-alt) !important;
+}
+
+.tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr[aria-controls="add_friend-tab"][aria-selected="true"] {
+    background: var(--spotify-bg) !important;
+    color: #fff !important;
+}
+
+.peopleColumn-1wMU14 .searchBar-2aylmZ .inner-2pOSmK {
+    background-color: var(--background-secondary) !important;
+    transition: .3s ease;
+}
+
+.peopleColumn-1wMU14 .searchBar-2aylmZ .inner-2pOSmK:hover {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+.addFriendInputWrapper-kkoSV9 {
+    background-color: var(--background-secondary);
+}

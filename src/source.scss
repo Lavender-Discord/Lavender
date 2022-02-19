@@ -3,22 +3,29 @@
 
 // Base
 @use "base/others"; // stuff that idk which file exactly to put lol
-@use "base/winMinMaxBtns";
+@use "base/title-bar";
+@use "base/snippets"; // Just a few snippets that I applied but idrk which file to put them on lol
+
+// Lists
+@use "lists/server-list";
+@use "lists/channel-list";
+@use "lists/members-list"; //unload if you're facing the scroll bug
 
 // Components
 @use "components/panel";
 @use "components/pc-spotify";
-@use "components/serverList";
-@use "components/channelList";
-@use "components/membersList"; //unload if you're facing the scroll bug
-@use "components/statusIndicators";
-@use "components/channelBar";
-@use "components/chatElements";
+@use "components/status-indicators";
+@use "components/channel-bar";
+@use "components/chat-elements";
 
 // Popouts
-@use "popouts/userPopout";
-@use "popouts/joinServer";
-@use "popouts/popupMenus";
+@use "popouts/user-popout";
+@use "popouts/join-server";
+@use "popouts/popup-menus";
+@use "popouts/status-picker";
 
 // Pages
 @use "pages/voice-chat";
+@use "pages/friends-list";
+@use "pages/explore";
+@use "pages/settings";

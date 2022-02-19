@@ -82,7 +82,6 @@
 }
 
 .circleIconButton-1VxDrg:hover {
-    border-radius: 50% !important;
     background: var(--blurple-bg);
     color: #fff;
 }

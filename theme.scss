@@ -1,9 +1,9 @@
-@use "src/source";
+@use "src/source"; // all imports
 
 @use "addons/context-icons"; // Context-Icons By CorellanStoma
 @use "addons/settings-icons"; // Settings-Icons By CorellanStoma
 @use "addons/emoji-replace"; // Replace discord emojis with windows 11 by Devil Bro
-@use "addons/settings-modal"; // Makes whole settings menu a popup menu
 @use "addons/cooler-activity"; // Modified version of cooler activity by Mr. Miner
 @use "addons/gradient-server"; // Mods that are specifically for my server only
-@use "addons/text-bar";
+@use "addons/text-bar"; // Modified version of bubble bar
+
