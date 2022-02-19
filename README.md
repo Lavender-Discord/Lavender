@@ -1,6 +1,6 @@
 # Lavender
 
-A good looking dark purple-ish theme for powercord.
+A good looking dark purple-ish theme for discord.
 
 ## Support
 
