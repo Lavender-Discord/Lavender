@@ -34,7 +34,7 @@ Lavender uses snippets from many other theme devs, all the snippets are either i
 
 # Client Support
 
-Lavender officially only supports powercord but if you want to use Lavender in other client mods you can do it yourself by modifying `theme.css` file.
+Lavender officially only supports powercord but if you want to use Lavender in other client mods you can do it yourself either by modifying `theme.css` file according to your client or importing the whole theme using `@import "https://obscure-git.github.io/Lavender/theme.css";`.
 
 # Previews
 
