@@ -2,7 +2,10 @@
 
 A good looking dark purple-ish theme for powercord.
 
+## Support
+
 For bug reports open a issue here on github with the provided templates.
+
 For problems installing or using the theme join our [server](discord.gg/B9TK7nqRE4) and ask for help.
 
 # Important
@@ -28,6 +31,10 @@ You might need to repeat this thing sometimes when you update the theme.
 # Credits
 
 Lavender uses snippets from many other theme devs, all the snippets are either in `/addons` folder or in snippets file in `src/base/snippets.css` with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
+
+# Client Support
+
+Lavender officially only supports powercord but if you want to use Lavender in other client mods you can do it yourself by modifying `theme.css` file.
 
 # Previews
 
