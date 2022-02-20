@@ -3,7 +3,7 @@ This file basically imports all the parts of the theme using urls
 */
 
 /* Skins — Basically all variables of the theme / I plan to add different variable files each with different color scheme 🤷‍ */
-@import "https://obscure-git.github.io/Lavender/skins/default.css";
+@import "https://obscure-git.github.io/Lavender/src/skins/default.css";
 
 /* Addons — Cool things made by other devs that I either modified or just imported lol */
 @import "https://obscure-git.github.io/Lavender/addons/context-icons.css";
