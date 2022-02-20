@@ -5,6 +5,11 @@
 
 .withFrame-2dL45i {
     height: 20px;
+    margin: 5px 10px 0 0;
+}
+
+.withFrame-2dL45i:hover .winButton-3UMjdg {
+    opacity: 1;
 }
 
 /* min, max, close buttons */
@@ -12,7 +17,7 @@
     color: #B9BBBE;
     opacity: 0;
     border-radius: 50px;
-    margin: 5px 5px 0 0;
+    margin: 5px 7px 0 0;
     padding: 0px !important;
     width: 20px; height: 20px;
 }

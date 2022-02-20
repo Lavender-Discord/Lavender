@@ -32,6 +32,13 @@ You might need to repeat this thing sometimes when you update the theme.
 
 Lavender uses snippets from many other theme devs, all the snippets are either in `/addons` folder or in snippets file in `src/base/snippets.css` with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
 
+## Concept
+
+Lavender was inspired by a dashboard concept from dribble, made by [SajjadMohammadiNia](https://dribbble.com/SajjadMohammadiNia) for [Piqo Design](https://dribbble.com/Piqodesign).
+
+### The original concept looked like: 
+<img src="https://cdn.dribbble.com/users/1787150/screenshots/15137908/media/cf05e3a31b0c9f17336349e08d223815.png?compress=1&resize=1200x900&vertical=top" alt="Concept Image">
+
 # Client Support
 
 Lavender officially only supports powercord but if you want to use Lavender in other client mods you can do it yourself either by modifying `theme.css` file according to your client or importing the whole theme using `@import "https://obscure-git.github.io/Lavender/theme.css";`.
