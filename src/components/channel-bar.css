@@ -2,6 +2,10 @@
     --Roundness: 10px; /* Changes how round edges are | Default: 25px */
 }
 
+.toolbar-3_r2xA {
+    margin-right: 15px;
+}
+
 .option-ayUoaq.searchOption-3u1gRt:hover {
     background: var(--background-secondary-alt) !important;
 }

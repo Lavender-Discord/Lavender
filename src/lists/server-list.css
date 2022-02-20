@@ -5,8 +5,8 @@
 
 .item-2LIpTv {
     background-color: var(--brand-experiment);
-    margin-left: -1px;
-    border-radius: var(--radius-primary) !important;
+    margin-left: -2.5px;
+    border-radius: 0px 20px 20px 0 !important;
 }
 
 /*

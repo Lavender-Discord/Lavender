@@ -12,6 +12,8 @@ This file basically imports all the parts of the theme using urls
 @import "https://obscure-git.github.io/Lavender/addons/cooler-activity.css";
 @import "https://obscure-git.github.io/Lavender/addons/gradient-server.css";
 @import "https://obscure-git.github.io/Lavender/addons/text-bar.css";
+@import "https://obscure-git.github.io/Lavender/addons/colored-svgs.css";
+@import "https://obscure-git.github.io/Lavender/addons/message-load-anim";
 
 /* Base — The files that I wasn't sure of which folder to put in 🤷‍ */
 @import "https://obscure-git.github.io/Lavender/src/base/others.css";
@@ -23,6 +25,7 @@ This file basically imports all the parts of the theme using urls
 @import "https://obscure-git.github.io/Lavender/src/popouts/popup-menus";
 @import "https://obscure-git.github.io/Lavender/src/popouts/status-picker";
 @import "https://obscure-git.github.io/Lavender/src/popouts/user-popout";
+@import "https://obscure-git.github.io/Lavender/src/popouts/big-user-popout";
 
 /* Pages */
 @import "https://obscure-git.github.io/Lavender/src/pages/settings";

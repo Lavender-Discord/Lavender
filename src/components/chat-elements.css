@@ -41,15 +41,15 @@
 
 div[class*="mentioned"]::before {
   background: var(--red-bg) !important;
-  border-radius: var(--radius-primary);
-  height: 30px;
+  border-radius: 50%;
+  height: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 div[class*="mentioned"] {
-  border-radius: var(--radius-primary);
+  border-radius: 0px 10px 10px 0;
 }
 
 .username-h_Y3Us {

@@ -96,13 +96,13 @@
 }
 
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
-    margin: 3px;
+    margin: 5px;
 }
 
 .wrapper-NhbLHG.modeSelected-3DmyhH, .wrapper-NhbLHG.modeConnected-NrO4cP{
     /*border-left: 3px solid var(--brand-experiment) !important;*/
     border-radius: 2px 10px 10px 2px;
-    background-color: var(--background-primary);
+    background: var(--background-primary);
 }
 
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {

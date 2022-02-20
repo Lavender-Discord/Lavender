@@ -11,6 +11,10 @@
 .winButton-3UMjdg {
     color: #B9BBBE;
     opacity: 0;
+    border-radius: 50px;
+    margin: 5px 5px 0 0;
+    padding: 0px !important;
+    width: 20px; height: 20px;
 }
 
 .winButton-3UMjdg:hover {
