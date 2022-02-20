@@ -10,7 +10,7 @@
 @use "addons/message-load-anim"; // Adds a message loading animations before all the messages load
 
 /* Only works if transparency is enabled — Makes the window borders more round*/
-.powercord {
+.powercord.transparent {
    background: transparent !important;
    border: none !important;
    outline: none !important;
