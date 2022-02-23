@@ -23,23 +23,23 @@
 }
 
 .winButton-3UMjdg:hover {
-    color: #000;
+    color: #fff;
     opacity: 1;
 }
 
 [class*="winButton-"]:nth-child(2):hover {
     background-color: #FD282E;
-    color: #000;
+    color: #FD282E;
 }
 
 [class*="winButton-"]:nth-child(3):hover {
     background-color: #FFAC62;
-    color: #000;
+    color: #FFAC62;
 }
 
 [class*="winButton-"]:nth-child(4):hover {
     background-color: var(--spotify-color);
-    color: #000;
+    color: var(--spotify-color);
 }
 
 .sidebar-1tnWFu::before {

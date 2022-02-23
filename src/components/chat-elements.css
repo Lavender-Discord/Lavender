@@ -96,10 +96,10 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     margin-top: calc(var(--spine-width)*-1/2);
     margin-left: calc(var(--spine-width)*-1/2);
     margin-bottom: calc(.125rem - 4px);
-    border-left: var(--spine-width) solid var(--channels-default);
-    border-bottom: 0 solid var(--channels-default);
-    border-right: 0 solid var(--channels-default);
-    border-top: var(--spine-width) solid var(--channels-default);
+    border-left: var(--spine-width) solid #F5262C;
+    border-bottom: 0 solid #F5262C;
+    border-right: 0 solid #F5262C;
+    border-top: var(--spine-width) solid #F5262C;
     border-top-left-radius: 6px;
 }
 

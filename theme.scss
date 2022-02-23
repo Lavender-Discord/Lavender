@@ -1,13 +1,13 @@
-@use "src/source"; // all imports
+@use "src/source";
 
-@use "addons/context-icons"; // Context-Icons By CorellanStoma
-@use "addons/settings-icons"; // Settings-Icons By CorellanStoma
-@use "addons/emoji-replace"; // Replace discord emojis with windows 11 by Devil Bro
-@use "addons/cooler-activity"; // Modified version of cooler activity by Mr. Miner
-@use "addons/gradient-server"; // Mods that are specifically for my server only
-@use "addons/text-bar"; // Modified version of bubble bar
-@use "addons/colored-svgs"; // Colors all the discords svgs
-@use "addons/message-load-anim"; // Adds a message loading animations before all the messages load
+@use "addons/context-icons";
+@use "addons/settings-icons";
+@use "addons/emoji-replace";
+@use "addons/cooler-activity";
+@use "addons/gradient-server";
+@use "addons/text-bar";
+@use "addons/colored-svgs";
+@use "addons/message-load-anim";
 
 /* Only works if transparency is enabled — Makes the window borders more round*/
 .powercord.transparent {

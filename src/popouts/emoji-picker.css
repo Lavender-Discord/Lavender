@@ -1,0 +1,16 @@
+.drawerSizingWrapper-1txdWG .nav-1zWVQw .navList-YSb9UB button[aria-selected="true"] {
+  background-color: var(--background-primary);
+}
+
+.drawerSizingWrapper-1txdWG .nav-1zWVQw .navList-YSb9UB button:hover {
+  background-color: var(--background-secondary-alt);
+}
+
+.drawerSizingWrapper-1txdWG .nav-1zWVQw .navList-YSb9UB {
+  display: flex;
+  justify-content: center;
+}
+
+.drawerSizingWrapper-1txdWG .nav-1zWVQw .navList-YSb9UB {
+  flex-direction: row-reverse;
+}
