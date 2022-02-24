@@ -8,10 +8,6 @@
                                     Buttons in Text bar
    ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
-.sprite-2lxwfc { 
-    filter: grayscale(0) !important;
-}
-
 [aria-label="Send en gave"],
 [aria-label="Ein Geschenk senden"],
 [aria-label="Send a gift"],
@@ -39,57 +35,44 @@
 [aria-label="ギフトを贈る"],
 [aria-label="發送禮物"],
 [aria-label="선물 보내기"] {
-    /*position: absolute;
-    right: 92px;
-    z-index: 101;*/
-    display: none;
+  display: none !important;
 }
 
-/* GIF button //(2)// and Stickers Button //(3)// */
-.expression-picker-chat-input-button.buttonContainer-2lnNiN:nth-child(2),
-.expression-picker-chat-input-button.buttonContainer-2lnNiN:nth-child(3) {
-    position: fixed;
-    bottom: 37px;
-    margin-bottom: 0px;
-    background-color: var(--background-secondary);
-    border-radius: 10px;
-    animation: slideDown .4s;
-    opacity: 0;
-    z-index: -1;
+[aria-label="Open sticker picker"] {
+   animation: slideOut 1.2s forwards;
 }
 
-.buttons-uaqb-5:hover .expression-picker-chat-input-button.buttonContainer-2lnNiN:nth-child(2) {
-     animation: slideUp .4s forwards;
-     opacity: 1;
+ [aria-label="Open GIF picker"] {
+   animation: slideOut2 1.2s forwards;
 }
 
-.buttons-uaqb-5:hover .expression-picker-chat-input-button.buttonContainer-2lnNiN:nth-child(3) {
-     z-index: -101;
-     animation: slideUp2 .4s forwards;
-     opacity: 1;
+.buttons-uaqb-5:hover [aria-label="Open GIF picker"] {
+   animation: slideIn .4s forwards;
+   display: flex;
 }
 
-@keyframes slideUp {
-  to {
-      margin-bottom: 33px;
-      padding-bottom: 10px;
-  }
+.buttons-uaqb-5:hover [aria-label="Open sticker picker"] {
+   animation: slideIn .4s forwards;
+   display: flex;
 }
 
-@keyframes slideUp2 {
-  to {
-      margin-bottom: 73px;
-      padding-bottom: 10px;
-  }
+@keyframes slideIn {
+   from {right: -40px; display: none;}
+   to {right: 0px; display: block;}
 }
 
-@keyframes slideDown {
-  from {
-      margin-bottom: 37px;
+@keyframes slideOut {
+   from {right: 0px; display: block;}
+   to {right: -80px; position: fixed;}
 }
-  to {
-      margin-bottom: 0px;
-  }
+
+@keyframes slideOut2 {
+   from {right: 0px; display: block;}
+   to {right: -160px; position: fixed;}
+}
+
+.sprite-2lxwfc { 
+    filter: grayscale(0) !important;
 }
 
 .form-3gdLxP .attachButton-1ijpt9 {
