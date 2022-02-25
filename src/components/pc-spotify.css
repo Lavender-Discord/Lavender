@@ -20,6 +20,10 @@
 	transition: height .5s, opacity 0.3s !important;
 }
 
+.powercord-spotify .spotify-extra-controls button {
+	transition: .5s ease !important;
+}
+
 .powercord-spotify .spotify-extra-controls .active::before {
 	color: var(--spotify-bg-alt) !important;
 	filter: blur(1px);
@@ -40,7 +44,7 @@
 	border-radius: 50%;
 }
 
-.powercord-spotify .spotify-buttons button[aria-checked="true"] {
+.powercord-spotify .spotify-buttons button.button-12Fmur {
 	color: var(--interactive-normal) !important;
 	border-radius: 50%;
 	transition: .5s ease !important;
