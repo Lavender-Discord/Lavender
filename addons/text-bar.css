@@ -38,6 +38,7 @@
   display: none !important;
 }
 
+/*
 [aria-label="Open sticker picker"] {
    animation: slideOut 1.2s forwards;
 }
@@ -70,6 +71,12 @@
    from {right: 0px; display: block;}
    to {right: -160px; position: fixed;}
 }
+*/
+
+[aria-label="Open GIF picker"], [aria-label="Open sticker picker"] {
+    display: none;
+}
+
 
 .sprite-2lxwfc { 
     filter: grayscale(0) !important;
