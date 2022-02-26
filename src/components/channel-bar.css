@@ -3,7 +3,36 @@
 }
 
 .toolbar-3_r2xA {
-    margin-right: 15px;
+    margin-right: 30px;
+}
+
+.toolbar-3_r2xA path {
+    transition: .3s ease;
+}
+
+.searchBar-jGtisZ {
+     width: 20px;
+     cursor: pointer;
+     transition: .3s ease;
+}
+
+.DraftEditor-root {
+     transition: .3s ease;
+}
+
+.open-1F8u2c .DraftEditor-root {
+     background-color: var(--background-secondary);
+     border-radius: var(--radius-primary);
+     padding-left: 5px !important;
+}
+
+.iconContainer-1RqWJj {
+     cursor: pointer;
+     width: 20px; height: 20px;
+}
+
+.searchBar-jGtisZ:hover .icon-18rqoe path {
+     fill: #fff !important;
 }
 
 .option-ayUoaq.searchOption-3u1gRt:hover {
