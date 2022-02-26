@@ -112,3 +112,52 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     font-weight: 600;
     font-size: 1.01em;
 }
+
+/* Invite to game/activity (Example Invite to listen along to spotify)*/
+
+.invite-3uuHYQ {
+     background: var(--background-secondary) !important;
+     border-color: var(--background-secondary) !important;    
+}
+
+ .invite-3uuHYQ .header-1Fx4D1{
+     color: #ddd;
+}
+
+.invite-3uuHYQ [href="https://support.discord.com/hc/en-us/articles/360000167212"],
+.helpIcon-24pk1Z {
+      display: none;
+      opacity: 0;
+      cursor: default;
+}
+
+.coverImageWrapper-2wx5q1 {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100% !important;
+    opacity: 1;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+
+.coverImageActionable-38UjN9.blurred-3p_Z84 {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);   
+}
+
+.artwork-28Cmnt {
+     border-radius: 10px;
+     -webkit-box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.25);
+}
+
+.partyMembers-3cd-7x {
+      padding: 5px;
+      background-color: var(--background-primary);
+      border-radius: 10px;
+}

@@ -40,11 +40,11 @@
 
 /*
 [aria-label="Open sticker picker"] {
-   animation: slideOut 1.2s forwards;
+   animation: slideOut .5s forwards;
 }
 
  [aria-label="Open GIF picker"] {
-   animation: slideOut2 1.2s forwards;
+   animation: slideOut2 .5s forwards;
 }
 
 .buttons-uaqb-5:hover [aria-label="Open GIF picker"] {
@@ -73,10 +73,10 @@
 }
 */
 
-[aria-label="Open GIF picker"], [aria-label="Open sticker picker"] {
-    display: none;
+[aria-label="Open sticker picker"], [aria-label="Open GIF picker"] {
+   display: none;
+   opacity: 0;
 }
-
 
 .sprite-2lxwfc { 
     filter: grayscale(0) !important;

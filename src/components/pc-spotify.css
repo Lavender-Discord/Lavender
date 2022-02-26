@@ -57,7 +57,7 @@
 
 .powercord-spotify .spotify-buttons button:nth-child(2) {
 	color: #fff !important;
-	background: var(--spotify-bg);
+	background: var(--spotify-bg-alt);
 	filter: blur(1px);
 }
 
@@ -116,4 +116,12 @@
 	margin-top: 3px;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.fa-backward::before {
+	content: "\f048" !important;
+}
+
+.fa-forward::before {
+	content: "\f051" !important;
 }

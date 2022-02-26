@@ -48,3 +48,27 @@
 .stageListenerPill-1_QAPA {
    background-color: var(--background-secondary) !important;
 }
+
+/* Reactions menu */
+.container-KM8BU6.root-g14mjS,
+.container-KM8BU6.root-g14mjS > div:nth-child(1) {
+    background-color: var(--background-secondary);
+}
+
+.container-KM8BU6.root-g14mjS > div:nth-child(2) {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .reactorDefault-3GSyaV {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(79,84,92,.2); 
+    box-shadow:inset 0 -1px 0 rgba(79,84,92,.2);
+}
+
+.container-KM8BU6.root-g14mjS .reactionSelected-1aMb2K {
+    background-color: var(--background-primary) !important;
+}
+
+.container-KM8BU6.root-g14mjS .reactionDefault-1Sjj1f:hover,
+.container-KM8BU6.root-g14mjS .reactionSelected-1aMb2K:hover  {
+    background-color: var(--background-secondary-alt) !important;
+}

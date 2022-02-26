@@ -153,6 +153,5 @@ button[aria-label="Show Game Activity"]::before {
 /* Voice Channel texts */
 .container-1zzFcN {
     color: #ddd;
-    border-bottom: var(--radius-primary) solid var(--background-primary);
-    margin-bottom: 5px;
+    border-bottom: none;
 }

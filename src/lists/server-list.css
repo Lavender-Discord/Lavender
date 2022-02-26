@@ -29,7 +29,10 @@
 
 /* "new" unread pill in server list */
 .mention-3XBnnZ {
-    display: none;
+	background: var(--blurple-bg);
+}
+.unreadMentionsIndicatorBottom-3RJMnQ {
+	bottom: 300px;
 }
 
 .none-2-_0dP {
