@@ -28,7 +28,8 @@ cd %homepath%
 
 ### • [GooseMod](https://goosemod.com/)
 
-**Coming soon!**
+- **Step 1:** Go to the themes store in **GooseMod** and search for "**Lavender**".
+- **Step 2:** Press the install button.
 
 ### • [Vizality](https://vizality.com/)
 
@@ -42,11 +43,23 @@ cd %homepath%
 
 ### • [Browser / Web](https://github.com/Obscure-Git/Lavender#browser--web)
 
-1. Install the [**Stylus**](https://add0n.com/stylus.html) extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
+- **Method 1:**
 
-2. After installing, head over to [this link](https://obscure-git.github.io/Lavender/clients/lavender.user.css).
+  ​	**Step 1:** Install [**GooseMod**](https://goosemod.com)'s browser extension for [Chrome](https://chrome.google.com/webstore/detail/goosemod-for-web/clgkdcccmbjmjdbdgcigpocfkkjeaeld) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/goosemod-for-web/).
 
-3. Press the "**Install Style**" button.
+  ​	**Step 2:** Go to the themes store and search for "**Lavender**".
+
+  ​	**Step 3:** Press the install button.
+
+  
+
+- **Method 2:**
+
+  ​	**Step 1:** Install the [**Stylus**](https://add0n.com/stylus.html) extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
+
+  ​	**Step 2:** After installing, head over to [this link](https://obscure-git.github.io/Lavender/clients/lavender.user.css).
+
+  ​	**Step 3:** Press the "**Install Style**" button.
 
 # Important
 
@@ -81,22 +94,21 @@ Lavender was inspired by a dashboard concept from dribble, made by [SajjadMohamm
 
 Note: Screenshots might be outdated because I only update them like once a week and sometimes I forget 😬.
 
-### [Theme](https://obscure-git.github.io/Lavender/assets/1.png)
+### • [Theme](https://obscure-git.github.io/Lavender/assets/1.png)
 <img src="./assets/1.png" alt="screenshot1">
 
-### [User Popouts](https://obscure-git.github.io/Lavender/assets/2.png)
+### • [User Popouts](https://obscure-git.github.io/Lavender/assets/2.png)
 <img src="./assets/2.png" alt="user-popout">
 
-### [User action buttons](https://obscure-git.github.io/Lavender/assets/3.png)
-<img src="./assets/3.png" alt="user-action-buttons"><img src="./assets/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
+### • [User action buttons](https://obscure-git.github.io/Lavender/assets/3.png)
+<img src="./assets/3.png" alt="user-action-buttons">
+<img src="./assets/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
 
-
-
-### [Status Indicators](https://obscure-git.github.io/Lavender/assets/4a.png)
+### • [Status Indicators](https://obscure-git.github.io/Lavender/assets/4a.png)
 
 <img src="./assets/4b.png" alt="Status Indicators">
 <img src="./assets/4a.png" alt="Status Indicators">
 
-### [Powercord Spotify Module](https://obscure-git.github.io/Lavender/assets/5.gif)
+### • [Powercord Spotify Module](https://obscure-git.github.io/Lavender/assets/5.gif)
 
 <img src="./assets/5.gif" alt="Powercord Spotify Module">
