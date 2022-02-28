@@ -21,18 +21,18 @@ This file basically imports all the parts of the theme using urls
 @import "https://obscure-git.github.io/Lavender/src/base/title-bar.css";
 
 /* Popouts — Popout menus of discord */
-@import "https://obscure-git.github.io/Lavender/src/popouts/join-server";
-@import "https://obscure-git.github.io/Lavender/src/popouts/popup-menus";
-@import "https://obscure-git.github.io/Lavender/src/popouts/status-picker";
-@import "https://obscure-git.github.io/Lavender/src/popouts/user-popout";
-@import "https://obscure-git.github.io/Lavender/src/popouts/big-user-popout";
-@import "https://obscure-git.github.io/Lavender/src/popouts/emoji-picker";
+@import "https://obscure-git.github.io/Lavender/src/popouts/join-server.css";
+@import "https://obscure-git.github.io/Lavender/src/popouts/popup-menus.css";
+@import "https://obscure-git.github.io/Lavender/src/popouts/status-picker.css";
+@import "https://obscure-git.github.io/Lavender/src/popouts/user-popout.css";
+@import "https://obscure-git.github.io/Lavender/src/popouts/big-user-popout.css";
+@import "https://obscure-git.github.io/Lavender/src/popouts/emoji-picker.css";
 
 /* Pages */
-@import "https://obscure-git.github.io/Lavender/src/pages/settings";
-@import "https://obscure-git.github.io/Lavender/src/pages/explore";
-@import "https://obscure-git.github.io/Lavender/src/pages/friends-list";
-@import "https://obscure-git.github.io/Lavender/src/pages/voice-chat";
+@import "https://obscure-git.github.io/Lavender/src/pages/settings.css";
+@import "https://obscure-git.github.io/Lavender/src/pages/explore.css";
+@import "https://obscure-git.github.io/Lavender/src/pages/friends-list.css";
+@import "https://obscure-git.github.io/Lavender/src/pages/voice-chat.css";
 
 /* Lists */
 @import "https://obscure-git.github.io/Lavender/src/lists/server-list.css";
