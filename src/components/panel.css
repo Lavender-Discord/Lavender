@@ -1,3 +1,8 @@
+.panels-3wFtMD {
+     display: flex;
+     flex-direction: column;
+}
+
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
     position: fixed;
     bottom: calc(0% + 155px);

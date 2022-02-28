@@ -7,7 +7,7 @@
 }
 
 .toolbar-3_r2xA path {
-    transition: .3s ease;
+   transition: .3s ease;
 }
 
 .searchBar-jGtisZ {
@@ -22,8 +22,9 @@
 
 .open-1F8u2c .DraftEditor-root {
      background-color: var(--background-secondary);
-     border-radius: var(--radius-primary);
+     border-radius: 5px;
      padding-left: 5px !important;
+     margin-right: 5px;
 }
 
 .iconContainer-1RqWJj {
