@@ -1,4 +1,4 @@
-# [Lavender](https://obscure-git.github.io/Lavender/)
+# Lavender
 
 A good looking dark purple-ish theme for [discord](https://discord.com/).
 
