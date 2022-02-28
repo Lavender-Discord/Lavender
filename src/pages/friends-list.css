@@ -1,6 +1,6 @@
 /* friends list */
 .tabBody-2dgbAs, .peopleColumn-1wMU14 {
-    background-color: var(--background-primary);
+    background-color: var(--background-primary) !important;
 }
 
 .tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr:hover, .tabBar-ra-EuL.topPill-3DJJNV .selected-g-kMVV {
