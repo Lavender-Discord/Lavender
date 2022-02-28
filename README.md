@@ -26,7 +26,7 @@ cd %homepath%
 - **Step 2:** Download the `lavender.theme.css` file.
 - **Step 3:** Paste the downloaded file inside your BetterDiscord themes folder.
 
-### GooseMod
+### [GooseMod](https://goosemod.com/)
 
 **Coming soon!**
 
@@ -82,13 +82,21 @@ Lavender was inspired by a dashboard concept from dribble, made by [SajjadMohamm
 Note: Screenshots might be outdated because I only update them like once a week and sometimes I forget 😬.
 
 ### Theme
-<img src="./screenshots/1.png" alt="screenshot1">
+<img src="./assets/1.png" alt="screenshot1">
 
 ### User Popouts
-<img src="./screenshots/2.png" alt="user-popout">
+<img src="./assets/2.png" alt="user-popout">
 
 ### User action buttons
-<img src="./screenshots/3.png" alt="user-action-buttons">
+<img src="./assets/3.png" alt="user-action-buttons"><img src="./assets/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
 
-### User action buttons with game activity toggle
-<img src="./screenshots/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
+
+
+### Status Indicators
+
+<img src="./assets/4b.png" alt="Status Indicators">
+<img src="./assets/4a.png" alt="Status Indicators">
+
+### Powercord Spotify Module
+
+<img src="./assets/5.gif" alt="Powercord Spotify Module">
