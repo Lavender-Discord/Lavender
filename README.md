@@ -1,8 +1,8 @@
-# Lavender
+# [Lavender](https://obscure-git.github.io/Lavender/)
 
-A good looking dark purple-ish theme for discord.
+A good looking dark purple-ish theme for [discord](https://discord.com/).
 
-## Support
+## [Support](discord.gg/B9TK7nqRE4)
 
 For bug reports open a issue here on github with the provided templates.
 
@@ -10,7 +10,7 @@ For problems installing or using the theme join our [server](discord.gg/B9TK7nqR
 
 # Installation
 
-### [Powercord](https://powercord.dev/)
+### • [Powercord](https://powercord.dev/)
 
 - **Step 1:** Open **Command Prompt / Terminal / Powershell**
 - **Step 2:** Paste the below code in your terminal:
@@ -20,17 +20,17 @@ cd powercord/src/Powercord/themes && git clone https://github.com/Obscure-Git/La
 cd %homepath%
 ```
 
-### [BetterDiscord](https://betterdiscord.app/)
+### • [BetterDiscord](https://betterdiscord.app/)
 
 - **Step 1:** Go to clients folder on this repo.
 - **Step 2:** Download the `lavender.theme.css` file.
 - **Step 3:** Paste the downloaded file inside your BetterDiscord themes folder.
 
-### [GooseMod](https://goosemod.com/)
+### • [GooseMod](https://goosemod.com/)
 
 **Coming soon!**
 
-### [Vizality](https://vizality.com/)
+### • [Vizality](https://vizality.com/)
 
 - **Step 1:** Open your themes folder.
 
@@ -40,9 +40,9 @@ cd %homepath%
   git clone https://github.com/Obscure-Git/Lavender
   ```
 
-### Browser / Web
+### • [Browser / Web](https://github.com/Obscure-Git/Lavender#browser--web)
 
-1. Install the **Stylus** extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
+1. Install the [**Stylus**](https://add0n.com/stylus.html) extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
 
 2. After installing, head over to [this link](https://obscure-git.github.io/Lavender/clients/lavender.user.css).
 
@@ -68,35 +68,35 @@ You might need to repeat this thing sometimes when you update the theme.
 
 # Credits
 
-Lavender uses snippets from many other theme devs, all the snippets are either in `/addons` folder or in snippets file in `src/base/snippets.css` with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
+Lavender uses snippets from many other theme devs, all the snippets are either in [`/addons`](https://github.com/Obscure-Git/Lavender/tree/main/addons) folder or in snippets file in [`/src/base/snippets.css`](https://github.com/Obscure-Git/Lavender/blob/main/src/base/snippets.css) with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
 
-## Concept
+## [Concept](https://dribbble.com/shots/15137908-Social-Media-Management-Dashboard)
 
 Lavender was inspired by a dashboard concept from dribble, made by [SajjadMohammadiNia](https://dribbble.com/SajjadMohammadiNia) for [Piqo Design](https://dribbble.com/Piqodesign).
 
 ### The original concept looked like: 
 <img src="https://cdn.dribbble.com/users/1787150/screenshots/15137908/media/cf05e3a31b0c9f17336349e08d223815.png?compress=1&resize=1200x900&vertical=top" alt="Concept Image">
 
-# Previews
+# [Previews](https://github.com/Obscure-Git/Lavender/tree/main/assets)
 
 Note: Screenshots might be outdated because I only update them like once a week and sometimes I forget 😬.
 
-### Theme
+### [Theme](https://obscure-git.github.io/Lavender/assets/1.png)
 <img src="./assets/1.png" alt="screenshot1">
 
-### User Popouts
+### [User Popouts](https://obscure-git.github.io/Lavender/assets/2.png)
 <img src="./assets/2.png" alt="user-popout">
 
-### User action buttons
+### [User action buttons](https://obscure-git.github.io/Lavender/assets/3.png)
 <img src="./assets/3.png" alt="user-action-buttons"><img src="./assets/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
 
 
 
-### Status Indicators
+### [Status Indicators](https://obscure-git.github.io/Lavender/assets/4a.png)
 
 <img src="./assets/4b.png" alt="Status Indicators">
 <img src="./assets/4a.png" alt="Status Indicators">
 
-### Powercord Spotify Module
+### [Powercord Spotify Module](https://obscure-git.github.io/Lavender/assets/5.gif)
 
 <img src="./assets/5.gif" alt="Powercord Spotify Module">
