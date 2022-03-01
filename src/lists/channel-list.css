@@ -109,7 +109,8 @@
     background-color: transparent;
 }
 
-.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .iconContainer-21RCa3 svg path{
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .iconContainer-21RCa3 svg path,
+.modeConnected-NrO4cP .content-1gYQeQ .iconContainer-21RCa3 svg path{
     fill: var(--interactive-active);
 }
 

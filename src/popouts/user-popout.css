@@ -46,11 +46,6 @@
     line-height: 16px;
 }
 
-.theme-dark .newPopoutActivityStyles .headerText-3g1XK9, .theme-dark .newProfileActivityStyles .headerText-3g1XK9, .theme-light .newPopoutActivityStyles .headerText-3g1XK9, .theme-light .newProfileActivityStyles .headerText-3g1XK9 {
-    color: var(--header-secondary);
-    display: none;
-}
-
 .headerTop-3GPUSF {
     display: flex;
     flex-direction: column;
