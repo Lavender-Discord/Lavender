@@ -22,9 +22,9 @@ cd %homepath%
 
 ### • [BetterDiscord](https://betterdiscord.app/)
 
-- **Step 1:** Go to clients folder on this repo.
-- **Step 2:** Download the `lavender.theme.css` file.
-- **Step 3:** Paste the downloaded file inside your BetterDiscord themes folder.
+- **Step 1:** Go to [releases](https://github.com/Obscure-Git/Lavender/releases) tab of this repo.
+- **Step 2:** Click on the `lavender.theme.css` file to download it.
+- **Step 3:** Paste the downloaded file inside your **BetterDiscord**'s themes folder.
 
 ### • [GooseMod](https://goosemod.com/)
 
