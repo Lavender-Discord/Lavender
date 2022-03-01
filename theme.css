@@ -27,6 +27,7 @@ This file basically imports all the parts of the theme using urls
 @import "https://obscure-git.github.io/Lavender/src/popouts/user-popout.css";
 @import "https://obscure-git.github.io/Lavender/src/popouts/big-user-popout.css";
 @import "https://obscure-git.github.io/Lavender/src/popouts/emoji-picker.css";
+@import "https://obscure-git.github.io/Lavender/src/popouts/quick-switcher.css";
 
 /* Pages */
 @import "https://obscure-git.github.io/Lavender/src/pages/settings.css";
