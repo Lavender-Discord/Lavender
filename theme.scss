@@ -9,6 +9,8 @@
 @use "addons/icons";
 @use "addons/colored-svgs";
 
+@use "lavender";
+
 /* Only works if transparency is enabled — Makes the window borders more round*/
 .powercord.transparent {
    background: transparent !important;

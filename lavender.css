@@ -1,0 +1,30 @@
+/* Lavender info on bottom of sidebar in settings page */
+.info-3pQQBb::after {
+	content: "Lavender v1.1.0";
+	text-transform: none !important;
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--text-muted);
+}
+
+.wordmarkWindows-2dq6rw {
+	opacity: 1 !important;
+	padding-right: 100px;
+	position: fixed;
+	left: unset !important;
+	top: 97.3%;
+}
+
+.wordmarkWindows-2dq6rw svg {
+	display: none;
+}
+
+.wordmarkWindows-2dq6rw::after {
+	content: "Lavender v1.1.0";
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--text-muted);
+	position: absolute;
+	left: 30px;
+    	margin-top: 2px;
+}
