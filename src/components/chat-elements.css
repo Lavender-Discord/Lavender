@@ -1,3 +1,21 @@
+/* edited text */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+  	content: " (" attr(aria-label) ")";
+	color: var(--text-muted);
+	font-size: 0.625rem;
+   	 font-weight: 400;
+   	 line-height: 1;
+  	  -webkit-user-select: none;
+  	  -moz-user-select: none;
+  	  -ms-user-select: none;
+  	  user-select: none;
+	text-transform: lowercase;
+}
+
+.edited-1v5nT8 {
+	display: none;
+}
+
 .managedReactiveScroller-1lEEh3 {
     scrollbar-width: auto !important;
     overflow-y: scroll !important;
@@ -160,4 +178,41 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
       padding: 5px;
       background-color: var(--background-primary);
       border-radius: 10px;
+}
+
+/* Code */
+
+/* Orange text */
+.hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {
+	color: #F5783B !important;
+}
+
+/* Yellow Text */
+.hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
+	color: #FAC43B !important;
+}
+
+/* Green text */
+.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
+	color: #00D85B !important;
+}
+
+/* Red text */
+.hljs-built_in, .hljs-deletion {
+	color: #F31F27 !important;
+}
+
+/* Blue Text*/
+.hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {
+	color: #25D0FD !important;
+}
+
+/* The different green color :/ idk what its called lol */
+.hljs-addition, .hljs-keyword, .hljs-selector-tag {
+	color: #00E7AB !important;
+}
+
+/* White Text */
+.powercord-codeblock-table td {
+	color: #ddd !important;
 }

@@ -2,6 +2,9 @@
                                     Server List Area
    ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
 
+.iconBadge-32fMme {
+    background-color: var(--background-secondary-alt) !important;
+}
 
 .item-2LIpTv {
     background-color: var(--brand-experiment);
