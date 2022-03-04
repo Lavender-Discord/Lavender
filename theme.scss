@@ -13,10 +13,10 @@
 
 /* Only works if transparency is enabled — Makes the window borders more round*/
 .powercord.transparent {
-   background: transparent !important;
-   border: none !important;
-   outline: none !important;
+  	 background: transparent !important;
+   	border: none !important;
+   	outline: none !important;
 }
 .powercord.transparent #app-mount{
-   border-radius: 25px !important;
+  	 border-radius: 25px !important;
 }

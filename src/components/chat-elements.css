@@ -228,3 +228,16 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 .powercord-codeblock-table td {
 	color: #ddd !important;
 }
+
+/* Home tab */
+.background-fkKrXt {
+	background-color: var(--background-primary) !important;
+}
+
+.background-fkKrXt .widgets-37sQdc [class^="container"] {
+	background-color: var(--background-secondary) !important;
+}
+
+.background-fkKrXt .widgets-37sQdc [class^="container"] .channel-3RR50j:hover {
+	background-color: var(--background-primary) !important;
+}

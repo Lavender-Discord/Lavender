@@ -161,3 +161,18 @@
     background: var(--red-bg);
     opacity: 0.9;
 }
+
+/* Server with a banner */
+[class*="container"][class*="clickable"][class*="hasBanner"][class*="bannerVisible"] > header[class^="header"] {filter: none; }
+[class*="container"][class*="clickable"][class*="hasBanner"][class*="bannerVisible"] > header[class^="header"]::before {
+    content: '';
+    background-color: #000;
+    width: 260px;
+    height: 49px;
+    display: block;
+    opacity: 0.3;
+    border-radius: 10px 10px 0px 0px;
+    position: fixed;
+    left: 72px;
+    z-index: -1;
+}
