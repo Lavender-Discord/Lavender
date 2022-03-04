@@ -232,11 +232,11 @@
     -webkit-transition: ease .5s;
 }
 .form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]):hover::before {
-    background: var(--blurple-bg-alt);
+    background:  linear-gradient(90deg, rgba(131, 129, 254, 1) 0%, rgba(107, 105, 255, 1) 100%);
     -webkit-transition: ease .5s;
 }
 .form-3gdLxP .separator-3ng7S5 .button-y6hemj:not([disabled]):active::before {
-    background: var(--blurple-bg-alt);
+    background:  linear-gradient(90deg, rgba(131, 129, 254, 1) 0%, rgba(107, 105, 255, 1) 100%);
     -webkit-transition: ease .5s;
 }
 .form-3gdLxP .base-3bcbY3 {

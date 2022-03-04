@@ -31,7 +31,7 @@
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background: #6C6AFF;
+    background: var(--blurple-bg-alt);
 }
 
 .colorRed-rQXKgM {
@@ -40,7 +40,7 @@
 }
 
 .colorRed-rQXKgM:hover {
-    background: #F42028 !important;
+    background: var(--red-bg-alt) !important;
     color: #fff !important;
     transition: .5s ease;
     border: none;
@@ -59,3 +59,21 @@
   display: none;
 }
 
+[aria-label="Disable"] .container-2nx-BQ {
+	background: var(--spotify-bg) !important;
+}
+
+[aria-label="Enable"] .container-2nx-BQ {
+	background: var(--background-primary) !important;
+}
+
+.colorGrey-2iAG-B,
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+	background-color: var(--background-secondary-alt) !important;
+	transition: .3s ease;
+}
+
+.colorGrey-2iAG-B:hover,
+.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+	background-color: var(--background-secondary) !important;
+}

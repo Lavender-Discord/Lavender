@@ -17,10 +17,10 @@
   --brand-experiment-hover: #7E7BFEcc;
 
   --blurple-bg: linear-gradient(90deg, rgba(107, 105, 255, 1) 0%, rgba(131, 129, 254, 1) 100%);
-  --blurple-bg-alt: linear-gradient(90deg, rgba(131, 129, 254, 1) 0%, rgba(107, 105, 255, 1) 100%);
+  --blurple-bg-alt: #6C6AFF;
 
   --red-bg: linear-gradient(90deg, rgba(243, 30, 38, 1) 0%, rgba(251, 64, 64, 1) 100%);
-  --red-bg-alt: linear-gradient(90deg, rgba(251, 64, 64, 1) 0%, rgba(243, 30, 38, 1) 100%);
+  --red-bg-alt: #F42028;
 
   --background-primary: #101014;
   --background-secondary: #17161B;
