@@ -25,6 +25,7 @@
     display: block;
     margin-top: 4px;
     color: var(--channels-default) !important;
+    z-index: 1 !important;
 }
 
 .addButton-2mlqCW.forceVisible-14yqh4:hover, .iconVisibility-3pLDEs:hover .addButton-2mlqCW:hover {
