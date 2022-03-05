@@ -63,21 +63,9 @@ cd %homepath%
 
 # Important
 
-When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you can try the below fixes:
+When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Obscure-Git/Lavender/releases/download/v1.1.0/smoothscrollBD.plugin.js).
 
-## Fix 1
-
-Fix 1 is by downloading a plugin called [SmoothScrollPowercord](https://github.com/LynithDev/SmoothScrollPowerCord).
-
-## Fix 2
-
-Fix 2 is by unloading a part of the theme, this will make the channel list and members list a little ugly so only use this if Fix 1 doesn't work for you.
-
-- **Step 1:** Go to `src` folder and open the `source.scss` file.
-
-- **Step 2:** Inside `source.scss` file remove/comment out every line that starts with: `@use "lists/`
-
-You might need to repeat this thing sometimes when you update the theme.
+**Note: ** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
 
 # Credits
 
