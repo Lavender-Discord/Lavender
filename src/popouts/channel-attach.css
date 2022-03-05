@@ -1,0 +1,23 @@
+/* Attach button popup */
+#channel-attach.menu-1QACrS.menu-1dOGCq .scrollerBase-_bVAAt {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto !important;
+    background-color: var(--background-secondary);
+    border-radius: 10px;
+}
+
+#channel-attach.menu-1dOGCq {
+    min-width: unset !important;
+}
+
+#channel-attach .scroller-1bVxF5 {
+    padding: 0px 8px !important;
+    padding-right: 0px !important;
+}
+
+#channel-attach .optionName-1ebPjH,
+#channel-attach .subtext-2GlkbE {
+    display: none;
+}

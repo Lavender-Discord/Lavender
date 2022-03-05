@@ -73,9 +73,27 @@
 }
 */
 
-[aria-label="Open sticker picker"], [aria-label="Open GIF picker"] {
-   display: none;
-   opacity: 0;
+.buttons-uaqb-5 {
+  order: 3 !important;
+}
+
+.buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
+  order: -1 !important;
+  margin-right: -5px !important;
+}
+
+.attachWrapper-3slhXI {
+  order: 2 !important;
+  margin-right: -5px !important;
+}
+
+.slateContainer-3x9zil {
+  order: 1 !important;
+}
+
+.expression-picker-chat-input-button:nth-of-type(1),
+.expression-picker-chat-input-button:nth-of-type(2) {
+	display: none;
 }
 
 .sprite-2lxwfc { 
@@ -83,8 +101,8 @@
 }
 
 .form-3gdLxP .attachButton-1ijpt9 {
-    margin-left: -12px;
-    margin-right: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .form-3gdLxP .attachButton-1ijpt9 .attachButtonPlay-1ATmb5 {
@@ -118,7 +136,7 @@
     content: " ";
     position: absolute;
     background-color: var(--background-secondary);
-    width: calc(100% - 68px);
+    width: calc(100% - 65px);
     height: 44px;
     margin-left: 7px;
     border-radius: var(--radius-primary);
@@ -292,6 +310,13 @@
     display: block;
 }
 
+.form-3gdLxP .characterCount-8yNPfb .root-3PVcjb.upsell-103Jee {
+     display: none;
+}
+
+.sansAttachButton-1ERHue {
+    padding-left: 7px !important;
+}
 
 /* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
                                     Jump to Present Button
@@ -360,6 +385,7 @@
     background-color: var(--background-secondary);
 }
 
-.theme-dark .selected-3H3-RC {
+.selected-3H3-RC {
     background-color: var(--background-tertiary);
 }
+

@@ -77,3 +77,12 @@
 .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
 	background-color: var(--background-secondary) !important;
 }
+
+.perksModal-CLcR1c {
+	background-color: var(--background-primary) !important;
+}
+
+.tierBody-3ju-rc,
+.perk-19D_HN {
+	background-color: var(--background-secondary) !important;
+}
