@@ -1,3 +1,20 @@
+/* resize handle of new threads sidebar */
+.resizeHandle-PBRzPC {
+	background-color: var(--background-secondary) !important;
+}
+
+/* Text bar in threads sidebar and also the bar where you give it a name */
+.container-1RZJZM .channelTextArea-1VQBuV .scrollableContainer-15eg7h,
+input[placeholder="New Thread"] {
+    	background-color: var(--background-secondary);
+    	border-radius: 10px;
+}
+
+/* Image in chat */
+.imageWrapper-oMkQl4 {
+ 	border-radius: 10px !important;
+}
+
 /* edited text */
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
   	content: " (" attr(aria-label) ")";

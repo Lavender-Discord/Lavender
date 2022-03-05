@@ -386,6 +386,6 @@
 }
 
 .selected-3H3-RC {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-primary) !important;
 }
 
