@@ -12,7 +12,7 @@
     transition: .3s ease;
 }
 
-.tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr[aria-controls="add_friend-tab"]:hover {
+.children-3xh0VB .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
     background: var(--spotify-bg-alt) !important;
 }
 
@@ -32,4 +32,8 @@
 
 .addFriendInputWrapper-kkoSV9 {
     background-color: var(--background-secondary);
+}
+
+.itemCard-3Etziu.wrapper-2RrXDg.outer-2JOHae.padded-2NSY6O.interactive-2zD88a:hover {
+    background-color: var(--background-secondary-alt) !important;
 }

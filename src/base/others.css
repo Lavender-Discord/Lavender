@@ -78,6 +78,16 @@
 	background-color: var(--background-secondary) !important;
 }
 
+/* Green */
+[style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+	background: var(--spotify-color) !important;
+}
+
+/* The unchecked checkbox's bg color */
+[style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
+	background: var(--background-secondary-alt) !important;
+}
+
 .perksModal-CLcR1c {
 	background-color: var(--background-primary) !important;
 }
