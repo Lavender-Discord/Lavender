@@ -29,3 +29,20 @@
 	opacity: 1;
 	display: block;
 }
+
+.container-1NXEtd[aria-label^="Gradient"] .mainContent-uDGa6R[aria-label^="Lavender"] {
+	padding-left: 25px;
+}
+
+.container-1NXEtd[aria-label^="Gradient"] .mainContent-uDGa6R[aria-label^="Lavender"]::before {
+	content: "";
+            background: url("https://obscure-git.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            padding: 0px 8px 0px 8px;
+            margin-left: 15px;
+	display: block;
+    	position: absolute;
+    	top: 0 !important;
+    	right: unset !important;
+    	bottom: 0 !important;
+    	left: 0 !important;
+}
