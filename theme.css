@@ -49,6 +49,7 @@ This file basically imports all the parts of the theme using urls
 @import "https://obscure-git.github.io/Lavender/src/components/channel-bar.css";
 @import "https://obscure-git.github.io/Lavender/src/components/popup-menus.css";
 @import "https://obscure-git.github.io/Lavender/src/components/chat-elements.css";
+@import "https://obscure-git.github.io/Lavender/src/components/user-actions.css";
 @import "https://obscure-git.github.io/Lavender/src/components/bd-spotify.css";
 @import "https://obscure-git.github.io/Lavender/src/components/pc-spotify.css";
 

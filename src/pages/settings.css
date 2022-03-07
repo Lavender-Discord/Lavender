@@ -24,12 +24,6 @@
     background-color: var(--background-secondary);
 }
 
-.customizationSection-IGy2fS.preview-Z55SA3 .imageUploader-1X7wVc {
-    position: absolute;  
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 .contentColumn-1C7as6 .itemFilled-1cPbtg[aria-checked=true] {
     background-color: var(--background-secondary-alt);
 }
