@@ -72,3 +72,8 @@
 .container-KM8BU6.root-g14mjS .reactionSelected-1aMb2K:hover  {
     background-color: var(--background-secondary-alt) !important;
 }
+
+/* Threads popout active threads display div */
+.container-2rzKKA:hover {
+	background-color: var(--background-secondary-alt);
+}

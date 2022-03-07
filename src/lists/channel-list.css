@@ -177,3 +177,8 @@
     left: 72px;
     z-index: -1;
 }
+
+.sidebar-1tnWFu .container-1NXEtd .container-1-ERn5 .header-3OsQeK:hover,
+.sidebar-1tnWFu .container-1NXEtd .container-1-ERn5:hover {
+	background-color: var(--background-secondary-alt);
+}
