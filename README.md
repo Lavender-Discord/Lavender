@@ -2,11 +2,11 @@
 
 A good looking dark purple-ish theme for [discord](https://discord.com/).
 
-## [Support](discord.gg/B9TK7nqRE4)
+## [Support](https://discord.gg/B9TK7nqRE4)
 
 For bug reports open a issue here on github with the provided templates.
 
-For problems installing or using the theme join our [server](discord.gg/B9TK7nqRE4) and ask for help.
+For problems installing or using the theme join our [server](https://discord.gg/B9TK7nqRE4) and ask for help.
 
 # Installation
 
