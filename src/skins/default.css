@@ -75,7 +75,7 @@
 
   --channeltextarea-background: var(--background-secondary);
   --channeltextarea-caret: var(--brand-experiment);
-  --channels-default: #808080;
+  --channels-default: #707070;
 
   --button-brand: var(--brand-experiment);
   --button-brand-hovered: var(--brand-experiment-hover);
@@ -102,8 +102,6 @@
   --separator-spacing-width: 2px;
   --danger-background-radius: 4px;
   --slider-background-radius: 4px;
-
-
 }
 
 code {

@@ -258,3 +258,18 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 .background-fkKrXt .widgets-37sQdc [class^="container"] .channel-3RR50j:hover {
 	background-color: var(--background-primary) !important;
 }
+
+/* The message action buttons on hovering a message */
+.buttonContainer-1502pf .wrapper-2vIMkT .button-3bklZh:hover {
+	background-color: var(--background-secondary-alt);
+}
+
+/* Red "NEW" line in chat */
+#---new-messages-bar {
+	border-color: var(--red-bg-alt);
+}
+
+/* Red "NEW" icon in chat */
+.unreadPill-3nEWYM {
+	background: var(--red-bg-alt);
+}
