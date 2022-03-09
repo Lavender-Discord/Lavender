@@ -153,3 +153,19 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
   fill: rgba(0, 0, 0, 0.75);
   clip-path: circle(40%);
 }
+
+/* Status everywhere support - BD */
+.StatusEverywhere-avatar-chatAvatar::before {
+    display: none
+}
+
+.messageListItem-ZZ7v6g .StatusEverywhere-avatar-chatAvatar rect {
+    y: 0%;
+    x: 80%;
+    transform: scale(0.7);
+}
+
+.content-1Tgc42 .StatusEverywhere-avatar-chatAvatar svg.cursorDefault--wfhy5,
+.content-1Tgc42 .StatusEverywhere-avatar-chatAvatar rect {
+    display: none;
+}

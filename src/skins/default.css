@@ -75,7 +75,7 @@
 
   --channeltextarea-background: var(--background-secondary);
   --channeltextarea-caret: var(--brand-experiment);
-  --channels-default: #707070;
+  --channels-default: #808080;
 
   --button-brand: var(--brand-experiment);
   --button-brand-hovered: var(--brand-experiment-hover);
