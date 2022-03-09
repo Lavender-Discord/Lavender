@@ -17,7 +17,25 @@
     padding-right: 0px !important;
 }
 
-#channel-attach .optionName-1ebPjH,
 #channel-attach .subtext-2GlkbE {
     display: none;
+}
+
+#channel-attach .item-1OdjEX {
+    width: 40px;
+    transition: width .6s ease-in-out;
+}
+
+#channel-attach .item-1OdjEX:hover {
+    width: 100%;
+}
+
+#channel-attach .optionName-1ebPjH {
+    width: 0px;
+    overflow: hidden;
+    transition: width .6s ease-in-out;
+}
+
+#channel-attach .item-1OdjEX:hover .optionName-1ebPjH {
+    width: 100%;
 }
