@@ -7,28 +7,6 @@
 	color: var(--text-muted);
 }
 
-.wordmarkWindows-2dq6rw {
-	opacity: 1 !important;
-	padding-right: 100px;
-	position: fixed;
-	left: unset !important;
-	top: 97.3%;
-}
-
-.wordmarkWindows-2dq6rw svg {
-	display: none;
-}
-
-.wordmarkWindows-2dq6rw::after {
-	content: "Lavender v1.1.0";
-	font-size: 12px;
-	line-height: 16px;
-	color: var(--text-muted);
-	position: absolute;
-	left: 30px;
-    	margin-top: 2px;
-}
-
 /* Chat, Friends List, Mutual Friends List - Added lavender icon next to my name */
 [data-author-id='755436063828213821'] .header-2jRmjb .username-h_Y3Us::before,
 [data-user-id="755436063828213821"] + .header-1dhDWV::before,
