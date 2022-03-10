@@ -27,7 +27,7 @@
 	top: 45px;
 	transform: translateX(-21px);
 	opacity: 0;
-	transition: opacity .1s ease-in-out;
+	display: none;
 }
 
 .search-39IXmY::before {
@@ -39,11 +39,12 @@
 	top: 35px;
 	transform: rotate(90deg) translate(3px,-8px);
 	opacity: 0;
-	transition: opacity .1s ease-in-out;
+	display: none;
 }
 
 .search-39IXmY:hover::before,
 .search-39IXmY:hover::after {
+	display: block;
 	opacity: 1;
 }
 
