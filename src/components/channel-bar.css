@@ -10,6 +10,18 @@
    transition: .3s ease;
 }
 
+.iconWrapper-2awDjA:nth-child(2) {
+    order: -1 !important;
+}
+
+.search-39IXmY {
+    order: -2 !important;
+}
+
+.iconWrapper-2awDjA:nth-child(4) {
+    order: 1 !important;
+}
+
 .searchBar-jGtisZ {
      width: 20px;
      cursor: pointer;
