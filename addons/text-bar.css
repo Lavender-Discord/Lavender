@@ -114,8 +114,8 @@
 }
 
 .channelTextArea-1VQBuV button {
-    width: 42px;
-    height: 42px;
+    width: var(--textbar-button-width);
+    height: var(--textbar-button-height);
     margin-top: 0;
     margin-left: 0px;
     border-radius: var(--radius-primary);
@@ -137,7 +137,7 @@
     position: absolute;
     background-color: var(--background-secondary);
     width: calc(100% - 65px);
-    height: 44px;
+    height: 43px;
     margin-left: 7px;
     border-radius: var(--radius-primary);
 }
@@ -213,8 +213,8 @@
     content: "";
     top: 0;
     left: 0;
-    width: 42px;
-    height: 42px;
+    width: var(--textbar-button-width);
+    height: var(--textbar-button-height);
     border-radius: var(--radius-primary);
     transition: ease .5s;
     -webkit-transition: ease .5s;

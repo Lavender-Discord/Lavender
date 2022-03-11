@@ -102,6 +102,9 @@
   --separator-spacing-width: 2px;
   --danger-background-radius: 4px;
   --slider-background-radius: 4px;
+
+  --textbar-button-width: 43px;
+  --textbar-button-height: 43px;
 }
 
 code {
