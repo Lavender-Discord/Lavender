@@ -10,15 +10,15 @@
    transition: .3s ease;
 }
 
-.iconWrapper-2awDjA:nth-child(2) {
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2) {
     order: -1 !important;
 }
 
-.search-39IXmY {
+.toolbar-3_r2xA .search-39IXmY {
     order: -2 !important;
 }
 
-.iconWrapper-2awDjA:nth-child(4) {
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(4) {
     order: 1 !important;
 }
 
