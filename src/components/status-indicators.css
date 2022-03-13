@@ -46,6 +46,9 @@ rect[fill^="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
 
 [mask="url(#svg-mask-status-online-mobile)"]{
     fill: #4DF3BA;
+    mask: none;
+    ry: 6px;
+    rx: 6px;
 }
 
 #svg-mask-status-idle>circle:last-of-type {
@@ -57,7 +60,7 @@ mask[id^="svg-mask-avatar-status-round"] circle:last-of-type {
 }
 
 mask[id^="svg-mask-avatar-status-mobile"] rect {
-    y: -9%;
+    y: -10%;
 }
 
 mask[id^="svg-mask-avatar-status-typing"] rect {
@@ -82,7 +85,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
 }
 
 .mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
-    y: 10% !important;
+    y: 12% !important;
     x: 75% !important;
     transform: scale(0.75) !important;
 }
