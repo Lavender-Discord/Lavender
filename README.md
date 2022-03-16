@@ -16,7 +16,7 @@ For problems installing or using the theme join our [server](https://discord.gg/
 - **Step 2:** Paste the below code in your terminal:
 
 ```bash
-cd powercord/src/Powercord/themes && git clone https://github.com/Obscure-Git/Lavender
+cd powercord/src/Powercord/themes && git clone https://github.com/Lavender-Discord/Lavender
 cd %homepath%
 ```
 
@@ -32,7 +32,7 @@ cd %homepath%
 
 ​	**Method 2:**
 
-​			**• Step 1:** Go to [releases](https://github.com/Obscure-Git/Lavender/releases) tab of this repo.
+​			**• Step 1:** Go to [releases](https://github.com/Lavender-Discord/Lavender/releases) tab of this repo.
 
 ​			**• Step 2:** Click on the `lavender.theme.css` file to download it.
 
@@ -50,10 +50,10 @@ cd %homepath%
 - **Step 2:** Open a **Command Prompt / Terminal / Powershell** window there and paste the below code:
 
   ```bash
-  git clone https://github.com/Obscure-Git/Lavender
+  git clone https://github.com/Lavender-Discord/Lavender
   ```
 
-### • [Browser / Web](https://github.com/Obscure-Git/Lavender#browser--web)
+### • [Browser / Web](https://github.com/Lavender-Discord/Lavender#browser--web)
 
 - **Method 1:**
 
@@ -75,13 +75,13 @@ cd %homepath%
 
 # Important
 
-When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Obscure-Git/Lavender/releases/download/v1.1.0/smoothscrollBD.plugin.js).
+When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/download/v1.1.0/smoothscrollBD.plugin.js).
 
 **Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
 
 # Credits
 
-Lavender uses snippets from many other theme devs, all the snippets are either in [`/addons`](https://github.com/Obscure-Git/Lavender/tree/main/addons) folder or in snippets file in [`/src/base/snippets.css`](https://github.com/Obscure-Git/Lavender/blob/main/src/base/snippets.css) with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
+Lavender uses snippets from many other theme devs, all the snippets are either in [`/addons`](https://github.com/Lavender-Discord/Lavender/tree/main/addons) folder or in snippets file in [`/src/base/snippets.css`](https://github.com/Lavender-Discord/Lavender/blob/main/src/base/snippets.css) with credits to the respective devs. (Contact me in my [server](discord.gg/B9TK7nqRE4) if I have forgotten or mistaken with any credits 👍)
 
 ## [Concept](https://dribbble.com/shots/15137908-Social-Media-Management-Dashboard)
 
@@ -90,7 +90,7 @@ Lavender was inspired by a dashboard concept from dribble, made by [SajjadMohamm
 ### The original concept looked like: 
 <img src="https://cdn.dribbble.com/users/1787150/screenshots/15137908/media/cf05e3a31b0c9f17336349e08d223815.png?compress=1&resize=1200x900&vertical=top" alt="Concept Image">
 
-# [Previews](https://github.com/Obscure-Git/Lavender/tree/main/assets)
+# [Previews](https://github.com/Lavender-Discord/Lavender/tree/main/assets)
 
 Note: Screenshots might be outdated because I only update them like once a week and sometimes I forget 😬.
 
