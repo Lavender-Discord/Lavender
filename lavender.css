@@ -13,7 +13,7 @@
 [data-user-id="755436063828213821"] + .text-3j8t_e .username-3JLfHz::before,
 [data-user-id="755436063828213821"] + .listName-PwbeHL .username-3JLfHz::before {
 	content: "";
-            background: url("https://obscure-git.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
             padding: 0px 7px 0px 7px;
             margin-right: 6px;
 }
@@ -21,7 +21,7 @@
 /* Small user popout - Added lavender icon next to my name */
 [aria-label="Obscure."].userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq .nameTag-H6kSJ0 .username-3JLfHz::before {
 	content: "";
-            background: url("https://obscure-git.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
             padding: 1px 8px 0px 8px;
             margin-right: 6px;
 }
