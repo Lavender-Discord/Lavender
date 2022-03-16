@@ -69,7 +69,7 @@ cd %homepath%
 
   ​	**Step 1:** Install the [**Stylus**](https://add0n.com/stylus.html) extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
 
-  ​	**Step 2:** After installing, head over to [this link](https://obscure-git.github.io/Lavender/clients/lavender.user.css).
+  ​	**Step 2:** After installing, head over to [this link](https://lavender-discord.github.io/Lavender/clients/lavender.user.css).
 
   ​	**Step 3:** Press the "**Install Style**" button.
 
@@ -94,21 +94,21 @@ Lavender was inspired by a dashboard concept from dribble, made by [SajjadMohamm
 
 Note: Screenshots might be outdated because I only update them like once a week and sometimes I forget 😬.
 
-### • [Theme](https://obscure-git.github.io/Lavender/assets/1.png)
-<img src="https://obscure-git.github.io/Lavender/assets/1.png" alt="screenshot1">
+### • [Theme](https://lavender-discord.github.io/Lavender/assets/1.png)
+<img src="https://lavender-discord.github.io/Lavender/assets/1.png" alt="screenshot1">
 
-### • [User Popouts](https://obscure-git.github.io/Lavender/assets/2.png)
-<img src="https://obscure-git.github.io/Lavender/assets/2.png" alt="user-popout">
+### • [User Popouts](https://lavender-discord.github.io/Lavender/assets/2.png)
+<img src="https://lavender-discord.github.io/Lavender/assets/2.png" alt="user-popout">
 
-### • [User action buttons](https://obscure-git.github.io/Lavender/assets/3.png)
-<img src="https://obscure-git.github.io/Lavender/assets/3.png" alt="user-action-buttons">
-<img src="https://obscure-git.github.io/Lavender/assets/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
+### • [User action buttons](https://lavender-discord.github.io/Lavender/assets/3.png)
+<img src="https://lavender-discord.github.io/Lavender/assets/3.png" alt="user-action-buttons">
+<img src="https://lavender-discord.github.io/Lavender/assets/3-gat.png" alt="user-action-buttons-with-game-activity-toggle-button">
 
-### • [Status Indicators](https://obscure-git.github.io/Lavender/assets/4a.png)
+### • [Status Indicators](https://lavender-discord.github.io/Lavender/assets/4a.png)
 
-<img src="https://obscure-git.github.io/Lavender/assets/4b.png" alt="Status Indicators">
-<img src="https://obscure-git.github.io/Lavender/assets/4a.png" alt="Status Indicators">
+<img src="https://lavender-discord.github.io/Lavender/assets/4b.png" alt="Status Indicators">
+<img src="https://lavender-discord.github.io/Lavender/assets/4a.png" alt="Status Indicators">
 
-### • [Powercord Spotify Module](https://obscure-git.github.io/Lavender/assets/5.gif)
+### • [Powercord Spotify Module](https://lavender-discord.github.io/Lavender/assets/5.gif)
 
-<img src="https://obscure-git.github.io/Lavender/assets/5.gif" alt="Powercord Spotify Module">
+<img src="https://lavender-discord.github.io/Lavender/assets/5.gif" alt="Powercord Spotify Module">
