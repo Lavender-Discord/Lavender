@@ -1,62 +1,64 @@
 .numberBadge-37OJ3S,
 .wrapper-2olG5t.badge-3k1jbq {
-    color: #eee;
-    background: var(--blurple-bg) !important;
-    border-radius: 5px !important;
+	color: #eee;
+	background: var(--blurple-bg) !important;
+	border-radius: 5px !important;
 }
 
 .colorGreen-3y-Z79, .liveIndicator-TJKS7N {
-    background: var(--spotify-bg);
-    color: #fff !important;
-    transition: .3s ease;
-    border: none;
-    outline: none;
+	background: var(--spotify-bg);
+	color: #fff !important;
+	transition: .5s ease-in-out;
+	border: none;
+	outline: none;
 }
 
 .colorGreen-3y-Z79:hover {
-    background: var(--spotify-bg-alt) !important;
-    color: #fff !important;
+	box-shadow: inset 200px 0 10px 0 var(--spotify-bg-alt);
+	color: #fff !important;
+	border-radius: 6px;
 }
 
 .colorStatusGreen-2HKYOW {
-    color: var(--spotify-color) !important;
+	color: var(--spotify-color) !important;
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-    background: var(--blurple-bg);
-    color: #fff !important;
-    transition: .3s ease;
-    border: none;
-    outline: none;
+	border: 3px solid var(--blurple-bg-alt);
+	color: #fff !important;
+	transition: .5s ease-in-out;
+	outline: none;
+	background: var(--blurple-bg);
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background: var(--blurple-bg-alt);
+	box-shadow: inset 200px 0 10px 0 var(--blurple-bg-alt);
+	color: #fff !important;
+	border-radius: 6px;
 }
 
 .colorRed-rQXKgM {
-  background: var(--red-bg) !important;
-  transition: .5s ease !important;
+	background: var(--red-bg) !important;
+	transition: .5s ease-in-out;
+	outline: none;
 }
 
 .colorRed-rQXKgM:hover {
-    background: var(--red-bg-alt) !important;
-    color: #fff !important;
-    transition: .5s ease;
-    border: none;
-    outline: none;
+	color: #fff !important;
+	box-shadow: inset 200px 0 10px 0 var(--red-bg-alt);
+	border-radius: 6px;
 }
 
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
-  color: #fff !important;
+	color: #fff !important;
 }
 
 .focused-3qFvc8 {
-  background: var(--blurple-bg-alt) !important;
+	background: var(--blurple-bg-alt) !important;
 }
 
 .spine-29OFwR {
-  display: none;
+	display: none;
 }
 
 [aria-label="Disable"] .container-2nx-BQ {

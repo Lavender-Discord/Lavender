@@ -26,16 +26,8 @@
     transition: width .6s ease-in-out;
 }
 
-#channel-attach .item-1OdjEX:hover {
-    width: 100%;
-}
-
 #channel-attach .optionName-1ebPjH {
     width: 0px;
     overflow: hidden;
     transition: width .6s ease-in-out;
-}
-
-#channel-attach .item-1OdjEX:hover .optionName-1ebPjH {
-    width: 100%;
 }
