@@ -127,7 +127,6 @@ div[class*="mentioned"] {
     border-top-left-radius: 6px;
 }
 
-
 div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     --spine-width: 2.5px;
     content: "";

@@ -46,7 +46,6 @@ rect[fill^="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
 
 [mask="url(#svg-mask-status-online-mobile)"]{
     fill: #4DF3BA;
-    mask: none;
     ry: 6px;
     rx: 6px;
 }
