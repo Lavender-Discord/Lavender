@@ -15,11 +15,12 @@
 /* min, max, close buttons */
 .winButton-3UMjdg {
     color: #B9BBBE;
-    opacity: 0;
+    opacity: 0.2;
     border-radius: 50px;
     margin: 5px 7px 0 0;
     padding: 0px !important;
     width: 20px; height: 20px;
+    transition: .3s ease-in-out;
 }
 
 .winButton-3UMjdg:hover {
@@ -29,17 +30,17 @@
 
 [class*="winButton-"]:nth-child(2):hover {
     background-color: #FD282E;
-    color: #FD282E;
+    color: var(--background-primary);
 }
 
 [class*="winButton-"]:nth-child(3):hover {
     background-color: #FFAC62;
-    color: #FFAC62;
+    color: var(--background-primary);
 }
 
 [class*="winButton-"]:nth-child(4):hover {
     background-color: var(--spotify-color);
-    color: var(--spotify-color);
+    color: var(--background-primary);
 }
 
 .sidebar-1tnWFu::before {
