@@ -160,6 +160,7 @@
 .channelTextArea-1VQBuV .textArea-2CLwUE {
     border-radius: var(--radius-primary);
     background-color: var(--background-secondary);
+    padding-left: 15px;
 }
 
 .channelTextArea-1VQBuV .slateTextArea-27tjG0 {
