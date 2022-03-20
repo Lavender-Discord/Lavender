@@ -77,3 +77,8 @@
 .container-2rzKKA:hover {
 	background-color: var(--background-secondary-alt);
 }
+
+/* User settings tooltip */
+.layer-2aCOJ3[style*="position: absolute; bottom: 148px; left: -15px;"] {
+	left: 5px !important;
+}
