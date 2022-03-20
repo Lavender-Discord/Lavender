@@ -116,28 +116,14 @@ div[class*="mentioned"]::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  display: none;
 }
 
 div[class*="mentioned"] {
   border-radius: 0px 10px 10px 0;
-  background-color: transparent !important;
 }
 
 div[class*="mentioned"]:hover {
   border-radius: 0px 10px 10px 0;
-  background-color: transparent !important;
-}
-
-div[class*="mentioned"] .contents-2MsGLg .messageContent-2t3eCI::before {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   left: 70px;
-   width: 93%;
-   height: 100%;
-   background-color: var(--background-mentioned);
-   border-radius: 5px !important;
 }
 
 div[class*="mentioned"]:hover .contents-2MsGLg .messageContent-2t3eCI::before {
@@ -194,14 +180,18 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     border-top-left-radius: 6px;
 }
 
-.wrapper-1ZcZW-:not(.roleMention-11Aaqi) {
+.wrapper-1ZcZW- {
+    --brand-experiment-200: var(--blurple-bg-alt);
     color: var(--brand-experiment);
     background: transparent !important;
+    transition: .3s ease;
+    font-weight: 620;
+    font-size: 1.01em;
 }
 
-.wrapper-1ZcZW- {
-    font-weight: 600;
-    font-size: 1.01em;
+.wrapper-1ZcZW-:not(.roleMention-11Aaqi):hover {
+    color: var(--blurple-bg-alt);
+    filter: brightness(140%);
 }
 
 /* Invite to game/activity (Example Invite to listen along to spotify)*/
