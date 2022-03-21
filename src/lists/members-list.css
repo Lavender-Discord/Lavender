@@ -2,7 +2,8 @@
 .members-3WRCEx,
 .container-2o3qEW, 
 .membersWrap-3NUR2t,
-.members-3WRCEx>div {
+.members-3WRCEx>div,
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     background-color: var(--background-primary);
 }
 
