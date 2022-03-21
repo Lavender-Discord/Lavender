@@ -38,62 +38,27 @@
   display: none !important;
 }
 
-/*
-[aria-label="Open sticker picker"] {
-   animation: slideOut .5s forwards;
-}
-
- [aria-label="Open GIF picker"] {
-   animation: slideOut2 .5s forwards;
-}
-
-.buttons-uaqb-5:hover [aria-label="Open GIF picker"] {
-   animation: slideIn .4s forwards;
-   display: flex;
-}
-
-.buttons-uaqb-5:hover [aria-label="Open sticker picker"] {
-   animation: slideIn .4s forwards;
-   display: flex;
-}
-
-@keyframes slideIn {
-   from {right: -40px; display: none;}
-   to {right: 0px; display: block;}
-}
-
-@keyframes slideOut {
-   from {right: 0px; display: block;}
-   to {right: -80px; position: fixed;}
-}
-
-@keyframes slideOut2 {
-   from {right: 0px; display: block;}
-   to {right: -160px; position: fixed;}
-}
-*/
-
-.buttons-uaqb-5 {
-  order: 3 !important;
-}
-
-.buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
-  order: -1 !important;
-  margin-right: -5px !important;
-}
-
-.attachWrapper-3slhXI {
-  order: 2 !important;
-  margin-right: -5px !important;
-}
-
-.slateContainer-3x9zil {
-  order: 1 !important;
-}
-
 .expression-picker-chat-input-button:nth-of-type(1),
 .expression-picker-chat-input-button:nth-of-type(2) {
 	display: none;
+}
+
+.buttons-uaqb-5 {
+	order: 3 !important;
+}
+
+.buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
+	order: -2 !important;
+	margin-right: -10px !important;
+}
+
+.attachWrapper-3slhXI {
+	order: 2 !important;
+	margin-right: -5px !important;
+}
+
+.slateContainer-3x9zil {
+	order: 1 !important;
 }
 
 .sprite-2lxwfc { 
@@ -137,7 +102,7 @@
     position: absolute;
     background-color: var(--background-secondary);
     width: calc(100% - 65px);
-    height: 44px;
+    height: 43px;
     margin-left: 7px;
     border-radius: var(--radius-primary);
 }
