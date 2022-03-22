@@ -40,7 +40,54 @@
 
 .expression-picker-chat-input-button:nth-of-type(1),
 .expression-picker-chat-input-button:nth-of-type(2) {
-	display: none;
+  order: -3 !important;
+  z-index: -1;
+  margin-right: -5px;
+  margin-top: 1px;
+  margin-left: -3px;
+}
+
+.chatContent-3KubbW .buttons-uaqb-5 .expression-picker-chat-input-button:nth-of-type(1) > button:not(.active-z80xEj) {
+    animation: slideOut 0.6s forwards;
+    margin-left: -10px;
+}
+
+.chatContent-3KubbW .buttons-uaqb-5 .expression-picker-chat-input-button:nth-of-type(2) > button:not(.active-z80xEj){
+    animation: slideOut2 0.6s forwards;
+}
+
+.chatContent-3KubbW .buttons-uaqb-5:hover .expression-picker-chat-input-button:nth-of-type(1) > button:not(.active-z80xEj){
+    animation: slideIn .4s forwards;
+    display: flex;
+}
+
+.chatContent-3KubbW .buttons-uaqb-5:hover .expression-picker-chat-input-button:nth-of-type(2) > button:not(.active-z80xEj) {
+	animation: slideIn .4s forwards;
+	display: flex;
+}
+
+.chatContent-3KubbW .buttons-uaqb-5 .expression-picker-chat-input-button:nth-of-type(1) > button.active-z80xEj {
+	margin-right: 5px !important;
+	margin-left: -10px !important;
+}
+
+@keyframes slideIn {
+    from {right: -40px; display: none;}
+    to {right: 0px;display: block;}
+}
+
+@keyframes slideOut {
+    from {right: 0px; display: block;}
+    to {right: -80px; position: fixed;}
+}
+
+@keyframes slideOut2 {
+    from {right: 0px; display: block;}
+    to {right: -99px; position: fixed;}
+}
+
+.buttons-uaqb-5 {
+    order: 3 !important;
 }
 
 .buttons-uaqb-5 {
@@ -50,11 +97,12 @@
 .buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
 	order: -2 !important;
 	margin-right: -10px !important;
+	background-color: var(--channeltextarea-background);
 }
 
 .attachWrapper-3slhXI {
 	order: 2 !important;
-	margin-right: -5px !important;
+	margin-right: 5px !important;
 }
 
 .slateContainer-3x9zil {

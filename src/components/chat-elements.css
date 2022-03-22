@@ -1,3 +1,4 @@
+
 /* resize handle of new threads sidebar */
 .resizeHandle-PBRzPC {
 	background-color: var(--background-secondary) !important;
@@ -251,6 +252,15 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 }
 
 /* Code */
+.markup-eYLPri code {
+	background-color: var(--background-secondary-alt);
+	box-shadow: 0px 5px 10px 2px #0F0F13;
+	transition: .5s ease-in-out;
+}
+
+.markup-eYLPri code:hover {
+	box-shadow: 0px 5px 10px 2px var(--background-secondary-alt);
+}
 
 /* Orange text */
 .hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {
