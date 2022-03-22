@@ -96,7 +96,7 @@
 
 .buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
 	order: -2 !important;
-	margin-right: 0px !important;
+	margin-right: -10px !important;
 	background-color: var(--channeltextarea-background);
 }
 
@@ -105,7 +105,7 @@
 	margin-right: 5px !important;
 }
 
-.chatContent-3KubbW div {
+.chatContent-3KubbW .buttons-uaqb-5 div {
 	border-radius: var(--radius-primary) !important;
 }
 
@@ -221,7 +221,7 @@
 }
 
 .form-3gdLxP .separator-3ng7S5 {
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 .form-3gdLxP .separator-3ng7S5::before {
