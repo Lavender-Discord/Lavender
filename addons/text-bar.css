@@ -96,13 +96,17 @@
 
 .buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
 	order: -2 !important;
-	margin-right: -10px !important;
+	margin-right: 0px !important;
 	background-color: var(--channeltextarea-background);
 }
 
 .attachWrapper-3slhXI {
 	order: 2 !important;
 	margin-right: 5px !important;
+}
+
+.chatContent-3KubbW div {
+	border-radius: var(--radius-primary) !important;
 }
 
 .slateContainer-3x9zil {
