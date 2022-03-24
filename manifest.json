@@ -1,10 +1,9 @@
 {
     "name": "Lavender",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "author": "Obscure.#4719",
-    "description": "A good looking darkish purple theme!",
-    "license": "GPL-3.0 License",
-    "theme": "theme.scss",
-    "splashTheme": "src/base/splash.css",
+    "description": "A good looking theme for Discord.",
+    "license": "MIT",
+    "theme": "clients/vizality.css",
     "invite": "discord.gg/B9TK7nqRE4"
 }

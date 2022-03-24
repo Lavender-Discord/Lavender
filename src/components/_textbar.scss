@@ -1,0 +1,375 @@
+/* Modification of:
+    * Bubble Bar @ version 1.2.0
+    * By: @LuckFire#4800
+    * Source https://github.com/Discord-Theme-Addons/bubble-bar
+*/
+
+/*═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                    Buttons in Text bar
+   ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
+
+   [aria-label="Send en gave"], [aria-label="Ein Geschenk senden"], [aria-label="Send a gift"], [aria-label="Enviar un regalo"], [aria-label="Envoyer un cadeau"], [aria-label="Pošalji poklon"], [aria-label="Invia un regalo"], [aria-label="Siųsti dovaną"], [aria-label="Ajándék küldése"], [aria-label="Verstuur een cadeau"], [aria-label="Wyślij prezent"], [aria-label="Enviar um presente"], [aria-label="Trimite un cadou"], [aria-label="Lähetä lahja"], [aria-label="Skicka en gåva"], [aria-label="Tặng một món quà"], [aria-label="Bir hediye gönder"], [aria-label="Odeslat dárek"], [aria-label="Στείλτε ένα δώρο"], [aria-label="Изпрати подарък"], [aria-label="Отправить подарок"], [aria-label="Надіслати подарунок"], [aria-label="ส่งของขวัญ"], [aria-label="发送礼物"], [aria-label="ギフトを贈る"], [aria-label="發送禮物"], [aria-label="선물 보내기"] {
+    display: none !important;
+  }
+  
+  .expression-picker-chat-input-button {
+    &:nth-of-type(1), &:nth-of-type(2) {
+      order: -3 !important;
+      z-index: -1;
+      margin-right: -5px;
+      margin-top: 1px;
+      margin-left: -3px;
+      display: none;
+    }
+  }
+
+  .buttons-uaqb-5 {
+    order: 3 !important;
+    order: 3 !important;
+  
+    > .expression-picker-chat-input-button:nth-of-type(3) {
+      order: -2 !important;
+      margin-right: -10px !important;
+      background-color: var(--channeltextarea-background);
+    }
+  }
+  
+  .attachWrapper-3slhXI {
+    order: 2 !important;
+    margin-right: -10px !important;
+  }
+  
+  .chatContent-3KubbW .buttons-uaqb-5 div {
+    border-radius: var(--radius-primary) !important;
+  }
+  
+  .slateContainer-3x9zil {
+    order: 1 !important;
+  }
+  
+  .sprite-2lxwfc {
+    filter: grayscale(0) !important;
+  }
+  
+  .form-3gdLxP .attachButton-1ijpt9 {
+    margin-left: 0px;
+    margin-right: 0px;
+  
+    .attachButtonPlay-1ATmb5 {
+      fill: var(--spotify-color);
+    }
+  }
+  
+  .channelTextArea-1VQBuV {
+    .buttons-uaqb-5 {
+      margin-right: 10px;
+    }
+  
+    button {
+      width: var(--textbar-button-width);
+      height: var(--textbar-button-height);
+      margin-top: 0;
+      margin-left: 0px;
+      border-radius: var(--radius-primary);
+      background-color: var(--background-secondary);
+    }
+  
+    .scrollableContainer-15eg7h {
+      background-color: transparent;
+  
+      &::before {
+        content: " ";
+        position: absolute;
+        background-color: var(--background-secondary);
+        width: calc(100% - 65px);
+        height: 43px;
+        margin-left: 7px;
+        border-radius: var(--radius-primary);
+      }
+    }
+  }
+  
+  /* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      Text Bar Area
+     ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
+  
+  .channelAttachmentArea-HwpkuQ {
+    background-color: var(--background-secondary);
+    width: calc(100% - 80px);
+    height: 270px;
+    border-radius: var(--radius-primary);
+    margin-bottom: -50px;
+    margin-left: 4px;
+  }
+  
+  .channelTextArea-1FufC0 {
+    position: relative;
+    margin-bottom: 45px;
+    background-color: var(--background-primary);
+  }
+  
+  .channelTextArea-1VQBuV .textArea-2CLwUE {
+    border-radius: var(--radius-primary);
+    background-color: var(--background-secondary);
+  }
+  
+  .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil .markup-eYLPri.editor-H2NA06.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+    padding-left: 15px;
+  }
+  
+  .channelTextArea-1VQBuV .slateTextArea-27tjG0 {
+    caret-color: var(--channeltextarea-caret, var(--brand-experiment));
+  }
+  
+  /* [ --EDITING-- ] */
+  
+  .channelTextArea-220_Gz > div {
+    border-radius: var(--radius-primary);
+  }
+  
+  .channelTextArea-1VQBuV button {
+    transition: ease .3s;
+  }
+  
+  /* [ --FORM-- ] */
+  
+  .scrollerSpacer-3AqkT9 {
+    height: 10px;
+  }
+  
+  .form-3gdLxP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-top: 15px;
+    margin-bottom: -8px;
+  
+    .textArea-2CLwUE > div {
+      left: 16px;
+    }
+  
+    .scrollableContainer-15eg7h {
+      margin-right: -13px;
+    }
+  
+    .separator-3ng7S5 {
+      margin-left: 15px;
+  
+      &::before {
+        display: none;
+      }
+  
+      .button-y6hemj::before {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: var(--textbar-button-width);
+        height: var(--textbar-button-height);
+        border-radius: var(--radius-primary);
+        transition: ease .5s;
+        -webkit-transition: ease .5s;
+      }
+  
+      button {
+        background: transparent;
+        transition: ease .5s;
+        -webkit-transition: ease .5s;
+      }
+  
+      .button-y6hemj {
+        svg {
+          margin-left: -5px;
+          opacity: 1;
+          color: var(--text-disabled);
+          transition: ease .3s;
+          -webkit-transition: ease .3s;
+        }
+  
+        &[disabled]::before {
+          background-color: var(--background-secondary);
+          transition: ease .3s;
+          -webkit-transition: ease .3s;
+        }
+  
+        &:not([disabled]) {
+          svg {
+            opacity: 1;
+            color: #eee;
+            transition: ease .3s;
+            -webkit-transition: ease .3s;
+          }
+  
+          &::before {
+            background: var(--blurple-bg);
+          }
+  
+          &:hover::before, &:active::before {
+            background: linear-gradient(90deg, rgba(131, 129, 254, 1) 0%, rgba(107, 105, 255, 1) 100%);
+            box-shadow: inset 200px 0 10px 0 var(--spotify-bg-alt);
+          }
+        }
+      }
+    }
+  
+    .base-3bcbY3 {
+      position: relative;
+      margin-top: -14px;
+      margin-bottom: 15px;
+      margin-left: -32px;
+      background-color: var(--background-secondary);
+      z-index: 1;
+  
+      .cooldownWrapper-2k1jHK {
+        margin-right: 5px;
+      }
+    }
+  
+    .attachedBars-2BCP3l {
+      margin-top: -15px;
+      margin-right: -16px;
+      margin-bottom: 15px;
+      margin-left: -16px;
+      border-radius: 0;
+      background-color: var(--background-secondary);
+      transition: ease .5s;
+      -webkit-transition: ease .5s;
+    }
+  
+    .replyBar-1oi75v {
+      height: 36px;
+      background-color: var(--background-secondary);
+  
+      .separator-8ngZ3p {
+        display: none;
+      }
+  
+      .closeButton-3IEry2 {
+        position: absolute;
+        left: -20px;
+      }
+  
+      .replyLabel-WWnhHi {
+        margin-left: 45px;
+      }
+  
+      .colorLink-2apWfY {
+        color: var(--brand-experiment-360);
+      }
+    }
+  
+    .threadSuggestionBar-3ExSyc {
+      background-color: var(--background-secondary);
+    }
+  
+    .channelAttachmentArea-1wlgJV {
+      margin-top: -11px;
+      margin-bottom: 5px;
+    }
+  
+    .divider-2rZFJK {
+      display: none;
+    }
+  
+    .characterCount-8yNPfb {
+      display: block;
+  
+      .root-3PVcjb.upsell-103Jee {
+        display: none;
+      }
+    }
+  }
+  
+  .sansAttachButton-1ERHue {
+    padding-left: 7px !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      Jump to Present Button
+     ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
+  
+  .jumpToPresentBar-1cEnH0 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: calc(100% - 56px);
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: var(--radius-primary);
+    background-color: var(--background-secondary) !important;
+    transition: ease .3s;
+    -webkit-transition: ease .3s;
+  
+    &:hover {
+      background-color: #00000050;
+    }
+  
+    &:active {
+      margin-bottom: 10px;
+      background-color: var(--background-secondary) !important;
+      opacity: 0.8;
+    }
+  
+    .barButtonMain-2GIx4o {
+      display: none;
+    }
+  
+    .barButtonAlt-TQoCdZ {
+      font-size: 0;
+    }
+  
+    .barButtonIcon-bMvzp2 {
+      top: 0;
+      width: 30px;
+      height: 30px;
+      margin-left: 0;
+    }
+  
+    .spinner-2RT7ZC {
+      margin-left: 12px;
+    }
+  }
+  
+  /* ═══════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      Auto Complete
+     ═══════════════════════════════════════════════════════════════════════════════════════════════════════ */
+  
+  #app-mount {
+    .autocompleteAttached-bt_md- {
+      right: -16px;
+      bottom: 59px;
+      left: -16px;
+      padding-left: 6px;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: var(--background-secondary);
+    }
+  
+    .autocomplete-3NRXG8 {
+      right: -16px;
+      bottom: 59px;
+      left: -16px;
+      padding-left: 6px;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: var(--background-secondary);
+      padding-left: 0;
+  
+      .categoryHeader-OpJ1Ly {
+        background-color: var(--background-secondary);
+      }
+    }
+  }
+  
+  .selected-3H3-RC {
+    background-color: var(--background-primary) !important;
+  }

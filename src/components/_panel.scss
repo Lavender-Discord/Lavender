@@ -1,0 +1,29 @@
+.panels-3wFtMD {
+    background: var(--background-secondary);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+// Live Now Icon stage channel
+.iconLive-nQxzyp {
+    color: var(--spotify-color) !important;
+}
+  
+// Voice Channel Wrapper
+.wrapper-3Hk9OB {
+    border-radius: var(--radius-primary) !important;
+}
+
+// Text in Voice Channel
+.container-1zzFcN {
+    color: #ddd;
+    border-bottom: none;
+}
+
+// Active video, share screen & activity buttons  
+.button-1EGGcP {
+    &.buttonColor-3bP3fX.buttonActive-Uc1jHx, .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+      background: var(--spotify-bg) !important;
+    }
+}

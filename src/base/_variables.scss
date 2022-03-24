@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&display=swap');
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+
+:root {
+    --font-primary: "Source Sans Pro", sans-serif;
+    --font-display: "Source Sans Pro", sans-serif;
+    --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
+    --font-headline: "Source Sans Pro",  Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","맑은 고딕","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-japanese: Whitney,Hiragino Sans,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+:root {
+    --inner-primary: 8px;
+    --radius-primary: 10px;
+    --radius-secondary: 6px;
+
+    --context-icon-size: 21px;
+    --context-menu-width: inherit;
+    --context-menu-radius: 10px;
+    --context-menu-spacing: 0px;
+    --context-button-radius: 5px;
+    --context-icon-spacing: 8px;
+    --context-settings-height: 60vh;
+    --context-disabled-opacity: 0.3;
+    --separator-spacing-height: 4px;
+    --separator-spacing-width: 2px;
+    --danger-background-radius: 4px;
+    --slider-background-radius: 4px;
+
+    --textbar-button-width: 43px;
+    --textbar-button-height: 43px;
+}
+
+code {
+    font-family: 'JetBrains Mono' !important;
+    font-feature-settings: "liga"on, "calt"on;
+    -webkit-font-feature-settings: "liga"on, "calt"on;
+    text-rendering: optimizeLegibility;
+}

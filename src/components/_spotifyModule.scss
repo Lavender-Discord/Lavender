@@ -1,0 +1,205 @@
+// POWERCORD
+.powercord-spotify {
+    margin-bottom: 15px !important;
+    margin-top: 5px;
+    border-radius: var(--radius-primary) !important;
+  
+    .spotify-buttons button {
+      margin: 2px;
+    }
+  
+    .container-YkUktl {
+      margin-bottom: 10px;
+    }
+  
+    .spotify-extra-controls {
+      display: flex;
+      justify-content: space-evenly !important;
+      align-items: center;
+      margin: 0px 30px;
+      transition: height .5s, opacity 0.3s !important;
+  
+      button {
+        transition: .5s ease !important;
+      }
+  
+      .active {
+        &::before {
+          color: var(--spotify-bg-alt) !important;
+          filter: blur(1px);
+        }
+  
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: var(--spotify-bg);
+          width: 50%;
+          height: 50%;
+          z-index: -1;
+          filter: blur(5px);
+          opacity: 30%;
+          border-radius: 50%;
+        }
+      }
+    }
+  
+    .spotify-buttons button {
+      &.button-12Fmur {
+        color: var(--interactive-normal) !important;
+        border-radius: 50%;
+        transition: .5s ease !important;
+      }
+  
+      &:hover {
+        color: var(--interactive-active) !important;
+        background: var(--background-secondary-alt);
+      }
+  
+      &:nth-child(2) {
+        color: #fff !important;
+        background: var(--spotify-bg-alt);
+        filter: blur(1px);
+  
+        &:hover {
+          color: #fff !important;
+          opacity: 0.9 !important;
+        }
+  
+        &::before, &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: var(--spotify-bg);
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          filter: blur(4px);
+          opacity: 60%;
+          border-radius: 50%;
+        }
+      }
+    }
+  
+    .spotify-seek-bar {
+      height: 4px;
+      border-radius: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+      background: var(--background-primary);
+    }
+  
+    .spotify-seek-bar-progress {
+      background: var(--spotify-bg);
+      border-radius: 50px;
+      filter: blur(1px);
+  
+      &::before, &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--spotify-bg);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        filter: blur(5px);
+        opacity: 70%;
+      }
+    }
+  
+    .spotify-seek-elements, &.hover .spotify-seek-elements {
+      color: var(--interactive-active);
+      font-size: 70%;
+      margin-top: 3px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  .fa-backward::before {
+    content: "\f048" !important;
+  }
+  
+  .fa-forward::before {
+    content: "\f051" !important;
+  }
+
+// BETTERDISCORD
+.bar-g2ZMIm {
+    height: 4px;
+    border-radius: 50px;
+    margin: 10px 15px;
+    background: var(--background-primary);
+  }
+  
+  .barFill-Dhkah7 {
+    background: var(--spotify-bg);
+    border-radius: 50px;
+    filter: blur(1px);
+  
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: var(--spotify-bg);
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      filter: blur(5px);
+      opacity: 70%;
+    }
+  }
+  
+  .container-6sXIoE {
+    &:not(.maximized-vv2Wr0) {
+      .flex-2S1XBF .button-12Fmur {
+        color: var(--interactive-normal) !important;
+        border-radius: 50%;
+        transition: .5s ease !important;
+  
+        &:hover {
+          color: var(--interactive-active) !important;
+          background: var(--background-secondary-alt);
+        }
+  
+        &:nth-child(2) {
+          color: #fff !important;
+          background: var(--spotify-bg-alt);
+          filter: blur(1px);
+          border-radius: 50%;
+  
+          &:hover {
+            color: #fff !important;
+            opacity: 0.9 !important;
+          }
+  
+          &::before, &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: var(--spotify-bg);
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(4px);
+            opacity: 60%;
+            border-radius: 50%;
+          }
+        }
+      }
+  
+      .cover-SwJ-ck {
+        border-radius: 50%;
+      }
+    }
+  
+    .button-12Fmur.active-6TsW-_ {
+      color: var(--spotify-bg-alt);
+    }
+  }

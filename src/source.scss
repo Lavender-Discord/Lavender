@@ -1,36 +1,30 @@
-// Skins
-@use "skins/default"; //color scheme
-
 // Base
-@use "base/others"; // stuff that idk which file exactly to put lol
-@use "base/title-bar";
-@use "base/snippets"; // Just a few snippets that I applied but idrk which file to put them on lol
+@forward "base/loading";
+@forward "base/titlebar";
+@forward "base/variables";
 
-// Lists
-@use "lists/server-list";
-@use "lists/channel-list";
-@use "lists/members-list"; //unload if you're facing the scroll bug
-
-// Components
-@use "components/panel";
-@use "components/pc-spotify";
-@use "components/status-indicators";
-@use "components/channel-bar";
-@use "components/user-actions";
-@use "components/chat-elements";
-
-// Popouts
-@use "popouts/user-popout";
-@use "popouts/big-user-popout";
-@use "popouts/join-server";
-@use "popouts/popup-menus";
-@use "popouts/status-picker";
-@use "popouts/emoji-picker";
-@use "popouts/quick-switcher";
-@use "popouts/channel-attach";
+// Componenets
+@forward "components/activityStatus";
+@forward "components/buttons";
+@forward "components/channelBar";
+@forward "components/channels";
+@forward "components/chat";
+@forward "components/home";
+@forward "components/members";
+@forward "components/panel";
+@forward "components/servers";
+@forward "components/textbar";
+@forward "components/userActions";
+@forward "components/statusIndicators";
+@forward "components/spotifyModule";
 
 // Pages
-@use "pages/voice-chat";
-@use "pages/friends-list";
-@use "pages/explore";
-@use "pages/settings";
+@forward "pages/explore";
+@forward "pages/settings";
+@forward "pages/friendsTab";
+
+// Popouts
+@forward "popouts/emojiPicker";
+@forward "popouts/statusPicker";
+@forward "popouts/userPopout";
+@forward "popouts/userProfile";

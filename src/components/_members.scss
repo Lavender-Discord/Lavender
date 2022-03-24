@@ -1,0 +1,118 @@
+.members-3WRCEx,
+.container-2o3qEW,
+.membersWrap-3NUR2t,
+.members-3WRCEx > div,
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+    background-color: var(--background-primary);
+}
+  
+.container-2Oqvgx {
+    width: 300px;
+}
+  
+.members-3WRCEx {
+    width: 300px;
+    height: 90vh !important;
+}
+  
+.container-2o3qEW, .membersWrap-3NUR2t {
+    height: 90vh !important;
+}
+  
+.layout-1qmrhw, .layout-1LjVue {
+    height: 55px;
+}
+  
+.layout-1qmrhw, .privateChannels-oVe7HL .channel-1Shao0.container-32HW5s .interactive-1vLZ_I {
+    width: 110%;
+}
+  
+.layout-1qmrhw {
+    width: 117%;
+  
+    &:hover {
+      background-color: var(--background-secondary) !important;
+    }
+}
+
+.selected-1-Z6gm {
+    .layout-1qmrhw {
+        background-color: var(--background-secondary) !important;
+    }
+}
+  
+.privateChannels-oVe7HL {
+    .interactiveSelected-29CP8y {
+      background-color: var(--background-primary) !important;
+      border-radius: 0px 10px 10px 0px;
+  
+      &::before {
+        content: "";
+        position: absolute;
+        left: -10px;
+        width: 10px;
+        height: 55px;
+        background-color: var(--background-primary) !important;
+      }
+    }
+  
+    .interactive-1vLZ_I:hover, .interactiveSelected-29CP8y:hover::before {
+      background-color: var(--background-secondary-alt) !important;
+    }
+}
+  
+.layout-1LjVue {
+    &.highlighted-Q8Nll- {
+      .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
+        color: #fff !important;
+      }
+  
+      &::before {
+        content: "";
+        position: absolute;
+        left: -8px;
+        width: 3px;
+        height: 15px;
+        background-color: var(--brand-experiment);
+      }
+    }
+  
+    .content-66wMin {
+      .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
+        color: #999999;
+      }
+  
+      .activityText-ev7Z1T {
+        color: var(--channels-default);
+      }
+    }
+}
+  
+.selected-3veCBZ .layout-1LjVue .content-66wMin .nameAndDecorators-2A8Bbk .name-2m3Cms .overflow-1wOqNV {
+    color: var(--interactive-active);
+}
+  
+.layout-1qmrhw > .avatar-6qzftW, .layout-1LjVue > .avatar-1HDIsL {
+    padding-right: 5px !important;
+}
+  
+.membersGroup-2eiWxl {
+    height: 55px;
+  
+    span {
+      font-size: 13px;
+      font-weight: 650;
+    }
+}
+  
+.activity-2EQDZv {
+    height: 25px;
+}
+  
+.activityText-1rR-8O {
+    color: #838589;
+  
+    > strong {
+      color: #B8B9BD !important;
+    }
+}

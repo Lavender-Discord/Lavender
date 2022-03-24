@@ -1,57 +1,52 @@
-/*
-This file basically imports all the parts of the theme using urls
+@import url("https://lavender-discord.github.io/Lavender/src/source.css");
+/* ⚠️ Main theme file — Do not remove */
+
+/* 
+===============================================================================================================================
+                                                    🎨 SKINS
+                        Comment out/Uncomment the respective @import lines to disable/enable the skins.
+===============================================================================================================================
 */
 
-@import "https://lavender-discord.github.io/Lavender/lavender.css";
+@import url("https://lavender-discord.github.io/Lavender/modules/skins/default.css");
+/* Imports the dark color scheme of Lavender */
 
-/* Skins — Basically all variables of the theme / I plan to add different variable files each with different color scheme 🤷‍ */
-@import "https://lavender-discord.github.io/Lavender/src/skins/default.css";
+/* More color schemes/skins coming soon */
 
-/* Addons — External Imports and/or my personal modifications of them*/
-@import "https://lavender-discord.github.io/Lavender/addons/context-icons.css";
-@import "https://lavender-discord.github.io/Lavender/addons/settings-icons.css";
-@import "https://lavender-discord.github.io/Lavender/addons/emoji-replace.css";
-@import "https://lavender-discord.github.io/Lavender/addons/cooler-activity.css";
-@import "https://lavender-discord.github.io/Lavender/addons/gradient-server.css";
-@import "https://lavender-discord.github.io/Lavender/addons/text-bar.css";
-@import "https://lavender-discord.github.io/Lavender/addons/icons.css";
-@import "https://lavender-discord.github.io/Lavender/addons/colored-svgs.css";
+/* 
+===============================================================================================================================
+                                                    🔌 ADDONS
+                                Comment out the respective @import line to disable the addon.
+===============================================================================================================================
+*/
 
-/* Base — The files that I wasn't sure of which folder to put in 🤷‍ */
-@import "https://lavender-discord.github.io/Lavender/src/base/others.css";
-@import "https://lavender-discord.github.io/Lavender/src/base/snippets.css";
-@import "https://lavender-discord.github.io/Lavender/src/base/title-bar.css";
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css");
+/* Colors all the page svgs of discord */
 
-/* Popouts — Popout menus of discord */
-@import "https://lavender-discord.github.io/Lavender/src/popouts/join-server.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/popup-menus.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/status-picker.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/user-popout.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/big-user-popout.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/emoji-picker.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/quick-switcher.css";
-@import "https://lavender-discord.github.io/Lavender/src/popouts/channel-attach.css";
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/context-icons.css");
+/* Adds Context Icons with Iconsax Icons */
 
-/* Pages */
-@import "https://lavender-discord.github.io/Lavender/src/pages/settings.css";
-@import "https://lavender-discord.github.io/Lavender/src/pages/explore.css";
-@import "https://lavender-discord.github.io/Lavender/src/pages/friends-list.css";
-@import "https://lavender-discord.github.io/Lavender/src/pages/voice-chat.css";
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/emoji-replace.css");
+/* Replaces discords emojis with windows 11's */
 
-/* Lists */
-@import "https://lavender-discord.github.io/Lavender/src/lists/server-list.css";
-@import "https://lavender-discord.github.io/Lavender/src/lists/channel-list.css";
-@import "https://lavender-discord.github.io/Lavender/src/lists/members-list.css";
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/friends-grid.css");
+/* Adds a grid view to friends list */
 
-/* Components — Different components of the theme */
-@import "https://lavender-discord.github.io/Lavender/src/components/panel.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/status-indicators.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/channel-bar.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/popup-menus.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/chat-elements.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/user-actions.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/bd-spotify.css";
-@import "https://lavender-discord.github.io/Lavender/src/components/pc-spotify.css";
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/iconpack.css");
+/* Changes all discord default icons to iconsax icons */
 
-/* Also btw a cool or maybe handy little file which consists of all the discord variables with no modification meaning all the values are default one that discord made 
-@import "https://lavender-discord.github.io/Lavender/skins/variables.css"; */
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/mention-links.css");
+/* Turns some common links to buttons/mentions, kind of helps you figure out phishing sites  */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
+/* Adds Icons to settings menu's submenus */
+
+/* 
+===============================================================================================================================
+                                                    🧪 EXPERIMENTS
+                                Uncomment the @import lines below to enable the respective experiments
+===============================================================================================================================
+*/
+
+
+/* @import url("https://lavender-discord.github.io/Lavender/modules/experiments/slideInExpPickers.css"); */
