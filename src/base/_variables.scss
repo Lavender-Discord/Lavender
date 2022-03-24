@@ -41,3 +41,80 @@ code {
     -webkit-font-feature-settings: "liga"on, "calt"on;
     text-rendering: optimizeLegibility;
 }
+
+/* Lavender info on bottom of sidebar in settings page */
+.info-3pQQBb::after {
+	content: "Lavender v1.1.0";
+	text-transform: none !important;
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--text-muted);
+}
+
+/* Chat, Friends List, Mutual Friends List - Added lavender icon next to my name */
+[data-author-id='755436063828213821'] .header-2jRmjb .username-h_Y3Us::before,
+[data-user-id="755436063828213821"] + .header-1dhDWV::before,
+[data-user-id="755436063828213821"] + .text-3j8t_e .username-3JLfHz::before,
+[data-user-id="755436063828213821"] + .listName-PwbeHL .username-3JLfHz::before {
+	content: "";
+            background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            padding: 0px 7px 0px 7px;
+            margin-right: 6px;
+}
+
+/* Small user popout - Added lavender icon next to my name */
+[aria-label="Obscure."].userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq .nameTag-H6kSJ0 .username-3JLfHz::before {
+	content: "";
+            background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            padding: 1px 8px 0px 8px;
+            margin-right: 6px;
+}
+
+[aria-label^="Gradient"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr::before,
+[aria-label^="Lavender"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr::before {
+	content: "";
+            background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            padding: 1px 8px 0px 8px;
+            margin-right: 6px;
+}
+
+[aria-label^="Gradient"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr::after {
+	content: "Lavender Official Server";
+	font-size: 12px;
+	position: absolute;
+	background-color: var(--background-primary);
+	box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.15);
+	padding: 5px 10px;
+	border-radius: 4px;
+	opacity: 0;
+	display: none;
+	animation: anim .5s forwards;
+}
+
+@keyframes anim {
+	from {left: 5px; top: 35px; opacity: 0; display: none;}
+	to {left: 10px; top: 40px; opacity: 1; display: block;}
+}
+
+[aria-label^="Gradient"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr:hover::after {
+	opacity: 1;
+	display: block;
+}
+
+.container-1NXEtd[aria-label^="Gradient"] .mainContent-uDGa6R[aria-label^="Lavender"] {
+	padding-left: 25px;
+}
+
+.container-1NXEtd[aria-label^="Gradient"] .mainContent-uDGa6R[aria-label^="Lavender"]::before {
+	content: "";
+            background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            padding: 0px 8px 0px 8px;
+            margin-left: 15px;
+	display: block;
+    	position: absolute;
+    	top: 0 !important;
+    	right: unset !important;
+    	bottom: 0 !important;
+    	left: 0 !important;
+}

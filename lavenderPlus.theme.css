@@ -1,0 +1,63 @@
+/**
+ * @name Lavender+
+ * @version 2.0.0
+ * @author Obscure.#4719
+ * @authorLink https://github.com/Obscure-Git
+ * @description A good looking dark theme!
+ * @website https://github.com/lavender-discord/Lavender/tree/main/clients
+ * @source https://lavender-discord.github.io/Lavender/clients/betterdiscord.css
+ * @invite B9TK7nqRE4
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/src/source.css");
+/* ⚠️ Main theme file — Do not remove */
+
+/* 
+===============================================================================================================================
+                                                    🎨 SKINS
+                        Comment out/Uncomment the respective @import lines to disable/enable the skins.
+===============================================================================================================================
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/modules/skins/default.css");
+/* Imports the dark color scheme of Lavender */
+
+/* More color schemes/skins coming soon */
+
+/* 
+===============================================================================================================================
+                                                    🔌 ADDONS
+                                Comment out the respective @import line to disable the addon.
+===============================================================================================================================
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css");
+/* Colors all the page svgs of discord */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/context-icons.css");
+/* Adds Context Icons with Iconsax Icons */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/emoji-replace.css");
+/* Replaces discords emojis with windows 11's */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/friends-grid.css");
+/* Adds a grid view to friends list */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/iconpack.css");
+/* Changes all discord default icons to iconsax icons */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/mention-links.css");
+/* Turns some common links to buttons/mentions, kind of helps you figure out phishing sites  */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
+/* Adds Icons to settings menu's submenus */
+
+/* 
+===============================================================================================================================
+                                                    🧪 EXPERIMENTS
+                                Uncomment the @import lines below to enable the respective experiments
+===============================================================================================================================
+*/
+
+
+/* @import url("https://lavender-discord.github.io/Lavender/modules/experiments/slideInExpPickers.css"); */
