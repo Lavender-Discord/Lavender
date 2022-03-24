@@ -1,6 +1,7 @@
 /* explore page bg */
 
-.pageWrapper-2PwDoS {
+.pageWrapper-2PwDoS,
+.theme-dark .scroller-2GkvCq {
     background-color: var(--background-primary) !important;
   }
   
@@ -9,7 +10,8 @@
   }
   
   .theme-dark {
-    .card-2TuZPZ, .iconMask-2fMR98 {
+    .card-2TuZPZ, .iconMask-2fMR98,
+    .container-KM8BU6, .reactors-1VXca7 {
       background-color: var(--background-secondary) !important;
     }
   
