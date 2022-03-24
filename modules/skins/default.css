@@ -65,7 +65,7 @@
     --background-secondary-alt: #1E1D24;
     --background-tertiary: var(--background-primary);
     --background-accent: var(--background-secondary-alt);
-    --background-floating: var(--background-secondary);
+    --background-floating: var(--background-primary);
     --background-nested-floating: var(--background-secondary);
     --background-mobile-primary: var(--background-primary);
     --background-mobile-secondary: var(--background-secondary);
