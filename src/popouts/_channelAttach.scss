@@ -1,0 +1,44 @@
+/* Attach button popup */
+
+#channel-attach {
+    &.menu-1QACrS.menu-1dOGCq .scrollerBase-_bVAAt {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: auto !important;
+      background-color: var(--background-secondary);
+      border-radius: 10px;
+    }
+  
+    &.menu-1dOGCq {
+      min-width: unset !important;
+    }
+  
+    .scroller-1bVxF5 {
+      padding: 0px 3px !important;
+      padding-right: 0px !important;
+    }
+  
+    .subtext-2GlkbE {
+      display: none;
+    }
+  
+    .item-1OdjEX {
+      width: 40px;
+      transition: width .6s ease-in-out;
+  
+      &:hover {
+        width: 100%;
+      }
+    }
+  
+    .optionName-1ebPjH {
+      width: 0px;
+      overflow: hidden;
+      transition: width .6s ease-in-out;
+    }
+  
+    .item-1OdjEX:hover .optionName-1ebPjH {
+      width: 100%;
+    }
+  }
