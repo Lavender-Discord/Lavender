@@ -88,3 +88,24 @@
 	background-color: var(--background-secondary) !important;
 	border-color: var(--background-secondary-alt) !important;
 }
+
+/* Transaction History */
+
+.theme-dark {
+    .paginator-1eqD2g, .bottomDivider-ZmTm-j {
+      background-color: var(--background-secondary) !important;
+      border-color: var(--background-modifier-accent) !important;
+    }
+  
+    .expandedInfo-1W31i3 {
+      background-color: var(--background-secondary-alt) !important;
+    }
+  }
+  
+  .pageButtonNext-2_bbdk.disabled-29cfPA, .pageButtonPrev-3q9rh8.disabled-29cfPA {
+    border-color: var(--background-modifier-accent) !important;
+  }
+  
+  .pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8 {
+    border-color: var(--background-modifier-accent);
+  }
