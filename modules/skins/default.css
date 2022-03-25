@@ -82,7 +82,7 @@
     --info-help-text: #fff;
     --status-warning-text: #000;
 
-    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-thumb: var(--background-secondary-alt);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: #00000066;
     --scrollbar-auto-track: #17161B99;
