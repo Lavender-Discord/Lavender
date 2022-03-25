@@ -46,7 +46,7 @@
     }
   
     &::-webkit-scrollbar-thumb {
-      background: var(--background-secondary);
+      background: var(--scrollbar-thin-thumb);
       border-radius: var(--radius-primary);
     }
 }
