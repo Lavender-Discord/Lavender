@@ -1,0 +1,197 @@
+/* Online */
+[mask="url(#svg-mask-status-online)"],
+rect[fill^="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+    fill: #4DF3BA;
+}
+
+/* Online in status picker */
+[class^="status"] [style^="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+    background-color: #4DF3BA !important;
+}
+
+/* DND */
+[mask="url(#svg-mask-status-dnd)"],
+rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+    fill: #FD2B30;
+    mask: url(#svg-mask-status-online);
+}
+
+/* DND in dms top bar */
+.children-3xh0VB rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+    width: 8px;
+    height: 8px;
+    transform: translate(0px, 4px);
+}
+
+/* DND in status picker */
+[style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
+    background-color: #FD2B30 !important;
+}
+
+[mask="url(#svg-mask-status-streaming)"] {
+    fill: #7E7BFE;
+    mask: url(#svg-mask-status-online);
+}
+
+/* Idle */
+[mask="url(#svg-mask-status-idle)"],
+rect[fill^="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+    fill: #F7C954;
+}
+
+/* Idle in status picker */
+[class^="status"] [style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"] {
+    background-color: #F7C954 !important;
+}
+
+[mask="url(#svg-mask-status-online-mobile)"] {
+    fill: #4DF3BA;
+    ry: 6px;
+    rx: 6px;
+}
+
+#svg-mask-status-idle>circle:last-of-type {
+    cx: 75%;
+}
+
+mask[id^="svg-mask-avatar-status-round"] circle:last-of-type {
+    cy: 4%;
+}
+
+mask[id^="svg-mask-avatar-status-mobile"] rect {
+    y: -10%;
+}
+
+mask[id^="svg-mask-avatar-status-typing"] rect {
+    y: -9.5%;
+}
+
+.mask-1FEkla rect {
+    y: 8%;
+    x: 62.5%;
+}
+
+.layout-1LjVue .mask-1FEkla rect {
+    y: 0%;
+    x: 66%;
+    transform: scale(0.8) !important;
+}
+
+:is(.avatar-6qzftW, .avatar-2MSPKk, .avatar-1EWyVD) .mask-1FEkla rect {
+    y: 0% !important;
+    x: 79% !important;
+    transform: scale(0.7) !important;
+}
+
+.mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
+    y: 12% !important;
+    x: 75% !important;
+    transform: scale(0.75) !important;
+}
+
+/* Full user modal popout */
+.userPopout-2j1gM4 .mask-1FEkla rect {
+    y: 7% !important;
+    x: 90% !important;
+    transform: scale(0.7) !important;
+}
+
+.userPopout-2j1gM4 .mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
+    y: 15% !important;
+    x: 90% !important;
+    transform: scale(0.7) !important;
+}
+
+/* mutual friends area */
+.fullscreenOnMobile-ixj0e3 .listScroller-entkMk .mask-1FEkla rect {
+    y: 0% !important;
+    x: 85% !important;
+    transform: scale(0.7) !important;
+}
+
+/* Active now area in friends tab */
+.nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq .itemCard-3Etziu svg rect {
+    y: 0% !important;
+    x: 67% !important;
+    transform: scale(0.8) !important;
+}
+
+.root-8LYsGj .mask-1FEkla rect {
+    y: 7% !important;
+    x: 90% !important;
+    transform: scale(0.7) !important;
+}
+
+/* autocomplete menu in chatbox */
+.autocomplete-3NRXG8 .mask-1FEkla rect {
+    y: 0% !important;
+    x: 60% !important;
+    transform: scale(0.85) !important;
+}
+
+.mask-1FEkla .dots-1BwzZQ {
+    transform: translateY(-69%) !important;
+}
+
+/* Typing part */
+.wrapper-1VLyxH .dots-1BwzZQ {
+    overflow: visible;
+}
+
+.wrapper-1VLyxH .dots-1BwzZQ circle {
+    cy: -7.5;
+}
+
+.wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
+    cx: -8.5;
+}
+
+.wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
+    cx: -2.25;
+}
+
+.wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
+    cx: 4;
+}
+
+.wrapper-1VLyxH foreignObject[mask*="typing"] {
+    mask: none;
+}
+
+.wrapper-1VLyxH foreignObject[mask*="typing"] .avatar-b5OQ1N {
+    border-radius: 50%;
+}
+
+.wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
+    x: -7 !important;
+    y: -7 !important;
+    width: 60px;
+    height: 60px;
+    fill: rgba(0, 0, 0, 0.75);
+    clip-path: circle(40%);
+}
+
+.layout-1LjVue .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
+    x: -7 !important;
+    y: -7 !important;
+    width: 53px;
+    height: 55px;
+    fill: rgba(0, 0, 0, 0.75);
+    clip-path: circle(40%);
+}
+
+/* Status everywhere support - BD */
+.StatusEverywhere-avatar-chatAvatar::before {
+    display: none;
+}
+
+.messageListItem-ZZ7v6g .StatusEverywhere-avatar-chatAvatar rect {
+    y: 0%;
+    x: 80%;
+    transform: scale(0.7);
+}
+
+.content-1Tgc42 .StatusEverywhere-avatar-chatAvatar svg.cursorDefault--wfhy5,
+.content-1Tgc42 .StatusEverywhere-avatar-chatAvatar rect {
+    display: none;
+}
