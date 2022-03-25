@@ -1,0 +1,27 @@
+/* Lavender info on bottom of sidebar in settings page */
+.info-3pQQBb::after {
+    content: "Lavender v2.0.0";
+    text-transform: none !important;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-muted);
+}
+
+/* Chat, Friends List, Mutual Friends List - Added lavender icon next to my name */
+[data-author-id='755436063828213821'] .header-2jRmjb .username-h_Y3Us::before,
+[data-user-id="755436063828213821"]+.header-1dhDWV::before,
+[data-user-id="755436063828213821"]+.text-3j8t_e .username-3JLfHz::before,
+[data-user-id="755436063828213821"]+.listName-PwbeHL .username-3JLfHz::before {
+    content: "";
+    background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+    padding: 0px 7px 0px 7px;
+    margin-right: 6px;
+}
+
+/* Small user popout - Added lavender icon next to my name */
+[aria-label="Obscure."].userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq .nameTag-H6kSJ0 .username-3JLfHz::before {
+    content: "";
+    background: url("https://lavender-discord.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+    padding: 1px 8px 0px 8px;
+    margin-right: 6px;
+}
