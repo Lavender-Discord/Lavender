@@ -54,6 +54,33 @@
 
 /* 
 ===============================================================================================================================
+                                                    🗺️ ALLIGNMENT
+                                    Custom allignment of UI stuff that comes with lavender
+                                        Comment out to disable the custom allignment.
+===============================================================================================================================
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/modules/allignment/userActions.css");
+/* Mic mute deafen button area */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/allignment/statusIndicators.css");
+/* Status Indicators on the top right */
+
+/* 
+===============================================================================================================================
+                                                    ⚡ LAVENDER
+                                                Exclusive Modifications
+===============================================================================================================================
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/gradient/gradient.css");
+/* Modifications exclusive to gradient server aka lavender support */
+
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/lavender/lavender.css");
+/* Modifcations that add lavender watermark kinds of stuff in ui */
+
+/* 
+===============================================================================================================================
                                                     🧪 EXPERIMENTS
                                 Uncomment the @import lines below to enable the respective experiments
 ===============================================================================================================================

@@ -1,7 +1,57 @@
 .videoGrid-1tZm-F {
-    background-color: #101014 !important;
- }
+   background-color: #101014 !important;
+}
  
- .videoControls-353CsJ .toolbar-3_r2xA {
-    background-color: #17161B !important;
- }
+.videoControls-353CsJ .toolbar-3_r2xA {
+   background-color: var(--background-secondary-alt) !important;
+   padding: 5px 5px 5px 15px;
+   border-radius: var(--radius-primary);
+}
+
+.tile-2TcwiO {
+   background-color: var(--background-secondary) !important;
+   border-radius: var(--radius-primary) !important;
+
+   .button-3Vyz67 {
+      background-color: var(--background-secondary-alt) !important;
+   }
+}
+
+.wrapper-9CUbzN.tile-3FtID0 {
+   border-radius: var(--radius-primary);
+
+   .status-15kcmy {
+      background-color: var(--background-secondary-alt) !important;
+   }
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+   background-color: var(--background-secondary) !important;
+
+   &:hover {
+      background-color: var(--background-secondary-alt) !important;
+   }
+}
+
+.colorable-3rVGna.white-11auuQ {
+   background: var(--spotify-bg) !important;
+   transition: .3s ease-in-out;
+
+   &:hover {
+      box-shadow: inset 200px 0 10px 0 var(--spotify-bg-alt);
+   }
+}
+
+.colorable-3rVGna.white-11auuQ, .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
+   color: #eee;
+}
+
+.bottomControls-31YuPK.controlSection-1mNixL{
+   .buttonColor-28DXIe {
+      background-color: var(--background-secondary-alt) !important;
+
+      &:hover {
+         background-color: var(--background-secondary) !important;
+      }
+   }
+}

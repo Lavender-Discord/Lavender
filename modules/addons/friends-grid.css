@@ -1,1 +1,25 @@
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
+
+.theme-dark {
+    --FG-search-background: var(--background-tertiary);
+
+    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-hover: var(--background-secondary-alt);
+
+    --FG-cards-background-active: var(--background-secondary-alt);
+
+    --FG-cards-border-color-normal: none;
+    --FG-cards-border-color-hover: none;
+
+    --FG-cards-username-normal: var(--header-primary);
+    --FG-cards-username-hover: var(--header-primary);
+    --FG-cards-discriminator-normal: var(--header-secondary);
+    --FG-cards-discriminator-hover: var(--header-secondary);
+    --FG-cards-status-normal: var(--header-secondary);
+    --FG-cards-status-hover: var(--header-secondary);
+
+    --FG-cards-button-icon-normal: var(--interactive-active);
+    --FG-cards-button-icon-hover: var(--activity-card-background);
+    --FG-cards-button-background-normal: rgba(0, 0, 0, 0.3);
+    --FG-cards-button-background-hover: rgba(0, 0, 0, 0.6);
+}
