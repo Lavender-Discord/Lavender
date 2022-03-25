@@ -1,11 +1,14 @@
-[id*="popout_9629"] {
+.layer-2aCOJ3 {
     left: unset !important;
     right: 250px !important;
 }
 
 .theme-dark {
     .container-2McqkF {
-        background: var(--background-primary) !important;
+        background: var(--background-secondary) !important;
+    }
+    .focused-2FU0YH {
+        background: var(--background-secondary-alt) !important;
     }
     .option-ayUoaq {
         &:hover {
