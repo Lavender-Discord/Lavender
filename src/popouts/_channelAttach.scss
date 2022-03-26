@@ -25,20 +25,9 @@
   
     .item-1OdjEX {
       width: 40px;
-      transition: width .6s ease-in-out;
-  
-      &:hover {
-        width: 100%;
-      }
     }
   
     .optionName-1ebPjH {
-      width: 0px;
-      overflow: hidden;
-      transition: width .6s ease-in-out;
-    }
-  
-    .item-1OdjEX:hover .optionName-1ebPjH {
-      width: 100%;
+      display: none;
     }
   }
