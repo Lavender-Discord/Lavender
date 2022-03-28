@@ -34,6 +34,11 @@
     user-select: none;
     text-transform: lowercase;
 }
+
+// Removed the above thing for compact mode, will find another better way to implement it someday.
+.compact-2Nkcau .timestamp-p1Df1m:not(.timestampInline-_lS3aK,.timestampVisibleOnHover-9PEuZS) time::after {
+    display: none;
+}
   
 .message-translate-indicator {
     color: var(--text-muted);
