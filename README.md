@@ -13,7 +13,7 @@ For problems installing or using the theme join our [server](https://discord.gg/
 
 # *Important
 
-When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/download/v1.1.0/smoothscrollBD.plugin.js).
+When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
 
 **Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
 
