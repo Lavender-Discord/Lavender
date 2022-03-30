@@ -74,22 +74,14 @@
 
     // text area
     .textArea-2CLwUE {
+      margin-left: -16px;
       & > div {
-        padding-left: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
       }
     }
     .scrollableContainer-15eg7h {
         margin-right: -12px;
-
-        &::before {
-          content: " ";
-          position: absolute;
-          background-color: var(--background-secondary);
-          width: 50px;
-          height: 44px;
-          margin-left: 7px;
-          border-radius: var(--radius-primary);
-        }
     }
     // buttons
     .attachButton-1ijpt9 {
@@ -177,43 +169,51 @@
 
     // containers
     .base-3bcbY3 { // typing / slowmode
-        position: relative;
-        margin-top: -14px;
-        margin-bottom: 15px;
-        margin-left: -32px;
-        background-color: var(--background-secondary-alt);
+      position: relative;
+      margin-top: -14px;
+      margin-bottom: 10px;
+      margin-left: -13px;
+      margin-right: 17px;
+      background-color: var(--background-secondary);
+      width: auto;
+      border-radius: 7px;
+      padding: 0 5px;
 
-        .cooldownWrapper-2k1jHK {
-            margin-right: 5px;
-        }
+      .cooldownWrapper-2k1jHK {
+        margin-right: 5px;
+      }
     }
     .attachedBars-2BCP3l { // main container (mainly used for replying / thread suggestion)
-        margin-top: -15px;
-        margin-right: -16px;
-        margin-bottom: 15px;
-        margin-left: -16px;
-        border-radius: 0;
-        background-color: var(--background-secondary-alt);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+      margin-left: 1px;
+      border-radius: var(--radius-primary);
+      background-color: var(--background-secondary);
     }
     .replyBar-1oi75v {
         height: 36px;
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary);
         .separator-8ngZ3p {
             display: none;
         }
         .closeButton-3IEry2 {
             position: absolute;
-            left: -20px;
+            left: 0px;
         }
         .replyLabel-WWnhHi {
-            margin-left: 45px;
+            margin-left: 40px;
+
+            .name-3DDHNY {
+              font-weight: 700;
+            }
         }
         .colorLink-2apWfY {
-            color: var(--brand-experiment-360);
+            color: var(--blurple-bg-alt);
         }
     }
     .threadSuggestionBar-3ExSyc {
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary);
     }
     // attachments
     .channelAttachmentArea-1wlgJV {
@@ -225,8 +225,25 @@
     }
     // character counter -- will figure out how to fix later
     .characterCount-8yNPfb {
+      display: block;
+  
+      .root-3PVcjb.upsell-103Jee {
         display: none;
+      }
     }
+}
+
+.channelAttachmentArea-HwpkuQ {
+  background-color: var(--background-secondary);
+  margin-left: 0;
+  margin-bottom: 10px;
+  border-radius: var(--radius-primary);
+  padding: 20px;
+
+  .upload-vLbqu- {
+    background-color: var(--background-primary);
+    border-radius: var(--radius-primary);
+  }
 }
 
 // jump to present
@@ -264,22 +281,38 @@
     }
 }
 
-// autocomplete popout
-.autocompleteAttached-bt_md-,
-.autocomplete-3NRXG8 {
+// Autocomplete
+#app-mount {
+  .autocompleteAttached-bt_md- {
     right: -16px;
     bottom: 59px;
     left: -16px;
     padding-left: 6px;
     border-radius: 0;
+    -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: var(--background-secondary-alt);
-}
-.autocomplete-3NRXG8 {
+    background-color: var(--background-secondary);
+  }
+
+  .autocomplete-3NRXG8 {
+    right: -16px;
+    bottom: 59px;
+    left: -16px;
+    padding-left: 6px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: var(--background-secondary);
     padding-left: 0;
+
     .categoryHeader-OpJ1Ly {
-        background-color: var(--background-secondary-alt);
+      background-color: var(--background-secondary);
     }
+  }
+
+  .selected-3H3-RC {
+    background-color: var(--background-secondary-alt) !important;
+  }
 }
 
 /* [ --EDITING-- ] */
