@@ -35,8 +35,7 @@
 }
 
 // Red Buttons
-.colorRed-rQXKgM,
-.colorable-3rVGna.red-3T8maV {
+.colorRed-rQXKgM {
     background: var(--red-bg) !important;
     transition: .5s ease-in-out;
     outline: none;
@@ -47,6 +46,14 @@
       box-shadow: inset 200px 0 10px 0 var(--red-bg-alt);
       border-radius: 6px;
     }
+}
+
+// Red Button in VC
+.colorable-3rVGna.red-3T8maV {
+    background: var(--red-bg) !important;
+    transition: .5s ease-in-out;
+    outline: none;
+    color: #fff !important;
 }
 
 .focused-3qFvc8 {

@@ -1,5 +1,5 @@
 @use "src/source";
-@use "modules/skins/default";
+@use "modules/skins/default.css";
 
 @use "modules/addons/colored-svgs.css";
 @use "modules/addons/context-icons.css";
@@ -12,5 +12,5 @@
 @use "modules/addons/gradient/gradient.css";
 @use "modules/addons/lavender/lavender.css";
 
-@use "modules/allignment/userActions.css";
 @use "modules/allignment/statusIndicators.css";
+@use "modules/allignment/userActions.css";
