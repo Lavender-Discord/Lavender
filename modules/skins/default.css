@@ -69,10 +69,12 @@
     --background-nested-floating: var(--background-secondary);
     --background-mobile-primary: var(--background-primary);
     --background-mobile-secondary: var(--background-secondary);
-    --background-modifier-hover: rgba(79, 84, 92, 0.16);
-    --background-modifier-active: rgba(79, 84, 92, 0.24);
-    --background-modifier-selected: rgba(79, 84, 92, 0.32);
-    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+
+    --background-modifier: var(--background-secondary);
+    --background-modifier-accent: var(--background-secondary);
+    --background-modifier-selected: var(--background-secondary-alt);
+    --background-modifier-hover: var(--background-secondary-alt);
+    --background-modifier-active: var(--background-modifier-hover);
 
     --info-positive-text: #fff;
     --info-warning-text: #fff;
@@ -127,6 +129,8 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: var(--background-tertiary);
     --deprecated-text-input-prefix: #dcddde;
+
+    --input-background: var(--background-secondary);
 }
 
 ::selection {
