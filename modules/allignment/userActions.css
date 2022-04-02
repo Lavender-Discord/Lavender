@@ -64,7 +64,7 @@
 }
 
 .guilds-2JjMmN {
-    background-color: #0F0E11;
+    background-color: var(--background-tertiary-alt);
     border-radius: var(--radius-primary);
 }
 
@@ -107,7 +107,7 @@ button[aria-label="Hide Game Activity"]::before,
 button[aria-label="Show Game Activity"]::before {
     content: "";
     position: absolute;
-    background-color: #0F0E11;
+    background-color: var(--background-tertiary-alt);
     width: 70px;
     height: 70px;
     left: -10px;
