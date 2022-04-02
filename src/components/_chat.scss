@@ -150,6 +150,28 @@ div[class*="mentioned"] {
     font-family: var(--font) !important;
     font-weight: 700;
     font-size: 1rem;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: var(--brand-experiment);
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    
+    &:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
 }
   
 .repliedMessage-3Z6XBG:before {

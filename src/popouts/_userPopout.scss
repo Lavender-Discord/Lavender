@@ -5,7 +5,7 @@
   
     .bodyInnerWrapper-2bQs1k,
     .footer-3naVBw {
-      background-color: transparent !important;
+      background-color: var(--background-secondary) !important;
     }
 
     .bodyInnerWrapper-2bQs1k {
@@ -133,10 +133,31 @@
       margin: 3px;
       border-radius: var(--radius-primary);
     }
+
+    .inputWrapper-1YNMmM {
+      margin-top: 20px;
+      .input-2z42oC {
+        background: var(--background-primary) !important;
+        border-radius: var(--radius-primary);
+        border: 2px solid var(--background-primary);
   
-    .input-2z42oC {
-      background: var(--background-primary);
-      border-radius: var(--radius-primary);
+        &:focus {
+          border: 2px solid var(--brand-experiment);
+        }
+      }
+
+      &::after {
+        content: "message";
+        text-transform: uppercase;
+        position: absolute;
+        top: -2px;
+        left: 22px;
+        color: var(--header-secondary);
+        font-weight: 700;
+        font-size: 12px;
+        font-family: var(--font-display);
+        line-height: 16px;
+      }
     }
   
     .rolesList-3uZoaa {
