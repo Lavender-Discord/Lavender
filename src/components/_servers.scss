@@ -92,3 +92,13 @@
       background: var(--blurple-bg-alt);
     }
 }
+
+.closedFolderIconWrapper-3tRb2d, .expandedFolderIconWrapper-3RwQpD {
+    border-radius: 50%;
+}
+
+[id*="folder-items"] {
+    .childWrapper-1j_1ub {
+        background-color: var(--background-secondary);
+    }
+}

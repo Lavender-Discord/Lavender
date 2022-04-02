@@ -1,0 +1,9 @@
+.FarcradaChannelTooltipClass {
+    max-height: 360px; /* set a max height */
+    overflow-y: auto; /* hide anything that exceeds the max height */
+
+    &::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space*/
+        background: transparent;  /* make scrollbar invisible */
+    }
+}

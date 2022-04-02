@@ -42,13 +42,14 @@
       color: #D9DDE2;
     }
   
-    .footerButton-24QPis.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeMedium-2bFIHr.grow-2sR_-F {
-      background: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
+    .footerButton-24QPis {
+      background: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%) !important;
       color: #fff;
       transition: .3s ease;
   
       &:hover {
-        background: #02D983;
+        box-shadow: inset 0px 100px 0px 0px #02D983 !important;
+        -webkit-box-shadow: inset 0px 100px 0px 0px #02D983 !important;
       }
     }
   
@@ -72,5 +73,9 @@
   }
   
   .input-m1-Y7Q, .rowContainer-3t7486 {
+    background: #17161B !important;
+  }
+
+  .input-2g-os5 {
     background: #17161B !important;
   }
