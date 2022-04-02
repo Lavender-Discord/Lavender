@@ -93,12 +93,22 @@
     }
 }
 
-.closedFolderIconWrapper-3tRb2d, .expandedFolderIconWrapper-3RwQpD {
+.folder-241Joy, .folderIconWrapper-1oRIZr {
     border-radius: 50%;
+}
+
+.closedFolderIconWrapper-3tRb2d {
+    border-radius: 50%;
+    padding: 6px;
+
+    .iconSizeSmol-qsFaRK {
+        width: 13px;
+        height: 13px;
+    }
 }
 
 [id*="folder-items"] {
     .childWrapper-1j_1ub {
-        background-color: var(--background-secondary);
+        background-color: var(--background-secondary) !important;
     }
 }

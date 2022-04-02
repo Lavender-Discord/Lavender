@@ -7,6 +7,13 @@
     .footer-3naVBw {
       background-color: transparent !important;
     }
+
+    .bodyInnerWrapper-2bQs1k {
+      h3.bodyTitle-2Az3VQ:last-of-type{
+        display: none;
+      }
+    }
+
     .divider-1wtgZ3 {
       display: none;
     }
@@ -19,22 +26,16 @@
       left: 50%;
       transform: translateX(-50%);
     }
+
+    .note-Go5ZP2 {
+      display: none;
+    }
 }
   
   .activityUserPopout-2MzGCj {
     margin-top: 45px !important;
     margin-left: 6px;
     margin-right: 6px;
-  
-    &::before {
-      content: " ";
-      position: absolute;
-      left: 0px;
-      width: 100%;
-      height: 1px;
-      margin-top: -45px;
-      background-color: var(--background-modifier-accent);
-    }
   
     &::after {
       content: "activity";
@@ -107,16 +108,6 @@
       }
   
       margin-top: 20px;
-  
-      &::before {
-        content: " ";
-        position: absolute;
-        left: 16px;
-        width: 92%;
-        height: 1px;
-        margin-top: -12px;
-        background-color: var(--background-modifier-accent);
-      }
     }
   
     .aboutMeTitle-3pjiS7 {
@@ -134,16 +125,6 @@
       font-weight: 700;
       margin: 0 0 8px 6px;
       margin-top: 28px;
-  
-      &::before {
-        content: " ";
-        position: absolute;
-        left: 16px;
-        width: 92%;
-        height: 1px;
-        margin-top: -15px;
-        background-color: var(--background-modifier-accent);
-      }
     }
   
     .note-Go5ZP2 {

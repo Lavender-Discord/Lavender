@@ -55,6 +55,11 @@
         border-radius: 6px;
       }
     }
+
+    .assets-3PQvAh img {
+      border-radius: 50%;
+    }
+
     .platformIcon-k3yytQ {
       margin: 5px 5px 0px 0px;
       path {
@@ -62,6 +67,16 @@
       }
     }
 
+    .button-TGAkj4.button-f2h6uQ {
+      background-color: unset !important;
+      border: 2px solid white;
+
+      &:hover {
+        background-color: white !important;
+        color: #000;
+      }
+    }
+    
     // bots
     .contentNoImagesUserPopout-12NyFa {
       &::after {
