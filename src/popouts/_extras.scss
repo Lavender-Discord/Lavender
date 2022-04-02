@@ -1,3 +1,9 @@
+// Delete Message Button popout message view
+.theme-dark .message-G6O-Wv,
+.theme-light .message-G6O-Wv {
+    background-color: var(--background-secondary);
+}
+
 .FarcradaChannelTooltipClass {
     max-height: 360px; /* set a max height */
     overflow-y: auto; /* hide anything that exceeds the max height */

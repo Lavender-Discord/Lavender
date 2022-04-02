@@ -286,24 +286,20 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     border-radius: 10px;
 }
 
-.container-2sjPya {
+[data-message-type="0"] .container-2sjPya {
   display: flex !important;
   flex-direction: row;
   overflow-x: auto;
-  overflow-y: none;
+  overflow-y: visible;
   gap: 10px;
   transition: .3s ease;
 
   &::-webkit-scrollbar {
     width: 10px !important;
-    height: 10px;
+    height: 15px;
     background: var(--background-secondary) !important;
     padding: 3px;
     border-radius: var(--radius-primary);
-  }
-
-  &:hover::-webkit-scrollbar {
-    height: 15px;
   }
 
   &::-webkit-scrollbar-thumb {
