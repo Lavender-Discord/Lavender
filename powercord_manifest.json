@@ -4,7 +4,7 @@
     "author": "Obscure.#4719",
     "description": "A good looking theme for Discord.",
     "license": "MIT",
-    "theme": "dev.scss",
+    "theme": "clients/powercord.css",
     "splashTheme": "modules/splash/splash.css",
     "invite": "discord.gg/B9TK7nqRE4"
 }

@@ -290,15 +290,14 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
   display: flex !important;
   flex-direction: row;
   overflow-x: auto;
-  overflow-y: visible;
+  overflow-y: hidden !important;
   gap: 10px;
   transition: .3s ease;
 
   &::-webkit-scrollbar {
     width: 10px !important;
-    height: 15px;
+    height: 10px;
     background: var(--background-secondary) !important;
-    padding: 3px;
     border-radius: var(--radius-primary);
   }
 
