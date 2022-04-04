@@ -1,5 +1,5 @@
 .theme-light .root-g14mjS, .container-1Lk8p7 {
-    background: #101014 !important;
+    background: var(--background-primary) !important;
 }
 
 .theme-dark .contentWrapper-3oy4Xo {
@@ -7,7 +7,7 @@
 }
   
   .theme-light .root-g14mjS .container-1Lk8p7 .footer-31IekZ {
-    background: #17161B !important;
+    background: var(--background-secondary) !important;
     border-color: rgba(0, 0, 0);
     box-shadow: none;
   }
@@ -30,11 +30,11 @@
     }
   
     .container-x8Y1ix {
-      background: #17161B !important;
+      background: var(--background-secondary) !important;
       margin-bottom: 8px;
   
       &:hover, &:active {
-        background-color: #1E1D24;
+        background-color: var(--background-secondary-alt);
       }
     }
   
@@ -43,13 +43,13 @@
     }
   
     .footerButton-24QPis {
-      background: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%) !important;
+      background: var(--spotify-bg) !important;
       color: #fff;
       transition: .3s ease;
   
       &:hover {
-        box-shadow: inset 0px 100px 0px 0px #02D983 !important;
-        -webkit-box-shadow: inset 0px 100px 0px 0px #02D983 !important;
+        box-shadow: inset 0px 100px 0px 0px var(--spotify-bg-alt) !important;
+        -webkit-box-shadow: inset 0px 100px 0px 0px var(--spotify-bg-alt) !important;
       }
     }
   
@@ -73,9 +73,9 @@
   }
   
   .input-m1-Y7Q, .rowContainer-3t7486 {
-    background: #17161B !important;
+    background: var(--background-secondary) !important;
   }
 
   .input-2g-os5 {
-    background: #17161B !important;
+    background: var(--background-secondary) !important;
   }

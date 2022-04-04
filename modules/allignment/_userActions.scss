@@ -20,7 +20,7 @@
       padding: 25px !important;
       position: fixed;
       bottom: calc(0% + 90px);
-      color: #ADA9F5;
+      color: var(--blurple-alt);
       border-radius: 15px;
       background-color: var(--background-secondary);
       transition: ease .3s;
@@ -28,7 +28,7 @@
   
     padding: 25px !important;
     margin: 0px;
-    color: #ADA9F5;
+    color: var(--blurple-alt);
     border-radius: var(--radius-primary);
     transition: ease .3s;
   

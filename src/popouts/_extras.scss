@@ -4,6 +4,13 @@
     background-color: var(--background-secondary);
 }
 
+// Keyboard Shortcuts [ Ctrl + / }
+.theme-dark .keyboardShortcutsModal-2CRmCm,
+.theme-light .keyboardShortcutsModal-2CRmCm {
+    background: var(--background-secondary);
+}
+
+// A plugin that i forgot the name of lol
 .FarcradaChannelTooltipClass {
     max-height: 360px; /* set a max height */
     overflow-y: auto; /* hide anything that exceeds the max height */
