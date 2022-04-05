@@ -2,10 +2,11 @@
 #channel-attach.menu-1QACrS {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
-  margin-left: -5px;
+  margin-left: -6px;
 }
 
 #channel-attach {
+    &.menu-1QACrS,
     &.menu-1QACrS.menu-1dOGCq .scrollerBase-_bVAAt {
       display: flex;
       flex-direction: row;
@@ -39,7 +40,8 @@
     }
   
     .item-1OdjEX {
-      width: 40px;
+      width: var(--textbar-button-width) !important;
+      height: var(--textbar-button-height) !important;
       transition: .3s ease;
 
       &:hover {
