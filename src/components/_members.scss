@@ -1,3 +1,8 @@
+// FIxes the members not being able to clicked when scroller is stuck
+.scrolling-20Of9p .content-2a4AW9 {
+  pointer-events: auto;
+}
+
 .members-3WRCEx,
 .container-2o3qEW,
 .membersWrap-3NUR2t,
