@@ -23,11 +23,20 @@
 ===============================================================================================================================
                                                     🎨 SKINS
                         Comment out/Uncomment the respective @import lines to disable/enable the skins.
+													Choose One Only!
 ===============================================================================================================================
 */
 
+/* Imports your desired color scheme of Lavender */
+
 @import url("https://lavender-discord.github.io/Lavender/modules/skins/default.css");
-/* Imports the dark color scheme of Lavender */
+/* Default color scheme */
+
+/*@import url("https://lavender-discord.github.io/Lavender/modules/skins/dark.css");
+/* Dark color scheme */
+
+/*@import url("https://lavender-discord.github.io/Lavender/modules/skins/amoled.css");
+/* AMOLED color scheme */
 
 /* More color schemes/skins coming soon */
 
