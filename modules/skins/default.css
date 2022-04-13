@@ -18,6 +18,14 @@
     --twitch-bg: linear-gradient(90deg, rgba(105, 2, 244, 1) 0%, rgba(208, 3, 255, 1) 100%);
     --bot-bg: var(--blurple-bg-alt);
     --xbox-bg: linear-gradient(90deg, rgba(0, 172, 65, 1) 0%, rgba(124, 203, 48, 1) 100%);
+
+    --bg-reaction: var(--background-secondary);
+    --bg-reaction-border: var(--background-secondary-alt);
+    --bg-reaction-hover: var(--background-secondary-alt);
+
+    --bg-reaction-self: var(--background-mentioned-hover);
+    --bg-reaction-self-border: var(--background-mentioned);
+    --bg-reaction-self-hover: var(--background-mentioned);
 }
 
 .theme-dark,
@@ -106,6 +114,8 @@
 
     --background-mentioned: #28151D;
     --background-mentioned-hover: #28151Dae;
+    --background-mentioned-border: var(--red-bg);
+
     --background-message-hover: rgba(4, 4, 5, 0.1);
     --background-message-automod: hsla(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%, 0.05);
     --background-message-automod-hover: hsla(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%, 0.1);

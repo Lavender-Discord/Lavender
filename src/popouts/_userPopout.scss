@@ -20,11 +20,18 @@
   
     .popoutBannerPremium-3i5EEI, .popoutBanner-3cqRD9 {
       border-radius: var(--radius-primary);
+      -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-secondary)), to(rgba(0,0,0,0)));
+      mask-image: gradient(linear, left top, left bottom, from(var(--background-secondary)), to(rgba(0,0,0,0)));
     }
   
     .avatarWrapperNormal-ahVUaC {
       left: 50%;
       transform: translateX(-50%);
+    }
+
+    .avatar-2Vndt_ {
+      border: 6px solid var(--background-secondary);
+      background: var(--background-secondary);
     }
 
     .note-Go5ZP2 {
@@ -62,7 +69,7 @@
     .profileBadges-2pItdR {
       top: 7px;
       right: 10px;
-      max-width: 110px;
+      max-width: 105px;
     }
   
     .headerText-1-WmDq {
@@ -85,6 +92,18 @@
   }
   
   .userPopout-2j1gM4 {
+    .nickname-t08Mck {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .headerTagNoNickname-3tGHj6 {
+      .username-3JLfHz {
+        font-weight: bold;
+        margin-top: 5px;
+      }
+    }
+
     .userInfoSection-3her-v {
       .userInfoBody-1zgAd0 {
         font-size: 14px;

@@ -11,13 +11,13 @@
   
 // Images in chat
 .imageWrapper-oMkQl4 {
-    border-radius: 10px !important;
-    box-shadow: 0px 5px 10px 2px #0F0F13;
+    border-radius: var(--radius-primary) !important;
+    box-shadow: var(--elevation-low);
     transition: .3s ease-in-out;
   
     &:hover {
-      border-radius: unset !important;
-      box-shadow: 0px 5px 10px 2px #1D1C2188;
+      border-radius: var(--radius-secondary) !important;
+      box-shadow: var(--elevation-high);
     }
 }
   
@@ -29,8 +29,6 @@
     font-weight: 400;
     line-height: 1;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     text-transform: lowercase;
 }
@@ -89,24 +87,26 @@
 }
   
 .reaction-2A2y9y {
-    &.reactionMe-3I9gFK {
-      border-color: #25121A;
-      background: linear-gradient(180deg, #271520 50%, #241119 52%);
-      transition: .3s ease-in-out;
-  
-      &:hover {
-        border: 1px solid #21101A88;
-        box-shadow: 0px 2px 6px 2px #21101A88;
-      }
-    }
-  
-    background: linear-gradient(180deg, #1D1C21 50%, #18181C 50%);
-    box-shadow: 0px 2px 4px 1px #0F0F13;
+    background: var(--bg-reaction);
+    border: 1px solid var(--bg-reaction-border);
+    box-shadow: var(--elevation-low);
     transition: .3s ease-in-out;
-  
+    
     &:hover {
-      border: 1px solid #1D1C21;
-      box-shadow: 0px 2px 6px 2px #1D1C2188;
+      background: var(--bg-reaction-hover);
+      border: 1px solid var(--bg-reaction);
+      box-shadow: var(--elevation-high);
+    }
+
+    &.reactionMe-3I9gFK {
+      background: var(--bg-reaction-self);
+      border: 1px solid var(--bg-reaction-self-border);
+
+      &:hover {
+        background: var(--bg-reaction-self-hover);
+        border: 1px solid var(--bg-reaction-self);
+        filter: brightness(120%);
+      }
     }
 }
   
@@ -127,7 +127,7 @@
   
 div[class*="mentioned"] {
     &::before {
-      background: var(--red-bg) !important;
+      background: var(--background-mentioned-border) !important;
       border-radius: 50%;
       height: 100%;
       position: absolute;
@@ -147,7 +147,7 @@ div[class*="mentioned"] {
 }
   
 .username-h_Y3Us {
-    font-family: var(--font) !important;
+    font-family: var(--font-primary) !important;
     font-weight: 700;
     font-size: 1rem;
 
@@ -175,7 +175,7 @@ div[class*="mentioned"] {
 }
   
 .repliedMessage-3Z6XBG:before {
-    --spine-width:3px;
+    --spine-width: 3px;
     content: "";
     display: block;
     position: absolute;
@@ -197,7 +197,7 @@ div[class*="mentioned"] {
 }
   
 div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
-    --spine-width:2.5px;
+    --spine-width: 2.5px;
     content: "";
     display: block;
     position: absolute;
@@ -219,7 +219,7 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 }
   
 .wrapper-1ZcZW- {
-    --brand-experiment-200:var(--blurple-bg-alt);
+    --brand-experiment-200: var(--blurple-bg-alt);
     color: var(--brand-experiment);
     background: transparent !important;
     transition: .3s ease;
@@ -284,31 +284,6 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     border-radius: 10px;
 }
 
-// [data-message-type="0"] .container-2sjPya {
-//   display: flex !important;
-//   flex-direction: row;
-//   overflow-x: auto;
-//   overflow-y: hidden !important;
-//   gap: 10px;
-//   transition: .3s ease;
-
-//   &::-webkit-scrollbar {
-//     width: 10px !important;
-//     height: 10px;
-//     background: var(--background-secondary) !important;
-//     border-radius: var(--radius-primary);
-//   }
-
-//   &::-webkit-scrollbar-thumb {
-//     background: #28272f;
-//     border-radius: var(--radius-primary);
-//   }
-
-//   &::-webkit-scrollbar-thumb:hover {
-//     background: var(--background-secondary-alt);
-//   }
-// }
-
 .removeAttachmentButton-1iO1qS {
   top: 0;
   right: 0;
@@ -323,19 +298,29 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
   transition: .3s ease;
 }
 
-// Message action buttons
-.wrapper-2vIMkT {
-    background-color: var(--background-secondary);
+// The message action buttons on hovering a message
+.buttonContainer-1502pf .wrapper-2vIMkT .button-3bklZh:hover {
+    background-color: var(--background-secondary-alt);
+}
+  
+// Red "NEW" line in chat
+#---new-messages-bar {
+    border-color: var(--red-bg-alt);
+}
+
+// "NEW" icon next to red line in chat
+.unreadPill-3nEWYM {
+    background: var(--red-bg-alt);
 }
   
 // Code Blocks
 .markup-eYLPri code {
     background-color: var(--background-secondary-alt);
-    box-shadow: 0px 5px 10px 2px #0F0F13;
+    box-shadow: var(--elevation-low);
     transition: .5s ease-in-out;
   
     &:hover {
-      box-shadow: 0px 5px 10px 2px var(--background-secondary-alt);
+      box-shadow: var(--elevation-high);
     }
 }
   
@@ -384,20 +369,4 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 // White Text
 .powercord-codeblock-table td {
     color: #ddd !important;
-}
-  
-
-// The message action buttons on hovering a message
-.buttonContainer-1502pf .wrapper-2vIMkT .button-3bklZh:hover {
-    background-color: var(--background-secondary-alt);
-}
-  
-// Red "NEW" line in chat
-#---new-messages-bar {
-    border-color: var(--red-bg-alt);
-}
-
-// "NEW" icon next to red line in chat
-.unreadPill-3nEWYM {
-    background: var(--red-bg-alt);
 }

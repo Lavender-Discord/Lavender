@@ -61,12 +61,15 @@
 }
 
 // Grey Buttons
-.colorGrey-2iAG-B, .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+.colorGrey-2iAG-B, .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo {
     background-color: var(--background-secondary-alt) !important;
     transition: .3s ease;
+    border: none !important;
 
     &:hover {
         background-color: var(--background-secondary) !important;
+        border: none !important;
     }
 }
 
