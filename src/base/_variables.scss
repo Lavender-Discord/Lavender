@@ -3,8 +3,9 @@
 @import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 
 :root {
-    --font-primary: "Source Sans Pro", sans-serif;
-    --font-display: "Source Sans Pro", sans-serif;
+    --font:  "Source Sans Pro", sans-serif;
+    --font-primary: var(--font);
+    --font-display: var(--font);
     --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
     --font-headline: "Source Sans Pro",  Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","맑은 고딕","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;

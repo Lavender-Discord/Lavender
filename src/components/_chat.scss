@@ -299,8 +299,12 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 }
 
 // The message action buttons on hovering a message
-.buttonContainer-1502pf .wrapper-2vIMkT .button-3bklZh:hover {
-    background-color: var(--background-secondary-alt);
+.buttonContainer-1502pf .wrapper-2vIMkT {
+    background-color: var(--background-secondary);
+
+    .button-3bklZh:hover {
+      background-color: var(--background-secondary-alt);
+    }
 }
   
 // Red "NEW" line in chat

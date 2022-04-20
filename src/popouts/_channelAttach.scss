@@ -43,6 +43,8 @@
       width: var(--textbar-button-width) !important;
       height: var(--textbar-button-height) !important;
       transition: .3s ease;
+      box-shadow: var(--elevation-high);
+      -webkit-box-shadow: var(--elevation-high);
 
       &:hover {
         background: var(--background-secondary-alt) !important;

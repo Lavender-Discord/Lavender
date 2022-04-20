@@ -16,7 +16,7 @@
 .container-YkUktl:last-child .flex-2S1XBF>button {
     padding: 25px !important;
     margin: 0px;
-    color: #ADA9F5;
+    color: var(--blurple-alt);
     border-radius: var(--radius-primary);
     transition: ease 0.3s;
 }
@@ -26,15 +26,15 @@
     padding: 25px !important;
     position: fixed;
     bottom: calc(0% + 90px);
-    color: #ADA9F5;
+    color: var(--blurple-alt);
     border-radius: 15px;
-    background-color: var(--background-secondary);
+    background: var(--background-secondary);
     transition: ease 0.3s;
 }
 
 .container-YkUktl:last-child .flex-2S1XBF>button:hover,
 .container-YkUktl:last-child .flex-2S1XBF>button:last-child:hover {
-    background-color: var(--brand-experiment);
+    background: var(--blurple-bg);
     color: #fff;
     border-radius: 50%;
 }
@@ -64,13 +64,13 @@
 }
 
 .guilds-2JjMmN {
-    background-color: var(--background-tertiary-alt);
+    background: var(--background-tertiary-alt);
     border-radius: var(--radius-primary);
 }
 
 .guilds-2JjMmN .scrollerBase-_bVAAt {
     max-height: calc(100% - 275px) !important;
-    background-color: var(--background-tertiary);
+    background: var(--background-tertiary);
     border-radius: var(--radius-primary);
     padding-bottom: 52px;
 }
@@ -82,7 +82,7 @@
 /* Game activity toggle */
 button[aria-label="Hide Game Activity"],
 button[aria-label="Show Game Activity"] {
-    background-color: var(--background-secondary);
+    background: var(--background-secondary);
     border-radius: 10px 10px 0px 0px !important;
 }
 
@@ -99,7 +99,7 @@ button[aria-label="Show Game Activity"]::after {
     height: 50px;
     left: 0px;
     z-index: -101;
-    background-color: var(--background-secondary);
+    background: var(--background-secondary);
     border-radius: 10px 10px 0px 0px !important;
 }
 
@@ -107,7 +107,7 @@ button[aria-label="Hide Game Activity"]::before,
 button[aria-label="Show Game Activity"]::before {
     content: "";
     position: absolute;
-    background-color: var(--background-tertiary-alt);
+    background: var(--background-tertiary-alt);
     width: 70px;
     height: 70px;
     left: -10px;

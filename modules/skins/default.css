@@ -1,46 +1,79 @@
 :root {
-    --blurple-replace: #7E7BFE;
-    --brand-experiment: #7E7BFE;
-    --brand-experiment-hover: #7E7BFEcc;
+    /* Blurples */
+    --blurple: #7E7BFE;
+    --blurple-hover: #7E7BFEcc;
     --blurple-alt: #ADA9F5;
-
     --blurple-bg: linear-gradient(90deg, rgba(107, 105, 255, 1) 0%, rgba(131, 129, 254, 1) 100%);
     --blurple-bg-alt: #6C6AFF;
 
+    --blurple-replace: var(--blurple);
+    --brand-experiment: var(--blurple);
+    --brand-experiment-hover: var(--blurple-hover);
+
+    /* Yellows */
+    --yellow: #F7C954;
+    --yellow-alt: #FFAC60;
+    --yellow-alt-hover: #FFAC6066;
+
+    /* Reds */
+    --red: #FD2B30;
+    --red-alt: #F42028;
+    --red-alt-hover: #F4202866;
     --red-bg: linear-gradient(90deg, rgba(243, 30, 38, 1) 0%, rgba(251, 64, 64, 1) 100%);
     --red-bg-alt: #F42028;
 
-    --spotify-color: #00D65D;
-    --spotify-bg: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
+    /* Greens */
+    --green: #4DF3BA;
+    --green-alt: #08DA7A;
+    --green-alt-hover: #08DA7A66;
+    --green-bg: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
+    --green-bg-alt: #00D65D;
+
+    /* Spotify */
+    --spotify-color: var(--green-bg-alt);
+    --spotify-bg: var(--green-bg);
     --spotify-bg-alt: #02D983;
 
+    /* Activity related colors */
     --activity-bg: var(--blurple-bg);
     --twitch-bg: linear-gradient(90deg, rgba(105, 2, 244, 1) 0%, rgba(208, 3, 255, 1) 100%);
     --bot-bg: var(--blurple-bg-alt);
     --xbox-bg: linear-gradient(90deg, rgba(0, 172, 65, 1) 0%, rgba(124, 203, 48, 1) 100%);
 
+    /* Reactions */
     --bg-reaction: var(--background-secondary);
     --bg-reaction-border: var(--background-secondary-alt);
     --bg-reaction-hover: var(--background-secondary-alt);
 
+    /* Reactions - Self */
     --bg-reaction-self: var(--background-mentioned-hover);
     --bg-reaction-self-border: var(--background-mentioned);
     --bg-reaction-self-hover: var(--background-mentioned);
+
+    /* Status Colors */
+    --online-color: var(--green);
+    --dnd-color: var(--red);
+    --idle-color: var(--yellow);
+    --streaming-color: var(--blurple);
 }
 
 .theme-dark,
 .theme-light {
-    --info-positive-background: #08DA7A66;
-    --info-positive-foreground: #08DA7A;
-    --info-warning-background: #FFAC6066;
-    --info-warning-foreground: #FFAC60;
-    --info-danger-background: #F4202866;
-    --info-danger-foreground: #F42028;
+    --info-positive-foreground: var(--green-alt);
+    --info-positive-background: var(--green-alt-hover);
+    --status-positive-text: var(--text-color);
     --status-positive-background: var(--info-positive-foreground);
-    --status-positive-text: #eee;
+
+    --info-warning-foreground: var(--yellow-alt);
+    --info-warning-background: var(--yellow-alt-hover);
+    --status-warning-text: var(--text-color);
     --status-warning-background: var(--info-warning-foreground);
+
+    --info-danger-foreground: var(--red-alt);
+    --info-danger-background: var(--red-alt-hover);
     --status-danger-background: var(--info-danger-foreground);
-    --status-danger-text: #eee;
+    --status-danger-text: var(--text-color);
+
     --focus-primary: var(--brand-experiment);
 }
 
