@@ -75,8 +75,13 @@
 
 // Checked checkbox bg color  
 [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
-    background: var(--green) !important;
+    background: var(--green-bg) !important;
     transition: .3s ease-in-out;
+
+    &:hover {
+        box-shadow: inset 0px 0px 50px 0px var(--green-bg-alt);
+        -webkit-box-shadow: inset 0px 0px 50px 0px var(--green-bg-alt);
+    }
 }
   
 // The unchecked checkbox's bg color

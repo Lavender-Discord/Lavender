@@ -1,3 +1,11 @@
+// Pinned Messages
+.messagesPopoutWrap-3zryHW{
+    height: calc(100vh - 100px) !important;
+    width: auto;
+    max-width: 600px;
+    border-radius: var(--radius-primary);
+}
+
 // Delete Message Button popout message view
 .theme-dark .message-G6O-Wv,
 .theme-light .message-G6O-Wv {

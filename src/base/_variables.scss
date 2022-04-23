@@ -15,10 +15,24 @@
 }
 
 :root {
+    // Chat Stuff
+    --spine-width: 3px; // The spine in replied messages
+
+    // Scrollers Sizes
+    --cl-width: 260px;
+    --ml-width: 300px;
+    --ml-member-height: 55px;
+
+    // Border Radiuses
     --inner-primary: 8px;
     --radius-primary: 10px;
     --radius-secondary: 6px;
 
+    // Text Bar Button
+    --textbar-button-width: 43px;
+    --textbar-button-height: 43px;
+
+    // Context Menu and Its intter Stuff
     --context-icon-size: 21px;
     --context-menu-width: inherit;
     --context-menu-radius: 10px;
@@ -31,9 +45,6 @@
     --separator-spacing-width: 2px;
     --danger-background-radius: 4px;
     --slider-background-radius: 4px;
-
-    --textbar-button-width: 43px;
-    --textbar-button-height: 43px;
 }
 
 code {

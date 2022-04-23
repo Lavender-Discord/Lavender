@@ -148,6 +148,9 @@
     --background-mentioned: #28151D;
     --background-mentioned-hover: #28151Dae;
     --background-message-hover: rgba(4, 4, 5, 0.1);
+    --spine-color: var(--background-secondary-alt);
+    --mentioned-spine-color: var(--red-bg-alt);
+
     --background-message-automod: hsla(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%, 0.05);
     --background-message-automod-hover: hsla(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%, 0.1);
 
@@ -163,6 +166,11 @@
 
     --spoiler-revealed-background: #292b2f;
     --spoiler-hidden-background: var(--background-tertiary);
+
+    --mar-bar-color: var(--red-bg);
+    --mention-badge-color: var(--blurple-bg);
+    --cl-nub-color: var(--blurple-bg);
+    --sl-nub-color: var(--blurple-bg);
 
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);

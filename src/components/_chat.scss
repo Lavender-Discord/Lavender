@@ -78,7 +78,7 @@
 }
   
 .newMessagesBar-1hF-9G {
-    background: var(--red-bg) !important;
+    background: var(--mar-bar-color) !important;
     opacity: 0.8;
   
     &:hover {
@@ -175,7 +175,6 @@ div[class*="mentioned"] {
 }
   
 .repliedMessage-3Z6XBG:before {
-    --spine-width: 3px;
     content: "";
     display: block;
     position: absolute;
@@ -189,15 +188,14 @@ div[class*="mentioned"] {
     margin-top: calc(var(--spine-width)*-1/2);
     margin-left: calc(var(--spine-width)*-1/2);
     margin-bottom: calc(.125rem - 4px);
-    border-left: var(--spine-width) solid var(--background-secondary-alt);
-    border-bottom: 0 solid var(--background-secondary-alt);
-    border-right: 0 solid var(--background-secondary-alt);
-    border-top: var(--spine-width) solid var(--background-secondary-alt);
+    border-left: var(--spine-width) solid var(--spine-color);
+    border-bottom: 0 solid var(--spine-color);
+    border-right: 0 solid var(--spine-color);
+    border-top: var(--spine-width) solid var(--spine-color);
     border-top-left-radius: 6px;
 }
   
 div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
-    --spine-width: 2.5px;
     content: "";
     display: block;
     position: absolute;
@@ -211,10 +209,10 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     margin-top: calc(var(--spine-width)*-1/2);
     margin-left: calc(var(--spine-width)*-1/2);
     margin-bottom: calc(.125rem - 4px);
-    border-left: var(--spine-width) solid #F5262C;
-    border-bottom: 0 solid #F5262C;
-    border-right: 0 solid #F5262C;
-    border-top: var(--spine-width) solid #F5262C;
+    border-left: var(--spine-width) solid var(--mentioned-spine-color);
+    border-bottom: 0 solid var(--mentioned-spine-color);
+    border-right: 0 solid var(--mentioned-spine-color);
+    border-top: var(--spine-width) solid var(--mentioned-spine-color);
     border-top-left-radius: 6px;
 }
   

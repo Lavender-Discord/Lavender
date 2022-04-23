@@ -2,7 +2,7 @@
 .numberBadge-37OJ3S,
 .wrapper-2olG5t.badge-3k1jbq {
 	color: #eee;
-	background: var(--blurple-bg) !important;
+	background: var(--mention-badge-color) !important;
 	border-radius: 5px !important;
 }
 
@@ -22,14 +22,9 @@
   
 // "NEW" mention pill in server list
 .mention-3XBnnZ {
-    background: var(--blurple-bg) !important;
-    box-shadow: 0px 0px 4px 0px rgba(126, 123, 254, 0.75);
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(126, 123, 254, 0.75);
-}
-
-// "NEW" unread pill at the bottom
-.unreadMentionsIndicatorBottom-3RJMnQ {
-    bottom: 300px;
+    background: var(--sl-nub-color) !important;
+    box-shadow: var(--elevation-low);
+    -webkit-box-shadow: var(--elevation-low);
 }
 
 // Scrollbar

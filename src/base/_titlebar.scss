@@ -43,13 +43,3 @@
       color: var(--background-primary);
     }
 }
-  
-.sidebar-1tnWFu::before {
-    content: " ";
-    position: fixed !important;
-    width: 260px;
-    height: 70px;
-    top: -10px;
-    border-radius: var(--radius-primary);
-    background-color: var(--background-secondary);
-}

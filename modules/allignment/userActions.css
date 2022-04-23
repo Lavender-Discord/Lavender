@@ -63,6 +63,15 @@
     width: 0;
 }
 
+.panels-3wFtMD>div:last-child .nameTag-sc-gpq.canCopy-IgTwyV {
+    display: none;
+}
+
+.withTagAsButton-OsgQ9L:hover,
+.withTagless-10ooWt:hover {
+    background: transparent;
+}
+
 .guilds-2JjMmN {
     background: var(--background-tertiary-alt);
     border-radius: var(--radius-primary);
@@ -77,6 +86,10 @@
 
 .guilds-2JjMmN .scrollerBase-_bVAAt div:nth-child(4) {
     align-items: center;
+}
+
+.unreadMentionsIndicatorBottom-3RJMnQ {
+    bottom: 300px;
 }
 
 /* Game activity toggle */

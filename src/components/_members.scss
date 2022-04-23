@@ -12,29 +12,35 @@
 }
 
 .container-2Oqvgx {
-    width: 300px;
+    width: var(--ml-width);
 }
   
 .members-3WRCEx {
-    width: 300px;
-    height: 90vh !important;
+    width: var(--ml-width);
 }
   
 .container-2o3qEW, .membersWrap-3NUR2t {
     height: 90vh !important;
 }
-  
-.layout-1qmrhw, .layout-1LjVue {
+
+.member-2gU6Ar,
+.channel-1Shao0 {
+    max-width: none !important;
+}
+
+.layout-1qmrhw, 
+.layout-1LjVue,
+.privateChannels-oVe7HL .channel-1Shao0.container-32HW5s .interactive-1vLZ_I {
     height: 55px;
+    width: 100%;
+    border-radius: var(--radius-primary);
 }
-  
-.layout-1qmrhw, .privateChannels-oVe7HL .channel-1Shao0.container-32HW5s .interactive-1vLZ_I {
-    width: 110%;
-}
-  
+
 .layout-1qmrhw {
-    width: 117%;
-  
+    width: calc(100% - 20px) !important;
+}
+
+.layout-1qmrhw {
     &:hover {
       background-color: var(--background-secondary) !important;
     }
