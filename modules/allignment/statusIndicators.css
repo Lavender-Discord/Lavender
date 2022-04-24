@@ -1,18 +1,6 @@
-/* Online */
-[mask="url(#svg-mask-status-online)"],
-rect[fill^="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-    fill: var(--green);
-}
-
-/* Online in status picker */
-[class^="status"] [style^="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
-    background-color: var(--green) !important;
-}
-
 /* DND */
 [mask="url(#svg-mask-status-dnd)"],
 rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
-    fill: var(--red);
     mask: url(#svg-mask-status-online);
 }
 
@@ -23,57 +11,39 @@ rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
     transform: translate(0px, 4px);
 }
 
-/* DND in status picker */
-[style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
-    background-color: var(--red) !important;
-}
-
 [mask="url(#svg-mask-status-streaming)"] {
-    fill: var(--blurple);
     mask: url(#svg-mask-status-online);
 }
 
-/* Idle */
-[mask="url(#svg-mask-status-idle)"],
-rect[fill^="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
-    fill: var(--yellow);
-}
-
-/* Idle in status picker */
-[class^="status"] [style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"] {
-    background-color: var(--yellow) !important;
-}
-
 [mask="url(#svg-mask-status-online-mobile)"] {
-    fill: var(--green);
-    ry: 6px;
-    rx: 6px;
+    ry: 6px !important;
+    rx: 6px !important;
 }
 
 #svg-mask-status-idle>circle:last-of-type {
-    cx: 75%;
+    cx: 75% !important;
 }
 
 mask[id^="svg-mask-avatar-status-round"] circle:last-of-type {
-    cy: 4%;
+    cy: 4% !important;
 }
 
 mask[id^="svg-mask-avatar-status-mobile"] rect {
-    y: -10%;
+    y: -10% !important;
 }
 
 mask[id^="svg-mask-avatar-status-typing"] rect {
-    y: -9.5%;
+    y: -9.5% !important;
 }
 
 .mask-1FEkla rect {
-    y: 8%;
-    x: 62.5%;
+    y: 8% !important;
+    x: 62.5% !important;
 }
 
 .layout-1LjVue .mask-1FEkla rect {
-    y: 0%;
-    x: 66%;
+    y: 0% !important;
+    x: 66% !important;
     transform: scale(0.8) !important;
 }
 
@@ -133,62 +103,62 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     transform: translateY(-69%) !important;
 }
 
-/* Typing part */
+/* Typing Part */
 .wrapper-1VLyxH .dots-1BwzZQ {
-    overflow: visible;
+    overflow: visible !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle {
-    cy: -7.5;
+    cy: -7.5 !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
-    cx: -8.5;
+    cx: -8.5 !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
-    cx: -2.25;
+    cx: -2.25 !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
-    cx: 4;
+    cx: 4 !important;
 }
 
 .wrapper-1VLyxH foreignObject[mask*="typing"] {
-    mask: none;
+    mask: none !important;
 }
 
 .wrapper-1VLyxH foreignObject[mask*="typing"] .avatar-b5OQ1N {
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
 
 .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
     x: -7 !important;
     y: -7 !important;
-    width: 60px;
-    height: 60px;
-    fill: rgba(0, 0, 0, 0.75);
-    clip-path: circle(40%);
+    width: 60px !important;
+    height: 60px !important;
+    fill: #101014ee !important;
+    clip-path: circle(40%) !important;
 }
 
 .layout-1LjVue .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
     x: -7 !important;
     y: -7 !important;
-    width: 53px;
-    height: 55px;
-    fill: rgba(0, 0, 0, 0.75);
-    clip-path: circle(40%);
+    width: 53px !important;
+    height: 55px !important;
+    fill: rgba(0, 0, 0, 0.75) !important;
+    clip-path: circle(40%) !important;
 }
 
 /* Status everywhere support - BD */
 .StatusEverywhere-avatar-chatAvatar::before {
-    display: none;
+    display: none !important;
 }
 
 .messageListItem-ZZ7v6g .StatusEverywhere-avatar-chatAvatar rect {
-    y: 0%;
-    x: 80%;
-    transform: scale(0.7);
+    y: 0% !important;
+    x: 80% !important;
+    transform: scale(0.7) !important;
 }
 
 .content-1Tgc42 .StatusEverywhere-avatar-chatAvatar svg.cursorDefault--wfhy5,
@@ -197,7 +167,7 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
 }
 
 .accountProfileCard-lbN7n- .avatar-3mTjvZ rect {
-    x: 79%;
-    y: 3%;
+    x: 79% !important;
+    y: 3% !important;
     transform: scale(0.8) !important;
 }

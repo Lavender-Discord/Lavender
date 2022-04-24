@@ -307,12 +307,12 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
   
 // Red "NEW" line in chat
 #---new-messages-bar {
-    border-color: var(--red-bg-alt);
+    border-color: var(--nul-color);
 }
 
 // "NEW" icon next to red line in chat
 .unreadPill-3nEWYM {
-    background: var(--red-bg-alt);
+    background: var(--chat-nub-color);
 }
   
 // Code Blocks

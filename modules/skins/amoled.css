@@ -55,6 +55,14 @@
     --dnd-color: var(--red);
     --idle-color: var(--yellow);
     --streaming-color: var(--blurple);
+
+    /* Unread Bars, Pills, Lines, etc. */
+    --mar-bar-color: var(--red-bg);
+    --mention-badge-color: var(--blurple-bg);
+    --cl-nub-color: var(--blurple-bg);
+    --sl-nub-color: var(--blurple-bg);
+    --chat-nub-color: var(--red-bg);
+    --nul-color: var(--red-bg-alt);
 }
 
 .theme-dark,
@@ -166,11 +174,6 @@
 
     --spoiler-revealed-background: #292b2f;
     --spoiler-hidden-background: var(--background-tertiary);
-
-    --mar-bar-color: var(--red-bg);
-    --mention-badge-color: var(--blurple-bg);
-    --cl-nub-color: var(--blurple-bg);
-    --sl-nub-color: var(--blurple-bg);
 
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);
