@@ -69,7 +69,7 @@
   
 .wrapper-3kah-n {
     &.selected-1Drb7Z .childWrapper-1j_1ub, &:hover .childWrapper-1j_1ub {
-      background: var(--blurple-bg) !important;
+      background: var(--blurple) !important;
     }
 }
   
@@ -79,12 +79,12 @@
     transition: .5s ease;
   
     &:hover {
-      background: var(--blurple-bg);
+      background: var(--blurple);
       color: #fff;
     }
   
     &.selected-2r1Hvo {
-      background: var(--blurple-bg-alt);
+      background: var(--blurple-hover);
     }
 }
 

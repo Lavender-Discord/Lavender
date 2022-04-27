@@ -147,14 +147,14 @@
               color: var(--interactive-active);
             }
             &::before {
-              background: var(--blurple-bg) !important;
+              background: var(--blurple) !important;
             }
             // for more "reactive" buttons, matches normal buttons.
             &:hover::before {
-              background: var(--blurple-bg) !important;
+              background: var(--blurple) !important;
             }
             &:active::before {
-              background: var(--blurple-bg) !important;
+              background: var(--blurple) !important;
             }
           }
         }
@@ -220,7 +220,7 @@
             }
         }
         .colorLink-2apWfY {
-            color: var(--blurple-bg-alt);
+            color: var(--blurple-hover);
         }
     }
     .threadSuggestionBar-3ExSyc {

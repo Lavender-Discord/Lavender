@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&display=swap');
 @import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 
+// Font stuff
 :root {
     --font:  "Source Sans Pro", sans-serif;
     --font-primary: var(--font);
@@ -14,11 +15,12 @@
     --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+// Sizes related stuff
 :root {
     // Chat Stuff
     --spine-width: 3px; // The spine in replied messages
 
-    // Scrollers Sizes
+    // Scrollers Sizes - cl = Channel List, ml = members list
     --cl-width: 260px;
     --ml-width: 300px;
     --ml-member-height: 55px;
@@ -47,9 +49,255 @@
     --slider-background-radius: 4px;
 }
 
+// Code related stuff
 code {
     font-family: 'JetBrains Mono' !important;
     font-feature-settings: "liga" on, "calt" on;
     -webkit-font-feature-settings: "liga" on, "calt" on;
     text-rendering: optimizeLegibility;
+}
+
+// Colors
+.theme-dark,
+.theme-light {
+    --info-positive-foreground: var(--green-hover);
+    --info-positive-background: var(--green-tertiary);
+    --status-positive-text: var(--text-color);
+    --status-positive-background: var(--info-positive-foreground);
+
+    --info-warning-foreground: var(--yellow-alt);
+    --info-warning-background: var(--yellow-alt-hover);
+    --status-warning-text: var(--text-color);
+    --status-warning-background: var(--info-warning-foreground);
+
+    --info-danger-foreground: var(--red-alt);
+    --info-danger-background: var(--red-alt-hover);
+    --status-danger-background: var(--info-danger-foreground);
+    --status-danger-text: var(--text-color);
+
+    --focus-primary: var(--brand-experiment);
+}
+
+// Custom Color Vars
+.theme-dark,
+.theme-light {
+    /* Blurples */
+    --blurple: var(--SKIN-accent-primary, #7E7BFE);
+    --blurple-hover: var(--SKIN-accent-secondary, #7E7BFEcc);
+    --blurple-active: var(--SKIN-accent-tertiary, #7E7BFEcc);
+    --blurple-alt: #ADA9F5;
+
+    --blurple-replace: var(--blurple);
+    --brand-experiment: var(--blurple);
+    --brand-experiment-hover: var(--blurple-hover);
+
+    /* Yellows */
+    --yellow: var(--SKIN-yellow-primary, #F7C954);
+    --yellow-alt: var(--SKIN-yellow-secondary, #FFAC60);
+    --yellow-alt-hover: var(--SKIN-yellow-tertiary, #ffac6066);
+
+    /* Reds */
+    --red: var(--SKIN-red-primary, #FD2B30);
+    --red-alt: var(--SKIN-red-secondary, #F42028);
+    --red-alt-hover: var(--SKIN-red-primary, #F4202866);
+
+    /* Greens */
+    --green: var(--SKIN-green-primary, #00D65D);
+    --green-hover: var(--SKIN-green-secondary, #08DA7A);
+    --green-active: var(--SKIN-green-tertiary, #08d97b66);
+    --green-alt: #4DF3BA;
+
+    /* Spotify */
+    --spotify-color: var(--green-hover);
+    --spotify-bg: var(--green);
+    --spotify-bg-alt: var(--green-hover);
+
+    /* Activity related colors */
+    --activity-bg: var(--blurple);
+    --twitch-bg: linear-gradient(90deg, rgba(105, 2, 244, 1) 0%, rgba(208, 3, 255, 1) 100%);
+    --bot-bg: var(--blurple-hover);
+    --xbox-bg: linear-gradient(90deg, rgba(0, 172, 65, 1) 0%, rgba(124, 203, 48, 1) 100%);
+
+    /* Reactions */
+    --bg-reaction: var(--background-secondary);
+    --bg-reaction-border: var(--background-secondary-alt);
+    --bg-reaction-hover: var(--background-secondary-alt);
+
+    /* Reactions - Self */
+    --bg-reaction-self: var(--background-mentioned-hover);
+    --bg-reaction-self-border: var(--background-mentioned);
+    --bg-reaction-self-hover: var(--background-mentioned);
+
+    /* Status Colors */
+    --online-color: var(--green-alt);
+    --dnd-color: var(--red);
+    --idle-color: var(--yellow);
+    --streaming-color: var(--blurple);
+
+    /* Unread Bars, Pills, Lines, etc. */
+    --mar-bar-color: var(--red);
+    --mention-badge-color: var(--blurple);
+    --cl-nub-color: var(--blurple);
+    --sl-nub-color: var(--blurple);
+    --chat-nub-color: var(--red);
+    --nul-color: var(--red-alt);
+}
+
+// Selections 
+::selection {
+    background-color: var(--brand-experiment) !important;
+    color: #fff !important;
+}
+
+// Colors Dark Theme
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+
+    --text-color: #eee;
+    --text-normal: #C1C1C5;
+    --text-muted: #ffffff40;
+    --text-link: var(--brand-experiment);
+    --text-link-low-saturation: hsl(197, calc(var(--saturation-factor, 1)*100%), 52.9%);
+    --text-positive: var(--info-positive-foreground);
+    --text-warning: var(--info-warning-foreground);
+    --text-danger: var(--info-danger-foreground);
+    --text-brand: var(--brand-experiment);
+
+    --toast-background: var(--background-secondary);
+    --toast-header: var(--background-primary);
+    --toast-contents: var(--background-secondary-alt);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: rgba(28, 36, 43, .6);
+
+    --interactive-normal: var(--SKIN-interactive-normal, #D9DDE2cc);
+    --interactive-hover: var(--SKIN-interactive-hover, #eee);
+    --interactive-active: var(--SKIN-interactive-active, #e2e4e8);
+    --interactive-muted: var(--SKIN-interactive-muted, #4b4b4b);
+
+    --background-primary: var(--SKIN-background-primary, #101014);
+    --background-secondary: var(--SKIN-background-secondary);
+    --background-secondary-alt: var(--SKIN-background-tertiary);
+    --background-tertiary: var(--background-primary);
+    --background-tertiary-alt: #0F0E11;
+    --background-accent: var(--background-secondary-alt);
+    --background-floating: var(--background-primary);
+    --background-nested-floating: var(--background-secondary);
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
+
+    --background-modifier: var(--background-secondary);
+    --background-modifier-accent: var(--background-secondary);
+    --background-modifier-selected: var(--background-secondary-alt);
+    --background-modifier-hover: var(--background-secondary-alt);
+    --background-modifier-active: var(--background-modifier-hover);
+
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197, calc(var(--saturation-factor, 1)*100%), 47.8%, 0.1);
+    --info-help-foreground: hsl(197, calc(var(--saturation-factor, 1)*100%), 47.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+
+    --scrollbar-thin-thumb: var(--background-secondary-alt);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #00000066;
+    --scrollbar-auto-track: #17161B99;
+    --scrollbar-auto-scrollbar-color-thumb: var(--background-tertiary);
+    --scrollbar-auto-scrollbar-color-track: var(--background-secondary);
+
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+
+    --logo-primary: #fff;
+
+    --control-brand-foreground: hsl(241, calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+    --control-brand-foreground-new: hsl(241, calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+
+    --background-mentioned: #28151D;
+    --background-mentioned-hover: #28151Dae;
+    --background-mentioned-border: var(--red);
+    --spine-color: var(--background-secondary-alt);
+    --mentioned-spine-color: var(--red-alt);
+
+    --background-message-hover: rgba(4, 4, 5, 0.1);
+    --background-message-automod: hsla(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%, 0.05);
+    --background-message-automod-hover: hsla(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%, 0.1);
+
+    --channels-default: #808080;
+    --channel-icon: var(--channels-default);
+
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+
+    --channeltextarea-background: var(--background-secondary);
+    --channeltextarea-caret: var(--brand-experiment);
+
+    --textbox-markdown-syntax: #8e9297;
+
+    --spoiler-revealed-background: #292b2f;
+    --spoiler-hidden-background: var(--background-tertiary);
+
+    --deprecated-card-bg: var(--background-tertiary);
+    --deprecated-card-editable-bg: var(--background-tertiary);
+    --deprecated-store-bg: var(--background-primary);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: var(--background-tertiary);
+    --deprecated-text-input-prefix: #dcddde;
+
+    --input-background: var(--background-secondary);
+}
+
+[data-popout-root],
+html {
+    --brand-experiment-100: hsl(241, calc(var(--saturation-factor, 1)*77.8%), 98.2%);
+    --brand-experiment-130: hsl(241, calc(var(--saturation-factor, 1)*87.5%), 96.9%);
+    --brand-experiment-160: hsl(241, calc(var(--saturation-factor, 1)*84.6%), 94.9%);
+    --brand-experiment-200: hsl(241, calc(var(--saturation-factor, 1)*83.3%), 92.9%);
+    --brand-experiment-230: hsl(241, calc(var(--saturation-factor, 1)*87%), 91%);
+    --brand-experiment-260: hsl(241, calc(var(--saturation-factor, 1)*86.2%), 88.6%);
+    --brand-experiment-300: hsl(241, calc(var(--saturation-factor, 1)*86.1%), 85.9%);
+    --brand-experiment-330: hsl(241, calc(var(--saturation-factor, 1)*85.1%), 81.6%);
+    --brand-experiment-360: hsl(241, calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+    --brand-experiment-400: hsl(241, calc(var(--saturation-factor, 1)*86.1%), 71.8%);
+    --brand-experiment-430: hsl(241, calc(var(--saturation-factor, 1)*85.7%), 69.8%);
+    --brand-experiment-460: hsl(241, calc(var(--saturation-factor, 1)*85.5%), 67.5%);
+    --brand-experiment-500: hsl(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%);
+    --brand-experiment-530: hsl(241, calc(var(--saturation-factor, 1)*66.7%), 58.8%);
+    --brand-experiment-560: hsl(241, calc(var(--saturation-factor, 1)*51.4%), 52.4%);
+    --brand-experiment-600: hsl(241, calc(var(--saturation-factor, 1)*46.7%), 44.1%);
+    --brand-experiment-630: hsl(241, calc(var(--saturation-factor, 1)*46.7%), 38.2%);
+    --brand-experiment-660: hsl(241, calc(var(--saturation-factor, 1)*47.1%), 33.3%);
+    --brand-experiment-700: hsl(241, calc(var(--saturation-factor, 1)*47%), 25.9%);
+    --brand-experiment-730: hsl(241, calc(var(--saturation-factor, 1)*46.8%), 24.3%);
+    --brand-experiment-760: hsl(241, calc(var(--saturation-factor, 1)*46.9%), 22.2%);
+    --brand-experiment-800: hsl(241, calc(var(--saturation-factor, 1)*47.5%), 19.4%);
+    --brand-experiment-830: hsl(241, calc(var(--saturation-factor, 1)*47.4%), 14.9%);
+    --brand-experiment-860: hsl(241, calc(var(--saturation-factor, 1)*46.9%), 9.6%);
+    --brand-experiment-900: hsl(241, calc(var(--saturation-factor, 1)*50%), 3.1%);
+    --brand-experiment-05a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.05);
+    --brand-experiment-10a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.1);
+    --brand-experiment-15a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.15);
+    --brand-experiment-20a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.2);
+    --brand-experiment-25a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.25);
+    --brand-experiment-30a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.3);
+    --brand-experiment-35a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.35);
+    --brand-experiment-40a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.4);
+    --brand-experiment-45a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.45);
+    --brand-experiment-50a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.5);
+    --brand-experiment-55a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.55);
+    --brand-experiment-60a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.6);
+    --brand-experiment-65a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.65);
+    --brand-experiment-70a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.7);
+    --brand-experiment-75a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.75);
+    --brand-experiment-80a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.8);
+    --brand-experiment-85a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.85);
+    --brand-experiment-90a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.9);
+    --brand-experiment-95a: hsla(241, calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.95);
 }

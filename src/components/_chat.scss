@@ -217,7 +217,7 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
 }
   
 .wrapper-1ZcZW- {
-    --brand-experiment-200: var(--blurple-bg-alt);
+    --brand-experiment-200: var(--blurple-hover);
     color: var(--brand-experiment);
     background: transparent !important;
     transition: .3s ease;
@@ -225,7 +225,7 @@ div[class*="mentioned"] .repliedMessage-3Z6XBG:before {
     font-size: 1.01em;
   
     &:not(.roleMention-11Aaqi):hover {
-      color: var(--blurple-bg-alt);
+      color: var(--blurple-hover);
       filter: brightness(140%);
     }
 }

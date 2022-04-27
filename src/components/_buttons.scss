@@ -1,8 +1,9 @@
 // Green buttons
 .colorGreen-3y-Z79,
 .liveIndicator-TJKS7N,
-[aria-label="Disable"] .container-2nx-BQ {
-    background: var(--green-bg);
+[aria-label="Disable"] .container-2nx-BQ,
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    background: var(--green);
     color: var(--text-color) !important;
     transition: .5s ease-in-out;
     border: none;
@@ -25,10 +26,10 @@
     color: var(--text-color) !important;
     transition: .5s ease-in-out;
     outline: none;
-    background: var(--blurple-bg);
+    background: var(--blurple);
   
     &:hover {
-      box-shadow: inset 200px 0 10px 0 var(--blurple-bg-alt);
+      box-shadow: inset 200px 0 10px 0 var(--blurple-hover);
       color: var(--text-color) !important;
       border-radius: 6px;
     }
@@ -36,28 +37,28 @@
 
 // Red Buttons
 .colorRed-rQXKgM {
-    background: var(--red-bg) !important;
+    background: var(--red) !important;
     transition: .5s ease-in-out;
     outline: none;
     color: var(--text-color) !important;
   
     &:hover {
       color: var(--text-color) !important;
-      box-shadow: inset 200px 0 10px 0 var(--red-bg-alt);
+      box-shadow: inset 200px 0 10px 0 var(--red-alt);
       border-radius: 6px;
     }
 }
 
 // Red Button in VC
 .colorable-3rVGna.red-3T8maV {
-    background: var(--red-bg) !important;
+    background: var(--red) !important;
     transition: .5s ease-in-out;
     outline: none;
     color: var(--text-color) !important;
 }
 
 .focused-3qFvc8 {
-    background: var(--blurple-bg-alt) !important;
+    background: var(--blurple-hover) !important;
 }
 
 // Grey Buttons
@@ -75,12 +76,12 @@
 
 // Checked checkbox bg color  
 [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
-    background: var(--green-bg) !important;
+    background: var(--green) !important;
     transition: .3s ease-in-out;
 
     &:hover {
-        box-shadow: inset 0px 0px 50px 0px var(--green-bg-alt);
-        -webkit-box-shadow: inset 0px 0px 50px 0px var(--green-bg-alt);
+        box-shadow: inset 0px 0px 50px 0px var(--green-secondary);
+        -webkit-box-shadow: inset 0px 0px 50px 0px var(--green-secondary);
     }
 }
   
