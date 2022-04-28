@@ -11,9 +11,8 @@
 }
 
 .colorGreen-3y-Z79:hover {
-    box-shadow: inset 200px 0 10px 0 var(--spotify-bg-alt);
-    color: var(--text-color) !important;
-    border-radius: 6px;
+    box-shadow: inset 0px -40px 0px 0px var(--green-hover);
+    border-radius: var(--radius-secondary);
 }
   
 .colorStatusGreen-2HKYOW {
@@ -29,9 +28,9 @@
     background: var(--blurple);
   
     &:hover {
-      box-shadow: inset 200px 0 10px 0 var(--blurple-hover);
-      color: var(--text-color) !important;
-      border-radius: 6px;
+        box-shadow: inset 0px -40px 0px 0px var(--blurple-hover);
+        color: var(--text-color) !important;
+        border-radius: var(--radius-secondary);
     }
 }
 
@@ -44,8 +43,8 @@
   
     &:hover {
       color: var(--text-color) !important;
-      box-shadow: inset 200px 0 10px 0 var(--red-alt);
-      border-radius: 6px;
+      box-shadow: inset 0px -40px 0px 0px var(--red-hover);
+      border-radius: var(--radius-secondary);
     }
 }
 
@@ -69,7 +68,7 @@
     border: none !important;
 
     &:hover {
-        background-color: var(--background-secondary) !important;
+        box-shadow: inset 0px -40px 0px 0px var(--background-secondary);
         border: none !important;
     }
 }
@@ -78,11 +77,6 @@
 [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
     background: var(--green) !important;
     transition: .3s ease-in-out;
-
-    &:hover {
-        box-shadow: inset 0px 0px 50px 0px var(--green-secondary);
-        -webkit-box-shadow: inset 0px 0px 50px 0px var(--green-secondary);
-    }
 }
   
 // The unchecked checkbox's bg color
