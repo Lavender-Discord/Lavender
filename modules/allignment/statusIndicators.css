@@ -10,14 +10,30 @@
 
 /* positioning the status indicators on top */
 .avatar-2e8lTP rect,
-.wrapper-1VLyxH rect,
+.layout-1LjVue .wrapper-1VLyxH rect,
+.layout-1qmrhw .wrapper-1VLyxH rect,
+.peopleColumn-1wMU14 .wrapper-1VLyxH rect,
+.nowPlayingColumn-1eCBCN .wrapper-1VLyxH rect,
 .avatarWrapperNormal-ahVUaC rect,
 .avatar-3QF_VA rect {
-    y: 0% !important;
+    y: 0 !important;
     stroke: var(--background-primary);
     stroke-width: 3px;
     ry: 50px;
     rx: 50px;
+}
+
+.container-YkUktl:last-child svg svg,
+.container-YkUktl:last-child svg rect,
+.container-YkUktl:last-child svg rect:last-child,
+.container-YkUktl:last-child rect:last-child,
+.container-YkUktl:last-child rect {
+    y: 0 !important;
+    x: 22 !important;
+    stroke: var(--background-tertiary-alt) !important;
+    stroke-width: 2px !important;
+    ry: 50px !important;
+    rx: 50px !important;
 }
 
 /* Fixing the out of view status indicators in profile modal */
@@ -36,10 +52,16 @@
 .root-8LYsGj .listAvatar-2bU5Uh rect {
     y: 0 !important;
     transform: translateX(0px);
+    stroke: var(--background-secondary);
+    stroke-width: 3px;
+    mask: url(#svg-mask-status-online);
+    rx: 50px;
+    ry: 50px;
 }
 
 /* Hiding the offline indicator */
 .layout-1qmrhw [mask="url(#svg-mask-status-offline)"],
+.layout-1LjVue [mask="url(#svg-mask-status-offline)"],
 .root-8LYsGj [mask="url(#svg-mask-status-offline)"],
 .autocomplete-3NRXG8 [mask="url(#svg-mask-status-offline)"],
 .panels-3wFtMD>.container-YkUktl:last-child [mask="url(#svg-mask-status-offline)"],

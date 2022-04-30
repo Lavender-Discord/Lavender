@@ -41,14 +41,14 @@
 
 .panels-3wFtMD>.container-YkUktl:last-child>.avatarWrapper-1B9FTW {
     position: fixed;
-    bottom: calc(0% + 20px);
+    bottom: calc(0% + 22px);
     left: 13.5px;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD {
-    width: 50px !important;
-    height: 50px !important;
-    transform: translateX(-3px);
+    width: 46px !important;
+    height: 46px !important;
+    transform: translateX(-2px);
 }
 
 .panels-3wFtMD>div:last-child {
