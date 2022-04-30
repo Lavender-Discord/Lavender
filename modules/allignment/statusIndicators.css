@@ -1,106 +1,95 @@
-/* DND */
+/* removing masks from all avatars */
+.avatar-2e8lTP,
+.wrapper-1VLyxH *:not(rect),
+.avatarWrapperNormal-ahVUaC *:not(rect),
+.avatar-3QF_VA {
+    -webkit-mask: none;
+    mask: none;
+    border-radius: var(--av-radius);
+}
+
+/* positioning the status indicators on top */
+.avatar-2e8lTP rect,
+.wrapper-1VLyxH rect,
+.avatarWrapperNormal-ahVUaC rect,
+.avatar-3QF_VA rect {
+    y: 0% !important;
+    stroke: var(--background-primary);
+    stroke-width: 3px;
+    ry: 50px;
+    rx: 50px;
+}
+
+/* Fixing the out of view status indicators in profile modal */
+.root-8LYsGj rect {
+    y: 4 !important;
+    transform: translateX(-6px);
+}
+
+/* Fixing the out of view status indicators in user popout */
+.userPopout-2j1gM4 rect {
+    y: 3 !important;
+    transform: translateX(-4px);
+}
+
+/* FIxing the position in mutual friends */
+.root-8LYsGj .listAvatar-2bU5Uh rect {
+    y: 0 !important;
+    transform: translateX(0px);
+}
+
+/* Hiding the offline indicator */
+.layout-1qmrhw [mask="url(#svg-mask-status-offline)"],
+.root-8LYsGj [mask="url(#svg-mask-status-offline)"],
+.autocomplete-3NRXG8 [mask="url(#svg-mask-status-offline)"],
+.panels-3wFtMD>.container-YkUktl:last-child [mask="url(#svg-mask-status-offline)"],
+.userPopout-2j1gM4 [mask="url(#svg-mask-status-offline)"] {
+    mask: none;
+    display: none;
+}
+
+/* DND and Streaming */
 [mask="url(#svg-mask-status-dnd)"],
+[mask="url(#svg-mask-status-streaming)"],
 rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
     mask: url(#svg-mask-status-online);
 }
 
-/* DND in dms top bar */
-.children-3xh0VB rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
-    width: 8px;
-    height: 8px;
-    transform: translate(0px, 4px);
-}
-
-[mask="url(#svg-mask-status-streaming)"] {
-    mask: url(#svg-mask-status-online);
-}
-
+/* Mobile indicator */
 [mask="url(#svg-mask-status-online-mobile)"] {
+    mask: none;
     ry: 6px !important;
     rx: 6px !important;
+    transform: translate(-1px, 1px);
 }
 
+/* Idle in members list */
+.layout-1qmrhw [mask="url(#svg-mask-status-idle)"] {
+    transform: scale(1.3) translate(-5px, -2px);
+    stroke-width: 4px;
+}
+
+/* Idle in user popout, adjusting its spacing */
+.userPopout-2j1gM4 [mask="url(#svg-mask-status-idle)"] {
+    transform: scale(1.3) translate(-15px, -2px);
+    stroke-width: 4px;
+}
+
+/* Idle in profile modal, adjusting its spacing */
+.root-8LYsGj [mask="url(#svg-mask-status-idle)"] {
+    transform: scale(1.2) translate(-13px, -1px);
+    stroke-width: 4px;
+}
+
+/* In avatar of the panel */
+.panels-3wFtMD>.container-YkUktl:last-child [mask="url(#svg-mask-status-idle)"] {
+    transform: scale(1.1) translate(-1px, -1px);
+    stroke-width: 2px;
+}
+
+/* Changing the moon of idles direction*/
 #svg-mask-status-idle>circle:last-of-type {
     cx: 75% !important;
-}
-
-mask[id^="svg-mask-avatar-status-round"] circle:last-of-type {
-    cy: 4% !important;
-}
-
-mask[id^="svg-mask-avatar-status-mobile"] rect {
-    y: -10% !important;
-}
-
-mask[id^="svg-mask-avatar-status-typing"] rect {
-    y: -9.5% !important;
-}
-
-.mask-1FEkla rect {
-    y: 8% !important;
-    x: 62.5% !important;
-}
-
-.layout-1LjVue .mask-1FEkla rect {
-    y: 0% !important;
-    x: 66% !important;
-    transform: scale(0.8) !important;
-}
-
-:is(.avatar-6qzftW, .avatar-2MSPKk, .avatar-1EWyVD) .mask-1FEkla rect {
-    y: 0% !important;
-    x: 79% !important;
-    transform: scale(0.7) !important;
-}
-
-.mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
-    y: 12% !important;
-    x: 75% !important;
-    transform: scale(0.75) !important;
-}
-
-/* Full user modal popout */
-.userPopout-2j1gM4 .mask-1FEkla rect {
-    y: 7% !important;
-    x: 90% !important;
-    transform: scale(0.7) !important;
-}
-
-.userPopout-2j1gM4 .mask-1FEkla rect[mask^="url(#svg-mask-status-online-mobile)"] {
-    y: 15% !important;
-    x: 90% !important;
-    transform: scale(0.7) !important;
-}
-
-/* mutual friends area */
-.fullscreenOnMobile-ixj0e3 .listScroller-entkMk .mask-1FEkla rect {
-    y: 0% !important;
-    x: 85% !important;
-    transform: scale(0.7) !important;
-}
-
-/* Active now area in friends tab */
-.nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq .itemCard-3Etziu svg rect {
-    y: 0% !important;
-    x: 67% !important;
-    transform: scale(0.8) !important;
-}
-
-.root-8LYsGj .mask-1FEkla rect {
-    y: 7% !important;
-    x: 90% !important;
-    transform: scale(0.7) !important;
-}
-
-/* autocomplete menu in chatbox */
-.autocomplete-3NRXG8 .mask-1FEkla rect {
-    y: 0% !important;
-    x: 60% !important;
-    transform: scale(0.85) !important;
-}
-
-.mask-1FEkla .dots-1BwzZQ {
-    transform: translateY(-69%) !important;
 }
 
 /* Typing Part */
@@ -128,46 +117,16 @@ mask[id^="svg-mask-avatar-status-typing"] rect {
     mask: none !important;
 }
 
-.wrapper-1VLyxH foreignObject[mask*="typing"] .avatar-b5OQ1N {
-    border-radius: 50% !important;
-}
-
 .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
-    x: -7 !important;
-    y: -7 !important;
+    x: -10 !important;
+    y: -10 !important;
     width: 60px !important;
     height: 60px !important;
-    fill: #101014ee !important;
-    clip-path: circle(40%) !important;
-}
-
-.layout-1LjVue .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
-    x: -7 !important;
-    y: -7 !important;
-    width: 53px !important;
-    height: 55px !important;
-    fill: rgba(0, 0, 0, 0.75) !important;
-    clip-path: circle(40%) !important;
+    fill: var(--background-primary) !important;
+    opacity: 0.9;
 }
 
 /* Status everywhere support - BD */
 .StatusEverywhere-avatar-chatAvatar::before {
     display: none !important;
-}
-
-.messageListItem-ZZ7v6g .StatusEverywhere-avatar-chatAvatar rect {
-    y: 0% !important;
-    x: 80% !important;
-    transform: scale(0.7) !important;
-}
-
-.content-1Tgc42 .StatusEverywhere-avatar-chatAvatar svg.cursorDefault--wfhy5,
-.content-1Tgc42 .StatusEverywhere-avatar-chatAvatar rect {
-    display: none;
-}
-
-.accountProfileCard-lbN7n- .avatar-3mTjvZ rect {
-    x: 79% !important;
-    y: 3% !important;
-    transform: scale(0.8) !important;
 }
