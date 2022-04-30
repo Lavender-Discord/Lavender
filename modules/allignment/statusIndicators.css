@@ -23,11 +23,11 @@
     rx: 50px;
 }
 
-.container-YkUktl:last-child svg svg,
-.container-YkUktl:last-child svg rect,
-.container-YkUktl:last-child svg rect:last-child,
-.container-YkUktl:last-child rect:last-child,
-.container-YkUktl:last-child rect {
+.container-YkUktl:last-child .wrapper-1VLyxH svg svg,
+.container-YkUktl:last-child .wrapper-1VLyxH svg rect,
+.container-YkUktl:last-child .wrapper-1VLyxH svg rect:last-child,
+.container-YkUktl:last-child .wrapper-1VLyxH rect:last-child,
+.container-YkUktl:last-child .wrapper-1VLyxH rect {
     y: 0 !important;
     x: 22 !important;
     stroke: var(--background-tertiary-alt) !important;
