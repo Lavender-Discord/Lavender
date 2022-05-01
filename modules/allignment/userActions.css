@@ -1,6 +1,6 @@
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
     position: fixed;
-    bottom: calc(0% + 155px);
+    bottom: calc(0% + 145px);
     left: 10px;
     width: 30px;
     z-index: 101;
@@ -25,7 +25,7 @@
     margin-top: 5px;
     padding: 25px !important;
     position: fixed;
-    bottom: calc(0% + 90px);
+    bottom: calc(0% + 80px);
     color: var(--blurple-alt);
     border-radius: 15px;
     background: var(--background-secondary);
@@ -41,14 +41,12 @@
 
 .panels-3wFtMD>.container-YkUktl:last-child>.avatarWrapper-1B9FTW {
     position: fixed;
-    bottom: calc(0% + 22px);
+    bottom: calc(0% + 25px);
     left: 13.5px;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD {
-    width: 46px !important;
-    height: 46px !important;
-    transform: translateX(-2px);
+    transform: scale(1.45) translate(4px, 0px);
 }
 
 .panels-3wFtMD>div:last-child {
@@ -67,13 +65,22 @@
 }
 
 .guilds-2JjMmN {
-    background: var(--background-tertiary-alt);
-    border-radius: var(--radius-primary);
+    background: var(--background-primary);
+}
+
+.guilds-2JjMmN::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.25);
+    width: 100px;
+    height: 265px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .guilds-2JjMmN .scrollerBase-_bVAAt {
-    max-height: calc(100% - 275px) !important;
-    background: var(--background-tertiary);
+    max-height: calc(100% - 265px) !important;
+    background: var(--background-primary) !important;
     border-radius: var(--radius-primary);
     padding-bottom: 52px;
 }
@@ -114,9 +121,9 @@ button[aria-label="Hide Game Activity"]::before,
 button[aria-label="Show Game Activity"]::before {
     content: "";
     position: absolute;
-    background: var(--background-tertiary-alt);
+    background: rgba(0, 0, 0, 0.25);
     width: 70px;
-    height: 70px;
+    height: 50px;
     left: -10px;
     z-index: -101;
     top: -20px;

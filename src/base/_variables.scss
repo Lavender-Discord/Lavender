@@ -257,6 +257,24 @@ code {
     --input-background: var(--background-secondary);
 }
 
+:root {
+    --inv-dark-background-primary: var(--background-primary);
+    --inv-dark-background-secondary: var(--background-secondary);
+    --inv-dark-background-tertiary: var(--background-secondary-alt);
+
+    --inv-dark-text: #ddd;
+    --inv-dark-text-alt: #aaa;
+
+    --inv-light-text: #222;
+    --inv-light-text-alt: #000;
+
+    --inv-input-color: var(--blurple);
+  
+    --inv-light-background-primary: var(--background-primary);
+    --inv-light-background-secondary: var(--background-secondary);
+    --inv-light-background-tertiary: var(--background-secondary-alt);
+}
+
 [data-popout-root],
 html {
     --brand-experiment-100: hsl(241, calc(var(--saturation-factor, 1)*77.8%), 98.2%);

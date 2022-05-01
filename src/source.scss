@@ -9,7 +9,6 @@
 @forward "components/channelBar";
 @forward "components/channels";
 @forward "components/chat";
-@forward "components/home";
 @forward "components/members";
 @forward "components/panel";
 @forward "components/servers";
@@ -23,6 +22,7 @@
 @forward "pages/friendsTab";
 @forward "pages/boost";
 @forward "pages/voiceChat";
+@forward "pages/home";
 
 // Popouts
 @forward "popouts/emojiPicker";
