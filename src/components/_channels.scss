@@ -214,16 +214,17 @@
 }
   
 .sidebar-1tnWFu .container-1NXEtd .container-1-ERn5 {
+    transition: .3s ease;
     .header-3OsQeK:hover, &:hover {
       background-color: var(--background-secondary-alt);
     }
 }
 
 .iconItem-1EjiK0 {
-    display: inherit !important;
+    display: block !important;
 }
 
-.children-1MGS9G {
+.children-1MGS9G .iconItem-1EjiK0 {
     opacity: 0;
     transition: opacity .3s ease;
 }
@@ -234,7 +235,7 @@
 
 .wrapper-NhbLHG.modeSelected-3DmyhH,
 .wrapper-NhbLHG {
-    &:hover .children-1MGS9G {
+    &:hover .children-1MGS9G .iconItem-1EjiK0 {
         opacity: 1;
     }
 }

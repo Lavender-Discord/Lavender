@@ -58,6 +58,14 @@
   border-radius: var(--radius-primary);
 }
 
+.contents-2MsGLg .avatar-2e8lTP {
+  transition: all .5s ease;
+
+  &:hover {
+    box-shadow: 0px 0px 0px 2px var(--blurple);
+  }
+}
+
 .managedReactiveScroller-1lEEh3 {
     scrollbar-width: auto !important;
     overflow-y: scroll !important;
