@@ -3,14 +3,15 @@
 .liveIndicator-TJKS7N,
 [aria-label="Disable"] .container-2nx-BQ,
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
-    background: var(--green);
+    background-color: var(--green);
     color: var(--text-color) !important;
-    transition: .5s ease-in-out;
+    transition: .5s ease;
     border: none;
     outline: none;
 }
 
 .colorGreen-3y-Z79:hover {
+    background-color: transparent !important;
     box-shadow: inset 0px -40px 0px 0px var(--green-hover);
     border-radius: var(--radius-secondary);
 }
@@ -23,11 +24,12 @@
 .lookFilled-yCfaCM.colorBrand-I6CyqQ,
 [aria-label="Enable"] .container-2nx-BQ {
     color: var(--text-color) !important;
-    transition: .5s ease-in-out;
+    transition: .5s ease;
     outline: none;
-    background: var(--blurple);
+    background-color: var(--blurple);
   
     &:hover {
+        background-color: transparent !important;
         box-shadow: inset 0px -40px 0px 0px var(--blurple-hover);
         color: var(--text-color) !important;
         border-radius: var(--radius-secondary);
@@ -36,24 +38,30 @@
 
 // Red Buttons
 .colorRed-rQXKgM {
-    background: var(--red) !important;
-    transition: .5s ease-in-out;
+    background-color: var(--red) !important;
+    transition: .5s ease;
     outline: none;
     color: var(--text-color) !important;
   
     &:hover {
       color: var(--text-color) !important;
-      box-shadow: inset 0px -40px 0px 0px var(--red-hover);
+      background-color: transparent !important;
+      box-shadow: inset 0px -40px 0px 0px var(--red-alt);
       border-radius: var(--radius-secondary);
     }
 }
 
 // Red Button in VC
 .colorable-3rVGna.red-3T8maV {
-    background: var(--red) !important;
-    transition: .5s ease-in-out;
+    background-color: var(--red) !important;
+    transition: .5s ease;
     outline: none;
     color: var(--text-color) !important;
+
+    &:hover {
+        background-color: transparent !important;
+        box-shadow: inset 0px -60px 0px 0px var(--red-alt);
+    }
 }
 
 .focused-3qFvc8 {
@@ -64,10 +72,11 @@
 .colorGrey-2iAG-B, .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo {
     background-color: var(--background-secondary-alt) !important;
-    transition: .3s ease;
+    transition: .5s ease;
     border: none !important;
 
     &:hover {
+        background-color: transparent !important;
         box-shadow: inset 0px -40px 0px 0px var(--background-secondary);
         border: none !important;
     }
@@ -76,11 +85,11 @@
 // Checked checkbox bg color  
 [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
     background: var(--green) !important;
-    transition: .3s ease-in-out;
+    transition: .3s ease;
 }
   
 // The unchecked checkbox's bg color
 [style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
     background: var(--background-secondary-alt) !important;
-    transition: .3s ease-in-out;
+    transition: .3s ease;
 }

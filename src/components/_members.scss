@@ -41,9 +41,11 @@
 }
 
 .layout-1qmrhw {
-    &:hover {
-      background-color: var(--background-secondary) !important;
-    }
+  transition: .1s ease;
+  
+  &:hover {
+    background-color: var(--background-secondary) !important;
+  }
 }
 
 .selected-1-Z6gm {
