@@ -38,18 +38,7 @@
     --textbar-button-height: 43px;
 
     // Context Menu and Its intter Stuff
-    --context-icon-size: 21px;
-    --context-menu-width: inherit;
-    --context-menu-radius: 10px;
-    --context-menu-spacing: 0px;
-    --context-button-radius: 5px;
-    --context-icon-spacing: 8px;
-    --context-settings-height: 60vh;
-    --context-disabled-opacity: 0.3;
-    --separator-spacing-height: 4px;
-    --separator-spacing-width: 2px;
-    --danger-background-radius: 4px;
-    --slider-background-radius: 4px;
+    --context-menu-radius: var(--radius-primary);
 }
 
 // Code related stuff
