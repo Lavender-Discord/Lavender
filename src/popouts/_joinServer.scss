@@ -4,7 +4,15 @@
       box-shadow: none !important;
       -webkit-box-shadow: none !important;
   }
-  
+
+  .defaultColor-HXu-5n {
+    color: var(--inv-dark-text);
+  }
+
+  .text-md-medium-2avxhQ, .text-md-normal-304U3g {
+    color: var(--inv-dark-text-alt) !important;
+  }
+
   .contentWrapper-3oy4Xo {
     background: var(--inv-dark-background-secondary) !important;
   }
@@ -48,13 +56,14 @@
       }
     
       .footerButton-24QPis {
-        background: var(--green) !important;
+        background-color: var(--green) !important;
         color: #fff;
         transition: .3s ease;
     
         &:hover {
-          box-shadow: inset 0px 100px 0px 0px var(--green-hover) !important;
-          -webkit-box-shadow: inset 0px 100px 0px 0px var(--green-hover) !important;
+          background-color: var(--green-hover) !important;
+          box-shadow: inset 0px 40px 0px 0px var(--green-hover) !important;
+          -webkit-box-shadow: inset 0px 40px 0px 0px var(--green-hover) !important;
         }
       }
     
@@ -102,6 +111,14 @@
       box-shadow: none !important;
       -webkit-box-shadow: none !important;
   }
+
+  .defaultColor-HXu-5n {
+    color: var(--inv-dark-text);
+  }
+
+  .text-md-medium-2avxhQ, .text-md-normal-304U3g {
+    color: var(--inv-dark-text-alt) !important;
+  }
   
   .contentWrapper-3oy4Xo {
     background: var(--inv-light-background-secondary) !important;
@@ -146,13 +163,16 @@
       }
     
       .footerButton-24QPis {
-        background: var(--green) !important;
+        background: transparent;
+        background-color: var(--green) !important;
         color: var(--inv-light-text);
-        transition: .3s ease;
+        transition: .5s ease;
     
         &:hover {
-          box-shadow: inset 0px 100px 0px 0px var(--green-hover) !important;
-          -webkit-box-shadow: inset 0px 100px 0px 0px var(--green-hover) !important;
+          background: transparent;
+          background-color: var(--green-active) !important;
+          box-shadow: inset 0px -40px 0px 0px var(--green-hover) !important;
+          -webkit-box-shadow: inset 0px -40px 0px 0px var(--green-hover) !important;
         }
       }
     

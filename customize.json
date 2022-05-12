@@ -1,7 +1,7 @@
 {
     "presets": {
         "White Out": {
-            "description": "A white out thing", // Description of the preset
+            "description": "A white out thing",
             "icon-color": {
                 "type": "color",
                 "default": "white"
@@ -33,5 +33,5 @@
             "default": "inherit"
         }
     },
-    "preview": "" // Preview of the theme
+    "preview": ""
 }
