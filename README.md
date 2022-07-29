@@ -1,9 +1,9 @@
 # Lavender
-
 A good looking dark theme for [discord](https://discord.com/).
-
 | [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/.github/installation.md) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/.github/previews.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/lavender.theme.css) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+
+![image](https://user-images.githubusercontent.com/85663797/181772121-070259e6-fce8-4629-a02f-1b9e1e688698.png)
 
 # Support :
 
@@ -16,7 +16,6 @@ For problems installing or using the theme join our [server](https://discord.gg/
 When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
 
 **Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
-
 # Credits:
 
 - **Color Scheme and Some Layouts:** [PiqoDesign ](https://dribbble.com/Piqodesign)**/** [SajjadMohammadiNia](https://dribbble.com/SajjadMohammadiNia) on dribble.
