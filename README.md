@@ -1,9 +1,8 @@
 # Lavender
-
+![image](https://user-images.githubusercontent.com/85663797/181772121-070259e6-fce8-4629-a02f-1b9e1e688698.png)
 A good looking dark theme for [discord](https://discord.com/).
 | [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/.github/installation.md) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/.github/previews.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/lavender.theme.css) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
-![image](https://user-images.githubusercontent.com/85663797/181772121-070259e6-fce8-4629-a02f-1b9e1e688698.png)
 
 # Support :
 
