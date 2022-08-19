@@ -1,0 +1,59 @@
+:root {
+    /* Info */
+    --SKIN-skin: "Amoled Edition";
+    --SKIN-author: "Obscure#4719";
+}
+
+.theme-dark,
+.theme-light {
+    /* Lightness */
+    --SKIN-lightness: 0%;
+
+    /* Grading */
+    --SKIN-grading-primary: 0%;
+    --SKIN-grading-secondary: -3%;
+    --SKIN-grading-tertiary: -6%;
+    --SKIN-grading-quarternary: -15%;
+
+    /* Interactive */
+    --SKIN-interactive-h: 213;
+    --SKIN-interactive-s: 13%;
+    --SKIN-interactive-l: 75%;
+    --SKIN-interactive-a: 1.0;
+
+    /* Background */
+    --SKIN-background-h: 0;
+    --SKIN-background-s: 0%;
+    --SKIN-background-l: 0%;
+    --SKIN-background-a: 1.0;
+    --background-floating: var(--background-secondary);
+    /* Accent */
+    --SKIN-accent-h: 241;
+    --SKIN-accent-s: 100%;
+    --SKIN-accent-l: 68%;
+    --SKIN-accent-a: 1.0;
+
+    /* Green */
+    --SKIN-green-h: 144;
+    --SKIN-green-s: 95%;
+    --SKIN-green-l: 43%;
+    --SKIN-green-a: 1.0;
+
+    /* Yellow */
+    --SKIN-yellow-h: 49;
+    --SKIN-yellow-s: 95%;
+    --SKIN-yellow-l: 50%;
+    --SKIN-yellow-a: 1.0;
+
+    /* Red */
+    --SKIN-red-h: 354;
+    --SKIN-red-s: 95%;
+    --SKIN-red-l: 50%;
+    --SKIN-red-a: 1.0;
+
+    /* Purple */
+    --SKIN-purple-h: 278;
+    --SKIN-purple-s: 100%;
+    --SKIN-purple-l: 50%;
+    --SKIN-purple-a: 1.0;
+}

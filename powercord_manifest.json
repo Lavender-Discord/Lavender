@@ -1,10 +1,10 @@
 {
-    "name": "Lavender",
-    "version": "2.0.0",
+    "name": "Lavender v3",
+    "version": "3.0.0",
     "author": "Obscure.#4719",
     "description": "A good looking theme for Discord.",
     "license": "MIT",
     "theme": "dev.scss",
-    "splashTheme": "modules/splash/splash.css",
-    "invite": "discord.gg/B9TK7nqRE4"
+    "invite": "discord.gg/B9TK7nqRE4",
+    "discord": "B9TK7nqRE4"
 }

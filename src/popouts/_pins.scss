@@ -1,0 +1,53 @@
+// Pinned Messages
+.messagesPopoutWrap-3zryHW{
+    max-height: calc(100vh - 150px) !important;
+    width: auto;
+    max-width: 500px;
+    min-width: 400px;
+    border-radius: var(--radius-secondary);
+    box-shadow: var(--elevation-high);
+    -webkit-box-shadow: var(--elevation-high);
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--background-primary);        
+    }
+
+    .header-1w9Q93, .footer-5ji8u1 {
+        background-color: var(--background-secondary);
+        box-shadow: var(--elevation-high);
+        -webkit-box-shadow: var(--elevation-high);
+        border-radius: var(--radius-primary);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        h3.wrapper-3eehVU.base-ZDDK0g.size16-CysEuG {
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        [style="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+            color: var(--info-positive-foreground) !important;
+        }
+    }
+
+    .jumpButton-1ZwI_j {
+        top: 0px;
+        right: 0px;
+        padding: 7px;
+        background-color: var(--background-secondary);
+        border-radius: var(--radius-tertiary);
+        &:hover{
+            background-color: var(--background-secondary-alt);
+        }
+    }
+
+    .messagesPopout-eVzQcI {
+        background-color: var(--background-secondary-alt);
+    
+        .messageGroupWrapper-1jf_7C {
+            background-color: var(--background-primary);
+            border: none !important;
+            border-radius: var(--radius-primary);
+        }
+    }
+}

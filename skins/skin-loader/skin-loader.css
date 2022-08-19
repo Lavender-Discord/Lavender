@@ -1,0 +1,65 @@
+.theme-dark,
+.theme-light {
+    /* Background Colors */
+    --SKIN-background-primary: hsla(var(--SKIN-background-h, 260), calc(var(--saturation-factor) * var(--SKIN-background-s, 11%)), calc(var(--SKIN-background-l, 16%) - var(--SKIN-grading-primary, 9%) + var(--SKIN-lightness, 0%)), var(--SKIN-background-a, 1.0));
+    --SKIN-background-secondary: hsla(var(--SKIN-background-h, 260), calc(var(--saturation-factor) * var(--SKIN-background-s, 11%)), calc(var(--SKIN-background-l, 16%) - var(--SKIN-grading-secondary, 6%) + var(--SKIN-lightness, 0%)), var(--SKIN-background-a, 1.0));
+    --SKIN-background-secondary-alt: hsla(var(--SKIN-background-h, 260), calc(var(--saturation-factor) * var(--SKIN-background-s, 11%)), calc(var(--SKIN-background-l, 16%) - var(--SKIN-grading-tertiary, 3%) + var(--SKIN-lightness, 0%)), var(--SKIN-background-a, 1.0));
+    --SKIN-background-tertiary: var(--SKIN-background-primary);
+    --SKIN-background-floating: hsla(var(--SKIN-background-h, 260), calc(var(--saturation-factor) * var(--SKIN-background-s, 11%)), calc(var(--SKIN-background-l, 16%) - var(--SKIN-grading-primary, 9%) - 3% + var(--SKIN-lightness, 0%)), 1.0);
+
+    /* Accent Color */
+    --SKIN-accent-primary: hsla(var(--SKIN-accent-h, 241), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s, 100%)), calc(var(--SKIN-accent-l, 68%) - 0% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-accent-a, 1.0)));
+    --SKIN-accent-secondary: hsla(var(--SKIN-accent-h, 241), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s, 100%)), calc(var(--SKIN-accent-l, 68%) - 10% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-accent-a, 1.0)));
+    --SKIN-accent-tertiary: hsla(var(--SKIN-accent-h, 241), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s, 100%)), calc(var(--SKIN-accent-l, 68%) - 20% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-accent-a, 1.0)));
+
+    /* Green Color */
+    --SKIN-green-primary: hsla(var(--SKIN-green-h, 144), calc(var(--saturation-factor, 1) * var(--SKIN-green-s, 95%)), calc(var(--SKIN-green-l, 43%) - 0% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-green-a, 1.0)));
+    --SKIN-green-secondary: hsla(var(--SKIN-green-h, 136), calc(var(--saturation-factor, 1) * var(--SKIN-green-s, 95%)), calc(var(--SKIN-green-l, 40%) - 10% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-green-a, 1.0)));
+    --SKIN-green-tertiary: hsla(var(--SKIN-green-h, 136), calc(var(--saturation-factor, 1) * var(--SKIN-green-s, 95%)), calc(var(--SKIN-green-l, 40%) - 20% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-green-a, 1.0)));
+
+    /* Yellow Color */
+    --SKIN-yellow-primary: hsla(var(--SKIN-yellow-h, 49), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s, 95%)), calc(var(--SKIN-yellow-l, 50%) - 0% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-yellow-a, 1.0)));
+    --SKIN-yellow-secondary: hsla(var(--SKIN-yellow-h, 49), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s, 95%)), calc(var(--SKIN-yellow-l, 50%) - 10% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-yellow-a, 1.0)));
+    --SKIN-yellow-tertiary: hsla(var(--SKIN-yellow-h, 49), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s, 95%)), calc(var(--SKIN-yellow-l, 50%) - 20% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-yellow-a, 1.0)));
+
+    /* Red Color */
+    --SKIN-red-primary: hsla(var(--SKIN-red-h, 354), calc(var(--saturation-factor, 1) * var(--SKIN-red-s, 95%)), calc(var(--SKIN-red-l, 50%) - 0% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-red-a, 1.0)));
+    --SKIN-red-secondary: hsla(var(--SKIN-red-h, 354), calc(var(--saturation-factor, 1) * var(--SKIN-red-s, 95%)), calc(var(--SKIN-red-l, 50%) - 10% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-red-a, 1.0)));
+    --SKIN-red-tertiary: hsla(var(--SKIN-red-h, 354), calc(var(--saturation-factor, 1) * var(--SKIN-red-s, 95%)), calc(var(--SKIN-red-l, 50%) - 20% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-red-a, 1.0)));
+
+    /* Purple Color */
+    --SKIN-purple-primary: hsla(var(--SKIN-purple-h, 278), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s, 100%)), calc(var(--SKIN-purple-l, 50%) - 0% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-purple-a, 1.0)));
+    --SKIN-purple-secondary: hsla(var(--SKIN-purple-h, 278), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s, 100%)), calc(var(--SKIN-purple-l, 50%) - 10% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-purple-a, 1.0)));
+    --SKIN-purple-tertiary: hsla(var(--SKIN-purple-h, 278), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s, 100%)), calc(var(--SKIN-purple-l, 50%) - 20% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-purple-a, 1.0)));
+
+    /* Message */
+    --SKIN-mentioned-message-normal: hsla(var(--SKIN-red-h, 354), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.07);
+    --SKIN-mentioned-message-hover: hsla(var(--SKIN-red-h, 354), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.03);
+    --SKIN-message-hover: hsla(var(--SKIN-background-h, 260), calc(var(--saturation-factor) * var(--SKIN-background-s, 11%)), calc(var(--SKIN-background-l, 16%) - var(--SKIN-grading-quarternary, 9%) - 5% + var(--SKIN-lightness, 0%)), 0.2);
+}
+
+.theme-dark {
+    /* Text Colors */
+    --SKIN-text-primary: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%) - 13%), calc(var(--SKIN-interactive-l, 75%) + 25% + var(--SKIN-lightness, 0%)), 1);
+    --SKIN-text-secondary: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%) - 13%), calc(var(--SKIN-interactive-l, 75%) - 0% + var(--SKIN-lightness, 0%)), 1);
+    --SKIN-text-tertiary: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%) - 13%), calc(var(--SKIN-interactive-l, 75%) - 25% + var(--SKIN-lightness, 0%)), 1);
+
+    /* Interactive Colors */
+    --SKIN-interactive-normal: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) - 10% + var(--SKIN-lightness, 0%)), var(--SKIN-interactive-a, 1.0));
+    --SKIN-interactive-hover: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) + 10% + var(--SKIN-lightness, 0%)), var(--SKIN-interactive-a, 1.0));
+    --SKIN-interactive-active: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) + 20% + var(--SKIN-lightness, 0%)), var(--SKIN-interactive-a, 1.0));
+    --SKIN-interactive-muted: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) - 20% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-interactive-a, 1.0) - 0.6));
+}
+
+.theme-light {
+    /* Text Colors */
+    --SKIN-text-primary: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%) + 13%), calc(var(--SKIN-interactive-l, 75%) - 35% + var(--SKIN-lightness, 0%)), 1);
+    --SKIN-text-secondary: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%) + 13%), calc(var(--SKIN-interactive-l, 75%) - 0% + var(--SKIN-lightness, 0%)), 1);
+    --SKIN-text-tertiary: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%) + 13%), calc(var(--SKIN-interactive-l, 75%) + 35% + var(--SKIN-lightness, 0%)), 1);
+
+    /* Interactive Colors */
+    --SKIN-interactive-normal: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) + 40% + var(--SKIN-lightness, 0%)), var(--SKIN-interactive-a, 1.0));
+    --SKIN-interactive-hover: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) - 40% + var(--SKIN-lightness, 0%)), var(--SKIN-interactive-a, 1.0));
+    --SKIN-interactive-active: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) - 40% + var(--SKIN-lightness, 0%)), var(--SKIN-interactive-a, 1.0));
+    --SKIN-interactive-muted: hsla(var(--SKIN-interactive-h, 213), calc(var(--saturation-factor) * var(--SKIN-interactive-s, 13%)), calc(var(--SKIN-interactive-l, 75%) + 40% + var(--SKIN-lightness, 0%)), calc(var(--SKIN-interactive-a, 1.0) - 0.6));
+}

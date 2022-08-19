@@ -1,0 +1,64 @@
+* {
+    font-variant-ligatures: none;
+}
+
+.wrapper-1_HaEi, .base-2jDfDU, .sidebar-1tnWFu, .chat-2ZfjoI, .content-1jQy2l, .container-2o3qEW{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.appMount-2yBXZl {
+    background-color: var(--background-primary);
+    -webkit-app-region: drag;
+}
+
+.app-2CXKsg {
+    background-color: transparent;
+}
+
+// Remove the laggy animation upon opening any new layer
+.layers-OrUESM {
+    background-color: var(--background-primary);
+    -webkit-app-region: no-drag;
+    .layer-86YKbF {
+        transform: none !important;
+        will-change: unset;
+
+        &.animating-1rIrGV {
+            pointer-events: auto !important;
+            will-change: unset;
+        }
+    }
+}
+
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX{
+    color: var(--accent-primary);
+    transition: .3s ease;
+    border-radius: 20%;
+    &:hover{
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+}
+
+.resizeHandle-PBRzPC {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+}
+
+// Fix events icon placement in channel list
+.content-1gYQeQ [d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7v-5z"] {
+    transform: translate(0px, -2.5px) scale(1.01);
+}
+
+.iconLive-nQxzyp{
+    color: var(--green-primary) !important;
+}
+
+// Fix for the attachment remove button position
+.messageAttachmentNoJustify-lIzP9c {
+    justify-self: start !important;
+}
+
+// Fix for long embeds
+.embedWrapper-1MtIDg.justifyAuto-BLgJ2X{justify-self: start !important;}

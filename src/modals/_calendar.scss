@@ -1,0 +1,117 @@
+.container-2McqkF.elevationBorderHigh-3drnJX {
+    width: 360px !important;
+}
+
+.calendarPicker-sDhzdi {
+    border: none;
+    outline: none;
+    border-radius: var(--radius-secondary);
+    box-shadow: var(--elevation-high);
+
+    .react-datepicker__navigation.react-datepicker__navigation--next{
+        top: 25px;
+        left: unset !important;
+        right: 30px !important;
+    }
+
+    .react-datepicker__navigation.react-datepicker__navigation--previous {
+        top: 25px;
+        left: 30px !important;
+        transform: scale(0.97) rotate(180deg);
+    }
+
+    .react-datepicker{
+        background-color: var(--background-floating) !important;
+        .react-datepicker__month-container {
+            background-color: var(--background-floating) !important;
+            display: flex;
+            flex-direction: column;
+
+            .react-datepicker__header {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                background-color: transparent;
+
+                .react-datepicker__current-month {
+                    background-color: var(--background-secondary);
+                    margin: 0;
+                    padding: 5px;
+                    border-radius: var(--radius-tertiary);
+                    border: none;
+                }
+
+                .react-datepicker__day-names {
+                    border-radius: var(--radius-secondary);
+                    background-color: var(--background-primary);
+                    display: flex;
+                    padding: 5px;
+                    gap: 5px;
+                    margin: 0;
+                    .react-datepicker__day-name{
+                        background-color: var(--background-secondary);
+                        width: 30px;
+                        height: 30px;
+                        padding: 5px;
+                        text-align: center;
+                        line-height: 30px;
+                        border-radius: var(--radius-secondary);
+                        color: var(--interactive-active);
+                    }
+                }
+            }
+
+            .react-datepicker__month {
+                border-radius: var(--radius-secondary);
+                padding: 5px;
+                display: flex;
+                margin: 0;
+                flex-direction: column;
+                gap: 5px;
+                background-color: var(--background-primary);
+                .react-datepicker__week{
+                    display: flex;
+                    gap: 5px;
+                    >.react-datepicker__day {
+                        background-color: var(--background-secondary);
+                        border-radius: var(--radius-secondary);
+                        color: var(--interactive-normal);
+                        transition: .2s linear;
+                    
+                        &.react-datepicker__day--disabled {
+                            background-color: var(--background-secondary);
+                            color: var(--interactive-muted);
+                            opacity: 0.5;
+                            cursor: not-allowed;
+                        }
+
+                        &.react-datepicker__day--today {
+                            color: var(--header-secondary);
+                        }
+
+                        &.react-datepicker__day--outside-month:not(.react-datepicker__day--disabled) {
+                            opacity: 0.8;
+                            color: var(--interactive-muted);
+                        }
+
+                        &:not(.react-datepicker__day--disabled):hover{
+                            background-color: var(--background-secondary-alt);
+                        }
+
+                        &.react-datepicker__day--selected {
+                            line-height: 35px;
+                            color: var(--interactive-active);
+                            &:after{
+                                bottom: 7px;
+                                width: 60%;
+                                left: 20%;
+                                border-radius: var(--radius-primary);
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

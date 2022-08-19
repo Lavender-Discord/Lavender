@@ -1,21 +1,19 @@
-.theme-dark {
-    .container-2McqkF {
-        background: var(--background-secondary) !important;
-    }
-    .focused-2FU0YH {
-        background: var(--background-secondary-alt) !important;
-    }
-    .option-ayUoaq {
-        &:hover {
-            background: var(--background-secondary-alt) !important;
-        }
-    }
-}
+.container-2McqkF {
+    transform: translateX(-65px);
 
-.searchLearnMore-1gNL3A {
-    display: none !important;
-}
+    &.elevationBorderHigh-3drnJX{
+        box-shadow: var(--elevation-high);
+        border: none;
+        border-radius: var(--radius-secondary);
+    }
 
-.focused-1xh-wG .searchBar-jGtisZ, .open-1F8u2c .searchBar-jGtisZ {
-    width: 300px !important;
+    .queryContainer-ZunrLZ.focused-2FU0YH {
+        background-color: var(--background-floating);
+        border-radius: var(--radius-secondary);
+        border: none;
+    }
+
+    .keybindShortcut-3zF1P9, .keybindShortcut-3zF1P9 .key-N5VmHN {
+        background-color: var(--background-secondary) !important;
+    }
 }

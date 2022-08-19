@@ -1,0 +1,157 @@
+:root {
+    --ua-btn-gap: 0px;
+    --ua-btn-height: 48px;
+    --ua-btn-width: 48px;
+    --ua-btn-radius: 15px;
+}
+
+/* Server list height */
+.wrapper-1_HaEi {
+    margin-bottom: 175px;
+}
+
+.wrapper-1_HaEi .scroller-3X7KbA {
+    padding-bottom: 20px;
+}
+
+.panels-3wFtMD .container-YkUktl:last-child {
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+    position: fixed;
+    display: flex;
+    border-radius: var(--radius-secondary);
+    flex-direction: column;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    width: var(--sl-width, 70px);
+    padding-bottom: 12px;
+    margin: 0px;
+    grid-gap: var(--ua-btn-gap);
+}
+
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF::before {
+    content: '';
+    width: 32px;
+    height: 1px;
+    margin-bottom: 8px;
+    background-color: var(--background-modifier-accent);
+}
+
+/* Buttons */
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
+    background: var(--background-secondary-alt);
+    border-radius: var(--ua-btn-radius);
+    width: var(--ua-btn-width);
+    height: var(--ua-btn-height);
+    align-items: center;
+    justify-content: center;
+    transition: .2s linear;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:not(:last-of-type) {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:not(:first-of-type) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur::before {
+    content: '';
+    background-color: var(--accent-primary);
+    position: absolute;
+    left: -20px;
+    top: 32.5%;
+    height: 35%;
+    width: 4px;
+    border-radius: 15px;
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover::before {
+    left: -14px;
+    opacity: 1;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:active::before {
+    height: 45%;
+    top: 27.5%;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover {
+    background: var(--accent-primary);
+    border-radius: 50%;
+}
+
+/* Remove Game Activity */
+.panels-3wFtMD>.container-YkUktl:last-child .button-12Fmur:nth-last-child(4) {
+    display: none;
+}
+
+/* The pill animation, remove this part if u dont like it */
+
+.container-YkUktl:last-child {
+    background-color: var(--background-secondary);
+    height: 100px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--cl-width) - 28px);
+    height: 100%;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt {
+    border-radius: var(--radius-secondary) !important;
+    transition: all 125ms linear;
+    cursor: pointer;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L::before {
+    content: '';
+    transition: 125ms linear;
+    position: absolute;
+    height: 40%;
+    width: 0px;
+    top: 30%;
+    left: 2px;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: var(--accent-primary);
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt:hover,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded="true"],
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded="true"] {
+    background-color: var(--background-secondary-alt);
+    padding-left: 20px;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt:hover::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded="true"]::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded="true"]::before {
+    left: 10px;
+    width: 3px;
+    opacity: 1;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded="true"],
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded="true"] {
+    background-color: var(--background-secondary-alt);
+}

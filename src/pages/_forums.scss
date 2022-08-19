@@ -1,0 +1,72 @@
+.content-1jQy2l {
+    .container-3wLKDe {
+        background-color: transparent;
+
+        .row-uezxzk.headerRow-1MKoR- {
+            .mainCard-3KBsBI.header-1Uy0p6 {
+                border: none;
+                transition: 125ms linear;
+                &.headerBorder-jrk0Ic{
+                    box-shadow: var(--elevation-high);
+                    .container-JhuCwn, .inputWrapper-1YNMmM.title-1v5ZfI, .inputWrapper-1YNMmM.title-1v5ZfI>input {
+                        background-color: var(--background-secondary-alt) !important;
+                    }
+                }
+
+                .container-JhuCwn {
+                    background-color: var(--background-secondary);
+                    border-radius: var(--radius-secondary);
+                    transition: 125ms linear;
+
+                    &:hover{
+                        background-color: var(--background-secondary-alt);
+                    
+                        .inputWrapper-1YNMmM.title-1v5ZfI {
+                            background-color: var(--background-secondary-alt) !important;
+                            input {
+                                background-color: var(--background-secondary-alt) !important;
+                            }
+                        }
+                    }
+
+                    form .submitButton-3B-dZd.button-f2h6uQ {
+                        border-radius: var(--radius-secondary);
+                    }
+
+                    .inputWrapper-1YNMmM.title-1v5ZfI {
+                        transition: 125ms linear;
+                        input {
+                            transition: 125ms linear;
+                        }
+                    }
+                }
+            }
+        }
+
+        .list-3FIpnh {
+            .content-2a4AW9 {
+                .row-uezxzk {
+                    .container-2qVG6q.mainCard-3KBsBI {
+                        background-color: var(--background-secondary);
+                        border: none !important;
+                        border-radius: var(--radius-secondary);
+                        transition: 125ms linear;
+
+                        padding: 20px;
+                        &:hover{
+                            border: none !important;
+                            background-color: var(--background-secondary-alt);
+                            transform: none;
+                        }
+
+                        .body-hCVwsC {
+                            .header-2W779F {
+                                .headerText-3MQ6n4 > h3{font-weight: 700;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

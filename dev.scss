@@ -1,16 +1,20 @@
+//? Important, Do not remove
 @use "src/source";
-@use "modules/skins/default.css";
+@use "skins/skin-loader/skin-loader.css";
 
-@use "modules/addons/colored-svgs.css";
-@use "modules/addons/context-icons.css";
-@use "modules/addons/emoji-replace.css";
-@use "modules/addons/friends-grid.css";
-@use "modules/addons/iconpack.css";
-@use "modules/addons/mention-links.css";
-@use "modules/addons/settings-icons.css";
+//? Skins
+@use 'skins/layout/lavender.css';
+@use 'skins/codeblock/tokyo-night.css';
 
-@use "modules/addons/gradient/gradient.css";
-@use "modules/addons/lavender/lavender.css";
+//? Designs
+@use 'design/removed/removed.css';
+@use 'design/user-actions/vertical.css';
+@use 'design/status-indicators/top-right.css';
+@use 'design/emoji-picker/emoji-picker.css';
 
-@use "modules/allignment/statusIndicators.css";
-@use "modules/allignment/userActions.css";
+//? Extensions
+@use 'extensions/context-iconsax.css';
+@use 'extensions/emoji-replace.css';
+@use 'extensions/friends-grid.css';
+@use 'extensions/iconsax.css';
+@use 'extensions/settings-iconsax.css';

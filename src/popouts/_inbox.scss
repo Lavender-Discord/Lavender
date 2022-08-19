@@ -1,0 +1,103 @@
+.recentMentionsPopout-2bI1ZN {
+    border-radius: var(--radius-secondary);
+    .header-145e10.header-1w9Q93 {
+        background-color: var(--background-secondary);
+        .controls-1rku3l {
+            .button-1_oXub {
+                background-color: var(--background-primary);
+                &:hover{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+        .tabBar-1qdMr5.topPill-3DJJNV {
+            background-color: var(--background-primary);
+            border-radius: var(--radius-secondary);
+            padding-left: 8px;
+            .tab-TRrPC8.item-3XjbnG {
+                border-radius: var(--radius-tertiary);
+                &.active-1grPyy.selected-g-kMVV{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+    }
+
+    .container-nwU-8G {
+        background-color: var(--background-secondary-alt);
+    }
+
+    .scroller-145h9c.thin-31rlnD.scrollerBase-_bVAAt {
+        background-color: var(--background-secondary-alt);
+
+        .channel-3NJZ1V{
+            background-color: var(--background-secondary);
+            padding-bottom: 0;
+            margin-bottom: 10px;
+            border-radius: var(--radius-secondary);
+            .channelHeader-DFRX8q {
+                padding: 16px;
+                padding-left: 36px;
+                border-radius: var(--radius-secondary);
+
+                .collapseButton-39-IRc {
+                    left: 10px;
+                }
+
+                .button-1_oXub {
+                    background-color: var(--background-primary);
+                    &:hover{
+                        background-color: var(--background-secondary-alt);
+                    }
+                }
+            }
+
+            .jumpButton-1V_1FA.jumpButton-2936DI {
+                top: 0px;
+                right: 10px;
+                background-color: var(--background-secondary);
+                border-radius: var(--radius-tertiary);
+                &:hover{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+    }
+
+    .container-iA3Qrz{
+        padding: 0px;
+        border-radius: var(--radius-secondary);
+        margin: 7px 5px;
+        margin-left: 12px;
+        background-color: var(--background-secondary);
+
+        .channelHeader-DFRX8q {
+            margin: 0px;
+            padding-right: 16px;
+            top: 5px;
+            border-radius: var(--radius-secondary);
+
+            .closeButton-3CiW2j {
+                background-color: var(--background-primary);
+                &:hover{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+
+        .messageContainer-3VTXBC {
+            margin-left: 0px;
+            border-radius: var(--radius-secondary);
+
+            .jumpButton-1V_1FA.jumpButton-1ITAeq {
+                top: 10px;
+                right: 10px;
+                background-color: var(--background-secondary);
+                border-radius: var(--radius-tertiary);
+                &:hover{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+    }
+}

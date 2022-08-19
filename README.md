@@ -1,27 +1,29 @@
 # Lavender
-A good looking dark theme for [discord](https://discord.com/).
-| [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/.github/installation.md) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/.github/previews.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/lavender.theme.css) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+
+| [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/docs/installation.md) | [License](https://github.com/Lavender-Discord/Lavender/blob/main/LICENSE) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/docs/previews.md) | [Contributing](https://github.com/Lavender-Discord/Lavender/blob/main/docs/contributing.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/clients/lavender.theme.css) |
+| :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: |
 
 ![image](https://user-images.githubusercontent.com/85663797/181772121-070259e6-fce8-4629-a02f-1b9e1e688698.png)
 
-# Support :
+# Support:
 
 For bug reports open a issue here on github with the provided templates.
 
-For problems installing or using the theme join our [server](https://discord.gg/B9TK7nqRE4) and ask for help.
+For problems installing or using the theme join the [support server](https://discord.gg/B9TK7nqRE4) and ask for help.
 
-# *Important
+# ! Important:
 
-When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
+When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Replugged](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
 
-**Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
+**<u>Note:</u>** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord / Replugged so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
+
 # Credits:
 
-- **Color Scheme and Some Layouts:** [PiqoDesign ](https://dribbble.com/Piqodesign)**/** [SajjadMohammadiNia](https://dribbble.com/SajjadMohammadiNia) on dribble.
-- **Friends Grid, Mention Links:** [CorellanStoma](https://github.com/CorellanStoma/)
-- **Emoji Replacement:** [DevilBro](https://github.com/mwittrien/)
-- **Colored Svgs:** [Nyri4](https://github.com/NYRI4/)
-- **Cooler Activity Status:** [Mr. Miner](https://github.com/mr-miner1/)
-- **Channel Textbar:** [LuckFire](https://github.com/Discord-Theme-Addons/bubble-bar)
-- **Status Indicators:** [Davri](https://github.com/Davr1)
+- **Lavender color scheme:** [PiqoDesign ](https://dribbble.com/Piqodesign)**/** [SajjadMohammadiNia](https://dribbble.com/SajjadMohammadiNia) on dribble.
+- **Icons:** [Iconsax.io](https://iconsax.io)
+- **Friends grid, Grid layout of panel items:** [CorellanStoma](https://github.com/CorellanStoma/) / [Source](https://github.com/CreArts-Community/Friends-Grid/) / [License: MIT](https://github.com/CreArts-Community/Friends-Grid/blob/master/license)
+- **Emoji replacements:** [DevilBro](https://github.com/mwittrien/) / [Source](https://github.com/mwittrien/BetterDiscordAddons/) / [License: GPL-2.0](https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE)
+- **Base for activity statuses:** [Mr. Miner](https://github.com/mr-miner1/) / [Source](https://github.com/mr-miner1/cooler-activity-status) / [License: MIT](https://github.com/mr-miner1/cooler-activity-status/blob/main/LICENSE)
+- **Base for chat textbar, Insipiration for pills in selected items:** [LuckFire](https://github.com/Discord-Theme-Addons/bubble-bar) / [Source](https://github.com/discord-extensions/bubble-bar) / [License: MIT](https://github.com/discord-extensions/bubble-bar/blob/master/LICENSE)
+- **Base for top right status indicators:** [Davri](https://github.com/Davr1) / [Source](https://github.com/Davr1/Discord-CSS-snippets)
+- **Radial Status:** [Gibbu](https://github.com/Gibbu) / [Source](https://github.com/DiscordStyles/RadialStatus) / [License: MIT](https://github.com/DiscordStyles/RadialStatus/blob/master/LICENSE.md)

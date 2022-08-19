@@ -1,0 +1,98 @@
+:root {
+    --textbar-button-width: 43px;
+    --textbar-button-height: 43px;
+}
+
+/* Attach button popup */
+#channel-attach.menu-1QACrS {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    margin-left: -6px;
+  }
+  
+  #channel-attach {
+      &.menu-1QACrS,
+      &.menu-1QACrS.menu-1dOGCq .scrollerBase-_bVAAt {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+        border-radius: var(--radius-secondary);
+      }
+    
+      &.menu-1dOGCq {
+        min-width: unset;
+      }
+    
+      .scroller-1bVxF5 {
+        padding: 0px 3px;
+        padding-right: 0px;
+      }
+    
+      .subtext-2GlkbE {
+        display: none;
+      }
+  
+      .focused-3qFvc8 {
+        background: var(--background-secondary);
+        cursor: default;
+        color: var(--interactive-normal);
+  
+        svg path {
+          fill: var(--interactive-normal);
+        }
+      }
+    
+      .item-1OdjEX {
+        width: var(--textbar-button-width);
+        height: var(--textbar-button-height);
+        transition: .2s linear;
+        box-shadow: var(--elevation-medium);
+        -webkit-box-shadow: var(--elevation-medium);
+  
+        svg path{
+            transition: .2s linear;
+        }
+
+        &:hover {
+          background: var(--background-secondary-alt);
+          cursor: pointer;
+  
+          svg path {
+            fill: var(--interactive-active);
+          }
+        }
+      }
+    
+      .optionName-1ebPjH {
+        display: none;
+      }
+  
+      .labelContainer-2vJzYL {
+        background-color: var(--background-secondary);
+        margin: 0 3px;
+        border-radius: var(--radius-secondary);
+        height: var(--textbar-button-height);
+        width: var(--textbar-button-width);
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .label-2gNW3x {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          .optionIcon-1Ft8w0 {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+  
+      [d="M9 16h6v-6h4l-7-7-7 7h4v6zm-4 2h14v2H5v-2z"] {
+        transform: scale(1.5) translate(-3.5px, -4px);
+      }
+    }

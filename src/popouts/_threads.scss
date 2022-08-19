@@ -1,0 +1,71 @@
+// Threads
+.layer-2aCOJ3 {
+    .browser-mnQ1T7.container-18GwIk {
+        max-width: 500px;
+        max-height: calc(100vh - 150px) !important;
+        border-radius: var(--radius-secondary);
+
+        .header-3_zmOb {
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--radius-tertiary);
+            box-shadow: var(--elevation-low);
+            -webkit-box-shadow: var(--elevation-low);
+            padding: 5px 20px;
+
+            h3.title-10Au0i {
+                font-weight: bold;
+            }
+
+            .createButton-oruGBs {
+                width: 30%;
+                height: 30px;
+                transform: translateY(-2px);
+                margin-right: 0px;
+                margin-left: 10px;
+            }
+
+            .closeIcon-11tHJX, .divider-2xk5N2 {
+                display: none;
+            }
+
+            .searchBox-3IjAC1 {
+                width: 100%;
+                margin: 0 10px;
+                padding: 5px;
+                background-color: var(--background-primary);
+                border-radius: var(--radius-tertiary);
+                transition: var(--transition-duration-secondary) var(--transition-timing-function-primary);
+                caret-color: var(--brand-experiment);
+
+                &:hover {
+                    background-color: var(--background-secondary);
+                }
+            }
+        }
+
+        .list-3YHPPb {
+            padding: 5px 20px;
+            margin-right: -5px;
+
+            .content-2a4AW9 {
+                max-height: 700px !important;
+                z-index: 1;
+            }
+
+            .sectionHeader-QsOv68 {
+                margin-left: 5px;
+            }
+
+            .container-2rzKKA {
+                border: none !important;
+                background-color: var(--background-primary);
+                transition: var(--transition-duration-secondary) var(--transition-timing-function-primary);
+                margin-right: 0px;
+
+                &:hover {
+                    background-color: var(--background-secondary-alt) !important;
+                }
+            }
+        }
+    }
+}

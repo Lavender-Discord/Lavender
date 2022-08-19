@@ -1,0 +1,119 @@
+/**
+ * @name Lavender
+ * @version 3.0.0
+ * @author Obscure.#4719
+ * @authorLink https://github.com/Obscure-Git
+ * @description A very customizeable and good looking discord theme.
+ * @website https://github.com/lavender-discord/Lavender
+ * @source https://lavender-discord.github.io/Lavender
+ * @invite B9TK7nqRE4
+*/
+
+/* 
+!===============================================================================================================================
+!                                                ⚠️ IMPORTANT
+!                               Important theme files, don't remove anything here
+!===============================================================================================================================
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/src/source.css");
+/* ⚠️ Main theme file — Do not remove */
+
+@import url("https://lavender-discord.github.io/Lavender/skins/skin-loader/skin-loader.css");
+/* ⚠️ The file responsible for all the colors and skin loading */
+
+/* 
+!===============================================================================================================================
+!                                                    🎨 SKINS
+!                  The color scheme of the whole UI, make sure you only have one skin enabled to avoid bugs
+!===============================================================================================================================
+*/
+
+/* Imports your desired color scheme of Lavender */
+
+@import url("https://lavender-discord.github.io/Lavender/skins/layout/lavender.css");
+/* Default color scheme */
+
+/**? Put your skin import links here and comment out the import for default color scheme above ?**/
+
+/*
+!===============================================================================================================================
+!                                                💻 Code Blocks Skins
+!                                           The color scheme for codeblocks
+!===============================================================================================================================
+*/
+
+/* Import your desired color scheme for codeblocks - Works best with better codeblocks plugin */
+
+@import url("https://lavender-discord.github.io/Lavender/skins/codeblock/tokyo-night.css");
+/* Default color scheme */
+
+/**? Put your codeblock skin import links here and comment out the import for default color scheme above ?**/
+
+/* 
+!===============================================================================================================================
+!                                                    🔌 Extensions
+!              Extensions are the third party mini themes used by lavender (eg: Friends grid, iconsax iconpax)
+!===============================================================================================================================
+*/
+
+@import url("https://lavender-discord.github.io/Lavender/extensions/context-iconsax.css");
+/* Context icons for menus */
+
+@import url("https://lavender-discord.github.io/Lavender/extensions/emoji-replace.css");
+/* Replaces all discord emojis with the microsoft ones */
+
+@import url("https://lavender-discord.github.io/Lavender/extensions/friends-grid.css");
+/* Makes the friends tab layout a 3 row grid */
+
+@import url("https://lavender-discord.github.io/Lavender/extensions/iconsax.css");
+/* Replaces all discord icons with modern ones */
+
+@import url("https://lavender-discord.github.io/Lavender/extensions/settings-iconsax.css");
+/* Adds iconsax icons next to sidebar items in settings */
+
+/* 
+!===============================================================================================================================
+!                                                    🖌️ Design
+!                                   Change the design of certain elements of lavender,
+!                           more will be added in the future, join the support server to stay updated
+!===============================================================================================================================
+*/
+
+
+/*? ====== Removed Stuff ======*/
+@import url("https://lavender-discord.github.io/Lavender/design/removed/removed.css");
+/* Removes few of the elements from discord, remove this import to get them back */
+
+
+/*? ====== User Action Buttons (Mute, Deafen, Settings) ======*/
+@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical.css");
+/* Vertical allignment on the left side in server list */
+
+/* @import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css"); /* */
+/* Vertical allignment on the left side in server list, buttons are connected in this one */
+
+
+/*? ====== Status Indicators ======*/
+@import url("https://lavender-discord.github.io/Lavender/design/status-indicators/top-right.css");
+/* Moves the status indicators to the upper right side of the user avatar */
+
+/* @import url("https://lavender-discord.github.io/Lavender/design/status-indicators/radial.css"); /* */
+/* Radial statuses for lavender, made by gibbu, must disable the top-right status import to make this work */
+
+
+/*? ====== Server List allignment ======*/
+/* @import url("https://lavender-discord.github.io/Lavender/design/server-list/bottom.css"); /* */
+/* Puts the server list on the bottom */
+
+/* @import url("https://lavender-discord.github.io/Lavender/design/server-list/top.css"); /* */
+/* Puts the server list on the top */
+
+/* 
+!===============================================================================================================================
+!                                           🧪 Experiments / Snippets
+!                Well if you dont like the quick css / custom css feature then put ur snippets below here
+!               Also remember this: line of code starting with '@import' should always be above other code
+!                  Code block starting with ':root' should be below @imports but above all other code
+!===============================================================================================================================
+*/

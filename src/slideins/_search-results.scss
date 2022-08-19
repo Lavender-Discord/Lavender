@@ -1,0 +1,103 @@
+// Search Results Sidebar
+.searchResultsWrap-5RVOkx {
+    .searchHeader-1r_ZSh {
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--radius-secondary);
+        box-shadow: var(--elevation-low);
+        -webkit-box-shadow: var(--elevation-low);
+
+        .item-3XjbnG.themed-2-lozF {
+            transition: .2s ease;
+            border-radius: var(--radius-tertiary);
+            
+            &:hover {
+                background: var(--background-secondary) !important;
+            }
+
+            &.selected-g-kMVV {
+                background-color: var(--background-primary) !important;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: var(--background-secondary) !important;
+                }
+            }
+        }
+    }
+
+    .scroller-3iiyhZ {
+        background-color: var(--background-secondary);
+        border-bottom-left-radius: var(--radius-secondary);
+        border-bottom-right-radius: var(--radius-secondary);
+
+        #search-results {
+            .searchResultGroup-1lU_-i {
+                & > div:nth-child(1){
+                    div {
+                        background-color: var(--background-secondary-alt);
+                        padding: 10px;
+                        padding-bottom: 5px;
+                        padding-left: 15px;
+                        border-top-left-radius: var(--radius-secondary);
+                        border-top-right-radius: var(--radius-secondary);
+                    }
+                }
+                
+                .container-rZM65Y {
+                    margin-top: -8px;
+                    background-color: var(--background-secondary-alt);
+                    padding: 8px;
+                    border-bottom-left-radius: var(--radius-secondary);
+                    border-bottom-right-radius: var(--radius-secondary);
+
+                    .searchResult-O9NDji {
+                        transition: .2s linear;
+
+                        &:hover {
+                            background-color: var(--background-secondary);
+
+                            * {
+                                --background-secondary: var(--background-secondary-alt);
+                                transition: .2s linear;
+                            }
+                        }
+                    }
+
+                    .buttonsContainer-Nmgy7x {
+                        right: 15px;
+                        top: 12px;
+
+                        .button-cfOvv- {
+                            background-color: var(--background-secondary);
+                            transition: .3s ease;
+
+                            &:hover {
+                                background-color: var(--background-secondary-alt);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .embedFull-1HGV2S{
+        border-width: 0;
+        border-color: var(--accent-tertiary);
+        border-radius: var(--radius-secondary);
+        padding-left: 9px;
+        transition: .2s linear;
+    
+        &:before {
+          content: '';
+          position: absolute;
+          top: 15%;
+          left: 8px;
+          height: 70%;
+          border-left: 4px solid;
+          border-color: inherit;
+          transition: .2s linear;
+          border-radius: var(--radius-primary);
+        }
+    }
+}

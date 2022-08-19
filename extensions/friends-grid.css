@@ -1,0 +1,89 @@
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
+
+.theme-dark,
+.theme-light {
+    --FG-search-background: var(--background-secondary);
+
+    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-hover: var(--background-secondary-alt);
+
+    --FG-cards-background-active: var(--background-secondary-alt);
+
+    --FG-cards-border-color-normal: none;
+    --FG-cards-border-color-hover: none;
+
+    --FG-cards-username-normal: var(--header-secondary);
+    --FG-cards-username-hover: var(--header-primary);
+    --FG-cards-discriminator-normal: var(--text-muted);
+    --FG-cards-discriminator-hover: var(--header-secondary);
+    --FG-cards-status-normal: var(--text-normal);
+    --FG-cards-status-hover: var(--header-secondary);
+
+    --FG-cards-button-icon-normal: var(--interactive-active);
+    --FG-cards-button-icon-hover: var(--activity-card-background);
+    --FG-cards-button-background-normal: rgba(0, 0, 0, 0.3);
+    --FG-cards-button-background-hover: rgba(0, 0, 0, 0.6);
+
+    --FS-avatar-shape: var(--avatar-radius) !important;
+}
+
+.peopleColumn-1wMU14 .actionButton-3-B2x- {
+    border-radius: var(--radius-secondary);
+}
+
+.peopleColumn-1wMU14 .userInfo-2WpsYG {
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.peopleColumn-1wMU14 .userInfo-2WpsYG::before {
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-secondary)), to(rgba(0, 0, 0, 0)));
+    mask-image: gradient(linear, left top, left bottom, from(var(--background-secondary)), to(rgba(0, 0, 0, 0)));
+}
+
+.peopleColumn-1wMU14 .userInfo-2WpsYG .username-3JLfHz.username-Qpc78p {
+    font-weight: bold;
+}
+
+.peopleColumn-1wMU14 .avatar-2MSPKk.wrapper-1VLyxH {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) scale(1.8);
+    margin-left: 0px !important;
+}
+
+.peopleColumn-1wMU14 .text-3j8t_e {
+    width: 100% !important;
+    margin-left: 0px !important;
+    display: flex;
+    align-items: center;
+}
+
+.peopleColumn-1wMU14 .listItemContents-2n2Uy9 .discordTag-3HiQI9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: unset !important;
+    flex-grow: unset !important;
+    -webkit-box-flex: unset !important;
+    margin-bottom: 10px;
+}
+
+.peopleColumn-1wMU14 .listItemContents-2n2Uy9 .activity-1KqKY2 {
+    max-width: 250px;
+}
+
+.peopleColumn-1wMU14 .listItemContents-2n2Uy9 .subtext-xfubwR {
+    padding: 10px;
+    border-radius: var(--radius-primary);
+    background-color: var(--background-primary);
+    width: 85%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.peopleColumn-1wMU14 .avatar-2MSPKk::before {
+    border-radius: var(--avatar-radius);
+}

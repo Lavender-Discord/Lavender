@@ -1,37 +1,46 @@
-// Base
-@forward "base/loading";
-@forward "base/titlebar";
-@forward "base/variables";
+//? Base
+@forward 'base/fonts';
+@forward 'base/info';
+@forward 'base/input';
+@forward 'base/tooltips';
+@forward 'base/variables';
+@forward 'base/others' as base-others*;
 
-// Componenets
-@forward "components/activityStatus";
-@forward "components/buttons";
-@forward "components/channelBar";
-@forward "components/channels";
-@forward "components/chat";
-@forward "components/members";
-@forward "components/panel";
-@forward "components/servers";
-@forward "components/textbar";
-@forward "components/statusIndicators";
-@forward "components/spotifyModule";
+//? Components
+@forward 'components/channel-list';
+@forward 'components/chat';
+@forward 'components/member-list';
+@forward 'components/server-list';
+@forward 'components/others' as components-others*;
 
-// Pages
-@forward "pages/explore";
-@forward "pages/settings";
-@forward "pages/friendsTab";
-@forward "pages/boost";
-@forward "pages/voiceChat";
-@forward "pages/home";
+//? Modals
+@forward 'modals/calendar';
+@forward 'modals/create-event';
+@forward 'modals/invite';
+@forward 'modals/quick-switcher';
+@forward 'modals/user-profile';
+@forward 'modals/others' as modals-others*;
 
-// Popouts
-@forward "popouts/emojiPicker";
-@forward "popouts/statusPicker";
-@forward "popouts/userPopout";
-@forward "popouts/userProfile";
-@forward "popouts/joinServer";
-@forward "popouts/quickSwitcher";
-@forward "popouts/channelAttach";
-@forward "popouts/search";
-@forward "popouts/chatPopouts";
-@forward "popouts/extras";
+//? Pages
+@forward 'pages/forums';
+@forward 'pages/friends-list';
+@forward 'pages/home';
+@forward 'pages/settings';
+@forward 'pages/voice-channel';
+@forward 'pages/others' as pages-others*;
+
+//? Popouts
+@forward 'popouts/attach-menu';
+@forward 'popouts/context-menus';
+@forward 'popouts/emoji-picker';
+@forward 'popouts/inbox';
+@forward 'popouts/pins';
+@forward 'popouts/search';
+@forward 'popouts/status-picker.scss';
+@forward 'popouts/threads';
+@forward 'popouts/user-popout';
+@forward 'popouts/others' as popouts-others*;
+
+//? Slide Ins
+@forward 'slideins/search-results';
+@forward 'slideins/slide-in-chat';
