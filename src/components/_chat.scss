@@ -831,3 +831,26 @@
     font-weight: 700;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  .members-3WRCEx {
+    --ml-width: 240px !important;
+  }
+  .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv):before, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy:before {
+    content: ' ';
+    display: none !important;
+  }
+  .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv):hover:before, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy:hover:before, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).message-2CShn3.selected-2LX7Jy:before, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.message-2CShn3.selected-2LX7Jy:before, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).replying-eZ7p5z:before, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.replying-eZ7p5z:before {
+    left: 0px !important;
+    display: none !important;
+  }
+  .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv):hover .contents-2MsGLg, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy:hover .contents-2MsGLg, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).message-2CShn3.selected-2LX7Jy .contents-2MsGLg, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.message-2CShn3.selected-2LX7Jy .contents-2MsGLg, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).replying-eZ7p5z .contents-2MsGLg, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.replying-eZ7p5z .contents-2MsGLg, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv):hover [id*="message-accessories"], .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy:hover [id*="message-accessories"], .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).message-2CShn3.selected-2LX7Jy [id*="message-accessories"], .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.message-2CShn3.selected-2LX7Jy [id*="message-accessories"], .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).replying-eZ7p5z [id*="message-accessories"], .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.replying-eZ7p5z [id*="message-accessories"] {
+    margin-left: 0px !important;
+  }
+  .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv):hover .contents-2MsGLg .avatar-2e8lTP, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy:hover .contents-2MsGLg .avatar-2e8lTP, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).message-2CShn3.selected-2LX7Jy .contents-2MsGLg .avatar-2e8lTP, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.message-2CShn3.selected-2LX7Jy .contents-2MsGLg .avatar-2e8lTP, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).replying-eZ7p5z .contents-2MsGLg .avatar-2e8lTP, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.replying-eZ7p5z .contents-2MsGLg .avatar-2e8lTP {
+    margin-left: 0px !important;
+  }
+  .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv):hover .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy:hover .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).message-2CShn3.selected-2LX7Jy .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.message-2CShn3.selected-2LX7Jy .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS, .message-2CShn3.cozyMessage-1DWF9U:not(.mentioned-Tre-dv).replying-eZ7p5z .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS, .message-2CShn3.cozyMessage-1DWF9U.message-2CShn3.selected-2LX7Jy.replying-eZ7p5z .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS {
+    margin-left: 0px !important;
+  }
+}
