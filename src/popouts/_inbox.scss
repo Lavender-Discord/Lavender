@@ -1,7 +1,7 @@
 .recentMentionsPopout-2bI1ZN {
     border-radius: var(--radius-secondary);
     .header-145e10.header-1w9Q93 {
-        background-color: var(--background-secondary);
+        background-color: var(--background-secondary-alt);
         .controls-1rku3l {
             .button-1_oXub {
                 background-color: var(--background-primary);
@@ -24,14 +24,14 @@
     }
 
     .container-nwU-8G {
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary);
     }
 
     .scroller-145h9c.thin-31rlnD.scrollerBase-_bVAAt {
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary);
 
         .channel-3NJZ1V{
-            background-color: var(--background-secondary);
+            background-color: var(--background-secondary-alt);
             padding-bottom: 0;
             margin-bottom: 10px;
             border-radius: var(--radius-secondary);
@@ -69,14 +69,17 @@
         border-radius: var(--radius-secondary);
         margin: 7px 5px;
         margin-left: 12px;
-        background-color: var(--background-secondary);
+        background-color: var(--background-primary);
 
         .channelHeader-DFRX8q {
             margin: 0px;
             padding-right: 16px;
             top: 5px;
             border-radius: var(--radius-secondary);
-
+            background-color: var(--background-secondary-alt);
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            
             .closeButton-3CiW2j {
                 background-color: var(--background-primary);
                 &:hover{
