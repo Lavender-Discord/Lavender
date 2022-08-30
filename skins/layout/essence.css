@@ -64,10 +64,6 @@
     --scrollbar-auto-scrollbar-color-thumb: var(--accent-primary);
 }
 
-.userPopout-2j1gM4 {
-    --background-floating: var(--background-secondary);
-}
-
 .childWrapper-1j_1ub svg path {
     color: var(--accent-primary);
 }

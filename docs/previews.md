@@ -6,6 +6,16 @@
 
 ## Amoled Editon:
 
-<img src="https://lavender-discord.github.io/Lavender/assets/previews/amoled.png" alt="default skin preview">
+<img src="https://lavender-discord.github.io/Lavender/assets/previews/amoled.png" alt="amoled skin preview">
 
-\*\* This section is incomplete, because there are many other skins/color schemes coming soon to lavender which will be updated here too.
+## Essence Editon:
+
+<img src="https://lavender-discord.github.io/Lavender/assets/previews/essence.png" alt="essence skin preview">
+
+## Vintage Editon:
+
+<img src="https://lavender-discord.github.io/Lavender/assets/previews/vintage.png" alt="vintage skin preview">
+
+## Zelk Editon:
+
+<img src="https://lavender-discord.github.io/Lavender/assets/previews/zelk.png" alt="zelk skin preview">
