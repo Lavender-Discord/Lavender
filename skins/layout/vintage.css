@@ -1,0 +1,68 @@
+:root {
+    /* Info */
+    --SKIN-skin: "Vintage Edition";
+    --SKIN-author: "Leeprky#2063";
+}
+
+.theme-dark,
+.theme-light {
+    /* Lightness */
+    --SKIN-lightness: 0%;
+
+    /* Grading */
+    --SKIN-grading-primary: 3%;
+    --SKIN-grading-secondary: 0%;
+    --SKIN-grading-tertiary: -3%;
+    --SKIN-grading-quarternary: 9%;
+
+    /* Interactive */
+    --SKIN-interactive-h: 21;
+    --SKIN-interactive-s: 19%;
+    --SKIN-interactive-l: 70%;
+    --SKIN-interactive-a: 1.0;
+
+    /* Background */
+    --SKIN-background-h: 0;
+    --SKIN-background-s: 12%;
+    --SKIN-background-l: 15%;
+    --SKIN-background-a: 1.0;
+
+    /* Accent */
+    --SKIN-accent-h: 12;
+    --SKIN-accent-s: 47%;
+    --SKIN-accent-l: 61%;
+    --SKIN-accent-a: 1.0;
+
+    /* Green */
+    --SKIN-green-h: 144;
+    --SKIN-green-s: 95%;
+    --SKIN-green-l: 43%;
+    --SKIN-green-a: 1.0;
+
+    /* Yellow */
+    --SKIN-yellow-h: 49;
+    --SKIN-yellow-s: 95%;
+    --SKIN-yellow-l: 50%;
+    --SKIN-yellow-a: 1.0;
+
+    /* Red */
+    --SKIN-red-h: 354;
+    --SKIN-red-s: 75%;
+    --SKIN-red-l: 50%;
+    --SKIN-red-a: 1.0;
+
+    /* Purple */
+    --SKIN-purple-h: 278;
+    --SKIN-purple-s: 80%;
+    --SKIN-purple-l: 50%;
+    --SKIN-purple-a: 1.0;
+
+    /* Extras */
+    --scrollbar-thin-thumb: var(--accent-tertiary);
+    --scrollbar-auto-thumb: var(--accent-tertiary);
+    --scrollbar-auto-scrollbar-color-thumb: var(--accent-tertiary);
+}
+
+.userPopout-2j1gM4 {
+    --background-floating: var(--background-secondary);
+}

@@ -143,7 +143,7 @@
       }
 
       &::-webkit-scrollbar-thumb {
-        background: var(--background-secondary-alt);
+        background: var(--scrollbar-thin-thumb);
         border-radius: var(--radius-secondary);
       }
     }

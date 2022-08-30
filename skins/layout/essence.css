@@ -1,0 +1,92 @@
+:root {
+    /* Info */
+    --SKIN-skin: "Essence Edition";
+    --SKIN-author: "LuckFire#4032";
+}
+
+.theme-dark,
+.theme-light {
+    /* Lightness */
+    --SKIN-lightness: 0%;
+
+    /* Grading */
+    --SKIN-grading-primary: 0%;
+    --SKIN-grading-secondary: -4%;
+    --SKIN-grading-tertiary: -7%;
+    --SKIN-grading-quarternary: 9%;
+
+    /* Interactive */
+    --SKIN-interactive-h: 256;
+    --SKIN-interactive-s: 20%;
+    --SKIN-interactive-l: 75%;
+    --SKIN-interactive-a: 1.0;
+
+    /* Background */
+    --SKIN-background-h: 240;
+    --SKIN-background-s: 25%;
+    --SKIN-background-l: 11%;
+    --SKIN-background-a: 1.0;
+    --s: #1f1d30;
+
+    /* Accent */
+    --SKIN-accent-h: 256;
+    --SKIN-accent-s: 86%;
+    --SKIN-accent-l: 58%;
+    --SKIN-accent-a: 1.0;
+
+    /* Green */
+    --SKIN-green-h: 140;
+    --SKIN-green-s: 73%;
+    --SKIN-green-l: 47%;
+    --SKIN-green-a: 1.0;
+
+    /* Yellow */
+    --SKIN-yellow-h: 49;
+    --SKIN-yellow-s: 95%;
+    --SKIN-yellow-l: 50%;
+    --SKIN-yellow-a: 1.0;
+
+    /* Red */
+    --SKIN-red-h: 354;
+    --SKIN-red-s: 95%;
+    --SKIN-red-l: 50%;
+    --SKIN-red-a: 1.0;
+
+    /* Purple */
+    --SKIN-purple-h: 278;
+    --SKIN-purple-s: 100%;
+    --SKIN-purple-l: 50%;
+    --SKIN-purple-a: 1.0;
+
+    /* Extras */
+    --scrollbar-thin-thumb: var(--accent-primary);
+    --scrollbar-auto-thumb: var(--accent-primary);
+    --scrollbar-auto-scrollbar-color-thumb: var(--accent-primary);
+}
+
+.userPopout-2j1gM4 {
+    --background-floating: var(--background-secondary);
+}
+
+.childWrapper-1j_1ub svg path {
+    color: var(--accent-primary);
+}
+
+.selected-2r1Hvo svg path,
+.selected-1Drb7Z .childWrapper-1j_1ub svg path {
+    color: black;
+}
+
+.childWrapper-1j_1ub,
+.circleIconButton-1VxDrg {
+    background-color: var(--background-secondary) !important;
+}
+
+.selected-2r1Hvo,
+.selected-1Drb7Z .childWrapper-1j_1ub {
+    background-color: var(--accent-primary) !important;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background-color: var(--green-primary) !important;
+}
