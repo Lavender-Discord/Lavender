@@ -1,8 +1,6 @@
 //? Important, Do not remove
 @use "src/source";
 @use "skins/skin-loader/skin-loader.css";
-
-//? Skins
 @use 'skins/layout/lavender.css';
 @use 'skins/codeblock/tokyo-night.css';
 
@@ -18,3 +16,6 @@
 @use 'extensions/friends-grid.css';
 @use 'extensions/iconsax.css';
 @use 'extensions/settings-iconsax.css';
+
+//? Skins
+@import url("https://crearts-community.github.io/Skins/community/lavender.css");
