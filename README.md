@@ -1,3 +1,5 @@
+# Maintenance of this repo has been temporarily stopped!
+
 # Lavender
 
 | [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/docs/installation.md) | [License](https://github.com/Lavender-Discord/Lavender/blob/main/LICENSE) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/docs/previews.md) | [Contributing](https://github.com/Lavender-Discord/Lavender/blob/main/docs/contributing.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/clients/lavender.theme.css) |
