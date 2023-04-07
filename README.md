@@ -1,4 +1,5 @@
 # Maintenance of this repo has been temporarily stopped!
+### *** If you want to update this repo to work with newer client mods properly, You can do so freely and make a PR. It will accepted as soon as possible. ***
 
 # Lavender
 
