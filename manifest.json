@@ -1,10 +1,19 @@
 {
-    "name": "Lavender",
-    "version": "3.0.1",
-    "author": "Obscure.#4719",
-    "description": "A good looking theme for Discord.",
-    "license": "MIT",
-    "theme": "dev.scss",
-    "invite": "discord.gg/B9TK7nqRE4",
-    "discord": "B9TK7nqRE4"
+  "id": "dev.obscure.Lavender",
+  "name": "Lavender",
+  "description": "Lavender",
+  "author": {
+    "name": "Obscure",
+    "discordID": "755436063828213821",
+    "github": "kritishd8"
+  },
+  "version": "3.1.0",
+  "updater": {
+    "type": "github",
+    "id": "Lavender-Discord/Lavender"
+  },
+  "license": "MIT",
+  "source": "https://github.com/Lavender-Discord/Lavender",
+  "type": "replugged-theme",
+  "main": "src/dev.css"
 }

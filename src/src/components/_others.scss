@@ -3,17 +3,6 @@
     pointer-events: auto;
 }
 
-/* removing masks from all avatars */
-.avatar-2e8lTP,
-.wrapper-1VLyxH *:not(rect),
-.avatarWrapperNormal-ahVUaC *:not(rect),
-.avatar-3QF_VA,
-.voiceUser-3nRK-K .avatar-3FKimL {
-    -webkit-mask: none;
-    mask: none;
-    border-radius: var(--avatar-radius, 50%);
-}
-
 // Status indicators in general
 .avatar-2e8lTP rect,
 .wrapper-1VLyxH rect,

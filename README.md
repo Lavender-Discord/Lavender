@@ -1,6 +1,3 @@
-# Maintenance of this repo has been temporarily stopped!
-### *** If you want to update this repo to work with newer client mods properly, You can do so freely and make a PR. It will accepted as soon as possible. ***
-
 # Lavender
 
 | [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/docs/installation.md) | [License](https://github.com/Lavender-Discord/Lavender/blob/main/LICENSE) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/docs/previews.md) | [Contributing](https://github.com/Lavender-Discord/Lavender/blob/main/docs/contributing.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/clients/lavender.theme.css) |
@@ -15,6 +12,7 @@ For bug reports open a issue here on github with the provided templates.
 For problems installing or using the theme join the [support server](https://discord.gg/B9TK7nqRE4) and ask for help.
 
 # ! Important:
+(**NOTE:** I'm not sure if these still work, will figure out later and update)
 
 When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Replugged](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
 

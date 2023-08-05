@@ -1,0 +1,26 @@
+{
+  "name": "Lavender",
+  "version": "3.1.0",
+  "description": "Lavender",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
+  },
+  "keywords": [],
+  "author": "kritishd8",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3",
+    "@types/node": "^18.17.1",
+    "prettier": "^2.8.8",
+    "replugged": "^4.5.1"
+  }
+}

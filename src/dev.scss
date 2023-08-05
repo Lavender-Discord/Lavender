@@ -2,17 +2,15 @@
 @use "src/source";
 @use "skins/skin-loader/skin-loader.css";
 @use 'skins/layout/lavender.css';
-@use 'skins/codeblock/tokyo-night.css';
 
 //? Designs
 @use 'design/removed/removed.css';
 @use 'design/user-actions/vertical.css';
-@use 'design/status-indicators/top-right.css';
 @use 'design/emoji-picker/emoji-picker.css';
 
 //? Extensions
-@use 'extensions/context-iconsax.css';
 @use 'extensions/emoji-replace.css';
-@use 'extensions/friends-grid.css';
 @use 'extensions/iconsax.css';
-@use 'extensions/settings-iconsax.css';
+
+//? Patches
+@use 'patches/patch.scss';

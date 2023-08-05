@@ -185,14 +185,14 @@
     
     // Selected Text Channel
     .containerDefault-YUSmu3.selected-2TbFuo {
-        .modeSelected-3DmyhH:hover .content-1gYQeQ {
+        .modeSelected-3DmyhH:hover .link-1_kTxV {
             background-color: var(--background-secondary-alt);
         }
     }
 
     // Selected Channel
-    .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ,
-    .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ{
+    .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV,
+    .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV{
         background-color: var(--background-primary);
     }
 
@@ -201,18 +201,16 @@
     }
 
     // Channel Hover
-    .iconVisibility-vptxma:hover .content-1gYQeQ {
+    .iconVisibility-vptxma:hover .link-1_kTxV {
         background-color: var(--background-secondary-alt);
     }
 
     // Inspired by LuckFire's theme (essence)
 
     // The blue bar hidden before select/hovering the channel
-    .content-1gYQeQ {
+    .link-1_kTxV {
         transition: 125ms linear;
         border-radius: var(--radius-secondary);
-        padding-top: 1px;
-        padding-bottom: 1px;
 
         &::before {
             content: '';
@@ -227,17 +225,17 @@
             background-color: var(--accent-primary);
         }
 
-        .mainContent-20q_Hp{margin-left: 0px; transition: 125ms linear;}
+        .linkTop-1W1aK6{margin-left: 0px; transition: 125ms linear;}
     }
 
     // The blue bar on channel hover and select
-    .iconVisibility-vptxma:hover .content-1gYQeQ,
-    .wrapper-NhbLHG:hover .content-1gYQeQ,
-    .modeSelected-3DmyhH .content-1gYQeQ, 
-    .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ,
-    .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ{
+    .iconVisibility-vptxma:hover .link-1_kTxV,
+    .wrapper-NhbLHG:hover .link-1_kTxV,
+    .modeSelected-3DmyhH .link-1_kTxV, 
+    .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV,
+    .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH:hover .link-1_kTxV{
         background-color: var(--background-secondary-alt);
-        .mainContent-20q_Hp{margin-left: 7px;}
+        .linkTop-1W1aK6{margin-left: 7px;}
 
         &::before {
             left: 7px;
@@ -247,8 +245,8 @@
     }
 
     // Some fixes in Voice channel hovers
-    .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ{background-color: var(--background-primary);}
-    .wrapper-NhbLHG.modeConnected-NrO4cP:hover .content-1gYQeQ{background-color: var(--background-secondary-alt);}
+    .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV{background-color: var(--background-primary);}
+    .wrapper-NhbLHG.modeConnected-NrO4cP:hover .link-1_kTxV{background-color: var(--background-secondary-alt);}
     .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {background-color: var(--background-secondary-alt);}
     .flex-2S1XBF.connection-3k9QeF .flex-2S1XBF.flex-3BkGQD .button-12Fmur.enabled-9OeuTA,
     .actions-zk2vB_ .button-12Fmur.enabled-9OeuTA {
