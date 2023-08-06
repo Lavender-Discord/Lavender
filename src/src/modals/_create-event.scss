@@ -1,29 +1,33 @@
 //
 .root-g14mjS {
-    --input-background: var(--background-primary);
-    .select-1Ia3hD.lookFilled-1GseHa {
-        background-color: var(--background-primary);
-    }
-    .header-3U-bWb>h3, .container-1hz3gm>h3{
-        font-weight: 700;
-    }
+  --input-background: var(--background-primary);
+  .select-1Ia3hD.lookFilled-1GseHa {
+    background-color: var(--background-primary);
+  }
+  .header-3U-bWb > h3,
+  .container-1hz3gm > h3 {
+    font-weight: 700;
+  }
 
-    .header-1sd0RU {
-        background-color: var(--background-secondary);
-    }
+  .header-1sd0RU {
+    background-color: var(--background-secondary);
+  }
 
-    textarea, input, .inputDefault-3FGxgL.container-3muw00, .inputWrapper-1YNMmM.textInput-3g8y92{
-        border-radius: var(--radius-secondary);
-        transition: .2s linear;
+  textarea,
+  input,
+  .inputDefault-3FGxgL.container-3muw00,
+  .inputWrapper-1YNMmM.textInput-3g8y92 {
+    border-radius: var(--radius-secondary);
+    transition: 0.2s linear;
+  }
+  .inputDefault-3FGxgL.container-3muw00:hover {
+    background-color: var(--background-secondary-alt);
+  }
+  .progressBar-18rmp1 {
+    background-color: var(--background-secondary);
+    border-radius: 10px;
+    &.selectedProgressBar-11z5d9 {
+      background-color: var(--accent-primary);
     }
-    .inputDefault-3FGxgL.container-3muw00:hover{
-        background-color: var(--background-secondary-alt);
-    }
-    .progressBar-18rmp1{
-        background-color: var(--background-secondary);
-        border-radius: 10px;
-        &.selectedProgressBar-11z5d9{
-            background-color: var(--accent-primary);
-        }
-    }
+  }
 }

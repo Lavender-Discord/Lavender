@@ -1,23 +1,26 @@
-.container-2Hi7Km, .container-xwOzwi{
-    background-color: var(--background-secondary);
+.container-2Hi7Km,
+.container-xwOzwi {
+  background-color: var(--background-secondary);
 }
 
 .icon-2IDTxf {
-    border: 4px solid transparent;
+  border: 4px solid transparent;
 }
 
 .container-3HMTms {
-    transition: .2s linear;
-    &:hover {
-        background-color: var(--background-primary);
-        
-        .details-1KGBHp div[aria-label] {
-            background-color: var(--background-secondary);
-        }
+  transition: 0.2s linear;
+  &:hover {
+    background-color: var(--background-primary);
+
+    .details-1KGBHp div[aria-label] {
+      background-color: var(--background-secondary);
     }
-    .details-1KGBHp div[aria-label]{transition: .2s linear;}
+  }
+  .details-1KGBHp div[aria-label] {
+    transition: 0.2s linear;
+  }
 }
 
 .background-fkKrXt {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }

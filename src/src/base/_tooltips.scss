@@ -1,22 +1,23 @@
 // Tool Tips upon hovering server list items
-.tooltip-14MtrL.listItemTooltip-eHcnUw, .listItemTooltip-Hrivm5 {
-    background-color: var(--background-floating) !important;
+.tooltip-14MtrL.listItemTooltip-eHcnUw,
+.listItemTooltip-Hrivm5 {
+  background-color: var(--background-floating) !important;
 
-    .row-x_t5Ya div:last-child {
-        background-color: var(--background-secondary) !important;
-    }
+  .row-x_t5Ya div:last-child {
+    background-color: var(--background-secondary) !important;
+  }
 }
 
 // Tooltips in chat
 .tooltip-14MtrL:not(.listItemTooltip-eHcnUw, .listItemTooltip-Hrivm5).tooltipPrimary-3qLMbS {
-    background-color: var(--background-floating) !important;
-    color: var(--header-secondary);
+  background-color: var(--background-floating) !important;
+  color: var(--header-secondary);
 }
 
 // Stream Tooltip in VC
 .streamPreviewWrapper-1O-B1g.mounted-2Bz7hj {
-    .streamPreview-I7itZ6 {
-        background-color: var(--background-floating);
-        border-radius: var(--radius-secondary);
-    }
+  .streamPreview-I7itZ6 {
+    background-color: var(--background-floating);
+    border-radius: var(--radius-secondary);
+  }
 }

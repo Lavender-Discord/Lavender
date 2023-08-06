@@ -1,106 +1,113 @@
 .wrapper-1_HaEi.guilds-2JjMmN {
+  width: var(--sl-width);
+
+  .scroller-3X7KbA {
     width: var(--sl-width);
-    
-    .scroller-3X7KbA {
-        width: var(--sl-width);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        .childWrapper-1j_1ub, .circleIconButton-1VxDrg {
-            background-color: var(--background-secondary-alt);
-            color: var(--interactive-hover);
-            transition: 125ms linear;
-        }
-
-        .selected-2r1Hvo, .selected-1Drb7Z .childWrapper-1j_1ub {
-            background-color: var(--accent-primary);
-            color: var(--interactive-active);
-        }
-
-        .circleIconButton-1VxDrg  {
-            color: var(--green-primary);
-
-            &.selected-2r1Hvo {
-                background-color: var(--green-primary);
-                color: var(--interactive-active);
-            }
-        }
-
-        .expandedFolderBackground-1kSAf6 {
-            left: var(--sl-folder-left);
-        }
-
-        // Folder Background 
-        .folder-241Joy, .folderIconWrapper-1oRIZr, .expandedFolderIconWrapper-3RwQpD, .expandedFolderBackground-1kSAf6 {
-            background-color: var(--background-secondary-alt);
-            border-radius: 50px;
-        }
-        
-        .folder-241Joy[aria-expanded*="true"]{
-            border-radius: unset !important;
-        }
-
-        .closedFolderIconWrapper-3tRb2d {
-            div {
-                height: 14px;
-                width: 14px;
-            }
-        }
-
-        .wrapper-38slSD ul{
-            .childWrapper-1j_1ub.acronym-2zrAHN{
-                background-color: var(--background-secondary) !important;
-                &:hover{
-                    background-color: var(--accent-primary) !important;
-                }
-            }
-        }
-
-        // Mention count badge
-        .lowerBadge-3WTshO .numberBadge-37OJ3S {
-            border-radius: var(--radius-tertiary);
-            transform: translate(1px, 1px);
-        }
-
-        // Upper right badge // Stage and vc related
-        .upperBadge-1V6Iyi {
-            .iconBadge-32fMme {
-                background-color: var(--background-secondary-alt);
-                border-radius: var(--radius-tertiary);
-            
-                &.participating-2Z81oO {
-                    background-color: var(--green-secondary);
-                }
-            }
-        }
-
-        // Pills
-        .pill-2RsI5Q.wrapper-z5ab_q,
-        .pill-L_aLMQ.wrapper-z5ab_q,
-        .pill-1eBbnB.wrapper-z5ab_q,
-        .pill-22lZHo.wrapper-z5ab_q,
-        .pill-1NRFie {
-            left: 2px;
-            .item-2LIpTv {
-                background-color: var(--accent-primary);
-                border-radius: 2px !important;
-                margin-left: 0px;
-                width: 3px;
-                transition: var(--transition-duration-primary) var(--transition-timing-function-primary);
-
-                // Unread
-                &[style*="height: 8px;"]{
-                    height: 10px !important;
-                }
-
-                // Selected
-                &[style*="height: 40px;"]{
-                    height: 30px !important;
-                }
-            }
-        }
-
-        .listItem-3SmSlK{width: var(--sl-width);}
+    .childWrapper-1j_1ub,
+    .circleIconButton-1VxDrg {
+      background-color: var(--background-secondary-alt);
+      color: var(--interactive-hover);
+      transition: 125ms linear;
     }
+
+    .selected-2r1Hvo,
+    .selected-1Drb7Z .childWrapper-1j_1ub {
+      background-color: var(--accent-primary);
+      color: var(--interactive-active);
+    }
+
+    .circleIconButton-1VxDrg {
+      color: var(--green-primary);
+
+      &.selected-2r1Hvo {
+        background-color: var(--green-primary);
+        color: var(--interactive-active);
+      }
+    }
+
+    .expandedFolderBackground-1kSAf6 {
+      left: var(--sl-folder-left);
+    }
+
+    // Folder Background
+    .folder-241Joy,
+    .folderIconWrapper-1oRIZr,
+    .expandedFolderIconWrapper-3RwQpD,
+    .expandedFolderBackground-1kSAf6 {
+      background-color: var(--background-secondary-alt);
+      border-radius: 50px;
+    }
+
+    .folder-241Joy[aria-expanded*="true"] {
+      border-radius: unset !important;
+    }
+
+    .closedFolderIconWrapper-3tRb2d {
+      div {
+        height: 14px;
+        width: 14px;
+      }
+    }
+
+    .wrapper-38slSD ul {
+      .childWrapper-1j_1ub.acronym-2zrAHN {
+        background-color: var(--background-secondary) !important;
+        &:hover {
+          background-color: var(--accent-primary) !important;
+        }
+      }
+    }
+
+    // Mention count badge
+    .lowerBadge-3WTshO .numberBadge-37OJ3S {
+      border-radius: var(--radius-tertiary);
+      transform: translate(1px, 1px);
+    }
+
+    // Upper right badge // Stage and vc related
+    .upperBadge-1V6Iyi {
+      .iconBadge-32fMme {
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--radius-tertiary);
+
+        &.participating-2Z81oO {
+          background-color: var(--green-secondary);
+        }
+      }
+    }
+
+    // Pills
+    .pill-2RsI5Q.wrapper-z5ab_q,
+    .pill-L_aLMQ.wrapper-z5ab_q,
+    .pill-1eBbnB.wrapper-z5ab_q,
+    .pill-22lZHo.wrapper-z5ab_q,
+    .pill-1NRFie {
+      left: 2px;
+      .item-2LIpTv {
+        background-color: var(--accent-primary);
+        border-radius: 2px !important;
+        margin-left: 0px;
+        width: 3px;
+        transition: var(--transition-duration-primary) var(--transition-timing-function-primary);
+
+        // Unread
+        &[style*="height: 8px;"] {
+          height: 10px !important;
+        }
+
+        // Selected
+        &[style*="height: 40px;"] {
+          height: 30px !important;
+        }
+      }
+    }
+
+    .listItem-3SmSlK {
+      width: var(--sl-width);
+    }
+  }
 }

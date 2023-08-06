@@ -1,167 +1,180 @@
-// 
+//
 .members-3WRCEx,
 .container-2o3qEW,
 .membersWrap-3NUR2t,
 .members-3WRCEx > div {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 // Member List & DMS lists
 .container-2Oqvgx,
 .members-3WRCEx {
-    width: var(--ml-width);
+  width: var(--ml-width);
 }
 
 .member-2gU6Ar,
 .channel-1Shao0 {
-    max-width: none !important;
+  max-width: none !important;
 }
 
 // Member
-.layout-1qmrhw, 
+.layout-1qmrhw,
 .layout-1LjVue,
 .privateChannels-oVe7HL .channel-1Shao0.container-32HW5s .interactive-1vLZ_I {
-    height: 55px;
-    width: 100%;
-    border-radius: var(--radius-secondary);
+  height: 55px;
+  width: 100%;
+  border-radius: var(--radius-secondary);
 }
 
 .membersGroup-2eiWxl {
-    height: 55px;
-    transition: .2s ease;
-    z-index: 101;
-    
-    span {
-        font-size: 13px;
-        font-weight: 650;
-    }
+  height: 55px;
+  transition: 0.2s ease;
+  z-index: 101;
+
+  span {
+    font-size: 13px;
+    font-weight: 650;
+  }
 }
 
 .activity-2EQDZv {
-    height: 20px;
-    transition: .2s linear;
+  height: 20px;
+  transition: 0.2s linear;
 }
 
 .activityText-1rR-8O {
-    transition: 125ms linear;
-    max-width: 100%;
-    color: var(--interactive-normal);
-  
-    > strong {
-      color: var(--interactive-hover) !important;
-    }
+  transition: 125ms linear;
+  max-width: 100%;
+  color: var(--interactive-normal);
+
+  > strong {
+    color: var(--interactive-hover) !important;
+  }
 }
 
 // Member list avatar padding
 .layout-1qmrhw > .avatar-6qzftW {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 
 // Recuding size of member in member list only (doesnt affect dms list)
 .layout-1qmrhw {
-    width: calc(100% - 25px) !important;
+  width: calc(100% - 25px) !important;
 
-    .name-3Vmqxm {
-        font-weight: 700;
-    }
+  .name-3Vmqxm {
+    font-weight: 700;
+  }
 }
 
 // Height of members list
-.container-2o3qEW, .membersWrap-3NUR2t {
-    height: 100% !important;
+.container-2o3qEW,
+.membersWrap-3NUR2t {
+  height: 100% !important;
 }
 
 // Inspired by LuckFire's theme (essence)
 
 // Blue bar for Member list member
-.layout-1qmrhw{
-    transition: .2s ease;
-    border-radius: var(--radius-secondary);
-    padding-top: 1px;
-    padding-bottom: 1px;
+.layout-1qmrhw {
+  transition: 0.2s ease;
+  border-radius: var(--radius-secondary);
+  padding-top: 1px;
+  padding-bottom: 1px;
 
-    &::after {
-        content: '';
-        transition: .2s ease;
-        position: absolute;
-        height: 50%;
-        width: 0px;
-        top: 25%;
-        right: 15px;
-        border-radius: var(--radius-secondary);
-        background-color: var(--accent-primary);
-    }
+  &::after {
+    content: "";
+    transition: 0.2s ease;
+    position: absolute;
+    height: 50%;
+    width: 0px;
+    top: 25%;
+    right: 15px;
+    border-radius: var(--radius-secondary);
+    background-color: var(--accent-primary);
+  }
 }
 
 // Member Hover and Active - Member list only
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
-    background-color: var(--background-secondary);
-    .activityText-1rR-8O{max-width: calc(100% - 40px);}
+  background-color: var(--background-secondary);
+  .activityText-1rR-8O {
+    max-width: calc(100% - 40px);
+  }
 
-    &::after {
-        right: 25px;
-        width: 3px;
-    }
+  &::after {
+    right: 25px;
+    width: 3px;
+  }
 }
 
 .channel-1Shao0.container-32HW5s .interactive-1vLZ_I.interactive-iyXY_x {
-    transition: .2s ease;
-    border-radius: var(--radius-secondary);
-    padding-top: 1px;
-    padding-bottom: 1px;
+  transition: 0.2s ease;
+  border-radius: var(--radius-secondary);
+  padding-top: 1px;
+  padding-bottom: 1px;
 
-    .avatar-1HDIsL{margin-left: 0px;transition: .2s ease;}
+  .avatar-1HDIsL {
+    margin-left: 0px;
+    transition: 0.2s ease;
+  }
+
+  &::after {
+    content: "";
+    transition: 0.2s ease;
+    position: absolute;
+    height: 40%;
+    width: 0px;
+    top: 30%;
+    left: 0px;
+    border-radius: var(--radius-secondary);
+    background-color: var(--accent-primary);
+  }
+
+  &:hover {
+    .avatar-1HDIsL {
+      margin-left: 13px;
+    }
 
     &::after {
-        content: '';
-        transition: .2s ease;
-        position: absolute;
-        height: 40%;
-        width: 0px;
-        top: 30%;
-        left: 0px;
-        border-radius: var(--radius-secondary);
-        background-color: var(--accent-primary);
+      left: 9px;
+      width: 3px;
     }
-
-    &:hover{
-        .avatar-1HDIsL{margin-left: 13px;}
-        
-        &::after {
-            left: 9px;
-            width: 3px;
-        }
-    }
+  }
 }
 
 // DM hover and active
 .channel-1Shao0.container-32HW5s {
-    .interactive-1vLZ_I.interactive-iyXY_x:hover{
-        background-color: var(--background-secondary-alt);
+  .interactive-1vLZ_I.interactive-iyXY_x:hover {
+    background-color: var(--background-secondary-alt);
 
-        .closeButton-mupH76 {
-            display: block;
-            padding-right: 10px;
-            width: 17px;
-            opacity: 1;
-        }
+    .closeButton-mupH76 {
+      display: block;
+      padding-right: 10px;
+      width: 17px;
+      opacity: 1;
+    }
+  }
+
+  // Active
+  .interactiveSelected-29CP8y {
+    background-color: var(--background-primary);
+    .avatar-1HDIsL {
+      margin-left: 13px !important;
     }
 
-    // Active
-    .interactiveSelected-29CP8y {
-        background-color: var(--background-primary);
-        .avatar-1HDIsL{margin-left: 13px !important;}
-
-        &.interactive-1vLZ_I.interactive-iyXY_x::after {width: 3px;left: 9px;}
+    &.interactive-1vLZ_I.interactive-iyXY_x::after {
+      width: 3px;
+      left: 9px;
     }
+  }
 }
 
 // Close button in dm
 .closeButton-mupH76 {
-    display: block;
-    width: 0px;
-    opacity: 0;
-    transition: .2s ease;
+  display: block;
+  width: 0px;
+  opacity: 0;
+  transition: 0.2s ease;
 }

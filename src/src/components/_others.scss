@@ -1,6 +1,6 @@
 // Fixes the members not being able to clicked when scroller is stuck
 .scrolling-20Of9p .content-2a4AW9 {
-    pointer-events: auto;
+  pointer-events: auto;
 }
 
 // Status indicators in general
@@ -8,23 +8,24 @@
 .wrapper-1VLyxH rect,
 .avatarWrapperNormal-ahVUaC rect,
 .avatar-3QF_VA rect {
-    stroke: var(--background-primary);
-    stroke-width: 3px;
-    ry: 50px;
-    rx: 50px;
+  stroke: var(--background-primary);
+  stroke-width: 3px;
+  ry: 50px;
+  rx: 50px;
 }
 
 // Status indicators in profile popout and modal
-.userPopout-2j1gM4, .topSection-13QKHs {
-    .avatar-2e8lTP rect,
-    .wrapper-1VLyxH rect,
-    .avatarWrapperNormal-ahVUaC rect,
-    .avatar-3QF_VA rect {
-        stroke: var(--background-floating);
-        stroke-width: 5px;
-        ry: 50px;
-        rx: 50px;
-    }
+.userPopout-2j1gM4,
+.topSection-13QKHs {
+  .avatar-2e8lTP rect,
+  .wrapper-1VLyxH rect,
+  .avatarWrapperNormal-ahVUaC rect,
+  .avatar-3QF_VA rect {
+    stroke: var(--background-floating);
+    stroke-width: 5px;
+    ry: 50px;
+    rx: 50px;
+  }
 }
 
 /* Hiding the offline indicator */
@@ -33,10 +34,10 @@
 .root-8LYsGj [mask="url(#svg-mask-status-offline)"],
 .peopleColumn-1wMU14 [mask="url(#svg-mask-status-offline)"],
 .autocomplete-3NRXG8 [mask="url(#svg-mask-status-offline)"],
-.panels-3wFtMD>.container-YkUktl:last-child [mask="url(#svg-mask-status-offline)"],
+.panels-3wFtMD > .container-YkUktl:last-child [mask="url(#svg-mask-status-offline)"],
 .userPopout-2j1gM4 [mask="url(#svg-mask-status-offline)"] {
-    mask: none;
-    display: none;
+  mask: none;
+  display: none;
 }
 
 /* DND, Idle and Streaming */
@@ -44,119 +45,145 @@
 [mask="url(#svg-mask-status-streaming)"],
 [mask="url(#svg-mask-status-idle)"],
 rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
-    mask: url(#svg-mask-status-online);
+  mask: url(#svg-mask-status-online);
 }
 
 /* Mobile indicator */
 [mask="url(#svg-mask-status-online-mobile)"] {
-    mask: none;
-    ry: 4px !important;
-    rx: 4px !important;
-    transform: translate(-1px, 1px);
+  mask: none;
+  ry: 4px !important;
+  rx: 4px !important;
+  transform: translate(-1px, 1px);
 }
 
 //? Colors to statuses
-:root{
-    --online-color: var(--green-primary);
-    --dnd-color: var(--red-primary);
-    --idle-color: var(--yellow-primary);
-    --streaming-color: var(--purple-primary);
+:root {
+  --online-color: var(--green-primary);
+  --dnd-color: var(--red-primary);
+  --idle-color: var(--yellow-primary);
+  --streaming-color: var(--purple-primary);
 }
 // Online
 [mask="url(#svg-mask-status-online)"],
 rect[fill^="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-    fill: var(--online-color);
+  fill: var(--online-color);
 }
 
 //  Online in status picker
-[class^="status"] [style^="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
-    background-color: var(--online-color) !important;
+[class^="status"]
+  [style^="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+  background-color: var(--online-color) !important;
 }
 
 // DND
 [mask="url(#svg-mask-status-dnd)"],
 rect[fill^="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
-    fill: var(--dnd-color) !important;
+  fill: var(--dnd-color) !important;
 }
 
 // DND in status picker
 [style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
-    background-color: var(--dnd-color) !important;
+  background-color: var(--dnd-color) !important;
 }
 
-//  Idle 
+//  Idle
 [mask="url(#svg-mask-status-idle)"],
 rect[fill^="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
-    fill: var(--idle-color);
+  fill: var(--idle-color);
 }
 
 // Idle in status picker
-[class^="status"] [style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"] {
-    background-color: var(--idle-color) !important;
+[class^="status"]
+  [style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"] {
+  background-color: var(--idle-color) !important;
 }
 
-// Streaming 
+// Streaming
 [mask="url(#svg-mask-status-streaming)"] {
-    fill: var(--streaming-color);
+  fill: var(--streaming-color);
 }
 
 // Mobile
 [mask="url(#svg-mask-status-online-mobile)"] {
-    fill: var(--online-color);
+  fill: var(--online-color);
 }
 
 // Fixes non var colors in places
-.peopleColumn-1wMU14, .tabBody-2dgbAs, .content-1jQy2l, .chat-2ZfjoI.background-fkKrXt {
-    background-color: var(--background-primary);
+.peopleColumn-1wMU14,
+.tabBody-2dgbAs,
+.content-1jQy2l,
+.chat-2ZfjoI.background-fkKrXt {
+  background-color: var(--background-primary);
 }
 
 // Codeblocks
 .markup-eYLPri pre code {
-    background-color: var(--code-background);
+  background-color: var(--code-background);
 }
 // Orange
-.hljs-bullet, .hljs-link {
-    color: var(--code-orange) !important;
+.hljs-bullet,
+.hljs-link {
+  color: var(--code-orange) !important;
 }
-  
+
 .hljs-meta {
+  color: var(--code-orange) !important;
+
+  .hljs-keyword {
     color: var(--code-orange) !important;
-  
-    .hljs-keyword {
-      color: var(--code-orange) !important;
-    }
+  }
 }
-  
-.hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {
-    color: var(--code-orange) !important;
+
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-subst,
+.hljs-symbol {
+  color: var(--code-orange) !important;
 }
-  
-// Yellow  
-.hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
-    color: var(--code-yellow) !important;
+
+// Yellow
+.hljs-attr,
+.hljs-attribute,
+.hljs-class .hljs-title,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+  color: var(--code-yellow) !important;
 }
-  
-// Green  
-.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
-    color: var(--code-green) !important;
+
+// Green
+.hljs-doctag,
+.hljs-literal,
+.hljs-meta .hljs-meta-string,
+.hljs-number,
+.hljs-regexp,
+.hljs-string {
+  color: var(--code-green) !important;
 }
-  
-// Red  
-.hljs-built_in, .hljs-deletion {
-    color: var(--code-red) !important;
+
+// Red
+.hljs-built_in,
+.hljs-deletion {
+  color: var(--code-red) !important;
 }
-  
-// Blue  
-.hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {
-    color: var(--code-aqua) !important;
+
+// Blue
+.hljs-name,
+.hljs-section,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-title {
+  color: var(--code-aqua) !important;
 }
-  
+
 // Green Alt
-.hljs-addition, .hljs-keyword, .hljs-selector-tag {
-    color: var(--code-light-green) !important;
+.hljs-addition,
+.hljs-keyword,
+.hljs-selector-tag {
+  color: var(--code-light-green) !important;
 }
-  
+
 // White Text
 .markup-eYLPri pre code td {
-    color: var(--code-white) !important;
+  color: var(--code-white) !important;
 }

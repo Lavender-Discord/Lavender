@@ -78,11 +78,9 @@
 !===============================================================================================================================
 */
 
-
 /*? ====== Removed Stuff ======*/
 @import url("https://lavender-discord.github.io/Lavender/design/removed/removed.css");
 /* Removes few of the elements from discord, remove this import to get them back */
-
 
 /*? ====== User Action Buttons (Mute, Deafen, Settings) ======*/
 @import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical.css");
@@ -91,14 +89,12 @@
 /* @import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css"); /* */
 /* Vertical allignment on the left side in server list, buttons are connected in this one */
 
-
 /*? ====== Status Indicators ======*/
 @import url("https://lavender-discord.github.io/Lavender/design/status-indicators/top-right.css");
 /* Moves the status indicators to the upper right side of the user avatar */
 
 /* @import url("https://lavender-discord.github.io/Lavender/design/status-indicators/radial.css"); /* */
 /* Radial statuses for lavender, made by gibbu, must disable the top-right status import to make this work */
-
 
 /*? ====== Server List allignment ======*/
 /* @import url("https://lavender-discord.github.io/Lavender/design/server-list/bottom.css"); /* */

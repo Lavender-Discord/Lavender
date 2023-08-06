@@ -1,24 +1,24 @@
 /* Spacing */
 .base-2jDfDU {
-    margin-left: 10px !important;
+  margin-left: 10px !important;
 }
 
 .layers-OrUESM {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .wrapper-1_HaEi {
-    position: fixed;
-    transform: rotate(-90deg);
-    transform-origin: bottom left;
-    bottom: 0px !important;
-    height: 100vw;
-    left: 100%;
+  position: fixed;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  bottom: 0px !important;
+  height: 100vw;
+  left: 100%;
 }
 
 .guilds-2JjMmN {
-    margin: unset !important;
-    background: transparent !important;
+  margin: unset !important;
+  background: transparent !important;
 }
 
 /* Pill */
@@ -27,18 +27,18 @@
 .pill-22lZHo,
 .pill-2RsI5Q,
 .pill-1eBbnB {
-    transform: rotate(-90deg) translateY(35px);
-    transform-origin: center;
-    top: 32px;
-    left: 32px;
+  transform: rotate(-90deg) translateY(35px);
+  transform-origin: center;
+  top: 32px;
+  left: 32px;
 }
 
 /* Separator */
 .guildSeparator-a4uisj {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 /* Item */
 .listItem-3SmSlK {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }

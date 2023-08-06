@@ -1,8 +1,8 @@
 /* Nitro Button in server list */
-.scroller-3X7KbA>[aria-label]+.listItem-3SmSlK,
-.tutorialContainer-1pL9QS+.listItem-3SmSlK>.pill-1NRFie~*,
-.tree-3agP2X+.fixedBottomList-1yrBla {
-    display: none;
+.scroller-3X7KbA > [aria-label] + .listItem-3SmSlK,
+.tutorialContainer-1pL9QS + .listItem-3SmSlK > .pill-1NRFie ~ *,
+.tree-3agP2X + .fixedBottomList-1yrBla {
+  display: none;
 }
 
 /* Nitro & Boost */
@@ -33,25 +33,25 @@
 [aria-label*="ギフトを贈る"],
 [aria-label*="發送禮物"],
 [aria-label*="선물 보내기"] {
-    display: none !important;
+  display: none !important;
 }
 
 /* Stickers Button */
 .expression-picker-chat-input-button:nth-of-type(2) {
-    display: none;
+  display: none;
 }
 
 /* Gif button */
 .expression-picker-chat-input-button:nth-of-type(1) {
-    display: none;
+  display: none;
 }
 
 /* Explore */
-.tutorialContainer-2jwoiB+div {
-    display: none;
+.tutorialContainer-2jwoiB + div {
+  display: none;
 }
 
 /* Slash command button in attachment popout */
 #channel-attach-SLASH_COMMAND {
-    display: none !important;
+  display: none !important;
 }

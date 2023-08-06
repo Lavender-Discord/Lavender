@@ -1,444 +1,477 @@
 .sidebar-1tnWFu {
-    width: var(--cl-width);
-    max-width: 600px;
-    min-width: 200px;
-    background: var(--background-primary);
-    border-radius: 10px !important;
-    margin-right: 8px;
-    margin-bottom: 5px;
-    height: 100%;
-    gap: 5px;
+  width: var(--cl-width);
+  max-width: 600px;
+  min-width: 200px;
+  background: var(--background-primary);
+  border-radius: 10px !important;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  height: 100%;
+  gap: 5px;
 
-    .sectionDivider-189lqb{display: none;}
-    .animatedContainer-2laTjx {
-        border-radius: var(--radius-secondary);
+  .sectionDivider-189lqb {
+    display: none;
+  }
+  .animatedContainer-2laTjx {
+    border-radius: var(--radius-secondary);
+  }
+
+  .bannerImg-2PzH6z,
+  .bannerImage-ubW8K- {
+    width: 100%;
+  }
+
+  .animatedContainer-2laTjx {
+    border-radius: var(--radius-primary);
+    box-shadow: none;
+  }
+
+  .hasBanner-2IrYih .header-3OsQeK {
+    background: transparent;
+    height: 135px !important;
+    padding-bottom: 84px;
+  }
+
+  // No Banner Hide
+  .hasBanner-2IrYih .bannerImage-ubW8K-,
+  .hasBanner-2IrYih .animatedContainer-2laTjx {
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+  }
+
+  // Remove Spacing
+  .scroller-1ox3I2 [style="height: 84px;"] {
+    display: none !important;
+  }
+
+  .thin-31rlnD {
+    background: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+  }
+
+  .container-1NXEtd,
+  .privateChannels-oVe7HL,
+  .panels-3wFtMD {
+    background: transparent;
+    border-radius: var(--radius-secondary);
+  }
+
+  .container-1NXEtd {
+    gap: 2px;
+  }
+
+  // Server Name Header
+  .container-1-ERn5 {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+    margin-top: 5px;
+    .header-3OsQeK {
+      border-radius: var(--radius-secondary);
+      h1 {
+        font-weight: 700;
+        font-size: 16px;
+      }
+      &:hover {
+        background-color: var(--background-secondary-alt);
+      }
     }
 
-    .bannerImg-2PzH6z, .bannerImage-ubW8K- {
-        width: 100%;
+    &.clickable-vvKY2q .header-3OsQeK:hover,
+    &.selected-1GtAC5 .header-3OsQeK {
+      background: var(--background-secondary-alt) !important;
     }
-  
-    .animatedContainer-2laTjx {
+  }
+
+  // Live Now Section
+  .container-2Y4CWj {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+    margin-bottom: -1.5px;
+  }
+
+  .container-2giAcK {
+    .progressBarContainer-1efroK {
+      height: 7px;
+      border-radius: var(--radius-primary);
+      .progressBar-2yl2pi {
         border-radius: var(--radius-primary);
-        box-shadow: none;
+      }
     }
-        
-    .hasBanner-2IrYih .header-3OsQeK {
-        background: transparent;
-        height: 135px !important;
-        padding-bottom: 84px;
-    }
-    
-    // No Banner Hide
-    .hasBanner-2IrYih .bannerImage-ubW8K-,
-    .hasBanner-2IrYih .animatedContainer-2laTjx {
-        opacity: 1 !important;
-        transform: translateY(0px) !important;
-    }
-    
-    // Remove Spacing
-    .scroller-1ox3I2 [style="height: 84px;"] {
-        display: none !important;
+  }
+
+  // Search bar in friends list
+  .privateChannels-oVe7HL .searchBar-3TnChZ {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    border-radius: var(--radius-tertiary);
+    cursor: text;
+    padding-left: 10px;
+  }
+
+  // Expanded Category
+  [aria-expanded*="true"] .name-3BUDLf .overflow-1wOqNV {
+    color: var(--interactive-active) !important;
+    font-weight: 700;
+  }
+
+  // Category
+  .iconVisibility-3pLDEs.wrapper-1S43wv {
+    margin-left: 10px;
+    border-radius: var(--radius-tertiary);
+    transition: 0.2s ease;
+
+    &:hover {
+      background-color: var(--background-secondary-alt);
+      .mainContent-uDGa6R {
+        margin-left: unset !important;
+      }
+      .icon-3zI3d2 {
+        opacity: 1;
+        margin-left: unset !important;
+      }
+      .addButton-2mlqCW.forceVisible-14yqh4 {
+        opacity: 1;
+        margin-right: unset !important;
+      }
     }
 
-    .thin-31rlnD {
-      background: var(--background-secondary);
+    // Add channel button in category
+    .addButton-2mlqCW.forceVisible-14yqh4 {
+      display: block;
+      color: var(--interactive-normal);
+      opacity: 0;
+      margin-right: -10px;
+      transition: 0.2s ease;
+    }
+
+    .mainContent-uDGa6R {
+      flex: none !important;
+      margin-left: -10px;
+      transition: 0.2s ease;
+    }
+
+    // Arrow Icon in Category
+    .icon-3zI3d2 {
+      // display: none;
+      opacity: 0;
+      margin-left: -10px;
+      transition: 0.2s ease;
+    }
+  }
+
+  // Show add button on hovering the category
+  .containerDefault-3TQ5YN .wrapper-1S43wv:hover .addButton-2mlqCW.forceVisible-14yqh4,
+  .name-3BUDLf:hover .addButton-2mlqCW {
+    opacity: 1;
+  }
+
+  // Category and Channels
+  .containerDefault-YUSmu3,
+  .containerDragAfter-3aBiOW,
+  .containerDragBefore-1s5Qg6,
+  .containerUserOver-SDa1HW {
+    padding: 3px 0px;
+  }
+
+  // Channel icons
+  .iconContainer-21RCa3 {
+    margin-right: 7px;
+  }
+
+  // Invite & Channel settings buttons
+  .children-1MGS9G .iconItem-1EjiK0 {
+    transition: 0.2s linear;
+    display: block !important;
+    right: -30px;
+    opacity: 0;
+  }
+
+  // Reveal the inv and channel settings on hover
+  .wrapper-NhbLHG.modeSelected-3DmyhH,
+  .wrapper-NhbLHG {
+    &:hover .children-1MGS9G .iconItem-1EjiK0 {
+      opacity: 1;
+      right: 0px;
+    }
+  }
+
+  .channelInfo-3jN1ay {
+    margin-left: 0 !important;
+  }
+
+  // Selected Text Channel
+  .containerDefault-YUSmu3.selected-2TbFuo {
+    .modeSelected-3DmyhH:hover .link-1_kTxV {
+      background-color: var(--background-secondary-alt);
+    }
+  }
+
+  // Selected Channel
+  .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV,
+  .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV {
+    background-color: var(--background-primary);
+  }
+
+  .containerDefault-YUSmu3.selected-2TbFuo {
+    z-index: 101;
+  }
+
+  // Channel Hover
+  .iconVisibility-vptxma:hover .link-1_kTxV {
+    background-color: var(--background-secondary-alt);
+  }
+
+  // Inspired by LuckFire's theme (essence)
+
+  // The blue bar hidden before select/hovering the channel
+  .link-1_kTxV {
+    transition: 125ms linear;
+    border-radius: var(--radius-secondary);
+
+    &::before {
+      content: "";
+      transition: 125ms linear;
+      position: absolute;
+      height: 40%;
+      width: 0px;
+      top: 30%;
+      left: 2px;
+      opacity: 0;
+      border-radius: 5px;
+      background-color: var(--accent-primary);
+    }
+
+    .linkTop-1W1aK6 {
+      margin-left: 0px;
+      transition: 125ms linear;
+    }
+  }
+
+  // The blue bar on channel hover and select
+  .iconVisibility-vptxma:hover .link-1_kTxV,
+  .wrapper-NhbLHG:hover .link-1_kTxV,
+  .modeSelected-3DmyhH .link-1_kTxV,
+  .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV,
+  .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH:hover .link-1_kTxV {
+    background-color: var(--background-secondary-alt);
+    .linkTop-1W1aK6 {
+      margin-left: 7px;
+    }
+
+    &::before {
+      left: 7px;
+      width: 3px;
+      opacity: 1;
+    }
+  }
+
+  // Some fixes in Voice channel hovers
+  .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV {
+    background-color: var(--background-primary);
+  }
+  .wrapper-NhbLHG.modeConnected-NrO4cP:hover .link-1_kTxV {
+    background-color: var(--background-secondary-alt);
+  }
+  .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
+    background-color: var(--background-secondary-alt);
+  }
+  .flex-2S1XBF.connection-3k9QeF .flex-2S1XBF.flex-3BkGQD .button-12Fmur.enabled-9OeuTA,
+  .actions-zk2vB_ .button-12Fmur.enabled-9OeuTA {
+    transition: 125ms linear;
+    border-radius: var(--radius-secondary);
+    &:hover {
+      background-color: var(--background-primary);
+    }
+  }
+
+  // User connnected to vc
+  .voiceUser-3nRK-K {
+    & > div {
       border-radius: var(--radius-secondary);
     }
+    .avatar-3FKimL {
+      border-radius: var(--avatar-radius);
+      &.avatarSpeaking-2pCGrZ {
+        box-shadow: inset 0 0 0 2px var(--green-primary),
+          inset 0 0 0 3px var(--background-secondary);
+      }
+    }
+  }
 
-    .container-1NXEtd, .privateChannels-oVe7HL, .panels-3wFtMD {
-        background: transparent;
-        border-radius: var(--radius-secondary);
+  // Unread indicator next to channel
+  .iconVisibility-vptxma.modeUnread-3Cxepe {
+    .unread-36eUEm {
+      background-color: var(--accent-primary);
+      height: 8px;
+      width: 2px;
+      left: 0px;
+      border-radius: 15px;
+      z-index: 101;
+      margin-top: -5px;
+      transition: 0.125s linear;
     }
 
-    .container-1NXEtd{gap: 2px;}
-
-    // Server Name Header
-    .container-1-ERn5 {
-        background-color: var(--background-secondary);
-        border-radius: var(--radius-secondary);
-        margin-top: 5px;
-        .header-3OsQeK {
-            border-radius: var(--radius-secondary);
-            h1{font-weight: 700;font-size: 16px;}
-            &:hover {
-                background-color: var(--background-secondary-alt);
-            }
-        }
-    
-        &.clickable-vvKY2q .header-3OsQeK:hover, &.selected-1GtAC5 .header-3OsQeK {
-            background: var(--background-secondary-alt) !important;
-        }
+    &:hover {
+      .unread-36eUEm {
+        left: 15px;
+        height: 12px;
+        width: 3px;
+        margin-top: -8px;
+      }
     }
 
-    // Live Now Section
-    .container-2Y4CWj {
-        background-color: var(--background-secondary);
-        border-radius: var(--radius-secondary);
-        margin-bottom: -1.5px;
-    }
-
-    .container-2giAcK {
-        .progressBarContainer-1efroK{
-            height: 7px;
-            border-radius: var(--radius-primary);
-            .progressBar-2yl2pi {
-                border-radius: var(--radius-primary);
-            }
-        }
-    }
-
-    // Search bar in friends list
-    .privateChannels-oVe7HL .searchBar-3TnChZ {
-        background-color: var(--background-secondary);
-        border-radius: var(--radius-secondary);
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
-
-    .searchBar-3TnChZ .searchBarComponent-3N7dCG {border-radius: var(--radius-tertiary);cursor:text;padding-left: 10px;}
-
-    // Expanded Category  
-    [aria-expanded*="true"] .name-3BUDLf .overflow-1wOqNV {
-        color: var(--interactive-active) !important;
-        font-weight: 700;
-    }
-
-    // Category
-    .iconVisibility-3pLDEs.wrapper-1S43wv {
-        margin-left: 10px;
-        border-radius: var(--radius-tertiary);
-        transition: .2s ease;
-
-        &:hover{
-            background-color: var(--background-secondary-alt);
-            .mainContent-uDGa6R{margin-left: unset !important;}
-            .icon-3zI3d2{
-                opacity: 1;
-                margin-left: unset !important;
-            }
-            .addButton-2mlqCW.forceVisible-14yqh4{
-                opacity: 1;
-                margin-right: unset !important;
-            }
-        }
-
-        // Add channel button in category
-        .addButton-2mlqCW.forceVisible-14yqh4 {
-            display: block;
-            color: var(--interactive-normal);
-            opacity: 0;
-            margin-right: -10px;
-            transition: .2s ease;
-        }
-
-        .mainContent-uDGa6R {
-            flex: none !important;
-            margin-left: -10px;
-            transition: .2s ease;
-        }
-
-        // Arrow Icon in Category
-        .icon-3zI3d2 {
-            // display: none;
-            opacity: 0;
-            margin-left: -10px;
-            transition: .2s ease;
-        }
-    }
-
-    // Show add button on hovering the category
-    .containerDefault-3TQ5YN .wrapper-1S43wv:hover .addButton-2mlqCW.forceVisible-14yqh4, .name-3BUDLf:hover .addButton-2mlqCW {
-        opacity: 1;
-    }
-
-    // Category and Channels
-    .containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {
-        padding: 3px 0px;
-    }
-
-    // Channel icons
-    .iconContainer-21RCa3 {
-        margin-right: 7px;
-    }
-
-    // Invite & Channel settings buttons
-    .children-1MGS9G .iconItem-1EjiK0 {
-        transition: .2s linear;
-        display: block !important;
-        right: -30px;
-        opacity: 0;
-    }
-    
-    // Reveal the inv and channel settings on hover
-    .wrapper-NhbLHG.modeSelected-3DmyhH,
-    .wrapper-NhbLHG {
-        &:hover .children-1MGS9G .iconItem-1EjiK0 {
-            opacity: 1;
-            right: 0px;
-        }
-    }
-
-    .channelInfo-3jN1ay {
-        margin-left: 0 !important;
-    }
-    
-    // Selected Text Channel
-    .containerDefault-YUSmu3.selected-2TbFuo {
-        .modeSelected-3DmyhH:hover .link-1_kTxV {
-            background-color: var(--background-secondary-alt);
-        }
-    }
-
-    // Selected Channel
-    .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV,
-    .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV{
-        background-color: var(--background-primary);
-    }
-
-    .containerDefault-YUSmu3.selected-2TbFuo {
-        z-index: 101;
-    }
-
-    // Channel Hover
-    .iconVisibility-vptxma:hover .link-1_kTxV {
-        background-color: var(--background-secondary-alt);
-    }
-
-    // Inspired by LuckFire's theme (essence)
-
-    // The blue bar hidden before select/hovering the channel
-    .link-1_kTxV {
-        transition: 125ms linear;
-        border-radius: var(--radius-secondary);
-
-        &::before {
-            content: '';
-            transition: 125ms linear;
-            position: absolute;
-            height: 40%;
-            width: 0px;
-            top: 30%;
-            left: 2px;
-            opacity: 0;
-            border-radius: 5px;
-            background-color: var(--accent-primary);
-        }
-
-        .linkTop-1W1aK6{margin-left: 0px; transition: 125ms linear;}
-    }
-
-    // The blue bar on channel hover and select
-    .iconVisibility-vptxma:hover .link-1_kTxV,
-    .wrapper-NhbLHG:hover .link-1_kTxV,
-    .modeSelected-3DmyhH .link-1_kTxV, 
-    .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV,
-    .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH:hover .link-1_kTxV{
-        background-color: var(--background-secondary-alt);
-        .linkTop-1W1aK6{margin-left: 7px;}
-
-        &::before {
-            left: 7px;
-            width: 3px;
-            opacity: 1;
-        }
-    }
-
-    // Some fixes in Voice channel hovers
-    .wrapper-NhbLHG.modeConnected-NrO4cP .link-1_kTxV{background-color: var(--background-primary);}
-    .wrapper-NhbLHG.modeConnected-NrO4cP:hover .link-1_kTxV{background-color: var(--background-secondary-alt);}
-    .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {background-color: var(--background-secondary-alt);}
-    .flex-2S1XBF.connection-3k9QeF .flex-2S1XBF.flex-3BkGQD .button-12Fmur.enabled-9OeuTA,
-    .actions-zk2vB_ .button-12Fmur.enabled-9OeuTA {
-        transition: 125ms linear;
-        border-radius: var(--radius-secondary);
-        &:hover {background-color: var(--background-primary);}
-    }
-
-    // User connnected to vc
-    .voiceUser-3nRK-K{
-        &>div{border-radius: var(--radius-secondary);}
-        .avatar-3FKimL {
-            border-radius: var(--avatar-radius);
-            &.avatarSpeaking-2pCGrZ{
-                box-shadow: inset 0 0 0 2px var(--green-primary),inset 0 0 0 3px var(--background-secondary);
-            }
-        }
-    }
-
-
-    // Unread indicator next to channel
-    .iconVisibility-vptxma.modeUnread-3Cxepe{
+    &.typeThread-2Aqh6X {
+      .unread-36eUEm {
+        transition: left 125ms linear, opacity 0.3s linear;
+      }
+      &:hover {
         .unread-36eUEm {
-            background-color: var(--accent-primary);
-            height: 8px;
-            width: 2px;
-            left: 0px;
-            border-radius: 15px;
-            z-index: 101;
-            margin-top: -5px;
-            transition: .125s linear;
+          left: 35px;
+          height: 10px;
+          width: 3px;
+          opacity: 0;
+          margin-top: -6px;
         }
+      }
+    }
+  }
 
-        &:hover {
-            .unread-36eUEm {
-                left: 15px;
-                height: 12px;
-                width: 3px;
-                margin-top: -8px;
-            }
-        } 
+  //"New Unread"
+  .unread-2wipsx {
+    background-color: var(--accent-primary);
+    color: var(--header-primary);
+    opacity: 1;
+    border-radius: var(--radius-secondary);
+  }
 
-        &.typeThread-2Aqh6X {
-            .unread-36eUEm{
-                transition: left 125ms linear, opacity .3s linear;
-            }
-            &:hover{
-                .unread-36eUEm {
-                    left: 35px;
-                    height: 10px;
-                    width: 3px;
-                    opacity: 0;
-                    margin-top: -6px;
-                }
-            }
+  //"New Mentions"
+  .mention-3XBnnZ {
+    opacity: 1;
+    color: var(--header-primary);
+  }
 
+  //Mentions Count Badge next to channel
+  .mentionsBadge-3H1BKJ.iconBase-2RQsdz {
+    .numberBadge-37OJ3S {
+      border-radius: var(--radius-tertiary);
+    }
+  }
 
+  // Conntected to Vc panel
+  .wrapper-3Hk9OB {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+
+    .container-1zzFcN {
+      border-bottom: none;
+      margin-bottom: 5px;
+      padding: 10px 10px;
+
+      .actionButtons-2vEOUh {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 5px;
+
+        button {
+          background-color: var(--background-secondary-alt);
+          color: var(--interactive-normal);
+          border-radius: var(--radius-secondary);
+          transition: 0.2s ease;
+          width: 100%;
+          height: 38px;
+
+          &:hover {
+            background-color: var(--background-primary);
+            color: var(--interactive-active);
+          }
         }
+      }
+    }
+  }
+
+  // Sharing a screen / PLaying a game panel
+  .panel-2ZFCRb.activityPanel-9icbyU {
+    border-radius: var(--radius-secondary);
+    background-color: var(--background-secondary);
+    margin-bottom: 5px;
+    border-bottom: none;
+  }
+
+  // Panel
+  .container-YkUktl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100px;
+    padding: 10px 0;
+    border-radius: var(--radius-secondary);
+    background-color: var(--background-secondary);
+
+    &:last-child {
+      .withTagAsButton-OsgQ9L,
+      .withTagless-10ooWt {
+        &:hover,
+        &[aria-selected="true"] {
+          background-color: var(--background-secondary);
+        }
+      }
+
+      .usernameContainer-3PPkWq * {
+        font-weight: 700;
+      }
     }
 
-    //"New Unread"
-    .unread-2wipsx {
-        background-color: var(--accent-primary);
-        color: var(--header-primary);
-        opacity: 1;
+    .flex-2S1XBF {
+      display: grid;
+      margin: 10px;
+      grid-column: 1 / -1;
+      grid-gap: 5px;
+      grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    }
+
+    .directionRow-2Iu2A9 .button-12Fmur {
+      background-color: var(--background-secondary-alt);
+      border-radius: var(--radius-secondary);
+      width: 100%;
+      height: 38px;
+      transition: 0.2s ease;
+
+      &:hover {
+        background-color: var(--background-primary);
+        color: var(--interactive-active) !important;
         border-radius: var(--radius-secondary);
+      }
     }
 
-    //"New Mentions"
-    .mention-3XBnnZ {
-        opacity: 1;
-        color: var(--header-primary);
+    .avatarWrapper-1B9FTW {
+      padding-left: 15px;
+      padding-right: 10px;
+      grid-column: 1;
     }
-
-    //Mentions Count Badge next to channel
-    .mentionsBadge-3H1BKJ.iconBase-2RQsdz {
-        .numberBadge-37OJ3S {
-            border-radius: var(--radius-tertiary);
-        }
-    }
-
-    // Conntected to Vc panel
-    .wrapper-3Hk9OB {
-        background-color: var(--background-secondary);
-        border-radius: var(--radius-secondary);
-
-        .container-1zzFcN{
-            border-bottom: none;
-            margin-bottom: 5px;
-            padding: 10px 10px;
-
-            .actionButtons-2vEOUh {
-                display: flex;
-                flex-direction: row;
-                grid-gap: 5px;
-
-                button {
-                    background-color: var(--background-secondary-alt);
-                    color: var(--interactive-normal);
-                    border-radius: var(--radius-secondary);
-                    transition: .2s ease;
-                    width: 100%;
-                    height: 38px;
-
-                    &:hover {
-                        background-color: var(--background-primary);
-                        color: var(--interactive-active);
-                    }
-                }
-            }
-        }
-    }
-
-    // Sharing a screen / PLaying a game panel
-    .panel-2ZFCRb.activityPanel-9icbyU {
-        border-radius: var(--radius-secondary);
-        background-color: var(--background-secondary);
-        margin-bottom: 5px;
-        border-bottom: none;
-    }
-
-    // Panel
-    .container-YkUktl {    
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 100px;
-        padding: 10px 0;
-        border-radius: var(--radius-secondary);
-        background-color: var(--background-secondary);
-
-        &:last-child {
-            .withTagAsButton-OsgQ9L,
-            .withTagless-10ooWt {
-                &:hover, &[aria-selected="true"]{
-                    background-color: var(--background-secondary);
-                }
-            }
-
-            .usernameContainer-3PPkWq * {
-                font-weight: 700;
-            }
-        }
-
-        .flex-2S1XBF {
-            display: grid;
-            margin: 10px;
-            grid-column: 1 / -1;
-            grid-gap: 5px;
-            grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-        }
-        
-        .directionRow-2Iu2A9 .button-12Fmur {
-            background-color: var(--background-secondary-alt);
-            border-radius: var(--radius-secondary);
-            width: 100%;
-            height: 38px;
-            transition: .2s ease;
-        
-            &:hover {
-                background-color: var(--background-primary);
-                color: var(--interactive-active) !important;
-                border-radius: var(--radius-secondary);
-            }
-        }
-        
-        .avatarWrapper-1B9FTW {
-            padding-left: 15px;
-            padding-right: 10px;
-            grid-column: 1;
-        }
-
-
-    }
+  }
 }
 
 .powercord-spotify {
-    background-color: var(--background-secondary);
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-    border-radius: var(--radius-secondary);
+  background-color: var(--background-secondary);
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border-radius: var(--radius-secondary);
 
-    .spotify-seek-bar {
-      height: 4px;
-      border-radius: 50px;
-      margin-left: 15px;
-      margin-right: 15px;
-      background: var(--background-primary);
-    }
-  
-    .spotify-seek-bar-progress {
-      background: var(--spotify-color);
-      border-radius: 50px;
-    }
+  .spotify-seek-bar {
+    height: 4px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: var(--background-primary);
+  }
+
+  .spotify-seek-bar-progress {
+    background: var(--spotify-color);
+    border-radius: 50px;
+  }
 }

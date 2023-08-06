@@ -1,46 +1,46 @@
 //? Base
-@forward 'base/fonts';
-@forward 'base/info';
-@forward 'base/input';
-@forward 'base/tooltips';
-@forward 'base/variables';
-@forward 'base/others' as base-others*;
+@forward "base/fonts";
+@forward "base/info";
+@forward "base/input";
+@forward "base/tooltips";
+@forward "base/variables";
+@forward "base/others" as base-others*;
 
 //? Components
-@forward 'components/channel-list';
-@forward 'components/chat';
-@forward 'components/member-list';
-@forward 'components/server-list';
-@forward 'components/others' as components-others*;
+@forward "components/channel-list";
+@forward "components/chat";
+@forward "components/member-list";
+@forward "components/server-list";
+@forward "components/others" as components-others*;
 
 //? Modals
-@forward 'modals/calendar';
-@forward 'modals/create-event';
-@forward 'modals/invite';
-@forward 'modals/quick-switcher';
-@forward 'modals/user-profile';
-@forward 'modals/others' as modals-others*;
+@forward "modals/calendar";
+@forward "modals/create-event";
+@forward "modals/invite";
+@forward "modals/quick-switcher";
+@forward "modals/user-profile";
+@forward "modals/others" as modals-others*;
 
 //? Pages
-@forward 'pages/forums';
-@forward 'pages/friends-list';
-@forward 'pages/home';
-@forward 'pages/settings';
-@forward 'pages/voice-channel';
-@forward 'pages/others' as pages-others*;
+@forward "pages/forums";
+@forward "pages/friends-list";
+@forward "pages/home";
+@forward "pages/settings";
+@forward "pages/voice-channel";
+@forward "pages/others" as pages-others*;
 
 //? Popouts
-@forward 'popouts/attach-menu';
-@forward 'popouts/context-menus';
-@forward 'popouts/emoji-picker';
-@forward 'popouts/inbox';
-@forward 'popouts/pins';
-@forward 'popouts/search';
-@forward 'popouts/status-picker.scss';
-@forward 'popouts/threads';
-@forward 'popouts/user-popout';
-@forward 'popouts/others' as popouts-others*;
+@forward "popouts/attach-menu";
+@forward "popouts/context-menus";
+@forward "popouts/emoji-picker";
+@forward "popouts/inbox";
+@forward "popouts/pins";
+@forward "popouts/search";
+@forward "popouts/status-picker.scss";
+@forward "popouts/threads";
+@forward "popouts/user-popout";
+@forward "popouts/others" as popouts-others*;
 
 //? Slide Ins
-@forward 'slideins/search-results';
-@forward 'slideins/slide-in-chat';
+@forward "slideins/search-results";
+@forward "slideins/slide-in-chat";

@@ -1,55 +1,67 @@
 .menu-1QACrS.menu-2-eHMB#account {
-    border-radius: var(--radius-secondary);
-    .scroller-1bVxF5 {
-        .profileGroup-1yKk23 {
-            .profileBody-3QbfPe {
-                display: none;
-            }
+  border-radius: var(--radius-secondary);
+  .scroller-1bVxF5 {
+    .profileGroup-1yKk23 {
+      .profileBody-3QbfPe {
+        display: none;
+      }
 
-            .banner-1YaD3N {
-                -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-floating)), to(rgba(0,0,0,0)));
-                mask-image: gradient(linear, left top, left bottom, from(var(--background-floating)), to(rgba(0,0,0,0)));
-            }
+      .banner-1YaD3N {
+        -webkit-mask-image: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(var(--background-floating)),
+          to(rgba(0, 0, 0, 0))
+        );
+        mask-image: gradient(
+          linear,
+          left top,
+          left bottom,
+          from(var(--background-floating)),
+          to(rgba(0, 0, 0, 0))
+        );
+      }
 
-            .profileBadges-2pItdR {
-                background-color: var(--background-primary);
-                border-radius: var(--radius-secondary);
-                padding: 3px;
-                position: relative;
-                max-width: none;
-                width: auto;
-                left: 0;
-                top: 0;
-                right: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 10px;
-            }
+      .profileBadges-2pItdR {
+        background-color: var(--background-primary);
+        border-radius: var(--radius-secondary);
+        padding: 3px;
+        position: relative;
+        max-width: none;
+        width: auto;
+        left: 0;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
 
-            .copiableWrapper-2IFENG {
-                width: 100%;
-                margin-top: -5px;
-                .childWrapper-2wlp_S {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;    
-                }
-                div:nth-child(2) {
-                    display: none;
-                }
-
-                .headerText-1-WmDq {
-                    .username-3JLfHz {
-                        font-weight: 700;
-                    }
-                }
-            }
-
-            .avatarWrapper-eenWra {
-                left: 50%;
-                transform: translateX(-50%);
-            }
+      .copiableWrapper-2IFENG {
+        width: 100%;
+        margin-top: -5px;
+        .childWrapper-2wlp_S {
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
+        div:nth-child(2) {
+          display: none;
+        }
+
+        .headerText-1-WmDq {
+          .username-3JLfHz {
+            font-weight: 700;
+          }
+        }
+      }
+
+      .avatarWrapper-eenWra {
+        left: 50%;
+        transform: translateX(-50%);
+      }
     }
+  }
 }

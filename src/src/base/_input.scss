@@ -1,105 +1,104 @@
 // Toggles
 .container-2nx-BQ {
-    background-color: var(--background-secondary-alt) !important;
-    transition: 125ms linear;
-    &.checked-25WXMf {
-        background-color: var(--green-primary) !important;
-    }
-    &:not(.checked-25WXMf):hover{
-        background-color: var(--brand-experiment-40a) !important;
-    }
+  background-color: var(--background-secondary-alt) !important;
+  transition: 125ms linear;
+  &.checked-25WXMf {
+    background-color: var(--green-primary) !important;
+  }
+  &:not(.checked-25WXMf):hover {
+    background-color: var(--brand-experiment-40a) !important;
+  }
 }
 
 // Radio Boxes
-div[role*="radiogroup"]{
-    padding: 10px;
-    padding-bottom: 5px;
-    background-color: var(--background-secondary);
-    border-radius: var(--radius-secondary);
-    
-    .item-2idW98.horizontal-1Piu5-/*.itemFilled-1cPbtg*/{
-        background-color: var(--background-secondary-alt);
-        border-radius: var(--radius-secondary);
-        transition: 125ms linear;
+div[role*="radiogroup"] {
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: var(--background-secondary);
+  border-radius: var(--radius-secondary);
 
-        &:hover{
-            background-color: var(--background-primary);
-        }
-        &[aria-checked="true"]{
-            background-color: var(--background-primary);
-        }
+  .item-2idW98.horizontal-1Piu5-/*.itemFilled-1cPbtg*/ {
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--radius-secondary);
+    transition: 125ms linear;
+
+    &:hover {
+      background-color: var(--background-primary);
     }
+    &[aria-checked="true"] {
+      background-color: var(--background-primary);
+    }
+  }
 }
 
 // Radio boxes in Permission togglers in role settings
 .permissionsForm-35gjPz {
-    .group-LWHoGI {
-        padding: 0 !important;
-        border: none;
-        gap: 5px;
-        background-color: transparent;
+  .group-LWHoGI {
+    padding: 0 !important;
+    border: none;
+    gap: 5px;
+    background-color: transparent;
 
-        .item-4m-12I {
-            background-color: var(--background-secondary);
-            transition: .2s ease;
-            border-radius: var(--radius-tertiary);
+    .item-4m-12I {
+      background-color: var(--background-secondary);
+      transition: 0.2s ease;
+      border-radius: var(--radius-tertiary);
 
-            &:hover,
-            &.selected-3jieYB {
-                background-color: var(--background-secondary-alt);
-            
-                &.allow-1h61-Z {
-                    background-color: var(--green-primary);
-                    color: var(--interactive-active);
-                }
+      &:hover,
+      &.selected-3jieYB {
+        background-color: var(--background-secondary-alt);
 
-                &.deny-1GO6vI {
-                    background-color: var(--red-primary);
-                    color: var(--interactive-active);
-                }
-
-            }
+        &.allow-1h61-Z {
+          background-color: var(--green-primary);
+          color: var(--interactive-active);
         }
+
+        &.deny-1GO6vI {
+          background-color: var(--red-primary);
+          color: var(--interactive-active);
+        }
+      }
     }
+  }
 }
 
 // Dropdown button
 .lookFilled-1GseHa.select-1Ia3hD {
-    background-color: var(--background-secondary);
-    border-radius: var(--radius-secondary);
+  background-color: var(--background-secondary);
+  border-radius: var(--radius-secondary);
 }
 
 // Dropdowns
 .layer-2aCOJ3 {
-    border-radius: var(--radius-secondary);
-    .popout-1KHNAq {
-        --scrollbar-thin-thumb: var(--background-primary);
-        --scrollbar-auto-thumb: var(--background-primary);
-        --scrollbar-auto-scrollbar-color-thumb: var(--background-primary);
-        
-        background-color: var(--background-floating);
-        border: none;
-        border-radius: inherit;
-        box-shadow: var(--elevation-high);
-        transform: translate(0, 10px);
-        max-height: 350px !important;
-        padding-top: 4px;
-        padding-bottom: 7px;
-        .option-2eIyOn {
-            border-radius: var(--radius-secondary);
-            margin: 5px;
-            margin-bottom: 0px;
-            &:hover{
-                background-color: var(--background-primary);
-            }
-        }
+  border-radius: var(--radius-secondary);
+  .popout-1KHNAq {
+    --scrollbar-thin-thumb: var(--background-primary);
+    --scrollbar-auto-thumb: var(--background-primary);
+    --scrollbar-auto-scrollbar-color-thumb: var(--background-primary);
+
+    background-color: var(--background-floating);
+    border: none;
+    border-radius: inherit;
+    box-shadow: var(--elevation-high);
+    transform: translate(0, 10px);
+    max-height: 350px !important;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    .option-2eIyOn {
+      border-radius: var(--radius-secondary);
+      margin: 5px;
+      margin-bottom: 0px;
+      &:hover {
+        background-color: var(--background-primary);
+      }
     }
+  }
 }
 
 // Buttons
 .button-f2h6uQ {
-    border-radius: var(--radius-tertiary);
-    transition: 125ms linear;
+  border-radius: var(--radius-tertiary);
+  transition: 125ms linear;
 }
 
 // Channel setting buttons
@@ -109,13 +108,21 @@ div[role*="radiogroup"]{
     border-radius: var(--radius-secondary);
     background-color: var(--background-secondary);
     padding: 10px 12px;
-    *{color: var(--interactive-normal) !important;}
-    svg path{fill: var(--interactive-normal); transition: 125ms linear;}
-    &:hover{
-        *{color: var(--interactive-hover) !important;}
-        svg path{fill: var(--interactive-hover)}    
+    * {
+      color: var(--interactive-normal) !important;
+    }
+    svg path {
+      fill: var(--interactive-normal);
+      transition: 125ms linear;
+    }
+    &:hover {
+      * {
+        color: var(--interactive-hover) !important;
+      }
+      svg path {
+        fill: var(--interactive-hover);
+      }
       background-color: var(--background-secondary-alt);
     }
   }
 }
-

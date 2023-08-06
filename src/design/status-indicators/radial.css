@@ -11,38 +11,38 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 :root {
-    --rs-small-spacing: 1px;
-    /* Gap between avatar and status for members list/dms | MUST end in px */
-    --rs-medium-spacing: 3px;
-    /* Gap between avatar and status for User popout | MUST end in px */
-    --rs-large-spacing: 4px;
-    /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-spacing: 1px;
+  /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px;
+  /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px;
+  /* Gap between avatar and status for User profiles | MUST end in px */
 
-    --rs-small-width: 2px;
-    /* Thickness of status border for members list/dms | MUST end in px */
-    --rs-medium-width: 3px;
-    /* Thickness of status border for User popout | MUST end in px */
-    --rs-large-width: 4px;
-    /* Thickness of status border for User profile | MUST end in px */
+  --rs-small-width: 2px;
+  /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px;
+  /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px;
+  /* Thickness of status border for User profile | MUST end in px */
 
-    --rs-avatar-shape: var(--avatar-radius);
-    /* 50% for round - 0% for square */
+  --rs-avatar-shape: var(--avatar-radius);
+  /* 50% for round - 0% for square */
 
-    --rs-online-color: var(--online-color);
-    /* Colour for online status */
-    --rs-idle-color: var(--idle-color);
-    /* Colour for idle status */
-    --rs-dnd-color: var(--dnd-color);
-    /* Colour for dnd status */
-    --rs-offline-color: transparent;
-    /* Colour for offline status */
-    --rs-streaming-color: var(--streaming-color);
-    /* Colour for streaming status */
-    --rs-invisible-color: transparent;
-    /* Colour for invisible status - Note: this will only show for your own invisibility */
-    --rs-phone-color: var(--rs-online-color);
-    /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-online-color: var(--online-color);
+  /* Colour for online status */
+  --rs-idle-color: var(--idle-color);
+  /* Colour for idle status */
+  --rs-dnd-color: var(--dnd-color);
+  /* Colour for dnd status */
+  --rs-offline-color: transparent;
+  /* Colour for offline status */
+  --rs-streaming-color: var(--streaming-color);
+  /* Colour for streaming status */
+  --rs-invisible-color: transparent;
+  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color);
+  /* Colour of the ring and phone icon when a user is on their phone |  */
 
-    --rs-phone-visible: none;
-    /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: none;
+  /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }

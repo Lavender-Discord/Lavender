@@ -1,56 +1,199 @@
 .userPopout-2j1gM4 {
-    background-color: var(--background-floating) !important;
-    border-radius: var(--radius-secondary);
-    width: 300px !important;
-  
-    .bodyInnerWrapper-2bQs1k,
-    .footer-3naVBw {
-      background-color: var(--background-floating) !important;
-      padding-top: 5px;
-    }
+  background-color: var(--background-floating) !important;
+  border-radius: var(--radius-secondary);
+  width: 300px !important;
 
-    .bodyInnerWrapper-2bQs1k {
-      h3.bodyTitle-2Az3VQ:last-of-type{
-        display: none;
+  .bodyInnerWrapper-2bQs1k,
+  .footer-3naVBw {
+    background-color: var(--background-floating) !important;
+    padding-top: 5px;
+  }
+
+  .bodyInnerWrapper-2bQs1k {
+    h3.bodyTitle-2Az3VQ:last-of-type {
+      display: none;
+    }
+  }
+
+  .divider-1wtgZ3 {
+    display: none;
+  }
+
+  .popoutBannerPremium-3i5EEI,
+  .popoutBanner-3cqRD9 {
+    border-radius: var(--radius-secondary);
+    -webkit-mask-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(var(--background-floating)),
+      to(rgba(0, 0, 0, 0))
+    );
+    mask-image: gradient(
+      linear,
+      left top,
+      left bottom,
+      from(var(--background-floating)),
+      to(rgba(0, 0, 0, 0))
+    );
+  }
+
+  .avatarWrapperNormal-ahVUaC {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .avatar-2Vndt_ {
+    border: 6px solid var(--background-floating);
+    background: var(--background-floating);
+  }
+
+  .note-Go5ZP2 {
+    display: none;
+  }
+}
+
+.activityUserPopout-2MzGCj {
+  margin-top: 45px !important;
+  margin-left: 6px;
+  margin-right: 6px;
+
+  &::after {
+    content: "activity";
+    text-transform: uppercase;
+    position: absolute;
+    top: -25px;
+    left: 2px;
+    color: var(--header-secondary);
+    font-weight: 700;
+    font-size: 12px;
+    font-family: var(--font-display);
+    line-height: 16px;
+  }
+}
+
+.userPopout-2j1gM4 {
+  .headerTop-3GPUSF {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profileBadges-2pItdR {
+    display: flex;
+    position: relative;
+    justify-self: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 3px;
+    border-radius: var(--radius-secondary);
+    right: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: -10px;
+    background-color: var(--background-primary);
+  }
+
+  .headerText-1-WmDq {
+    margin: -5px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.customStatus-3XAoF9 {
+  padding: 10px;
+  border-radius: var(--radius-secondary);
+  background: var(--background-primary);
+
+  > .customStatusEmoji-1bFQdD.customStatusSoloEmoji-2bSRlG:only-child {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.userPopout-2j1gM4 {
+  .nickname-t08Mck {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .headerTagNoNickname-3tGHj6 {
+    .username-3JLfHz {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  }
+
+  .userInfoSection-3her-v {
+    .userInfoBody-1zgAd0 {
+      font-size: 14px;
+      line-height: 18px;
+      padding: 10px;
+      border-radius: var(--radius-secondary);
+      background: var(--background-primary);
+      overflow: hidden scroll;
+
+      &::-webkit-scrollbar {
+        width: 0.25em !important;
+        border-radius: var(--radius-secondary);
+        height: 0px !important;
+        background: transparent !important;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: var(--background-secondary-alt);
+        border-radius: var(--radius-secondary);
       }
     }
 
-    .divider-1wtgZ3 {
-      display: none;
-    }
-  
-    .popoutBannerPremium-3i5EEI, .popoutBanner-3cqRD9 {
+    margin-top: 20px;
+  }
+
+  .userInfoTitle-39qq0Y {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    margin: 0 0 8px 6px;
+  }
+
+  .bodyTitle-2Az3VQ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    margin: 0 0 8px 6px;
+    margin-top: 28px;
+  }
+
+  .note-Go5ZP2 {
+    background: var(--background-primary);
+    padding: 10px;
+    margin: 3px;
+    border-radius: var(--radius-secondary);
+  }
+
+  .inputWrapper-1YNMmM {
+    margin-top: 20px;
+    .input-2z42oC {
+      background: var(--background-primary) !important;
       border-radius: var(--radius-secondary);
-      -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-floating)), to(rgba(0,0,0,0)));
-      mask-image: gradient(linear, left top, left bottom, from(var(--background-floating)), to(rgba(0,0,0,0)));
-    }
-  
-    .avatarWrapperNormal-ahVUaC {
-      left: 50%;
-      transform: translateX(-50%);
+      border: 2px solid var(--background-primary);
+
+      &:focus {
+        border: 2px solid var(--brand-experiment);
+      }
     }
 
-    .avatar-2Vndt_ {
-      border: 6px solid var(--background-floating);
-      background: var(--background-floating);
-    }
-
-    .note-Go5ZP2 {
-      display: none;
-    }
-}
-  
-  .activityUserPopout-2MzGCj {
-    margin-top: 45px !important;
-    margin-left: 6px;
-    margin-right: 6px;
-  
     &::after {
-      content: "activity";
+      content: "message";
       text-transform: uppercase;
       position: absolute;
-      top: -25px;
-      left: 2px;
+      top: 6px;
+      left: 22px;
       color: var(--header-secondary);
       font-weight: 700;
       font-size: 12px;
@@ -58,287 +201,158 @@
       line-height: 16px;
     }
   }
-  
-  .userPopout-2j1gM4 {
-    .headerTop-3GPUSF {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .profileBadges-2pItdR {
-      display: flex;
-      position: relative;
-      justify-self: center;
-      justify-content: center;
-      max-width: 100%;
-      padding: 3px;
-      border-radius: var(--radius-secondary);
-      right: 0px;
-      flex-wrap: wrap;
-      margin-bottom: 5px;
-      margin-top: -10px;
-      background-color: var(--background-primary);
-    }
-  
-    .headerText-1-WmDq {
-      margin: -5px 0 10px 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
-  .customStatus-3XAoF9 {
+
+  .rolesList-3uZoaa {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--background-primary);
     padding: 10px;
     border-radius: var(--radius-secondary);
-    background: var(--background-primary);
-  
-    > .customStatusEmoji-1bFQdD.customStatusSoloEmoji-2bSRlG:only-child {
-      margin-right: auto;
-      margin-left: auto;
-    }
   }
-  
-  .userPopout-2j1gM4 {
-    .nickname-t08Mck {
-      font-weight: bold;
-      margin-top: 5px;
-    }
+}
 
-    .headerTagNoNickname-3tGHj6 {
-      .username-3JLfHz {
-        font-weight: bold;
-        margin-top: 5px;
-      }
-    }
+.rolesList-3uZoaa .role-2TIOKu {
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--background-secondary-alt);
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 26px;
+  margin: 0 6px 7px 0;
+  padding: 6px;
 
-    .userInfoSection-3her-v {
-      .userInfoBody-1zgAd0 {
-        font-size: 14px;
-        line-height: 18px;
-        padding: 10px;
-        border-radius: var(--radius-secondary);
-        background: var(--background-primary);
-        overflow: hidden scroll;
-  
-        &::-webkit-scrollbar {
-          width: 0.25em !important;
-          border-radius: var(--radius-secondary);
-          height: 0px !important;
-          background: transparent !important;
-        }
-  
-        &::-webkit-scrollbar-thumb {
-          background: var(--background-secondary-alt);
-          border-radius: var(--radius-secondary);
-        }
-      }
-  
-      margin-top: 20px;
-    }
-  
-    .userInfoTitle-39qq0Y {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      font-weight: 700;
-      margin: 0 0 8px 6px;
-    }
-  
-    .bodyTitle-2Az3VQ {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      font-weight: 700;
-      margin: 0 0 8px 6px;
-      margin-top: 28px;
-    }
-  
-    .note-Go5ZP2 {
-      background: var(--background-primary);
-      padding: 10px;
-      margin: 3px;
-      border-radius: var(--radius-secondary);
-    }
-
-    .inputWrapper-1YNMmM {
-      margin-top: 20px;
-      .input-2z42oC {
-        background: var(--background-primary) !important;
-        border-radius: var(--radius-secondary);
-        border: 2px solid var(--background-primary);
-  
-        &:focus {
-          border: 2px solid var(--brand-experiment);
-        }
-      }
-
-      &::after {
-        content: "message";
-        text-transform: uppercase;
-        position: absolute;
-        top: 6px;
-        left: 22px;
-        color: var(--header-secondary);
-        font-weight: 700;
-        font-size: 12px;
-        font-family: var(--font-display);
-        line-height: 16px;
-      }
-    }
-  
-    .rolesList-3uZoaa {
-      margin-bottom: 15px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      background-color: var(--background-primary);
-      padding: 10px;
-      border-radius: var(--radius-secondary);
-    }
+  .roleCircle-1EgnFN {
+    border-radius: 40%;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin: 0 7px 0 2px;
   }
-  
-  .rolesList-3uZoaa .role-2TIOKu {
-    font-size: 12px;
-    font-weight: 500;
-    background: var(--background-secondary-alt);
-    border-radius: 8px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 26px;
-    margin: 0 6px 7px 0;
-    padding: 6px;
-  
-    .roleCircle-1EgnFN {
-      border-radius: 40%;
-      width: 12px;
-      height: 12px;
-      padding: 0;
-      margin: 0 7px 0 2px;
-    }
 }
 
 // Better Activity [Credits: Mr. Miner]
 .activityUserPopout-2MzGCj,
 .activityProfile-1712BN {
-    //styling
-    h3,
-    .content-tXPNDw,
-    .activityName-3YXl6e,
-    .details-2-ciHo,
-    .textLeft-1Noen0, .textRight-2IW704 {
-      color: var(--header-primary) !important;
+  //styling
+  h3,
+  .content-tXPNDw,
+  .activityName-3YXl6e,
+  .details-2-ciHo,
+  .textLeft-1Noen0,
+  .textRight-2IW704 {
+    color: var(--header-primary) !important;
+  }
+  .barInner-3dHef4 {
+    background-color: var(--header-primary) !important;
+  }
+  .colorGrey-2iAG-B {
+    background: transparent !important;
+    border: var(--header-primary) 2px solid;
+    transition: 0.5s;
+    &:hover {
+      background: var(--header-primary) !important;
+      border-color: transparent;
+      color: black !important;
     }
-    .barInner-3dHef4 {
-      background-color: var(--header-primary) !important;
-    }
-    .colorGrey-2iAG-B {
-      background: transparent !important;
-      border: var(--header-primary) 2px solid;
-      transition: 0.5s;
-      &:hover {
-        background: var(--header-primary) !important;
-        border-color: transparent;
-        color: black !important;
-      }
-    }
+  }
 
-    //defualt
-    background: var(--normal-activity-bg);
-    padding: 12px;
-    border-radius: var(--radius-secondary) !important;
-    margin: 0;
-    z-index: 1;
+  //defualt
+  background: var(--normal-activity-bg);
+  padding: 12px;
+  border-radius: var(--radius-secondary) !important;
+  margin: 0;
+  z-index: 1;
 
-    //twitch
-    .detailsWrap-omKn0b.textRow-1sENuL[title] {
-      &::after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        z-index: -2;
-        background: var(--twitch-activity-bg);
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: var(--radius-secondary) !important;
-      }
-    }
-
-    //spotify
-    .timeBarUserPopout-qLXZaR,
-    .timeBarProfile-1z_HH- {
-      &::after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background: var(--spotify-activity-bg);
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: var(--radius-secondary) !important;
-      }
-    }
-
-    // Images
-    .assets-3PQvAh img {
-      border-radius: var(--radius-secondary);
-    }
-
-    .platformIcon-k3yytQ {
-      display: none;
-    }
-
-    // Button
-    .button-TGAkj4.button-f2h6uQ {
-      background-color: unset !important;
-      border: none !important;
-      transition: 125ms linear;
-      border: 2px solid !important;
-      border-radius: var(--radius-tertiary) !important;
-      border-color: var(--header-primary) !important;
-      &:hover {
-        color: #000;
-        background: var(--header-primary) !important;
-      }
-    }
-    
-    // bots
-    .contentNoImagesUserPopout-12NyFa {
-      &::after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        z-index: -2;
-        background: var(--bot-activity-bg);
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: var(--radius-secondary) !important;
-      }
-    }
-    
-    //xbox
-    .xboxAssets-aGhVw8 ~ div::after {
+  //twitch
+  .detailsWrap-omKn0b.textRow-1sENuL[title] {
+    &::after {
       content: "";
       width: 100%;
       height: 100%;
       z-index: -2;
-      background: var(--xbox-activity-bg);
+      background: var(--twitch-activity-bg);
       position: absolute;
       top: 0;
       left: 0;
       border-radius: var(--radius-secondary) !important;
     }
+  }
+
+  //spotify
+  .timeBarUserPopout-qLXZaR,
+  .timeBarProfile-1z_HH- {
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: var(--spotify-activity-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: var(--radius-secondary) !important;
+    }
+  }
+
+  // Images
+  .assets-3PQvAh img {
+    border-radius: var(--radius-secondary);
+  }
+
+  .platformIcon-k3yytQ {
+    display: none;
+  }
+
+  // Button
+  .button-TGAkj4.button-f2h6uQ {
+    background-color: unset !important;
+    border: none !important;
+    transition: 125ms linear;
+    border: 2px solid !important;
+    border-radius: var(--radius-tertiary) !important;
+    border-color: var(--header-primary) !important;
+    &:hover {
+      color: #000;
+      background: var(--header-primary) !important;
+    }
+  }
+
+  // bots
+  .contentNoImagesUserPopout-12NyFa {
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background: var(--bot-activity-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: var(--radius-secondary) !important;
+    }
+  }
+
+  //xbox
+  .xboxAssets-aGhVw8 ~ div::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: var(--xbox-activity-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--radius-secondary) !important;
+  }
 }
 
 .activityProfile-1712BN {
-    margin: 10px;
-    border-radius: var(--radius-secondary) !important;
-    .platformIcon-k3yytQ {
-      display: none;
-    }
+  margin: 10px;
+  border-radius: var(--radius-secondary) !important;
+  .platformIcon-k3yytQ {
+    display: none;
+  }
 }

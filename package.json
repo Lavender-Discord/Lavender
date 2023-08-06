@@ -1,6 +1,6 @@
 {
   "name": "Lavender",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Lavender",
   "engines": {
     "node": ">=18.0.0",
@@ -15,7 +15,7 @@
   },
   "keywords": [],
   "author": "kritishd8",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/config-default": "^2.9.3",
     "@parcel/core": "^2.9.3",

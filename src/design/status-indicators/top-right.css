@@ -3,86 +3,86 @@
 .wrapper-1VLyxH rect,
 .avatarWrapperNormal-ahVUaC rect,
 .avatar-3QF_VA rect {
-    y: 0 !important;
+  y: 0 !important;
 }
 
 /* status position bug workaround / fix */
 .wrapper-1VLyxH svg[y="17"] mask,
-.wrapper-1VLyxH svg[y="17"]~rect:last-child[fill="transparent"] {
-    display: none !important;
-    mask: none !important;
+.wrapper-1VLyxH svg[y="17"] ~ rect:last-child[fill="transparent"] {
+  display: none !important;
+  mask: none !important;
 }
 
 .container-YkUktl:last-child .wrapper-1VLyxH svg[y="17"] rect {
-    transform: translate(-13px, 6px) !important;
-    width: 10px;
-    height: 10px;
+  transform: translate(-13px, 6px) !important;
+  width: 10px;
+  height: 10px;
 }
 
 .wrapper-1VLyxH svg[y="17"] rect {
-    transform: translate(7px, 4px) !important;
-    width: 10px;
-    height: 10px;
+  transform: translate(7px, 4px) !important;
+  width: 10px;
+  height: 10px;
 }
 
 /* Fixing the out of view status indicators in profile modal */
 .root-8LYsGj rect {
-    y: 4 !important;
-    transform: translateX(-6px);
+  y: 4 !important;
+  transform: translateX(-6px);
 }
 
 /* Fixing the out of view status indicators in user popout */
 .userPopout-2j1gM4 rect {
-    y: 3 !important;
-    transform: translateX(-4px);
+  y: 3 !important;
+  transform: translateX(-4px);
 }
 
 /* FIxing the position in mutual friends */
 .root-8LYsGj .listAvatar-2bU5Uh rect {
-    y: 0 !important;
-    transform: translateX(0px);
-    stroke: var(--background-secondary);
-    stroke-width: 3px;
-    mask: url(#svg-mask-status-online);
-    rx: 50px;
-    ry: 50px;
+  y: 0 !important;
+  transform: translateX(0px);
+  stroke: var(--background-secondary);
+  stroke-width: 3px;
+  mask: url(#svg-mask-status-online);
+  rx: 50px;
+  ry: 50px;
 }
 
 /* Typing Part */
 .wrapper-1VLyxH .dots-1BwzZQ {
-    overflow: visible !important;
+  overflow: visible !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle {
-    cy: -7.5 !important;
+  cy: -7.5 !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
-    cx: -8.5 !important;
+  cx: -8.5 !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
-    cx: -2.25 !important;
+  cx: -2.25 !important;
 }
 
 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
-    cx: 4 !important;
+  cx: 4 !important;
 }
 
 .wrapper-1VLyxH foreignObject[mask*="typing"] {
-    mask: none !important;
+  mask: none !important;
 }
 
 .wrapper-1VLyxH .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
-    x: -10 !important;
-    y: -10 !important;
-    width: 60px !important;
-    height: 60px !important;
-    fill: var(--background-primary) !important;
-    opacity: 0.9;
+  x: -10 !important;
+  y: -10 !important;
+  width: 60px !important;
+  height: 60px !important;
+  fill: var(--background-primary) !important;
+  opacity: 0.9;
 }
 
 /* Status everywhere support - BD */
 .StatusEverywhere-avatar-chatAvatar::before {
-    display: none !important;
+  display: none !important;
 }

@@ -1,219 +1,235 @@
-.body-1Ukv50, .topSection-13QKHs {
-    background: var(--background-floating) !important;
-    .infoScroller-1QMpon {padding-bottom: 20px;}
+.body-1Ukv50,
+.topSection-13QKHs {
+  background: var(--background-floating) !important;
+  .infoScroller-1QMpon {
+    padding-bottom: 20px;
+  }
 
-    .banner-1YaD3N {
-        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-secondary)), to(rgba(0,0,0,0)));
-        mask-image: gradient(linear, left top, left bottom, from(var(--background-secondary)), to(rgba(0,0,0,0)));
+  .banner-1YaD3N {
+    -webkit-mask-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(var(--background-secondary)),
+      to(rgba(0, 0, 0, 0))
+    );
+    mask-image: gradient(
+      linear,
+      left top,
+      left bottom,
+      from(var(--background-secondary)),
+      to(rgba(0, 0, 0, 0))
+    );
+  }
+
+  .tabBarContainer-sCZC4w {
+    padding-left: 0;
+  }
+
+  .tabBar-2hXqzU {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tabBarItem-30Te4- {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+
+    &.item-3XjbnG {
+      transition: all 0.3s ease;
+      border-bottom: none;
+
+      &.selected-g-kMVV,
+      &:hover {
+        box-shadow: inset 0px -3px 0px 0px var(--accent-primary);
+        border: none;
+      }
+    }
+  }
+
+  .listScroller-entkMk {
+    padding: 10px;
+
+    .listAvatar-2bU5Uh {
+      width: 40px !important;
+      height: 40px !important;
+      padding: 5px;
+      padding-left: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 40px;
+        height: 40px;
+        padding-left: 10px;
+      }
     }
 
-    .tabBarContainer-sCZC4w {
-        padding-left: 0;
+    .listRow-2nO1T6 {
+      padding: 5px;
+      margin: 5px;
+      padding-left: 10px;
     }
 
-    .tabBar-2hXqzU {
-        display: flex;
-        justify-content: center;
+    .icon-1zKOXL.listAvatar-2bU5Uh {
+      width: 32px !important;
+      height: 32px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-clip: unset !important;
+    }
+  }
+
+  .header-S26rhB {
+    .avatar-3QF_VA {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 8px solid var(--background-floating);
+    }
+  }
+
+  .headerTop-1PNKck {
+    .badgeList-2aoHPw.container-1gYwHN {
+      position: fixed;
+      left: 15px;
+      transform: translateY(20px);
+      max-width: 200px;
+      background-color: var(--background-primary);
+      padding: 3px;
+      border-radius: var(--radius-secondary);
     }
 
-    .tabBarItem-30Te4- {
-        margin-right: 20px !important;
-        margin-left: 20px !important;
+    .relationshipButtons-3ByBpj {
+      position: fixed;
+      right: 15px;
+      transform: translateY(15px);
 
-        &.item-3XjbnG {
-            transition: all .3s ease;
-            border-bottom: none;
-    
-            &.selected-g-kMVV,
-            &:hover {
-                box-shadow: inset 0px -3px 0px 0px var(--accent-primary);
-                border: none;
-            }
-        }
+      .applicationInstallButton-1-58qm {
+        position: fixed;
+        right: 25px;
+        top: 40px;
+      }
+    }
+  }
+
+  .nameTag-2Nlmsy {
+    display: flex;
+    justify-content: center;
+
+    .username-3JLfHz {
+      font-weight: bold;
+      margin: 15px 0;
+      margin-top: 10px;
     }
 
-    .listScroller-entkMk {
-        padding: 10px;
-
-        .listAvatar-2bU5Uh {
-            width: 40px !important;
-            height: 40px !important;
-            padding: 5px;
-            padding-left: 0px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            svg {
-                width: 40px;
-                height: 40px;
-                padding-left: 10px;
-            }
-        }
-
-        .listRow-2nO1T6 {
-            padding: 5px;
-            margin: 5px;
-            padding-left: 10px;
-        }
-
-        .icon-1zKOXL.listAvatar-2bU5Uh {
-            width: 32px !important;
-            height: 32px !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-clip: unset !important;
-        }
+    span {
+      margin: 15px 0;
+      margin-top: 10px;
     }
 
-    .header-S26rhB {
-        .avatar-3QF_VA {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            border: 8px solid var(--background-floating);
-        }
+    .botTag-2Mlq3u {
+      display: none;
     }
-    
-    .headerTop-1PNKck {
-        .badgeList-2aoHPw.container-1gYwHN {
-            position: fixed;
-            left: 15px;
-            transform: translateY(20px);
-            max-width: 200px;
-            background-color: var(--background-primary);
-            padding: 3px;
-            border-radius: var(--radius-secondary);
-        }
-
-        .relationshipButtons-3ByBpj {
-            position: fixed;
-            right: 15px;
-            transform: translateY(15px);
-
-            .applicationInstallButton-1-58qm {
-                position: fixed;
-                right: 25px;
-                top: 40px;
-            }
-        }
-    }
-
-    .nameTag-2Nlmsy{
-        display: flex;
-        justify-content: center;
-        
-        .username-3JLfHz {
-            font-weight: bold;
-            margin: 15px 0;
-            margin-top: 10px;
-        }
-
-        span {
-            margin: 15px 0;
-            margin-top: 10px;
-        }
-
-        .botTag-2Mlq3u {
-            display: none;
-        }
-    }
+  }
 }
 
 .customStatus-kFfkj5 {
-    padding: 10px;
-    margin-right: 20px;
-    background: var(--background-primary);
-    border-radius: var(--radius-secondary);
+  padding: 10px;
+  margin-right: 20px;
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary);
 }
 
 // Hovering mutual friends
 .body-1Ukv50 {
-    .listRow-2nO1T6 {
-        border-radius: var(--radius-secondary);
-        &:hover {
-            background-color: var(--background-secondary-alt) !important;
-        }
+  .listRow-2nO1T6 {
+    border-radius: var(--radius-secondary);
+    &:hover {
+      background-color: var(--background-secondary-alt) !important;
     }
+  }
 }
-
 
 .userInfoSection-2u2hir {
-    &.connectedAccounts-fvr7-7{
-        background-color: var(--background-primary);
+  &.connectedAccounts-fvr7-7 {
+    background-color: var(--background-primary);
+    border-radius: var(--radius-secondary);
+    padding: 10px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+
+    .connectedAccountsColumn-2LgTkZ + .connectedAccountsColumn-2LgTkZ {
+      margin-left: 0px;
+    }
+
+    .connectedAccountsColumn-2LgTkZ {
+      .connectedAccountContainer-SlCC-S {
+        margin-bottom: 10px;
+        max-width: 235px;
+        background-color: var(--background-secondary);
+        padding: 15px;
         border-radius: var(--radius-secondary);
-        padding: 10px;
-        padding-bottom: 0px;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 10px;
-
-        .connectedAccountsColumn-2LgTkZ+.connectedAccountsColumn-2LgTkZ {
-            margin-left: 0px;
-        }
-
-        .connectedAccountsColumn-2LgTkZ {
-            .connectedAccountContainer-SlCC-S {
-                margin-bottom: 10px;
-                max-width: 235px;
-                background-color: var(--background-secondary);
-                padding: 15px;
-                border-radius: var(--radius-secondary);
-                margin-top: 0;
-            }
-        }
+        margin-top: 0;
+      }
     }
+  }
 
-    &:nth-of-type(2) {        
-        margin-top: 10px;
-        &::before {
-            content: "Connections";
-            text-transform: uppercase;
-            position: absolute;
-            left: 25px;
-            transform: translateY(-35px);
-            color: var(--header-secondary);
-            font-weight: 700;
-            font-size: 12px;
-            font-family: var(--font-display);
-            line-height: 16px;
-        }
+  &:nth-of-type(2) {
+    margin-top: 10px;
+    &::before {
+      content: "Connections";
+      text-transform: uppercase;
+      position: absolute;
+      left: 25px;
+      transform: translateY(-35px);
+      color: var(--header-secondary);
+      font-weight: 700;
+      font-size: 12px;
+      font-family: var(--font-display);
+      line-height: 16px;
     }
+  }
 }
 
-.userInfoSection-2u2hir+.userInfoSection-2u2hir {border: none;}
+.userInfoSection-2u2hir + .userInfoSection-2u2hir {
+  border: none;
+}
 
 // Removing notes section
 .note-3M15gE {
-    display: none;
+  display: none;
 }
 
 .userInfoSectionHeader-2mYYun {
-    margin-left: 7px;
-    
-    &:last-of-type {
-        display: none;
-    }
+  margin-left: 7px;
+
+  &:last-of-type {
+    display: none;
+  }
 }
 
 .userInfoText-2MFCmH.markup-eYLPri {
-    font-size: 14px;
-    line-height: 18px;
-    padding: 10px;
-    overflow: hidden scroll;
-    background: var(--background-primary);
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px;
+  overflow: hidden scroll;
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary);
+
+  &::-webkit-scrollbar {
+    width: 0.25em !important;
     border-radius: var(--radius-secondary);
+    height: 0px !important;
+    background: transparent !important;
+  }
 
-    &::-webkit-scrollbar {
-        width: 0.25em !important;
-        border-radius: var(--radius-secondary);
-        height: 0px !important;
-        background: transparent !important;
-      }
-
-    &::-webkit-scrollbar-thumb {
-        background: var(--background-secondary-alt);
-        border-radius: var(--radius-secondary);
-    }
+  &::-webkit-scrollbar-thumb {
+    background: var(--background-secondary-alt);
+    border-radius: var(--radius-secondary);
+  }
 }
