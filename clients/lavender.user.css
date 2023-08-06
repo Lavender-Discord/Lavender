@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name Lavender
+@description Lavender
+@version 3.1.2
+@namespace Obscure
+@author Obscure (https://github.com/kritishd8)
+@homepageURL https://github.com/lavender-discord/Lavender
+@supportURL https://discord.gg/sfJV2qdRdW
+@license MIT LICENSE
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+  @import url('https://lavender-discord.github.io/Lavender/src/dev.css');
+}
