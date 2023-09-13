@@ -1,18 +1,12 @@
-# Lavender
+# DISCONTINUED
 
-| [Installation](https://github.com/Lavender-Discord/Lavender/blob/main/src/docs/installation.md) | [License](https://github.com/Lavender-Discord/Lavender/blob/main/LICENSE) | [Previews](https://github.com/Lavender-Discord/Lavender/blob/main/src/docs/previews.md) | [Contributing](https://github.com/Lavender-Discord/Lavender/blob/main/src/docs/contributing.md) | [Demo](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Lavender-Discord/Lavender/clients/lavender.theme.css) |
-| :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: |
-
-![image](https://user-images.githubusercontent.com/85663797/181772121-070259e6-fce8-4629-a02f-1b9e1e688698.png)
+This theme is no longer being maintained. The last working version of this theme can be found in the [releases](https://github.com/Lavender-Discord/Lavender/releases).
 
 # Support:
 
-For bug reports open a issue here on github with the provided templates.
-
-For problems installing or using the theme join the [support server](https://discord.gg/B9TK7nqRE4) and ask for help.
+For any queries you can join the [support server](https://discord.gg/sfJV2qdRdW).
 
 # ! Important:
-(**NOTE:** I'm not sure if these still work, will figure out later and update)
 
 When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Replugged](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
 
